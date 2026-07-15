@@ -33,8 +33,8 @@ function jsonld(videos: Video[]): string {
       embedUrl: `https://www.youtube.com/embed/${v.id}`,
       author: {
         "@type": "Person",
-        name: "@0xRAGE404",
-        url: "https://youtube.com/@0xRAGE404",
+        name: "@0xRAGE.404",
+        url: "https://youtube.com/@0xRAGE.404",
       },
     })),
   };
