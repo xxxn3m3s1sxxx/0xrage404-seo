@@ -41,7 +41,7 @@ body {
 }
 .banner-content h1 {
   font-family: "Rubik 80s Fade", cursive;
-  font-size: 3rem;
+  font-size: 5rem;
   font-weight: 400;
   color: #ff4444;
   letter-spacing: -0.02em;
@@ -203,6 +203,6 @@ footer a { color: #ff4444; text-decoration: none; }
     padding: 1rem 0.5rem;
   }
   .banner { height: 260px; }
-  .banner-content h1 { font-size: 2rem; }
+  .banner-content h1 { font-size: 3.2rem; }
   .banner-tagline { font-size: 0.95rem; }
 }
