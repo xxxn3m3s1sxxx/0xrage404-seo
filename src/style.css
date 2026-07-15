@@ -7,29 +7,67 @@ body {
 }
 #matrix-canvas { background: #000; }
 
-header {
-  text-align: center;
-  padding: 3rem 1rem 2rem;
+.banner {
+  position: relative;
+  height: 350px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   border-bottom: 1px solid #1f1f1f;
-  background: rgba(0, 0, 0, 0.7);
 }
-h1 {
-  font-size: 2rem;
+.banner-bg {
+  position: absolute;
+  inset: 0;
+  background: url('/banner.png') center / cover no-repeat;
+  z-index: 0;
+}
+.banner-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    180deg,
+    rgba(0,0,0,0.15) 0%,
+    rgba(0,0,0,0.55) 50%,
+    rgba(0,0,0,0.85) 100%
+  );
+  z-index: 1;
+}
+.banner-content {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  padding: 1rem;
+}
+.banner-content h1 {
+  font-size: 3rem;
   color: #ff4444;
   letter-spacing: -0.02em;
+  text-shadow: 0 2px 20px rgba(255, 68, 68, 0.3);
 }
-header p { color: #888; margin: 0.5rem 0 1rem; }
-.yt-link {
+.banner-tagline {
+  font-size: 1.1rem;
+  color: #ccc;
+  margin: 0.5rem 0 1.2rem;
+  text-shadow: 0 1px 8px rgba(0,0,0,0.8);
+}
+.subscribe-btn {
   display: inline-block;
   background: #ff4444;
   color: #fff;
-  padding: 0.6rem 1.4rem;
-  border-radius: 6px;
+  padding: 0.7rem 2rem;
+  border-radius: 50px;
   text-decoration: none;
-  font-weight: 600;
-  font-size: 0.9rem;
+  font-weight: 700;
+  font-size: 1rem;
+  box-shadow: 0 0 20px rgba(255, 68, 68, 0.25);
+  transition: background 0.2s, box-shadow 0.2s, transform 0.2s;
 }
-.yt-link:hover { background: #cc3333; }
+.subscribe-btn:hover {
+  background: #cc3333;
+  box-shadow: 0 0 30px rgba(255, 68, 68, 0.4);
+  transform: scale(1.05);
+}
 
 #videos {
   max-width: 1200px;
@@ -162,6 +200,7 @@ footer a { color: #ff4444; text-decoration: none; }
     grid-template-columns: 1fr;
     padding: 1rem 0.5rem;
   }
-  h1 { font-size: 1.5rem; }
-  header { padding: 2rem 0.5rem 1.5rem; }
+  .banner { height: 260px; }
+  .banner-content h1 { font-size: 2rem; }
+  .banner-tagline { font-size: 0.95rem; }
 }
