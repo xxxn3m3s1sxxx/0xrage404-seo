@@ -38,4 +38,5 @@ export const VIDEOS: Video[] = [
   { id: "K_qxys0kZSI", title: "TypeScript Made You Slower", topic: "typescript", blurb: "Any-Typ-Lüge, Compiler-Scheinheiligkeit und falsche Sicherheit.", file: "typescript_002" },
   { id: "GWIugMo3Gc4", title: "Your Garbage Collector is a Bonfire", topic: "gcwahn", blurb: "Stop-the-World, GC-Pausen und Memory-Management-Wahrheit.", file: "gc_wahn_001" },
   { id: "krs-jX9PdrA", title: "You think Rust is fine? You're exactly who this is for.", topic: "rust", blurb: "Borrow Checker, Ownership und die steilste Lernkurve der Gegenwart.", file: "Rust_001" },
+  { id: "to5ycIoSIjY", title: "You think React is fine? You're exactly who this is for.", topic: "react", blurb: "React Hooks, VDOM-Mythen und Frontend-Framework-Drama.", file: "react_is_fine_001" },
 ];

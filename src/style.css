@@ -66,6 +66,21 @@ header p { color: #888; margin: 0.5rem 0 1rem; }
   object-fit: cover;
   display: block;
 }
+.card-thumb.no-thumb {
+  background: linear-gradient(135deg, #1a1a2e, #16213e);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card-thumb.no-thumb::after {
+  content: "#" attr(data-topic);
+  color: #00ff41;
+  font-size: 1.4rem;
+  font-weight: 700;
+  opacity: 0.35;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+}
 .card-body {
   padding: 0.8rem 1rem 1rem;
   flex: 1;

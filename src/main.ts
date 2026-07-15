@@ -7,9 +7,9 @@ new MatrixRain().attach().start();
 function cardHTML(v: Video): string {
   const thumb = `https://i.ytimg.com/vi/${v.id}/hqdefault.jpg`;
   return `<div class="card">
-    <div class="card-thumb">
+    <div class="card-thumb" data-topic="${v.topic}">
       <a href="https://www.youtube.com/watch?v=${v.id}" target="_blank" rel="noopener">
-        <img src="${thumb}" alt="${v.title}" loading="lazy" />
+        <img src="${thumb}" alt="${v.title}" loading="lazy" onerror="this.onerror=null;this.parentElement.classList.add('no-thumb');this.remove()" />
       </a>
     </div>
     <div class="card-body">
@@ -58,7 +58,7 @@ function render() {
         uploadDate: "2026-07-15",
         contentUrl: `https://www.youtube.com/watch?v=${v.id}`,
         embedUrl: `https://www.youtube.com/embed/${v.id}`,
-        author: { "@type": "Person", name: "@0xRAGE404", url: "https://youtube.com/@0xRAGE404" },
+        author: { "@type": "Person", name: "@0xRAGE.404", url: "https://youtube.com/@0xRAGE.404" },
       })),
     },
     null,
