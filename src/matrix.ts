@@ -1,9 +1,9 @@
 export class MatrixRain {
   private canvas: HTMLCanvasElement;
   private ctx: CanvasRenderingContext2D;
-  private drops: number[] = [];
-  private fontSize = 14;
-  private chars = "アイウエオカキクケコサシスセソタチツテトナニヌネノハヒフヘホマミムメモヤユヨラリルレロワヲン01";
+  private drops: { x: number; y: number; speed: number; len: number }[] = [];
+  private fontSize = 16;
+  private chars = "アイウエオカキクケコサシスセソタチツテトナニヌネノハヒフヘホマミムメモヤユヨラリルレロワヲン0123456789";
 
   constructor() {
     this.canvas = document.createElement("canvas");
@@ -21,7 +21,12 @@ export class MatrixRain {
 
   private initDrops() {
     const cols = Math.floor(this.canvas.width / this.fontSize);
-    this.drops = Array.from({ length: cols }, () => Math.floor(Math.random() * -100));
+    this.drops = Array.from({ length: cols }, () => ({
+      x: Math.random() * this.canvas.width,
+      y: Math.random() * this.canvas.height * -1,
+      speed: 1 + Math.random() * 3,
+      len: 5 + Math.floor(Math.random() * 15),
+    }));
   }
 
   attach(): this {
@@ -32,25 +37,32 @@ export class MatrixRain {
 
   start() {
     const draw = () => {
-      this.ctx.fillStyle = "rgba(10, 10, 10, 0.08)";
+      this.ctx.fillStyle = "rgba(0, 0, 0, 0.18)";
       this.ctx.fillRect(0, 0, this.canvas.width, this.canvas.height);
-
-      this.ctx.font = `${this.fontSize}px monospace`;
+      this.ctx.font = `bold ${this.fontSize}px monospace`;
 
       for (let i = 0; i < this.drops.length; i++) {
+        const d = this.drops[i];
         const char = this.chars[Math.floor(Math.random() * this.chars.length)];
-        const x = i * this.fontSize;
-        const y = this.drops[i] * this.fontSize;
+        const y = d.y;
 
-        this.ctx.fillStyle = y < this.canvas.height * 0.3
-          ? "rgba(255, 68, 68, 0.12)"
-          : "rgba(255, 68, 68, 0.06)";
-        this.ctx.fillText(char, x, y);
-
-        if (this.drops[i] * this.fontSize > this.canvas.height && Math.random() > 0.975) {
-          this.drops[i] = 0;
+        for (let j = 0; j < d.len; j++) {
+          const cy = y - j * this.fontSize;
+          if (cy < -this.fontSize || cy > this.canvas.height) continue;
+          const brightness = 1 - j / d.len;
+          this.ctx.fillStyle = j === 0
+            ? "rgba(180, 255, 180, 0.9)"
+            : `rgba(0, 255, 65, ${(brightness * 0.5).toFixed(2)})`;
+          this.ctx.fillText(char, d.x, cy);
         }
-        this.drops[i]++;
+
+        d.y += d.speed;
+        if (d.y - d.len * this.fontSize > this.canvas.height) {
+          d.y = -this.fontSize;
+          d.speed = 1 + Math.random() * 3;
+          d.len = 5 + Math.floor(Math.random() * 15);
+          d.x = Math.random() * this.canvas.width;
+        }
       }
       this.animId = requestAnimationFrame(draw);
     };
