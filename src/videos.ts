@@ -10,8 +10,8 @@ export interface Video {
 
 export const VIDEOS: Video[] = [
   { id: "lyl4M5u7TJU", title: "AI Generated Code Is Technical Debt", topic: "promptengineer", file: "ai_generated_code_is_technical_debt_001" },
-  { id: "HzqSWNm6P2s", title: "Code Ownership Is Stupid", topic: "", file: "code_ownership_is_stupid_001" },
-  { id: "zKvStXVlqn8", title: "Merge Conflicts Are Preventable", topic: "", file: "merge_conflicts_are_preventable_001" },
+  { id: "HzqSWNm6P2s", title: "Code Ownership Is Stupid", topic: "legacycode", file: "code_ownership_is_stupid_001" },
+  { id: "zKvStXVlqn8", title: "Merge Conflicts Are Preventable", topic: "worksonmymachine", file: "merge_conflicts_are_preventable_001" },
   { id: "EKUHGRKXGAI", title: "AI Generated Code Is Rot", topic: "promptengineer", file: "ai_generated_code_001" },
   { id: "ZhMkqjnYTPA", title: "AI Code Never Gets Reviewed", topic: "promptengineer", file: "ai_generated_code_002" },
   { id: "sAlCyZJDA0k", title: "AI Code Deployed to Prod", topic: "promptengineer", file: "ai_generated_code_003" },
@@ -36,5 +36,4 @@ export const VIDEOS: Video[] = [
   { id: "9W3wgt01Juc", title: "You Use TypeScript Wrong", topic: "typescript", file: "typescript_001" },
   { id: "K_qxys0kZSI", title: "TypeScript Made You Slower", topic: "typescript", file: "typescript_002" },
   { id: "GWIugMo3Gc4", title: "Your Garbage Collector is a Bonfire", topic: "gcwahn", file: "gc_wahn_001" },
-  { id: "krs-jX9PdrA", title: "Rust Is Overrated", topic: "rust", file: "Rust_001" },
 ];
