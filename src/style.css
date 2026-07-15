@@ -109,7 +109,9 @@ header p { color: #888; margin: 0.5rem 0 1rem; }
   gap: 0.3rem;
 }
 .card-body .topic {
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
   background: rgba(0, 255, 65, 0.1);
   color: #00ff41;
   font-size: 0.7rem;
@@ -117,6 +119,15 @@ header p { color: #888; margin: 0.5rem 0 1rem; }
   padding: 0.15rem 0.5rem;
   border-radius: 4px;
   align-self: flex-start;
+}
+.badge-scheduled {
+  font-size: 0.6rem;
+  font-weight: 700;
+  color: #ffa500;
+  background: rgba(255, 165, 0, 0.15);
+  padding: 0.1rem 0.35rem;
+  border-radius: 3px;
+  letter-spacing: 0.05em;
 }
 .card-body h3 {
   font-size: 0.95rem;
