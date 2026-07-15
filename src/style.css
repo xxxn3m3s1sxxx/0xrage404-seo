@@ -40,7 +40,9 @@ body {
   padding: 1rem;
 }
 .banner-content h1 {
+  font-family: "Rubik 80s Fade", cursive;
   font-size: 3rem;
+  font-weight: 400;
   color: #ff4444;
   letter-spacing: -0.02em;
   text-shadow: 0 2px 20px rgba(255, 68, 68, 0.3);
