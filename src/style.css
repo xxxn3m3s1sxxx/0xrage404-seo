@@ -67,7 +67,7 @@ header p { color: #888; margin: 0.5rem 0 1rem; }
   display: block;
 }
 .card-thumb.no-thumb {
-  background: linear-gradient(135deg, #1a1a2e, #16213e);
+  background: #000;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -75,11 +75,11 @@ header p { color: #888; margin: 0.5rem 0 1rem; }
 .card-thumb.no-thumb::after {
   content: "#" attr(data-topic);
   color: #00ff41;
-  font-size: 1.4rem;
+  font-size: 1.5rem;
   font-weight: 700;
-  opacity: 0.35;
+  opacity: 0.5;
   text-transform: uppercase;
-  letter-spacing: 0.12em;
+  letter-spacing: 0.15em;
 }
 .card-body {
   padding: 0.8rem 1rem 1rem;
