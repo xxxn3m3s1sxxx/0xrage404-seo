@@ -59,9 +59,12 @@ header p { color: #888; margin: 0.5rem 0 1rem; }
   aspect-ratio: 16 / 9;
   overflow: hidden;
   background: linear-gradient(135deg, #0a0a0a 0%, #1a1a1a 100%);
-  display: flex;
-  align-items: center;
-  justify-content: center;
+}
+.card-thumb a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: relative;
 }
 .card-thumb .fallback {
   position: absolute;
