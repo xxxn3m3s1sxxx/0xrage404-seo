@@ -47,6 +47,10 @@ body {
   letter-spacing: -0.02em;
   text-shadow: 0 2px 20px rgba(255, 68, 68, 0.3);
 }
+.banner-content h1 .at {
+  font-size: 0.55em;
+  vertical-align: 0.15em;
+}
 .banner-tagline {
   font-size: 1.1rem;
   color: #ccc;
