@@ -6,12 +6,11 @@ new MatrixRain().attach().start();
 
 function cardHTML(v: Video): string {
   const thumb = `https://i.ytimg.com/vi/${v.id}/hqdefault.jpg`;
+  const img = v.thumb ? `<a href="https://www.youtube.com/watch?v=${v.id}" target="_blank" rel="noopener"><img src="${thumb}" alt="${v.title}" loading="lazy" /></a>` : "";
   return `<div class="card">
     <div class="card-thumb">
       <div class="fallback"><span>#${v.topic}</span></div>
-      <a href="https://www.youtube.com/watch?v=${v.id}" target="_blank" rel="noopener">
-        <img src="${thumb}" alt="${v.title}" loading="lazy" onerror="this.onerror=null;this.style.display='none'" />
-      </a>
+      ${img}
     </div>
     <div class="card-body">
       <span class="topic">#${v.topic}</span>
