@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://xxxn3m3s1sxxx.github.io/0xrage404-seo/sitemap.xml
