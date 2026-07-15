@@ -37,5 +37,5 @@ export const VIDEOS: Video[] = [
   { id: "9W3wgt01Juc", title: "You Use TypeScript Wrong", topic: "typescript", blurb: "Any-Typ-Lüge, Compiler-Scheinheiligkeit und falsche Sicherheit.", file: "typescript_001" },
   { id: "K_qxys0kZSI", title: "TypeScript Made You Slower", topic: "typescript", blurb: "Any-Typ-Lüge, Compiler-Scheinheiligkeit und falsche Sicherheit.", file: "typescript_002" },
   { id: "GWIugMo3Gc4", title: "Your Garbage Collector is a Bonfire", topic: "gcwahn", blurb: "Stop-the-World, GC-Pausen und Memory-Management-Wahrheit.", file: "gc_wahn_001" },
-  { id: "krs-jX9PdrA", title: "Rust Is Overrated", topic: "rust", blurb: "Borrow Checker, Ownership und die steilste Lernkurve der Gegenwart.", file: "Rust_001" },
+  { id: "krs-jX9PdrA", title: "You think Rust is fine? You're exactly who this is for.", topic: "rust", blurb: "Borrow Checker, Ownership und die steilste Lernkurve der Gegenwart.", file: "Rust_001" },
 ];
