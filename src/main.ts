@@ -1,5 +1,8 @@
 import { VIDEOS, type Video } from "./videos.js";
+import { MatrixRain } from "./matrix.js";
 import "./style.css";
+
+new MatrixRain().attach().start();
 
 function jsonld(videos: Video[]): string {
   const items = videos.map((v) => ({
