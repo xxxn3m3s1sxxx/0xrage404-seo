@@ -59,4 +59,5 @@ export const VIDEOS: Video[] = [
   { id: "I4Rl4JYKNVw", title: "If you defend Go you're the problem.", topic: "go", blurb: "Error handling joke, goroutine leaks, and Go’s fake simplicity.", file: "manual_I4Rl4JYKNVw", thumb: false, date: "2026-07-18", public: false },
   { id: "ygK_86a8Aoc", title: "CSS Frameworks Are Crutches", topic: "css", blurb: "CSS specificity wars, Tailwind dogma, and the !important pain.", file: "CSS_003", thumb: false, date: "2026-07-17", public: false },
   { id: "-Pis__eDcpQ", title: "If you defend Agile you're the problem.", topic: "agile", blurb: "Scrum circus, useless standups, and Agile as a bureaucracy monster.", file: "manual_-Pis__eDcpQ", thumb: false, date: "2026-07-17", public: false },
+  { id: "0tLUAc89rqU", title: "Rust is the worst trend in development", topic: "uncategorized", blurb: "Rage-Bait Tech Short from the suckz pipeline.", file: "Rust_is_the_worst_trend_in_development_001", thumb: false, date: "2026-07-15", public: false },
 ];
