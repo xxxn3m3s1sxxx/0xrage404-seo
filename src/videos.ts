@@ -13,6 +13,8 @@ export interface Video {
 }
 
 export const VIDEOS: Video[] = [
+  { id: "IadNqe3eNmo", title: "CSS Is A Dumpster Fire", topic: "css", blurb: "CSS specificity wars, Tailwind dogma, and the !important pain.", file: "CSS_001", thumb: true, date: "2026-07-16", public: true },
+  { id: "B4D5O3Bo6hM", title: "If you defend Python you're the problem.", topic: "python", blurb: "GIL frustration, type hint traps, and dynamic typing cost traps.", file: "manual_B4D5O3Bo6hM", thumb: true, date: "2026-07-16", public: true },
   { id: "uniE0l9jQH8", title: "Code Ownership Kills Teams", topic: "legacycode", blurb: "Tech debt, refactoring illusions, and code nobody understands.", file: "code_ownership_003", thumb: true, date: "2026-07-15", public: true },
   { id: "to5ycIoSIjY", title: "You think React is fine? You're exactly who this is for.", topic: "react", blurb: "React Hooks, VDOM myths, and frontend framework drama.", file: "manual_to5ycIoSIjY", thumb: true, date: "2026-07-15", public: true },
   { id: "-OVJTw8bJzs", title: "No One Owns This Code", topic: "legacycode", blurb: "Tech debt, refactoring illusions, and code nobody understands.", file: "code_ownership_002", thumb: true, date: "2026-07-14", public: true },
@@ -57,6 +59,4 @@ export const VIDEOS: Video[] = [
   { id: "I4Rl4JYKNVw", title: "If you defend Go you're the problem.", topic: "go", blurb: "Error handling joke, goroutine leaks, and Go’s fake simplicity.", file: "manual_I4Rl4JYKNVw", thumb: false, date: "2026-07-18", public: false },
   { id: "ygK_86a8Aoc", title: "CSS Frameworks Are Crutches", topic: "css", blurb: "CSS specificity wars, Tailwind dogma, and the !important pain.", file: "CSS_003", thumb: false, date: "2026-07-17", public: false },
   { id: "-Pis__eDcpQ", title: "If you defend Agile you're the problem.", topic: "agile", blurb: "Scrum circus, useless standups, and Agile as a bureaucracy monster.", file: "manual_-Pis__eDcpQ", thumb: false, date: "2026-07-17", public: false },
-  { id: "IadNqe3eNmo", title: "CSS Is A Dumpster Fire", topic: "css", blurb: "CSS specificity wars, Tailwind dogma, and the !important pain.", file: "CSS_001", thumb: false, date: "2026-07-16", public: false },
-  { id: "B4D5O3Bo6hM", title: "If you defend Python you're the problem.", topic: "python", blurb: "GIL frustration, type hint traps, and dynamic typing cost traps.", file: "manual_B4D5O3Bo6hM", thumb: false, date: "2026-07-16", public: false },
 ];
