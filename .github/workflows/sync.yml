@@ -1,0 +1,27 @@
+name: Sync Satellite
+on:
+  schedule:
+    - cron: '*/30 * * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python scripts/sync.py
+      - name: Commit changes
+        run: |
+          git config user.name "suckz-bot"
+          git config user.email "bot@suckz.local"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "No changes"
+          else
+            git commit -m "auto-sync: re-check public status & re-sort"
+            git push
+          fi

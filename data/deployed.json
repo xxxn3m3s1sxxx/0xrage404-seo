@@ -1,0 +1,142 @@
+[
+  {
+    "file": "ai_generated_code_is_technical_debt_001",
+    "video_id": "lyl4M5u7TJU",
+    "title": "AI Generated Code Is Technical Debt"
+  },
+  {
+    "file": "code_ownership_is_stupid_001",
+    "video_id": "HzqSWNm6P2s",
+    "title": "Code Ownership Is Stupid"
+  },
+  {
+    "file": "merge_conflicts_are_preventable_001",
+    "video_id": "zKvStXVlqn8",
+    "title": "Merge Conflicts Are Preventable"
+  },
+  {
+    "file": "ai_generated_code_001",
+    "video_id": "EKUHGRKXGAI",
+    "title": "AI Generated Code Is Rot"
+  },
+  {
+    "file": "ai_generated_code_002",
+    "video_id": "ZhMkqjnYTPA",
+    "title": "AI Code Never Gets Reviewed"
+  },
+  {
+    "file": "ai_generated_code_003",
+    "video_id": "sAlCyZJDA0k",
+    "title": "AI Code Deployed to Prod"
+  },
+  {
+    "file": "code_ownership_002",
+    "video_id": "-OVJTw8bJzs",
+    "title": "No One Owns This Code"
+  },
+  {
+    "file": "code_ownership_003",
+    "video_id": "uniE0l9jQH8",
+    "title": "Code Ownership Kills Teams"
+  },
+  {
+    "file": "CSS_001",
+    "video_id": "IadNqe3eNmo",
+    "title": "CSS Is A Dumpster Fire"
+  },
+  {
+    "file": "CSS_003",
+    "video_id": "ygK_86a8Aoc",
+    "title": "CSS Frameworks Are Crutches"
+  },
+  {
+    "file": "Agile_is_a_cargo_cult_001",
+    "video_id": "9yEShXRsWBo",
+    "title": "Agile Is A Cargo Cult"
+  },
+  {
+    "file": "Agile_is_a_cargo_cult_002",
+    "video_id": "gVkmqCzLxSo",
+    "title": "Your Standups Are Worthless"
+  },
+  {
+    "file": "Kubernetes_is_too_complex_001",
+    "video_id": "-2zXEBj2l7E",
+    "title": "Kubernetes Is Too Complex"
+  },
+  {
+    "file": "Kubernetes_is_too_complex_002",
+    "video_id": "AeEX4vYdqBA",
+    "title": "K8s YAML Is Hell"
+  },
+  {
+    "file": "Microservices_are_not_a_solution_001",
+    "video_id": "38KESZqtg0k",
+    "title": "Microservices Are Not A Solution"
+  },
+  {
+    "file": "Microservices_are_not_a_solution_002",
+    "video_id": "kdMbwO56FGY",
+    "title": "Distributed Monolith"
+  },
+  {
+    "file": "React_is_bloatware_001",
+    "video_id": "Eb8P7mlXmEY",
+    "title": "React Is Bloatware"
+  },
+  {
+    "file": "React_is_bloatware_002",
+    "video_id": "H-nAXQJ1pnw",
+    "title": "React Devs Can't Write CSS"
+  },
+  {
+    "file": "burnout_001",
+    "video_id": "suonT_y7fz8",
+    "title": "Burnout Is Inevitable"
+  },
+  {
+    "file": "burnout_002",
+    "video_id": "Mr1-7Y_jH14",
+    "title": "Work Life Balance Is A Lie"
+  },
+  {
+    "file": "ci_pipeline_001",
+    "video_id": "wzyVAtU-nOw",
+    "title": "CI Pipeline"
+  },
+  {
+    "file": "ci_pipeline_002",
+    "video_id": "4qNCsaj8FQI",
+    "title": "Your CI Pipeline Sucks"
+  },
+  {
+    "file": "docker_001",
+    "video_id": "tEgPiXf_Ktc",
+    "title": "Docker"
+  },
+  {
+    "file": "docker_002",
+    "video_id": "FuipYLE0dBw",
+    "title": "Docker Compose Nightmare"
+  },
+  {
+    "file": "typescript_001",
+    "video_id": "9W3wgt01Juc",
+    "title": "You Use TypeScript Wrong"
+  },
+  {
+    "file": "typescript_002",
+    "video_id": "K_qxys0kZSI",
+    "title": "TypeScript Made You Slower"
+  },
+  {
+    "file": "gc_wahn_001",
+    "video_id": "GWIugMo3Gc4",
+    "title": "Your Garbage Collector is a Bonfire"
+  },
+  {
+    "file": "Rust_is_the_worst_trend_in_development_001",
+    "video_id": "0tLUAc89rqU",
+    "title": "Rust is the worst trend in development"
+  }
+]
