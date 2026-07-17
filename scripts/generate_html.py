@@ -81,16 +81,17 @@ for e in entries:
         <p class="blurb">{blurb_esc}</p>
       </div>
     </article>""")
-    jsonld_items.append(f"""    {{
-      "@type": "VideoObject",
-      "name": "{title}",
-      "description": "{blurb_esc}",
-      "thumbnailUrl": "{thumb_url}",
-      "uploadDate": "{e['date']}T00:00:00Z",
-      "contentUrl": "{yt_url}",
-      "embedUrl": "https://www.youtube.com/embed/{e['id']}",
-      "author": {{ "@type": "Person", "name": "@0xRAGE.404", "url": "https://youtube.com/@0xRAGE.404" }}
-    }}""")
+    if e["public"]:
+        jsonld_items.append(f"""    {{
+          "@type": "VideoObject",
+          "name": "{title}",
+          "description": "{blurb_esc}",
+          "thumbnailUrl": "{thumb_url}",
+          "uploadDate": "{e['date']}T00:00:00Z",
+          "contentUrl": "{yt_url}",
+          "embedUrl": "https://www.youtube.com/embed/{e['id']}",
+          "author": {{ "@type": "Person", "name": "@0xRAGE.404", "url": "https://youtube.com/@0xRAGE.404" }}
+        }}""")
 
 og_image = f"https://i.ytimg.com/vi/{entries[0]['id']}/hqdefault.jpg" if entries else ""
 
