@@ -13,6 +13,9 @@ export interface Video {
 }
 
 export const VIDEOS: Video[] = [
+  { id: "ygK_86a8Aoc", title: "CSS Frameworks Are Crutches", topic: "css", blurb: "CSS specificity wars, Tailwind dogma, and the !important pain.", file: "CSS_003", thumb: true, date: "2026-07-17", public: true },
+  { id: "0tLUAc89rqU", title: "Rust is the worst trend in development", topic: "rust", blurb: "Borrow checker, ownership, and the steepest learning curve alive.", file: "Rust_is_the_worst_trend_in_development_001", thumb: true, date: "2026-07-17", public: true },
+  { id: "-Pis__eDcpQ", title: "If you defend Agile you're the problem.", topic: "agile", blurb: "Scrum circus, useless standups, and Agile as a bureaucracy monster.", file: "manual_-Pis__eDcpQ", thumb: true, date: "2026-07-17", public: true },
   { id: "IadNqe3eNmo", title: "CSS Is A Dumpster Fire", topic: "css", blurb: "CSS specificity wars, Tailwind dogma, and the !important pain.", file: "CSS_001", thumb: true, date: "2026-07-16", public: true },
   { id: "B4D5O3Bo6hM", title: "If you defend Python you're the problem.", topic: "python", blurb: "GIL frustration, type hint traps, and dynamic typing cost traps.", file: "manual_B4D5O3Bo6hM", thumb: true, date: "2026-07-16", public: true },
   { id: "uniE0l9jQH8", title: "Code Ownership Kills Teams", topic: "legacycode", blurb: "Tech debt, refactoring illusions, and code nobody understands.", file: "code_ownership_003", thumb: true, date: "2026-07-15", public: true },
@@ -57,7 +60,4 @@ export const VIDEOS: Video[] = [
   { id: "fDWeMC56a6A", title: "Stop pretending Kubernetes is acceptable.", topic: "kubernetes", blurb: "YAML atrocities, operator madness, and K8s overkill for 90% of teams.", file: "manual_fDWeMC56a6A", thumb: false, date: "2026-07-19", public: false },
   { id: "9yEShXRsWBo", title: "Agile Is A Cargo Cult", topic: "agile", blurb: "Scrum circus, useless standups, and Agile as a bureaucracy monster.", file: "Agile_is_a_cargo_cult_001", thumb: false, date: "2026-07-18", public: false },
   { id: "I4Rl4JYKNVw", title: "If you defend Go you're the problem.", topic: "go", blurb: "Error handling joke, goroutine leaks, and Go’s fake simplicity.", file: "manual_I4Rl4JYKNVw", thumb: false, date: "2026-07-18", public: false },
-  { id: "ygK_86a8Aoc", title: "CSS Frameworks Are Crutches", topic: "css", blurb: "CSS specificity wars, Tailwind dogma, and the !important pain.", file: "CSS_003", thumb: true, date: "2026-07-17", public: false },
-  { id: "0tLUAc89rqU", title: "Rust is the worst trend in development", topic: "rust", blurb: "Borrow checker, ownership, and the steepest learning curve alive.", file: "Rust_is_the_worst_trend_in_development_001", thumb: true, date: "2026-07-17", public: false },
-  { id: "-Pis__eDcpQ", title: "If you defend Agile you're the problem.", topic: "agile", blurb: "Scrum circus, useless standups, and Agile as a bureaucracy monster.", file: "manual_-Pis__eDcpQ", thumb: true, date: "2026-07-17", public: false },
 ];
