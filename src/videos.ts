@@ -13,13 +13,13 @@ export interface Video {
 }
 
 export const VIDEOS: Video[] = [
+  { id: "LZM3hoVBcU4", title: "The Microsoft Trap: How VS Code Eats Your Engineering Soul", topic: "overengineering", blurb: "Microservices for todo apps and the death of KISS.", file: "essay_v7", thumb: true, date: "2026-07-18", public: true },
   { id: "ygK_86a8Aoc", title: "CSS Frameworks Are Crutches", topic: "css", blurb: "CSS specificity wars, Tailwind dogma, and the !important pain.", file: "CSS_003", thumb: true, date: "2026-07-17", public: true },
   { id: "0tLUAc89rqU", title: "Rust is the worst trend in development", topic: "rust", blurb: "Borrow checker, ownership, and the steepest learning curve alive.", file: "Rust_is_the_worst_trend_in_development_001", thumb: true, date: "2026-07-17", public: true },
   { id: "-Pis__eDcpQ", title: "If you defend Agile you're the problem.", topic: "agile", blurb: "Scrum circus, useless standups, and Agile as a bureaucracy monster.", file: "manual_-Pis__eDcpQ", thumb: true, date: "2026-07-17", public: true },
   { id: "IadNqe3eNmo", title: "CSS Is A Dumpster Fire", topic: "css", blurb: "CSS specificity wars, Tailwind dogma, and the !important pain.", file: "CSS_001", thumb: true, date: "2026-07-16", public: true },
   { id: "B4D5O3Bo6hM", title: "If you defend Python you're the problem.", topic: "python", blurb: "GIL frustration, type hint traps, and dynamic typing cost traps.", file: "manual_B4D5O3Bo6hM", thumb: true, date: "2026-07-16", public: true },
   { id: "uniE0l9jQH8", title: "Code Ownership Kills Teams", topic: "legacycode", blurb: "Tech debt, refactoring illusions, and code nobody understands.", file: "code_ownership_003", thumb: true, date: "2026-07-15", public: true },
-  { id: "LZM3hoVBcU4", title: "Der Microsoft Trap: Wie VS Code deine Engineering-Seele frisst", topic: "uncategorized", blurb: "Rage-Bait Tech Short from the suckz pipeline.", file: "essay_v7", thumb: true, date: "2026-07-15", public: true },
   { id: "to5ycIoSIjY", title: "You think React is fine? You're exactly who this is for.", topic: "react", blurb: "React Hooks, VDOM myths, and frontend framework drama.", file: "manual_to5ycIoSIjY", thumb: true, date: "2026-07-15", public: true },
   { id: "-OVJTw8bJzs", title: "No One Owns This Code", topic: "legacycode", blurb: "Tech debt, refactoring illusions, and code nobody understands.", file: "code_ownership_002", thumb: true, date: "2026-07-14", public: true },
   { id: "K_qxys0kZSI", title: "TypeScript Made You Slower", topic: "typescript", blurb: "Any type lies, compiler hypocrisy, and false security.", file: "typescript_002", thumb: true, date: "2026-07-14", public: true },
