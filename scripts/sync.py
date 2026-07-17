@@ -38,8 +38,8 @@ def parse_videos_ts(text):
         })
     return entries
 
-def is_public(vid):
-    if vid in cache:
+def is_public(vid, force=False):
+    if not force and vid in cache:
         return cache[vid]
     url = f"https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v={vid}&format=json"
     req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
@@ -235,7 +235,7 @@ entries = parse_videos_ts(text)
 
 changed = False
 for e in entries:
-    current = is_public(e["id"])
+    current = is_public(e["id"], force=not e["public"])
     if current != e["public"]:
         print(f"[sync] {e['id']}: public={current} (was {e['public']})")
         e["public"] = current
