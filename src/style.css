@@ -21,6 +21,7 @@ body {
   inset: 0;
   background: url('/banner.png') center / cover no-repeat;
   z-index: 0;
+  opacity: 1;
 }
 .banner-overlay {
   position: absolute;
