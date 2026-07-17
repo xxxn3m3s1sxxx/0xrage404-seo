@@ -124,12 +124,17 @@ html = f"""<!doctype html>
     *{{margin:0;padding:0;box-sizing:border-box}}
     body{{background:#000;color:#0f0;font-family:'Wallpoet',monospace;min-height:100vh}}
     #matrix{{position:fixed;top:0;left:0;width:100%;height:100%;z-index:0;opacity:.15;pointer-events:none}}
-    header{{position:relative;z-index:1;text-align:center;padding:2rem 1rem 0.5rem;border-bottom:1px solid #0f033}}
-    header h1{{font-size:5rem;letter-spacing:.15em;text-shadow:0 0 20px #0f0,0 0 40px #0f0;line-height:1}}
-    @media(max-width:768px){{header h1{{font-size:3.2rem}}}}
-    header .at{{font-size:.55em;vertical-align:middle;opacity:.6}}
-    .subtitle{{font-size:.8rem;opacity:.5;margin-top:.3rem}}
-    .counter{{font-size:.7rem;opacity:.4;margin-top:.2rem}}
+    header.banner{{position:relative;min-height:30vh;display:flex;align-items:center;justify-content:center;overflow:hidden;border-bottom:1px solid #0f033}}
+    .banner-bg{{position:absolute;inset:0;background:radial-gradient(ellipse at center,#0f0,#000 70%);opacity:.05}}
+    .banner-overlay{{position:absolute;inset:0;background:linear-gradient(180deg,transparent 60%,#000 100%)}}
+    .banner-content{{position:relative;z-index:1;text-align:center;padding:2rem}}
+    .banner-content h1{{font-size:5rem;letter-spacing:.15em;text-shadow:0 0 20px #0f0,0 0 40px #0f0;line-height:1}}
+    .banner-content h1 .at{{font-size:.55em;vertical-align:middle;opacity:.6}}
+    @media(max-width:768px){{.banner-content h1{{font-size:3.2rem}}}}
+    .banner-tagline{{font-size:.9rem;opacity:.6;margin-top:.5rem;letter-spacing:.08em}}
+    .subscribe-btn{{display:inline-block;margin-top:1.2rem;padding:.7rem 2rem;border:1px solid #0f0;border-radius:4px;color:#0f0;text-decoration:none;font-size:.85rem;letter-spacing:.1em;transition:all .2s}}
+    .subscribe-btn:hover{{background:#0f0;color:#000}}
+    .counter{{font-size:.7rem;opacity:.4;margin-top:1rem}}
     main{{position:relative;z-index:1;max-width:1200px;margin:0 auto;padding:1.5rem 1rem;display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:1rem}}
     .card{{background:#0a0a0a;border:1px solid #0f033;border-radius:8px;overflow:hidden;transition:border-color .2s}}
     .card:hover{{border-color:#0f0}}
@@ -151,10 +156,15 @@ html = f"""<!doctype html>
 </head>
 <body>
   <canvas id="matrix"></canvas>
-  <header>
-    <h1><span class="at">@</span>0xRAGE.404</h1>
-    <p class="subtitle">Rage-Bait Tech Shorts</p>
-    <p class="counter">{public_count} public \u00b7 {private_count} scheduled</p>
+  <header class="banner">
+    <div class="banner-bg"></div>
+    <div class="banner-overlay"></div>
+    <div class="banner-content">
+      <h1><span class="at">@</span>0xRAGE.404</h1>
+      <p class="banner-tagline">Rage-Bait Tech Shorts \u2014 daily developer hate</p>
+      <a href="https://youtube.com/@0xRAGE.404" target="_blank" class="subscribe-btn">\u25b6 Subscribe</a>
+      <p class="counter">{public_count} public \u00b7 {private_count} scheduled</p>
+    </div>
   </header>
   <main id="videos">
 {"\n".join(card_html)}
