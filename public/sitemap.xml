@@ -11,202 +11,302 @@
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/-2zXEBj2l7E.html</loc>
+    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/zh/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/ja/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/ru/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/es/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/public/transcripts/-2zXEBj2l7E.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/-OVJTw8bJzs.html</loc>
+    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/public/transcripts/-OVJTw8bJzs.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/38KESZqtg0k.html</loc>
+    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/public/transcripts/38KESZqtg0k.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/4qNCsaj8FQI.html</loc>
+    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/public/transcripts/4qNCsaj8FQI.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/9W3wgt01Juc.html</loc>
+    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/public/transcripts/9W3wgt01Juc.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/9yEShXRsWBo.html</loc>
+    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/public/transcripts/9yEShXRsWBo.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/AeEX4vYdqBA.html</loc>
+    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/public/transcripts/AeEX4vYdqBA.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/ai_code_assistants_make_you_stupid_001.html</loc>
+    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/public/transcripts/ai_code_assistants_make_you_stupid_001.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/developer_burnout_is_your_fault_001.html</loc>
+    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/public/transcripts/developer_burnout_is_your_fault_001.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/Eb8P7mlXmEY.html</loc>
+    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/public/transcripts/Eb8P7mlXmEY.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/EKUHGRKXGAI.html</loc>
+    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/public/transcripts/EKUHGRKXGAI.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/essay_aws_billing.html</loc>
+    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/public/transcripts/es/index.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/essay_honeypot2_manifest.html</loc>
+    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/public/transcripts/es/manifest.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/essay_secret_prompt.html</loc>
+    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/public/transcripts/es/secret_prompt.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/FuipYLE0dBw.html</loc>
+    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/public/transcripts/es/technical.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/gVkmqCzLxSo.html</loc>
+    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/public/transcripts/essay_aws_billing.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/GWIugMo3Gc4.html</loc>
+    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/public/transcripts/essay_honeypot2_manifest.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/H-nAXQJ1pnw.html</loc>
+    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/public/transcripts/essay_secret_prompt.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/IadNqe3eNmo.html</loc>
+    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/public/transcripts/FuipYLE0dBw.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/index.html</loc>
+    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/public/transcripts/gVkmqCzLxSo.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/K_qxys0kZSI.html</loc>
+    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/public/transcripts/GWIugMo3Gc4.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/kdMbwO56FGY.html</loc>
+    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/public/transcripts/H-nAXQJ1pnw.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/Mr1-7Y_jH14.html</loc>
+    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/public/transcripts/IadNqe3eNmo.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/npm_install_breaks_production_001.html</loc>
+    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/public/transcripts/index.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/sAlCyZJDA0k.html</loc>
+    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/public/transcripts/ja/index.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/serverless_is_a_financial_scam_001.html</loc>
+    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/public/transcripts/ja/manifest.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/Stack_Overflow_copy-paste_ruins_code_001.html</loc>
+    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/public/transcripts/ja/secret_prompt.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/suonT_y7fz8.html</loc>
+    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/public/transcripts/ja/technical.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/technical_analysis.html</loc>
+    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/public/transcripts/K_qxys0kZSI.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/tEgPiXf_Ktc.html</loc>
+    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/public/transcripts/kdMbwO56FGY.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/there_are_no_10x_developers_001.html</loc>
+    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/public/transcripts/Mr1-7Y_jH14.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/TypeScript_is_false_confidence_001.html</loc>
+    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/public/transcripts/npm_install_breaks_production_001.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/uniE0l9jQH8.html</loc>
+    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/public/transcripts/ru/index.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/wzyVAtU-nOw.html</loc>
+    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/public/transcripts/ru/manifest.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/ygK_86a8Aoc.html</loc>
+    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/public/transcripts/ru/secret_prompt.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/you_overengineer_everything_001.html</loc>
+    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/public/transcripts/ru/technical.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/your_CI_pipeline_is_toxic_001.html</loc>
+    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/public/transcripts/sAlCyZJDA0k.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/your_coding_standards_are_worthless_001.html</loc>
+    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/public/transcripts/serverless_is_a_financial_scam_001.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/your_test_suite_is_lying_to_you_001.html</loc>
+    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/public/transcripts/Stack_Overflow_copy-paste_ruins_code_001.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/ZhMkqjnYTPA.html</loc>
+    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/public/transcripts/suonT_y7fz8.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/public/transcripts/technical_analysis.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/public/transcripts/tEgPiXf_Ktc.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/public/transcripts/there_are_no_10x_developers_001.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/public/transcripts/TypeScript_is_false_confidence_001.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/public/transcripts/uniE0l9jQH8.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/public/transcripts/wzyVAtU-nOw.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/public/transcripts/ygK_86a8Aoc.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/public/transcripts/you_overengineer_everything_001.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/public/transcripts/your_CI_pipeline_is_toxic_001.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/public/transcripts/your_coding_standards_are_worthless_001.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/public/transcripts/your_test_suite_is_lying_to_you_001.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/public/transcripts/zh/index.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/public/transcripts/zh/manifest.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/public/transcripts/zh/secret_prompt.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/public/transcripts/zh/technical.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/public/transcripts/ZhMkqjnYTPA.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
