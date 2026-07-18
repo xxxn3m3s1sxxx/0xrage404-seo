@@ -121,6 +121,11 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/cuda-driver-version-mismatch.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/de/index.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -152,6 +157,11 @@
   </url>
   <url>
     <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/EKUHGRKXGAI.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/embedding-dimension-mismatch-rag.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -336,12 +346,52 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/llama-cpp-oom-context-8k.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/llama-cpp-oom-cuda-malloc-failed.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/llama-cpp-server-http-auth-error.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/llm-output-garbage-wrong-quantization.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/Mr1-7Y_jH14.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/npm_install_breaks_production_001.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/nvidia-smi-not-found-in-container.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/ollama-model-not-responding-after-restart.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/ollama-modelfile-syntax-error.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/ollama-wsl-connection-refused.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -362,6 +412,21 @@
   </url>
   <url>
     <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/pt/technical.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/python-torch-cuda-transformers-dependency-conflict.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/rag-chunk-size-exceeds-context-window.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/rag-vector-database-query-latency.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
