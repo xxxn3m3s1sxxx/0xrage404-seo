@@ -151,6 +151,11 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/docker-gpu-passthrough-failed.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/Eb8P7mlXmEY.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -346,6 +351,11 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/kv-cache-quantization-error.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/llama-cpp-oom-context-8k.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -381,6 +391,11 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/ollama-gpu-not-detected.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/ollama-model-not-responding-after-restart.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -391,7 +406,17 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/ollama-server-port-conflict.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/ollama-wsl-connection-refused.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/open-webui-connection-refused.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>

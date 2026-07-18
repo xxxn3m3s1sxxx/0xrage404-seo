@@ -120,7 +120,7 @@
 
 <h2>Cause</h2>
 
-<p>Ollama's <a href="https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/nvidia-smi-not-found-in-container.html">container</a> mounts a GPU acceleration layer (CUDA/ROCm) that does not survive container restart without explicit device re-registration. The Ollama <a href="https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/llama-cpp-server-http-auth-error.html">server</a> process starts but cannot access the GPU, falling into a deadlock on inference.</p>
+<p><a href="https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/ollama-gpu-not-detected.html">ollama</a>'s <a href="https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/docker-gpu-passthrough-failed.html">container</a> mounts a GPU acceleration layer (CUDA/ROCm) that does not survive container restart without explicit device re-registration. The Ollama <a href="https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/llama-cpp-server-http-auth-error.html">server</a> process starts but cannot access the GPU, falling into a deadlock on inference.</p>
 
 <h2>Solution</h2>
 
@@ -134,7 +134,7 @@
 
 <h2>Root Cause</h2>
 
-<p><a href="https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/nvidia-smi-not-found-in-container.html">docker</a>'s <code>--gpus all</code> flag binds the device at <code>docker run</code> time. A <code>docker restart</code> re-uses the old bindings, which may point to stale file descriptors after a <a href="https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/cuda-driver-version-mismatch.html">driver</a> reload.</p>
+<p><a href="https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/docker-gpu-passthrough-failed.html">docker</a>'s <code>--gpus all</code> flag binds the device at <code>docker run</code> time. A <code>docker restart</code> re-uses the old bindings, which may point to stale file descriptors after a <a href="https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/cuda-driver-version-mismatch.html">driver</a> reload.</p>
 
 <h2>Prevention</h2>
 

@@ -116,7 +116,7 @@
   <div class="transcript">
 <h2>Problem</h2>
 
-<p><code>curl http://localhost:11434/api/generate</code> returns <code>Connection refused</code> when <a href="https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/ollama-model-not-responding-after-restart.html">ollama</a> runs inside WSL2 or a <a href="https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/nvidia-smi-not-found-in-container.html">docker</a> <a href="https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/nvidia-smi-not-found-in-container.html">container</a> on WSL2, accessed from Windows.</p>
+<p><code>curl http://localhost:11434/api/generate</code> returns <code>Connection refused</code> when <a href="https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/ollama-gpu-not-detected.html">ollama</a> runs inside WSL2 or a <a href="https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/docker-gpu-passthrough-failed.html">docker</a> <a href="https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/docker-gpu-passthrough-failed.html">container</a> on WSL2, accessed from Windows.</p>
 
 <h2>Cause</h2>
 
@@ -167,7 +167,7 @@
 <h3><span class="fix-num">2</span>Fix 2: Use WSL2 IP from Windows</h3>
 <ol>
   <li>Get WSL2 IP with `wsl -- hostname -I`.</li>
-  <li>Connect to `http://&lt;wsl-ip&gt;:11434` instead of localhost.</li>
+  <li>Connect to `http://&lt;wsl-ip&gt;:<a href="https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/ollama-server-port-conflict.html">11434</a>` instead of localhost.</li>
 </ol>
 
 <h2>FAQ</h2>

@@ -120,7 +120,7 @@
 
 <h2>Cause</h2>
 
-<p>The KV cache grows quadratically with context size. At 8192 context, a 70B model in Q4_K_M needs ~24 GB just for the cache. At 16384 it doubles again. The allocator cannot find a contiguous block for both model weights and KV cache buffers.</p>
+<p>The <a href="https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/kv-cache-quantization-error.html">kv cache</a> grows quadratically with context size. At 8192 context, a 70B model in Q4_K_M needs ~24 GB just for the cache. At 16384 it doubles again. The allocator cannot find a contiguous block for both model weights and KV cache buffers.</p>
 
 <h2>Solution</h2>
 
@@ -138,7 +138,7 @@
   <tr><th>Approach</th><th>Effect</th></tr>
   <tr><td><code>--memory-f16</code></td><td>Halves KV cache at slight accuracy cost</td></tr>
   <tr><td>Lower <code>--n-gpu-layers</code></td><td>Offloads some layers to system RAM</td></tr>
-  <tr><td>Use Q2_K <a href="https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/llm-output-garbage-wrong-quantization.html">quantization</a></td><td>Sacrifices quality, reduces model size by ~30%</td></tr>
+  <tr><td>Use Q2_K <a href="https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/kv-cache-quantization-error.html">quantization</a></td><td>Sacrifices quality, reduces model size by ~30%</td></tr>
   <tr><td>Context shifting (<code>--rope-scaling</code>)</td><td>Fits longer context without memory growth</td></tr>
 </table>
 

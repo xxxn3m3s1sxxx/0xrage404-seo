@@ -154,9 +154,9 @@
   <li>After install, reboot or run: sudo nvidia-smi -pm 1 to reinitialize the driver.</li>
   <li>Verify with: nvidia-smi | grep &#39;CUDA Version&#39;</li>
 </ol>
-<h3><span class="fix-num">2</span>Use <a href="https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/nvidia-smi-not-found-in-container.html">docker</a> with matching CUDA image</h3>
+<h3><span class="fix-num">2</span>Use <a href="https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/docker-gpu-passthrough-failed.html">docker</a> with matching CUDA image</h3>
 <ol>
-  <li>Instead of updating the host driver, pin your <a href="https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/nvidia-smi-not-found-in-container.html">container</a> to a compatible CUDA version: FROM nvidia/cuda:12.4.0-runtime-ubuntu22.04</li>
+  <li>Instead of updating the host driver, pin your <a href="https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/docker-gpu-passthrough-failed.html">container</a> to a compatible CUDA version: FROM nvidia/cuda:12.4.0-runtime-ubuntu22.04</li>
   <li>This isolates the CUDA runtime from the host driver.</li>
   <li>Run with: docker run --gpus all --rm myimage nvidia-smi</li>
 </ol>
