@@ -120,7 +120,7 @@
 
 <h2>Cause</h2>
 
-<p>The <code>--ctk</code> (cache type for K) and <code>--ctv</code> (cache type for V) flags require specific values (<code>q8_0</code>, <code>q4_0</code>, <code>q4_1</code>, <code>f16</code>). Older <a href="https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/cuda-driver-version-mismatch.html">llama.cpp</a> builds use <code>--cache-type-k</code> / <code>--cache-type-v</code> syntax instead. Using an unsupported value or mixing incompatible quantization types with the model architecture causes silent corruption or startup failure.</p>
+<p>The <code>--ctk</code> (cache type for K) and <code>--ctv</code> (cache type for V) flags require specific values (<code>q8_0</code>, <code>q4_0</code>, <code>q4_1</code>, <code>f16</code>). Older <a href="https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/cuda-driver-version-mismatch.html">llama.cpp</a> builds use <code>--cache-type-k</code> / <code>--cache-type-v</code> syntax instead. Using an unsupported value or mixing incompatible <a href="https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/bitsandbytes-cuda-setup-failed.html">quantization</a> types with the model architecture causes silent corruption or startup failure.</p>
 
 <h2>Solution</h2>
 
@@ -135,7 +135,7 @@
 <h2>Cache Type Comparison</h2>
 
 <table>
-  <tr><th>Type</th><th>VRAM/Token</th><th>Quality Impact</th><th>Use Case</th></tr>
+  <tr><th>Type</th><th>VRAM/<a href="https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/huggingface-gated-model-401.html">token</a></th><th>Quality Impact</th><th>Use Case</th></tr>
   <tr><td>f16</td><td>2x</td><td>None</td><td>Baseline — max quality</td></tr>
   <tr><td>q8_0</td><td>1x</td><td>~1% perplexity increase</td><td>Recommended — best balance</td></tr>
   <tr><td>q4_0</td><td>0.5x</td><td>~3-5% perplexity increase</td><td>Extreme memory savings</td></tr>
@@ -150,7 +150,7 @@
 <table>
   <tr><th>Component</th><th>Spec</th></tr>
     <tr><td>os</td><td>Ubuntu 22.04 / WSL2</td></tr>
-    <tr><td>gpu</td><td>RTX 3090 (24GB)</td></tr>
+    <tr><td>gpu</td><td><a href="https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/flash-attention-compute-capability.html">rtx 3090</a> (24GB)</td></tr>
     <tr><td>cuda</td><td>12.2</td></tr>
 </table>
 

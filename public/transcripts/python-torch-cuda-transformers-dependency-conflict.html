@@ -120,7 +120,7 @@
 
 <h2>Cause</h2>
 
-<p>PyTorch, <a href="https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/cuda-driver-version-mismatch.html">cuda toolkit</a> bindings, and HuggingFace <code>transformers</code> are version-locked. Mixing <code>torch 2.1.0+cuda121</code> with <code>transformers 4.30.0</code> works, but <code>torch 2.4.0+cuda124</code> with <code>transformers 4.35.0</code> may not — each <code>transformers</code> release drops support for older torch builds.</p>
+<p>PyTorch, <a href="https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/cuda-driver-version-mismatch.html">cuda toolkit</a> bindings, and <a href="https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/huggingface-gated-model-401.html">huggingface</a> <code>transformers</code> are version-locked. Mixing <code>torch 2.1.0+cuda121</code> with <code>transformers 4.30.0</code> works, but <code>torch 2.4.0+cuda124</code> with <code>transformers 4.35.0</code> may not — each <code>transformers</code> release drops support for older torch builds.</p>
 
 <h2>Solution</h2>
 
@@ -137,7 +137,7 @@
 <h2>Compatible Versions</h2>
 
 <table>
-  <tr><th>torch</th><th>CUDA</th><th>transformers</th><th>accelerate</th></tr>
+  <tr><th>torch</th><th>CUDA</th><th>transformers</th><th><a href="https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/bitsandbytes-cuda-setup-failed.html">accelerate</a></th></tr>
   <tr><td>2.4.0</td><td>12.4</td><td>&gt;=4.41, &lt;=4.45</td><td>&gt;=0.30</td></tr>
   <tr><td>2.3.0</td><td>12.1</td><td>&gt;=4.39, &lt;=4.44</td><td>&gt;=0.28</td></tr>
   <tr><td>2.1.0</td><td>12.1</td><td>&gt;=4.35, &lt;=4.41</td><td>&gt;=0.25</td></tr>

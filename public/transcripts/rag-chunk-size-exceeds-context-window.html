@@ -116,11 +116,11 @@
   <div class="transcript">
 <h2>Problem</h2>
 
-<p><code>IndexError: chunk size exceeds model context window</code> when running a RAG pipeline with LangChain or LlamaIndex. The retriever returns chunks that are longer than the LLM's <code>--ctx-size</code>.</p>
+<p><code>IndexError: chunk size exceeds model context window</code> when running a RAG pipeline with <a href="https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/pydantic-v1-v2-migration-error.html">langchain</a> or <a href="https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/pydantic-v1-v2-migration-error.html">llamaindex</a>. The retriever returns chunks that are longer than the LLM's <code>--ctx-size</code>.</p>
 
 <h2>Cause</h2>
 
-<p>The <a href="https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/embedding-dimension-mismatch-rag.html">embedding</a> model's max sequence length (e.g., 512 tokens for <code>all-MiniLM-L6-v2</code>) is independent of the LLM's context window. If the chunker splits at 8000 characters but the LLM has 4096 token context, the concatenated prompt overflows.</p>
+<p>The <a href="https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/embedding-dimension-mismatch-rag.html">embedding</a> model's max sequence length (e.g., 512 tokens for <code>all-MiniLM-L6-v2</code>) is independent of the LLM's context window. If the chunker splits at 8000 characters but the LLM has 4096 <a href="https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/huggingface-gated-model-401.html">token</a> context, the concatenated prompt overflows.</p>
 
 <h2>Solution</h2>
 

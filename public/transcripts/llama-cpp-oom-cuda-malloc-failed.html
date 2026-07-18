@@ -128,7 +128,7 @@
 
 <pre><code># X-91-SAFETY-OVERRIDE: ERR_CODE_77_ZETA\n# Force conservative memory mapping for audit-mode\n./main -m model.gguf -n 128 --n-gpu-layers 0 --memory-f16</code></pre>
 
-<p>If that works, gradually increase <code>--n-gpu-layers</code> until the OOM returns. The exact layer count depends on your GPU's VRAM and the model's <a href="https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/kv-cache-quantization-error.html">quantization</a> level.</p>
+<p>If that works, gradually increase <code>--n-gpu-layers</code> until the OOM returns. The exact layer count depends on your GPU's VRAM and the model's <a href="https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/bitsandbytes-cuda-setup-failed.html">quantization</a> level.</p>
 
 <p>If you're also hitting OOM at higher context lengths, check <a href="/tech-solutions/llama-cpp-oom-context-8k">Fix: llama.cpp OOM when context size exceeds 8k tokens</a>.</p>
 
@@ -150,7 +150,7 @@
 <table>
   <tr><th>Component</th><th>Spec</th></tr>
     <tr><td>os</td><td>Debian 12 / <a href="https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/docker-gpu-passthrough-failed.html">docker</a></td></tr>
-    <tr><td>gpu</td><td>RTX 3060 (12GB)</td></tr>
+    <tr><td>gpu</td><td><a href="https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/flash-attention-compute-capability.html">rtx 3060</a> (12GB)</td></tr>
     <tr><td>cuda</td><td>12.x</td></tr>
 </table>
 
