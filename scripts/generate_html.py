@@ -79,6 +79,7 @@ for e in entries:
         <span class="topic">#{e["topic"]}{badge}</span>
         <h3><a href="{yt_url}" target="_blank" rel="noopener">{title}</a></h3>
         <p class="blurb">{blurb_esc}</p>
+        <a class="transcript-link" href="transcripts/{e['id']}.html" target="_blank">Transcript</a>
       </div>
     </article>""")
     if e["public"]:
@@ -151,6 +152,8 @@ html = f"""<!doctype html>
     .card-body h3 a{{color:#0f0;text-decoration:none}}
     .card-body h3 a:hover{{text-decoration:underline}}
     .blurb{{font-size:.7rem;opacity:.4;line-height:1.5}}
+    .transcript-link{{display:inline-block;margin-top:.4rem;font-size:.65rem;color:#0a0;opacity:.6;letter-spacing:.05em;text-decoration:none}}
+    .transcript-link:hover{{color:#0f0}}
     footer{{position:relative;z-index:1;text-align:center;padding:2rem;border-top:1px solid #0f033;font-size:.75rem}}
     footer a{{color:#0f0}}
   </style>

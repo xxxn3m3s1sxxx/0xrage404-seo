@@ -192,6 +192,18 @@ body {
   line-height: 1.4;
   margin-top: auto;
 }
+.transcript-link {
+  display: inline-block;
+  font-size: 0.7rem;
+  color: #666;
+  text-decoration: none;
+  letter-spacing: 0.03em;
+  transition: color 0.2s;
+  margin-top: 0.3rem;
+}
+.transcript-link:hover {
+  color: #00ff41;
+}
 
 footer {
   text-align: center;
