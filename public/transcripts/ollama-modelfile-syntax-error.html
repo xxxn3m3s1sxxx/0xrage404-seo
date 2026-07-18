@@ -19,19 +19,51 @@
   <meta name="twitter:title" content="Fix: Ollama invalid model file format error in Modelfile — @0xRAGE.404" />
   <meta name="twitter:description" content="Fix: Ollama invalid model file format error in Modelfile" />
   <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "TechArticle",
-  "headline": "Fix: Ollama invalid model file format error in Modelfile",
-  "description": "Fix: Ollama invalid model file format error in Modelfile",
-  "author": {
-    "@type": "Person",
-    "name": "@0xRAGE.404",
-    "url": "https://youtube.com/@0xRAGE.404"
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    "headline": "Fix: Ollama invalid model file format error in Modelfile",
+    "description": "Fix: Ollama invalid model file format error in Modelfile",
+    "author": {
+      "@type": "Person",
+      "name": "@0xRAGE.404",
+      "url": "https://youtube.com/@0xRAGE.404"
+    },
+    "datePublished": "2026-07-19T00:00:00Z",
+    "proficiencyLevel": "Intermediate"
   },
-  "datePublished": "2026-07-19T00:00:00Z",
-  "proficiencyLevel": "Intermediate"
-}
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What is a BOM and why does it break Ollama?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "A Byte Order Mark (EF BB BF) is prepended by Windows editors like Notepad. Ollama's parser does not skip it."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Can TEMPLATE span multiple lines?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "No — Ollama requires TEMPLATE as a single quoted string. Use `\n` for line breaks inside the template."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Does blank line placement matter?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes — blank lines between PARAMETER blocks cause parser failure. Only separate distinct model sections with blanks."
+        }
+      }
+    ]
+  }
+]
   </script>
   <style>
 
@@ -64,6 +96,8 @@
     blockquote{border-left:3px solid #0f0;padding-left:1rem;margin:1rem 0;color:#999}
     hr{border:none;border-top:1px solid #333;margin:1.5rem 0}
     h3{color:#0f0;font-size:1rem;margin:1rem 0 .3rem}
+    .fix-num{display:inline-block;background:#0f0;color:#000;font-weight:bold;width:1.6rem;height:1.6rem;text-align:center;border-radius:50%;margin-right:.5rem;font-size:.85rem;line-height:1.6rem}
+    .faq-q{color:#0f0;font-weight:bold;margin:1rem 0 .3rem;cursor:pointer}
 
   </style>
 </head>
@@ -82,7 +116,7 @@
   <div class="transcript">
 <h2>Problem</h2>
 
-<p><code>Error: invalid model file format</code> when running <code>ollama create mymodel -f Modelfile</code>. The file exists but Ollama rejects it during parsing.</p>
+<p><code>Error: invalid model file format</code> when running <code>ollama create mymodel -f Modelfile</code>. The file exists but <a href="https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/ollama-model-not-responding-after-restart.html">ollama</a> rejects it during parsing.</p>
 
 <h2>Cause</h2>
 
@@ -91,7 +125,7 @@
   <li>Blank lines between parameter blocks (not allowed inside blocks)</li>
   <li><code>TEMPLATE</code> must be a single quoted string — multiline templates break the parser</li>
   <li><code>PARAMETER</code> values must not contain spaces without quotes</li>
-  <li>Byte Order Mark (BOM) in files saved from Windows editors</li>
+  <li>Byte Order Mark (BOM) in files saved from <a href="https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/ollama-wsl-connection-refused.html">windows</a> editors</li>
 </ul>
 
 <h2>Solution</h2>
@@ -121,6 +155,35 @@
 <h2>Reference</h2>
 
 <p>Ollama GitHub — Modelfile documentation and parser source in <code>parser.go</code>.</p>
+
+<h2>Test Environment</h2>
+<table>
+  <tr><th>Component</th><th>Spec</th></tr>
+    <tr><td>os</td><td>Windows 11 / WSL2</td></tr>
+    <tr><td>setup</td><td>Ollama 0.3.x</td></tr>
+</table>
+
+<h2>Step-by-Step Fixes</h2>
+<h3><span class="fix-num">1</span>Fix 1: Strip BOM and Normalize Line Endings</h3>
+<ol>
+  <li>Run `dos2unix Modelfile` to fix CRLF.</li>
+  <li>Strip BOM with `sed -i &#39;1s/^ï»¿//&#39; Modelfile`.</li>
+</ol>
+<h3><span class="fix-num">2</span>Fix 2: Flatten TEMPLATE to Single Line</h3>
+<ol>
+  <li>Join all TEMPLATE lines with `
+` escape sequences.</li>
+  <li>Ensure TEMPLATE is wrapped in double quotes.</li>
+</ol>
+
+<h2>FAQ</h2>
+<p class="faq-q">❯ What is a BOM and why does it break Ollama?</p>
+<p>A Byte Order Mark (EF BB BF) is prepended by Windows editors like Notepad. Ollama&#39;s parser does not skip it.</p>
+<p class="faq-q">❯ Can TEMPLATE span multiple lines?</p>
+<p>No — Ollama requires TEMPLATE as a single quoted string. Use `
+` for line breaks inside the template.</p>
+<p class="faq-q">❯ Does blank line placement matter?</p>
+<p>Yes — blank lines between PARAMETER blocks cause parser failure. Only separate distinct model sections with blanks.</p>
 
   </div>
   <footer>

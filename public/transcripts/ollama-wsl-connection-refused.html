@@ -19,19 +19,51 @@
   <meta name="twitter:title" content="Fix: Ollama connection refused between Docker/WSL2 and Windows — @0xRAGE.404" />
   <meta name="twitter:description" content="Fix: Ollama connection refused between Docker/WSL2 and Windows" />
   <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "TechArticle",
-  "headline": "Fix: Ollama connection refused between Docker/WSL2 and Windows",
-  "description": "Fix: Ollama connection refused between Docker/WSL2 and Windows",
-  "author": {
-    "@type": "Person",
-    "name": "@0xRAGE.404",
-    "url": "https://youtube.com/@0xRAGE.404"
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    "headline": "Fix: Ollama connection refused between Docker/WSL2 and Windows",
+    "description": "Fix: Ollama connection refused between Docker/WSL2 and Windows",
+    "author": {
+      "@type": "Person",
+      "name": "@0xRAGE.404",
+      "url": "https://youtube.com/@0xRAGE.404"
+    },
+    "datePublished": "2026-07-19T00:00:00Z",
+    "proficiencyLevel": "Intermediate"
   },
-  "datePublished": "2026-07-19T00:00:00Z",
-  "proficiencyLevel": "Intermediate"
-}
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Why doesn't localhost work from Windows to WSL2?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "WSL2 uses a virtual network with its own IP. Windows localhost does not forward to WSL2 services by default."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Does --network host fix Docker within WSL2?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes — `docker run --network host` makes the container use the WSL2 VM's network stack directly."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Is 0.0.0.0 safe for production?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "No — it exposes Ollama to all network interfaces. For production, bind to the specific WSL2 IP and use a firewall."
+        }
+      }
+    ]
+  }
+]
   </script>
   <style>
 
@@ -64,6 +96,8 @@
     blockquote{border-left:3px solid #0f0;padding-left:1rem;margin:1rem 0;color:#999}
     hr{border:none;border-top:1px solid #333;margin:1.5rem 0}
     h3{color:#0f0;font-size:1rem;margin:1rem 0 .3rem}
+    .fix-num{display:inline-block;background:#0f0;color:#000;font-weight:bold;width:1.6rem;height:1.6rem;text-align:center;border-radius:50%;margin-right:.5rem;font-size:.85rem;line-height:1.6rem}
+    .faq-q{color:#0f0;font-weight:bold;margin:1rem 0 .3rem;cursor:pointer}
 
   </style>
 </head>
@@ -82,7 +116,7 @@
   <div class="transcript">
 <h2>Problem</h2>
 
-<p><code>curl http://localhost:11434/api/generate</code> returns <code>Connection refused</code> when Ollama runs inside WSL2 or a Docker container on WSL2, accessed from Windows.</p>
+<p><code>curl http://localhost:11434/api/generate</code> returns <code>Connection refused</code> when <a href="https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/ollama-model-not-responding-after-restart.html">ollama</a> runs inside WSL2 or a <a href="https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/nvidia-smi-not-found-in-container.html">docker</a> <a href="https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/nvidia-smi-not-found-in-container.html">container</a> on WSL2, accessed from Windows.</p>
 
 <h2>Cause</h2>
 
@@ -115,6 +149,34 @@
 <h2>Reference</h2>
 
 <p>Microsoft WSL2 networking docs — "Accessing network applications".</p>
+
+<h2>Test Environment</h2>
+<table>
+  <tr><th>Component</th><th>Spec</th></tr>
+    <tr><td>os</td><td>Windows 11 / WSL2</td></tr>
+    <tr><td>gpu</td><td>RTX 3090</td></tr>
+    <tr><td>cuda</td><td>12.2</td></tr>
+</table>
+
+<h2>Step-by-Step Fixes</h2>
+<h3><span class="fix-num">1</span>Fix 1: Bind to All Interfaces</h3>
+<ol>
+  <li>Set `export OLLAMA_HOST=0.0.0.0`.</li>
+  <li><a href="https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/ollama-model-not-responding-after-restart.html">restart</a> Ollama <a href="https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/llama-cpp-server-http-auth-error.html">server</a>.</li>
+</ol>
+<h3><span class="fix-num">2</span>Fix 2: Use WSL2 IP from Windows</h3>
+<ol>
+  <li>Get WSL2 IP with `wsl -- hostname -I`.</li>
+  <li>Connect to `http://&lt;wsl-ip&gt;:11434` instead of localhost.</li>
+</ol>
+
+<h2>FAQ</h2>
+<p class="faq-q">❯ Why doesn&#39;t localhost work from Windows to WSL2?</p>
+<p>WSL2 uses a virtual network with its own IP. Windows localhost does not forward to WSL2 services by default.</p>
+<p class="faq-q">❯ Does --network host fix Docker within WSL2?</p>
+<p>Yes — `docker run --network host` makes the container use the WSL2 VM&#39;s network stack directly.</p>
+<p class="faq-q">❯ Is 0.0.0.0 safe for production?</p>
+<p>No — it exposes Ollama to all network interfaces. For production, bind to the specific WSL2 IP and use a firewall.</p>
 
   </div>
   <footer>

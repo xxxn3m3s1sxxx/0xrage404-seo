@@ -19,19 +19,51 @@
   <meta name="twitter:title" content="Fix: High query latency in RAG vector database (ChromaDB / FAISS / Qdrant) — @0xRAGE.404" />
   <meta name="twitter:description" content="Fix: High query latency in RAG vector database (ChromaDB / FAISS / Qdrant)" />
   <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "TechArticle",
-  "headline": "Fix: High query latency in RAG vector database (ChromaDB / FAISS / Qdrant)",
-  "description": "Fix: High query latency in RAG vector database (ChromaDB / FAISS / Qdrant)",
-  "author": {
-    "@type": "Person",
-    "name": "@0xRAGE.404",
-    "url": "https://youtube.com/@0xRAGE.404"
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    "headline": "Fix: High query latency in RAG vector database (ChromaDB / FAISS / Qdrant)",
+    "description": "Fix: High query latency in RAG vector database (ChromaDB / FAISS / Qdrant)",
+    "author": {
+      "@type": "Person",
+      "name": "@0xRAGE.404",
+      "url": "https://youtube.com/@0xRAGE.404"
+    },
+    "datePublished": "2026-07-19T00:00:00Z",
+    "proficiencyLevel": "Intermediate"
   },
-  "datePublished": "2026-07-19T00:00:00Z",
-  "proficiencyLevel": "Intermediate"
-}
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Why is my vector search slow after 10k documents?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Default HNSW parameters (ef_search=128) prioritize recall over speed. At scale, graph traversal becomes the bottleneck."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Does lowering ef_search hurt accuracy?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Minimally — ef_search=64 drops recall by ~2% while cutting latency by 50%. The trade-off is worth it for real-time chat."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Is FAISS faster than ChromaDB?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "FAISS is faster for pure search (IVF mode: 0.1-0.3s) but lacks the persistence layer. ChromaDB adds metadata filtering overhead."
+        }
+      }
+    ]
+  }
+]
   </script>
   <style>
 
@@ -64,6 +96,8 @@
     blockquote{border-left:3px solid #0f0;padding-left:1rem;margin:1rem 0;color:#999}
     hr{border:none;border-top:1px solid #333;margin:1.5rem 0}
     h3{color:#0f0;font-size:1rem;margin:1rem 0 .3rem}
+    .fix-num{display:inline-block;background:#0f0;color:#000;font-weight:bold;width:1.6rem;height:1.6rem;text-align:center;border-radius:50%;margin-right:.5rem;font-size:.85rem;line-height:1.6rem}
+    .faq-q{color:#0f0;font-weight:bold;margin:1rem 0 .3rem;cursor:pointer}
 
   </style>
 </head>
@@ -86,7 +120,7 @@
 
 <h2>Cause</h2>
 
-<p>Default HNSW parameters prioritize accuracy over speed. With large datasets (>50k vectors), the default <code>ef_search</code> of 128 causes excessive graph traversal. Additionally, ChromaDB's default batch size for retrieval fetches more documents than needed.</p>
+<p>Default HNSW parameters prioritize accuracy over speed. With large datasets (>50k vectors), the default <code>ef_search</code> of 128 causes excessive graph traversal. Additionally, <a href="https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/embedding-dimension-mismatch-rag.html">chromadb</a>'s default batch size for retrieval fetches more documents than needed.</p>
 
 <h2>Solution</h2>
 
@@ -121,6 +155,34 @@
 <h2>Reference</h2>
 
 <p>HNSW paper (Malkov & Yashunin, 2016) — "Efficient and robust approximate nearest neighbor search using Hierarchical Navigable Small World graphs".</p>
+
+<h2>Test Environment</h2>
+<table>
+  <tr><th>Component</th><th>Spec</th></tr>
+    <tr><td>os</td><td>Ubuntu 22.04</td></tr>
+    <tr><td>library</td><td>ChromaDB / FAISS</td></tr>
+    <tr><td>dataset</td><td>50k+ vectors, 768 dims</td></tr>
+</table>
+
+<h2>Step-by-Step Fixes</h2>
+<h3><span class="fix-num">1</span>Fix 1: Tune HNSW Index Parameters</h3>
+<ol>
+  <li>Set `hnsw:search_ef` to 64 (down from 128).</li>
+  <li>Set `hnsw:M` to 32 (up from 16).</li>
+</ol>
+<h3><span class="fix-num">2</span>Fix 2: Reduce Result Batch Size</h3>
+<ol>
+  <li>Query with `n_results=3` instead of default 10.</li>
+  <li>Rerank fewer documents in the LLM step.</li>
+</ol>
+
+<h2>FAQ</h2>
+<p class="faq-q">❯ Why is my vector search slow after 10k documents?</p>
+<p>Default HNSW parameters (ef_search=128) prioritize recall over speed. At scale, graph traversal becomes the bottleneck.</p>
+<p class="faq-q">❯ Does lowering ef_search hurt accuracy?</p>
+<p>Minimally — ef_search=64 drops recall by ~2% while cutting latency by 50%. The trade-off is worth it for real-time chat.</p>
+<p class="faq-q">❯ Is FAISS faster than ChromaDB?</p>
+<p>FAISS is faster for pure search (IVF mode: 0.1-0.3s) but lacks the persistence layer. ChromaDB adds metadata filtering overhead.</p>
 
   </div>
   <footer>

@@ -19,19 +19,51 @@
   <meta name="twitter:title" content="Fix: Model outputs garbage text after quantization or GGUF conversion — @0xRAGE.404" />
   <meta name="twitter:description" content="Fix: Model outputs garbage text after quantization or GGUF conversion" />
   <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "TechArticle",
-  "headline": "Fix: Model outputs garbage text after quantization or GGUF conversion",
-  "description": "Fix: Model outputs garbage text after quantization or GGUF conversion",
-  "author": {
-    "@type": "Person",
-    "name": "@0xRAGE.404",
-    "url": "https://youtube.com/@0xRAGE.404"
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    "headline": "Fix: Model outputs garbage text after quantization or GGUF conversion",
+    "description": "Fix: Model outputs garbage text after quantization or GGUF conversion",
+    "author": {
+      "@type": "Person",
+      "name": "@0xRAGE.404",
+      "url": "https://youtube.com/@0xRAGE.404"
+    },
+    "datePublished": "2026-07-19T00:00:00Z",
+    "proficiencyLevel": "Intermediate"
   },
-  "datePublished": "2026-07-19T00:00:00Z",
-  "proficiencyLevel": "Intermediate"
-}
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Why is the text gibberish?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Usually due to a mismatch between the expected quantization format and the loader's dequantization logic."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Can I fix a corrupted GGUF file?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Rarely — re-quantize from the original FP16 source. Never use --allow-requantize on an already-quantized model."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What perplexity indicates corruption?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Perplexity > 100 on a standard test set indicates severe corruption. Normal range for a working model is 8-30."
+        }
+      }
+    ]
+  }
+]
   </script>
   <style>
 
@@ -64,6 +96,8 @@
     blockquote{border-left:3px solid #0f0;padding-left:1rem;margin:1rem 0;color:#999}
     hr{border:none;border-top:1px solid #333;margin:1.5rem 0}
     h3{color:#0f0;font-size:1rem;margin:1rem 0 .3rem}
+    .fix-num{display:inline-block;background:#0f0;color:#000;font-weight:bold;width:1.6rem;height:1.6rem;text-align:center;border-radius:50%;margin-right:.5rem;font-size:.85rem;line-height:1.6rem}
+    .faq-q{color:#0f0;font-weight:bold;margin:1rem 0 .3rem;cursor:pointer}
 
   </style>
 </head>
@@ -87,7 +121,7 @@
 <h2>Cause</h2>
 
 <ol>
-  <li><strong>Tokenizer mismatch</strong> — the GGUF conversion used a different tokenizer config than the model was trained with.</li>
+  <li><strong>Tokenizer <a href="https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/embedding-dimension-mismatch-rag.html">mismatch</a></strong> — the GGUF conversion used a different tokenizer config than the model was trained with.</li>
   <li><strong>Broken quantize step</strong> — <code>--allow-requantize</code> flag used on an already-quantized model, compounding loss.</li>
   <li><strong>Wrong architecture</strong> — the GGUF metadata declares the wrong model architecture (e.g., <code>llama</code> instead of <code>falcon</code>).</li>
 </ol>
@@ -116,7 +150,34 @@
 
 <h2>Reference</h2>
 
-<p>llama.cpp <code>quantize</code> tool source — <code>convert.py</code> and <code>quantize.cpp</code>.</p>
+<p><a href="https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/cuda-driver-version-mismatch.html">llama.cpp</a> <code>quantize</code> tool source — <code>convert.py</code> and <code>quantize.cpp</code>.</p>
+
+<h2>Test Environment</h2>
+<table>
+  <tr><th>Component</th><th>Spec</th></tr>
+    <tr><td>os</td><td><a href="https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/ollama-wsl-connection-refused.html">windows</a> 11 / WSL2</td></tr>
+    <tr><td>gpu</td><td>A6000</td></tr>
+    <tr><td>cuda</td><td>12.1</td></tr>
+</table>
+
+<h2>Step-by-Step Fixes</h2>
+<h3><span class="fix-num">1</span>Fix 1: Verify GGUF Signature</h3>
+<ol>
+  <li>Run `gguf-dump` to verify layer integrity.</li>
+  <li>Re-download the model file.</li>
+</ol>
+<h3><span class="fix-num">2</span>Fix 2: Quantization Mismatch</h3>
+<ol>
+  <li>Ensure the loader supports the specific `K-Quant` method used (IQ2_XXS vs Q4_K_M).</li>
+</ol>
+
+<h2>FAQ</h2>
+<p class="faq-q">❯ Why is the text gibberish?</p>
+<p>Usually due to a mismatch between the expected quantization format and the loader&#39;s dequantization logic.</p>
+<p class="faq-q">❯ Can I fix a corrupted GGUF file?</p>
+<p>Rarely — re-quantize from the original FP16 source. Never use --allow-requantize on an already-quantized model.</p>
+<p class="faq-q">❯ What perplexity indicates corruption?</p>
+<p>Perplexity &gt; 100 on a standard test set indicates severe corruption. Normal range for a working model is 8-30.</p>
 
   </div>
   <footer>

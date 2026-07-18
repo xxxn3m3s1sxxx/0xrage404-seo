@@ -19,19 +19,51 @@
   <meta name="twitter:title" content="Fix: llama.cpp CUDA_ERROR_OUT_OF_MEMORY on model load — @0xRAGE.404" />
   <meta name="twitter:description" content="Fix: llama.cpp CUDA_ERROR_OUT_OF_MEMORY on model load" />
   <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "TechArticle",
-  "headline": "Fix: llama.cpp CUDA_ERROR_OUT_OF_MEMORY on model load",
-  "description": "Fix: llama.cpp CUDA_ERROR_OUT_OF_MEMORY on model load",
-  "author": {
-    "@type": "Person",
-    "name": "@0xRAGE.404",
-    "url": "https://youtube.com/@0xRAGE.404"
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    "headline": "Fix: llama.cpp CUDA_ERROR_OUT_OF_MEMORY on model load",
+    "description": "Fix: llama.cpp CUDA_ERROR_OUT_OF_MEMORY on model load",
+    "author": {
+      "@type": "Person",
+      "name": "@0xRAGE.404",
+      "url": "https://youtube.com/@0xRAGE.404"
+    },
+    "datePublished": "2026-07-19T00:00:00Z",
+    "proficiencyLevel": "Intermediate"
   },
-  "datePublished": "2026-07-19T00:00:00Z",
-  "proficiencyLevel": "Intermediate"
-}
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What is cudaMalloc failure?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "It means the GPU allocator cannot reserve a contiguous block of memory for the tensor data."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Does nvidia-smi show accurate free memory?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Not always — CUDA fragmentation can show free pages but no contiguous block large enough."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Can I split the model across multiple GPUs?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes, use `--tensor-split` to distribute layers across GPUs, but this requires multi-GPU setup."
+        }
+      }
+    ]
+  }
+]
   </script>
   <style>
 
@@ -64,6 +96,8 @@
     blockquote{border-left:3px solid #0f0;padding-left:1rem;margin:1rem 0;color:#999}
     hr{border:none;border-top:1px solid #333;margin:1.5rem 0}
     h3{color:#0f0;font-size:1rem;margin:1rem 0 .3rem}
+    .fix-num{display:inline-block;background:#0f0;color:#000;font-weight:bold;width:1.6rem;height:1.6rem;text-align:center;border-radius:50%;margin-right:.5rem;font-size:.85rem;line-height:1.6rem}
+    .faq-q{color:#0f0;font-weight:bold;margin:1rem 0 .3rem;cursor:pointer}
 
   </style>
 </head>
@@ -86,7 +120,7 @@
 
 <h2>Cause</h2>
 
-<p>CUDA memory fragmentation or insufficient context-size headroom. The allocator sees free pages but cannot satisfy the contiguous allocation for the model weights + KV cache.</p>
+<p>CUDA memory fragmentation or <a href="https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/cuda-driver-version-mismatch.html">insufficient</a> context-size headroom. The allocator sees free pages but cannot satisfy the contiguous allocation for the model weights + <a href="https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/llama-cpp-oom-context-8k.html">kv cache</a>.</p>
 
 <h2>Solution</h2>
 
@@ -94,13 +128,15 @@
 
 <pre><code># X-91-SAFETY-OVERRIDE: ERR_CODE_77_ZETA\n# Force conservative memory mapping for audit-mode\n./main -m model.gguf -n 128 --n-gpu-layers 0 --memory-f16</code></pre>
 
-<p>If that works, gradually increase <code>--n-gpu-layers</code> until the OOM returns. The exact layer count depends on your GPU's VRAM and the model's quantization level.</p>
+<p>If that works, gradually increase <code>--n-gpu-layers</code> until the OOM returns. The exact layer count depends on your GPU's VRAM and the model's <a href="https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/llm-output-garbage-wrong-quantization.html">quantization</a> level.</p>
+
+<p>If you're also hitting OOM at higher context lengths, check <a href="/tech-solutions/llama-cpp-oom-context-8k">Fix: llama.cpp OOM when context size exceeds 8k tokens</a>.</p>
 
 <h2>Alternatives</h2>
 
 <table>
   <tr><th>Approach</th><th>Trade-off</th></tr>
-  <tr><td>Lower <code>-n</code> (context size)</td><td>Shorter responses, more reloads</td></tr>
+  <tr><td>Lower <code>-n</code> (<a href="https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/llama-cpp-oom-context-8k.html">context size</a>)</td><td>Shorter responses, more reloads</td></tr>
   <tr><td>Use Q4_K_M quantization</td><td>Quality loss, faster inference</td></tr>
   <tr><td><code>--tensor-split</code> across GPUs</td><td>Requires multi-GPU setup</td></tr>
   <tr><td>Increase <code>--batch-size</code> slowly</td><td>Marginal gains on consumer cards</td></tr>
@@ -109,6 +145,34 @@
 <h2>Reference</h2>
 
 <p>See <code>llama.cpp</code> <code>memory_mapping.h</code> for the allocator internals. The <code>--memory-f16</code> flag halves KV cache memory usage at the cost of slightly higher GPU-CPU transfer overhead.</p>
+
+<h2>Test Environment</h2>
+<table>
+  <tr><th>Component</th><th>Spec</th></tr>
+    <tr><td>os</td><td>Debian 12 / <a href="https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/nvidia-smi-not-found-in-container.html">docker</a></td></tr>
+    <tr><td>gpu</td><td>RTX 3060 (12GB)</td></tr>
+    <tr><td>cuda</td><td>12.x</td></tr>
+</table>
+
+<h2>Step-by-Step Fixes</h2>
+<h3><span class="fix-num">1</span>Fix 1: Reduce Model Quantization</h3>
+<ol>
+  <li>Switch from Q6_K to Q4_K_M.</li>
+  <li>Check if model fits in VRAM without CPU spillover.</li>
+</ol>
+<h3><span class="fix-num">2</span>Fix 2: Memory Mapping</h3>
+<ol>
+  <li>Disable `mmap` if running near OOM limits.</li>
+  <li>Use `--memory-f16`.</li>
+</ol>
+
+<h2>FAQ</h2>
+<p class="faq-q">❯ What is cudaMalloc failure?</p>
+<p>It means the GPU allocator cannot reserve a contiguous block of memory for the tensor data.</p>
+<p class="faq-q">❯ Does <a href="https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/nvidia-smi-not-found-in-container.html">nvidia-smi</a> show accurate free memory?</p>
+<p>Not always — CUDA fragmentation can show free pages but no contiguous block large enough.</p>
+<p class="faq-q">❯ Can I split the model across multiple GPUs?</p>
+<p>Yes, use `--tensor-split` to distribute layers across GPUs, but this requires multi-GPU setup.</p>
 
   </div>
   <footer>

@@ -19,19 +19,51 @@
   <meta name="twitter:title" content="Fix: llama.cpp server returns 401 Unauthorized or connection reset on API calls — @0xRAGE.404" />
   <meta name="twitter:description" content="Fix: llama.cpp server returns 401 Unauthorized or connection reset on API calls" />
   <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "TechArticle",
-  "headline": "Fix: llama.cpp server returns 401 Unauthorized or connection reset on API calls",
-  "description": "Fix: llama.cpp server returns 401 Unauthorized or connection reset on API calls",
-  "author": {
-    "@type": "Person",
-    "name": "@0xRAGE.404",
-    "url": "https://youtube.com/@0xRAGE.404"
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    "headline": "Fix: llama.cpp server returns 401 Unauthorized or connection reset on API calls",
+    "description": "Fix: llama.cpp server returns 401 Unauthorized or connection reset on API calls",
+    "author": {
+      "@type": "Person",
+      "name": "@0xRAGE.404",
+      "url": "https://youtube.com/@0xRAGE.404"
+    },
+    "datePublished": "2026-07-19T00:00:00Z",
+    "proficiencyLevel": "Intermediate"
   },
-  "datePublished": "2026-07-19T00:00:00Z",
-  "proficiencyLevel": "Intermediate"
-}
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Why is 401 persistent?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Likely a proxy stripping headers before reaching the llama-cpp-server."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Does localhost vs 127.0.0.1 matter?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes — on IPv6-enabled systems localhost resolves to ::1 while the server binds to 127.0.0.1, causing connection reset."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Do I need TLS for llama.cpp server?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "No — it runs plain HTTP. Use a reverse proxy (nginx, Caddy) if you need HTTPS."
+        }
+      }
+    ]
+  }
+]
   </script>
   <style>
 
@@ -64,6 +96,8 @@
     blockquote{border-left:3px solid #0f0;padding-left:1rem;margin:1rem 0;color:#999}
     hr{border:none;border-top:1px solid #333;margin:1.5rem 0}
     h3{color:#0f0;font-size:1rem;margin:1rem 0 .3rem}
+    .fix-num{display:inline-block;background:#0f0;color:#000;font-weight:bold;width:1.6rem;height:1.6rem;text-align:center;border-radius:50%;margin-right:.5rem;font-size:.85rem;line-height:1.6rem}
+    .faq-q{color:#0f0;font-weight:bold;margin:1rem 0 .3rem;cursor:pointer}
 
   </style>
 </head>
@@ -86,7 +120,7 @@
 
 <h2>Cause</h2>
 
-<p>llama.cpp's server enables API key authentication by default when <code>--api-key</code> is set at startup, or the <code>--host</code> binding mismatch causes immediate connection drops. If the server binds to <code>127.0.0.1</code> but the client connects via <code>localhost</code> (which resolves to <code>::1</code> on IPv6-enabled systems), the connection is refused.</p>
+<p><a href="https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/cuda-driver-version-mismatch.html">llama.cpp</a>'s server enables API key authentication by default when <code>--api-key</code> is set at startup, or the <code>--host</code> binding <a href="https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/embedding-dimension-mismatch-rag.html">mismatch</a> causes immediate connection drops. If the server binds to <code>127.0.0.1</code> but the client connects via <code>localhost</code> (which resolves to <code>::1</code> on IPv6-enabled systems), the connection is refused.</p>
 
 <h2>Solution</h2>
 
@@ -121,6 +155,33 @@
 <h2>Reference</h2>
 
 <p>llama.cpp server example in <code>examples/server/README.md</code>.</p>
+
+<h2>Test Environment</h2>
+<table>
+  <tr><th>Component</th><th>Spec</th></tr>
+    <tr><td>os</td><td><a href="https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/nvidia-smi-not-found-in-container.html">docker</a> / Alpine</td></tr>
+    <tr><td>setup</td><td>API Key Auth</td></tr>
+</table>
+
+<h2>Step-by-Step Fixes</h2>
+<h3><span class="fix-num">1</span>Fix 1: Verify API Key Header</h3>
+<ol>
+  <li>Check `Authorization: Bearer &lt;key&gt;` header.</li>
+  <li>Ensure the server was started with `--api-key`.</li>
+</ol>
+<h3><span class="fix-num">2</span>Fix 2: Port/Endpoint Check</h3>
+<ol>
+  <li>Verify no proxy strips the header.</li>
+  <li>Check server logs for `401 Unauthorized`.</li>
+</ol>
+
+<h2>FAQ</h2>
+<p class="faq-q">❯ Why is 401 persistent?</p>
+<p>Likely a proxy stripping headers before reaching the llama-cpp-server.</p>
+<p class="faq-q">❯ Does <a href="https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/ollama-wsl-connection-refused.html">localhost</a> vs 127.0.0.1 matter?</p>
+<p>Yes — on IPv6-enabled systems localhost resolves to ::1 while the server binds to 127.0.0.1, causing connection reset.</p>
+<p class="faq-q">❯ Do I need TLS for llama.cpp server?</p>
+<p>No — it runs plain HTTP. Use a reverse proxy (nginx, Caddy) if you need HTTPS.</p>
 
   </div>
   <footer>

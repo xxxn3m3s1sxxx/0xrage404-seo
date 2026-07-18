@@ -19,19 +19,51 @@
   <meta name="twitter:title" content="Fix: IndexError — chunk size exceeds model context window in RAG pipeline — @0xRAGE.404" />
   <meta name="twitter:description" content="Fix: IndexError — chunk size exceeds model context window in RAG pipeline" />
   <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "TechArticle",
-  "headline": "Fix: IndexError — chunk size exceeds model context window in RAG pipeline",
-  "description": "Fix: IndexError — chunk size exceeds model context window in RAG pipeline",
-  "author": {
-    "@type": "Person",
-    "name": "@0xRAGE.404",
-    "url": "https://youtube.com/@0xRAGE.404"
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    "headline": "Fix: IndexError — chunk size exceeds model context window in RAG pipeline",
+    "description": "Fix: IndexError — chunk size exceeds model context window in RAG pipeline",
+    "author": {
+      "@type": "Person",
+      "name": "@0xRAGE.404",
+      "url": "https://youtube.com/@0xRAGE.404"
+    },
+    "datePublished": "2026-07-19T00:00:00Z",
+    "proficiencyLevel": "Intermediate"
   },
-  "datePublished": "2026-07-19T00:00:00Z",
-  "proficiencyLevel": "Intermediate"
-}
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Is chunk_size the same as context window?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "No — the embedder has its own max sequence length (e.g., 512 for all-MiniLM). Chunk size must fit within the LLM's context, not the embedder's."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What is the ideal chunk size?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "25% of the LLM's context window. For an 8k model, use 2048. This leaves room for the system prompt, instructions, and query."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Does chunk overlap help?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes — 10-15% overlap prevents information loss at chunk boundaries, especially for multi-document retrieval."
+        }
+      }
+    ]
+  }
+]
   </script>
   <style>
 
@@ -64,6 +96,8 @@
     blockquote{border-left:3px solid #0f0;padding-left:1rem;margin:1rem 0;color:#999}
     hr{border:none;border-top:1px solid #333;margin:1.5rem 0}
     h3{color:#0f0;font-size:1rem;margin:1rem 0 .3rem}
+    .fix-num{display:inline-block;background:#0f0;color:#000;font-weight:bold;width:1.6rem;height:1.6rem;text-align:center;border-radius:50%;margin-right:.5rem;font-size:.85rem;line-height:1.6rem}
+    .faq-q{color:#0f0;font-weight:bold;margin:1rem 0 .3rem;cursor:pointer}
 
   </style>
 </head>
@@ -86,7 +120,7 @@
 
 <h2>Cause</h2>
 
-<p>The embedding model's max sequence length (e.g., 512 tokens for <code>all-MiniLM-L6-v2</code>) is independent of the LLM's context window. If the chunker splits at 8000 characters but the LLM has 4096 token context, the concatenated prompt overflows.</p>
+<p>The <a href="https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/embedding-dimension-mismatch-rag.html">embedding</a> model's max sequence length (e.g., 512 tokens for <code>all-MiniLM-L6-v2</code>) is independent of the LLM's context window. If the chunker splits at 8000 characters but the LLM has 4096 token context, the concatenated prompt overflows.</p>
 
 <h2>Solution</h2>
 
@@ -106,13 +140,41 @@
   <tr><th>Strategy</th><th>Trade-off</th></tr>
   <tr><td>Smaller chunks (512–1024)</td><td>More retrievals, less context per chunk</td></tr>
   <tr><td>Dynamic truncation</td><td>Loses tail of retrieved documents</td></tr>
-  <tr><td>Sliding window reranking</td><td>Higher latency, better precision</td></tr>
+  <tr><td>Sliding window reranking</td><td>Higher <a href="https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/rag-vector-database-query-latency.html">latency</a>, better precision</td></tr>
   <tr><td>Use model with larger context (32k)</td><td>Higher VRAM cost, slower inference</td></tr>
 </table>
 
 <h2>Reference</h2>
 
 <p>LangChain docs on <code>text_splitter</code> — recommend chunk_size at 25% of model context.</p>
+
+<h2>Test Environment</h2>
+<table>
+  <tr><th>Component</th><th>Spec</th></tr>
+    <tr><td>os</td><td>Ubuntu 22.04</td></tr>
+    <tr><td>library</td><td>LangChain / <a href="https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/embedding-dimension-mismatch-rag.html">chromadb</a></td></tr>
+    <tr><td>model</td><td>Llama 3.1 8B (8k context)</td></tr>
+</table>
+
+<h2>Step-by-Step Fixes</h2>
+<h3><span class="fix-num">1</span>Fix 1: Align Chunk Size with LLM Context</h3>
+<ol>
+  <li>Set chunk_size to 2048 (25% of 8k context).</li>
+  <li>Set chunk_overlap to 200 tokens.</li>
+</ol>
+<h3><span class="fix-num">2</span>Fix 2: Add Prompt Length Assertion</h3>
+<ol>
+  <li>Calculate effective prompt length before inference.</li>
+  <li>Assert `tokens &lt; MAX_CTX` and truncate if needed.</li>
+</ol>
+
+<h2>FAQ</h2>
+<p class="faq-q">❯ Is chunk_size the same as context window?</p>
+<p>No — the embedder has its own max sequence length (e.g., 512 for all-MiniLM). Chunk size must fit within the LLM&#39;s context, not the embedder&#39;s.</p>
+<p class="faq-q">❯ What is the ideal chunk size?</p>
+<p>25% of the LLM&#39;s context window. For an 8k model, use 2048. This leaves room for the system prompt, instructions, and query.</p>
+<p class="faq-q">❯ Does chunk overlap help?</p>
+<p>Yes — 10-15% overlap prevents information loss at chunk boundaries, especially for multi-document retrieval.</p>
 
   </div>
   <footer>

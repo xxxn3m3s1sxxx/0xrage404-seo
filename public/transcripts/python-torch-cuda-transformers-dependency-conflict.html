@@ -19,19 +19,51 @@
   <meta name="twitter:title" content="Fix: torch / cuda / transformers version conflicts in local LLM projects — @0xRAGE.404" />
   <meta name="twitter:description" content="Fix: torch / cuda / transformers version conflicts in local LLM projects" />
   <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "TechArticle",
-  "headline": "Fix: torch / cuda / transformers version conflicts in local LLM projects",
-  "description": "Fix: torch / cuda / transformers version conflicts in local LLM projects",
-  "author": {
-    "@type": "Person",
-    "name": "@0xRAGE.404",
-    "url": "https://youtube.com/@0xRAGE.404"
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    "headline": "Fix: torch / cuda / transformers version conflicts in local LLM projects",
+    "description": "Fix: torch / cuda / transformers version conflicts in local LLM projects",
+    "author": {
+      "@type": "Person",
+      "name": "@0xRAGE.404",
+      "url": "https://youtube.com/@0xRAGE.404"
+    },
+    "datePublished": "2026-07-19T00:00:00Z",
+    "proficiencyLevel": "Intermediate"
   },
-  "datePublished": "2026-07-19T00:00:00Z",
-  "proficiencyLevel": "Intermediate"
-}
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Why does pip install succeed but runtime crash?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "PyTorch and transformers are version-locked. Each transformers release drops support for older torch builds."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How do I check CUDA compatibility?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Run `python -c 'import torch; print(torch.cuda.is_available())'`. False means the torch CUDA version mismatches your driver."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Can I use conda instead of pip?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes — conda handles CUDA dependencies better. Use `conda install pytorch torchvision torchaudio pytorch-cuda=12.1 -c pytorch -c nvidia`."
+        }
+      }
+    ]
+  }
+]
   </script>
   <style>
 
@@ -64,6 +96,8 @@
     blockquote{border-left:3px solid #0f0;padding-left:1rem;margin:1rem 0;color:#999}
     hr{border:none;border-top:1px solid #333;margin:1.5rem 0}
     h3{color:#0f0;font-size:1rem;margin:1rem 0 .3rem}
+    .fix-num{display:inline-block;background:#0f0;color:#000;font-weight:bold;width:1.6rem;height:1.6rem;text-align:center;border-radius:50%;margin-right:.5rem;font-size:.85rem;line-height:1.6rem}
+    .faq-q{color:#0f0;font-weight:bold;margin:1rem 0 .3rem;cursor:pointer}
 
   </style>
 </head>
@@ -82,11 +116,11 @@
   <div class="transcript">
 <h2>Problem</h2>
 
-<p><code>ImportError: cannot import name 'X' from 'transformers'</code> or <code>RuntimeError: CUDA error: no kernel image is available for execution on the device</code>. Pip installs succeed but runtime crashes with cryptic version errors.</p>
+<p><code>ImportError: cannot import name 'X' from 'transformers'</code> or <code>RuntimeError: CUDA error: no kernel image is available for execution on the device</code>. Pip installs succeed but <a href="https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/cuda-driver-version-mismatch.html">runtime</a> crashes with cryptic version errors.</p>
 
 <h2>Cause</h2>
 
-<p>PyTorch, CUDA toolkit bindings, and HuggingFace <code>transformers</code> are version-locked. Mixing <code>torch 2.1.0+cuda121</code> with <code>transformers 4.30.0</code> works, but <code>torch 2.4.0+cuda124</code> with <code>transformers 4.35.0</code> may not — each <code>transformers</code> release drops support for older torch builds.</p>
+<p>PyTorch, <a href="https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/cuda-driver-version-mismatch.html">cuda toolkit</a> bindings, and HuggingFace <code>transformers</code> are version-locked. Mixing <code>torch 2.1.0+cuda121</code> with <code>transformers 4.30.0</code> works, but <code>torch 2.4.0+cuda124</code> with <code>transformers 4.35.0</code> may not — each <code>transformers</code> release drops support for older torch builds.</p>
 
 <h2>Solution</h2>
 
@@ -98,7 +132,7 @@
 
 <pre><code>python -c &quot;import torch; print(torch.__version__); print(torch.cuda.is_available())&quot;\npython -c &quot;import transformers; print(transformers.__version__)&quot;</code></pre>
 
-<p>If <code>torch.cuda.is_available()</code> returns <code>False</code> despite <code>nvidia-smi</code> showing GPUs, the CUDA version baked into torch does not match your driver.</p>
+<p>If <code>torch.cuda.is_available()</code> returns <code>False</code> despite <code>nvidia-smi</code> showing GPUs, the CUDA version baked into torch does not match your <a href="https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/cuda-driver-version-mismatch.html">driver</a>.</p>
 
 <h2>Compatible Versions</h2>
 
@@ -115,7 +149,35 @@
 
 <h2>Reference</h2>
 
-<p>HuggingFace <code>transformers</code> installation page — "Backwards compatibility" table.</p>
+<p>HuggingFace <code>transformers</code> installation page — "Backwards <a href="https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/cuda-driver-version-mismatch.html">compatibility</a>" table.</p>
+
+<h2>Test Environment</h2>
+<table>
+  <tr><th>Component</th><th>Spec</th></tr>
+    <tr><td>os</td><td>Ubuntu 22.04 / <a href="https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/ollama-wsl-connection-refused.html">windows</a> 11</td></tr>
+    <tr><td>gpu</td><td>Any CUDA GPU</td></tr>
+    <tr><td>cuda</td><td>12.1 / 12.4</td></tr>
+</table>
+
+<h2>Step-by-Step Fixes</h2>
+<h3><span class="fix-num">1</span>Fix 1: Pin Exact Version Triplet</h3>
+<ol>
+  <li>Install torch matching your CUDA driver: `pip install torch==2.4.0 --index-url https://download.pytorch.org/whl/cu124`.</li>
+  <li>Pin transformers and accelerate to compatible versions.</li>
+</ol>
+<h3><span class="fix-num">2</span>Fix 2: Use Deterministic Environment Manager</h3>
+<ol>
+  <li>Switch to `uv` or `pixi` for reproducible environments.</li>
+  <li>Export lockfile and commit to repo.</li>
+</ol>
+
+<h2>FAQ</h2>
+<p class="faq-q">❯ Why does pip install succeed but runtime crash?</p>
+<p>PyTorch and transformers are version-locked. Each transformers release drops support for older torch builds.</p>
+<p class="faq-q">❯ How do I check CUDA compatibility?</p>
+<p>Run `python -c &#39;import torch; print(torch.cuda.is_available())&#39;`. False means the torch CUDA version mismatches your driver.</p>
+<p class="faq-q">❯ Can I use conda instead of pip?</p>
+<p>Yes — conda handles CUDA dependencies better. Use `conda install pytorch torchvision torchaudio pytorch-cuda=12.1 -c pytorch -c <a href="https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/cuda-driver-version-mismatch.html">nvidia</a>`.</p>
 
   </div>
   <footer>

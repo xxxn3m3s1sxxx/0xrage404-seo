@@ -19,19 +19,51 @@
   <meta name="twitter:title" content="Fix: llama.cpp OOM when context size exceeds 8k tokens — @0xRAGE.404" />
   <meta name="twitter:description" content="Fix: llama.cpp OOM when context size exceeds 8k tokens" />
   <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "TechArticle",
-  "headline": "Fix: llama.cpp OOM when context size exceeds 8k tokens",
-  "description": "Fix: llama.cpp OOM when context size exceeds 8k tokens",
-  "author": {
-    "@type": "Person",
-    "name": "@0xRAGE.404",
-    "url": "https://youtube.com/@0xRAGE.404"
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    "headline": "Fix: llama.cpp OOM when context size exceeds 8k tokens",
+    "description": "Fix: llama.cpp OOM when context size exceeds 8k tokens",
+    "author": {
+      "@type": "Person",
+      "name": "@0xRAGE.404",
+      "url": "https://youtube.com/@0xRAGE.404"
+    },
+    "datePublished": "2026-07-19T00:00:00Z",
+    "proficiencyLevel": "Intermediate"
   },
-  "datePublished": "2026-07-19T00:00:00Z",
-  "proficiencyLevel": "Intermediate"
-}
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Why does 8k context crash my GPU?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The KV cache size grows quadratically with context length. 24GB is often insufficient for 8k on 30B+ models."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Does --memory-f16 help with OOM?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes, it halves KV cache memory usage at the cost of slightly higher GPU-CPU transfer overhead."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Can I use context shifting instead of reducing context?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes, `--rope-scaling` with context shifting fits longer context without proportional memory growth, but requires model support."
+        }
+      }
+    ]
+  }
+]
   </script>
   <style>
 
@@ -64,6 +96,8 @@
     blockquote{border-left:3px solid #0f0;padding-left:1rem;margin:1rem 0;color:#999}
     hr{border:none;border-top:1px solid #333;margin:1.5rem 0}
     h3{color:#0f0;font-size:1rem;margin:1rem 0 .3rem}
+    .fix-num{display:inline-block;background:#0f0;color:#000;font-weight:bold;width:1.6rem;height:1.6rem;text-align:center;border-radius:50%;margin-right:.5rem;font-size:.85rem;line-height:1.6rem}
+    .faq-q{color:#0f0;font-weight:bold;margin:1rem 0 .3rem;cursor:pointer}
 
   </style>
 </head>
@@ -96,19 +130,49 @@
 
 <p>KV cache memory ≈ <code>n_layers * n_ctx * d_model * 2 * 2</code> bytes. Half it with <code>--memory-f16</code>.</p>
 
+<p>For more on CUDA allocator failures, see <a href="/tech-solutions/llama-cpp-oom-cuda-malloc-failed">Fix: llama.cpp CUDA_ERROR_OUT_OF_MEMORY on model load</a>.</p>
+
 <h2>Alternatives</h2>
 
 <table>
   <tr><th>Approach</th><th>Effect</th></tr>
   <tr><td><code>--memory-f16</code></td><td>Halves KV cache at slight accuracy cost</td></tr>
   <tr><td>Lower <code>--n-gpu-layers</code></td><td>Offloads some layers to system RAM</td></tr>
-  <tr><td>Use Q2_K quantization</td><td>Sacrifices quality, reduces model size by ~30%</td></tr>
+  <tr><td>Use Q2_K <a href="https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/llm-output-garbage-wrong-quantization.html">quantization</a></td><td>Sacrifices quality, reduces model size by ~30%</td></tr>
   <tr><td>Context shifting (<code>--rope-scaling</code>)</td><td>Fits longer context without memory growth</td></tr>
 </table>
 
 <h2>Reference</h2>
 
 <p><code>llama.cpp</code> KV cache allocator in <code>llama.c</code> — function <code>llama_kv_cache_init</code>.</p>
+
+<h2>Test Environment</h2>
+<table>
+  <tr><th>Component</th><th>Spec</th></tr>
+    <tr><td>os</td><td>Ubuntu 22.04 / WSL2</td></tr>
+    <tr><td>gpu</td><td>RTX 3090 / 4090 (24GB VRAM)</td></tr>
+    <tr><td>cuda</td><td>12.2</td></tr>
+</table>
+
+<h2>Step-by-Step Fixes</h2>
+<h3><span class="fix-num">1</span>Fix 1: Reduce <a href="https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/rag-chunk-size-exceeds-context-window.html">context window</a> (n_ctx)</h3>
+<ol>
+  <li>Set `--n-ctx` to 4096 instead of 8192.</li>
+  <li>Check VRAM usage with `<a href="https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/nvidia-smi-not-found-in-container.html">nvidia-smi</a>`.</li>
+</ol>
+<h3><span class="fix-num">2</span>Fix 2: Offload Layers (n_gpu_layers)</h3>
+<ol>
+  <li>Reduce `--n-gpu-layers` to force CPU fallback for KV cache.</li>
+  <li>Enable `--flash-attn` if supported by the model.</li>
+</ol>
+
+<h2>FAQ</h2>
+<p class="faq-q">❯ Why does 8k context crash my GPU?</p>
+<p>The KV cache size grows quadratically with context length. 24GB is often <a href="https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/cuda-driver-version-mismatch.html">insufficient</a> for 8k on 30B+ models.</p>
+<p class="faq-q">❯ Does --memory-f16 help with OOM?</p>
+<p>Yes, it halves KV cache memory usage at the cost of slightly higher GPU-CPU transfer overhead.</p>
+<p class="faq-q">❯ Can I use context shifting instead of reducing context?</p>
+<p>Yes, `--rope-scaling` with context shifting fits longer context without proportional memory growth, but requires model support.</p>
 
   </div>
   <footer>
