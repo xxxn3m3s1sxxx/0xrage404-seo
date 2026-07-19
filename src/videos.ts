@@ -13,6 +13,8 @@ export interface Video {
 }
 
 export const VIDEOS: Video[] = [
+  { id: "gVkmqCzLxSo", title: "Your Standups Are Worthless", topic: "agile", blurb: "Scrum circus, useless standups, and Agile as a bureaucracy monster.", file: "Agile_is_a_cargo_cult_002", thumb: true, date: "2026-07-19", public: true },
+  { id: "fDWeMC56a6A", title: "Stop pretending Kubernetes is acceptable.", topic: "kubernetes", blurb: "YAML atrocities, operator madness, and K8s overkill for 90% of teams.", file: "manual_fDWeMC56a6A", thumb: true, date: "2026-07-19", public: true },
   { id: "PzHyh7QQAMc", title: "Your Test Suite Is Lying To You", topic: "ai", blurb: "Rage-Bait Tech Short about Your Test Suite Is Lying To You", file: "your_test_suite_is_lying_to_you_001", thumb: true, date: "2026-07-18", public: true },
   { id: "kxEx1hz9grQ", title: "Your Coding Standards Are Worthless", topic: "ai", blurb: "Rage-Bait Tech Short about Your Coding Standards Are Worthless", file: "your_coding_standards_are_worthless_001", thumb: true, date: "2026-07-18", public: true },
   { id: "I38ot3y3lBY", title: "Your Ci Pipeline Is Toxic", topic: "ai", blurb: "Rage-Bait Tech Short about Your Ci Pipeline Is Toxic", file: "your_CI_pipeline_is_toxic_001", thumb: true, date: "2026-07-18", public: true },
@@ -70,6 +72,4 @@ export const VIDEOS: Video[] = [
   { id: "yccGAPdtnpk", title: "Here's why you're wrong about Go.", topic: "go", blurb: "Error handling joke, goroutine leaks, and Go’s fake simplicity.", file: "manual_yccGAPdtnpk", thumb: false, date: "2026-07-21", public: false },
   { id: "-2zXEBj2l7E", title: "Kubernetes Is Too Complex", topic: "kubernetes", blurb: "YAML atrocities, operator madness, and K8s overkill for 90% of teams.", file: "Kubernetes_is_too_complex_001", thumb: false, date: "2026-07-20", public: false },
   { id: "lBR7_yn_3yo", title: "You think Docker is fine?", topic: "docker", blurb: "Layer caching lies, image landfills, and container illusions.", file: "manual_lBR7_yn_3yo", thumb: false, date: "2026-07-20", public: false },
-  { id: "gVkmqCzLxSo", title: "Your Standups Are Worthless", topic: "agile", blurb: "Scrum circus, useless standups, and Agile as a bureaucracy monster.", file: "Agile_is_a_cargo_cult_002", thumb: false, date: "2026-07-19", public: false },
-  { id: "fDWeMC56a6A", title: "Stop pretending Kubernetes is acceptable.", topic: "kubernetes", blurb: "YAML atrocities, operator madness, and K8s overkill for 90% of teams.", file: "manual_fDWeMC56a6A", thumb: false, date: "2026-07-19", public: false },
 ];
