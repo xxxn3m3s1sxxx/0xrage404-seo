@@ -47,6 +47,7 @@ export const VIDEOS: Video[] = [
   { id: "9W3wgt01Juc", title: "You Use TypeScript Wrong", topic: "ai", blurb: "Rage-Bait Tech Short about You Use TypeScript Wrong", file: "9W3wgt01Juc", thumb: true, date: "2026-07-13", public: true },
   { id: "guKySfKBskU", title: "Microservices Roast â€” Build Simple Things Properly", topic: "ai", blurb: "Rage-Bait Tech Short about Microservices Roast â€” Build Simple Things Properly", file: "guKySfKBskU", thumb: true, date: "2026-07-12", public: true },
   { id: "ZhMkqjnYTPA", title: "AI Code Never Gets Reviewed", topic: "ai", blurb: "Rage-Bait Tech Short about AI Code Never Gets Reviewed", file: "ZhMkqjnYTPA", thumb: true, date: "2026-07-12", public: true },
+  { id: "AeEX4vYdqBA", title: "K8s YAML Is Hell", topic: "ai", blurb: "Rage-Bait Tech Short about K8s YAML Is Hell", file: "AeEX4vYdqBA", thumb: true, date: "2026-07-12", public: true },
   { id: "DLxW5m9B2nM", title: "CSS Roast â€” You Can't Even Spell Semantic", topic: "ai", blurb: "Rage-Bait Tech Short about CSS Roast â€” You Can't Even Spell Semantic", file: "DLxW5m9B2nM", thumb: true, date: "2026-07-11", public: true },
   { id: "EKUHGRKXGAI", title: "AI Generated Code Is Rot", topic: "ai", blurb: "Rage-Bait Tech Short about AI Generated Code Is Rot", file: "EKUHGRKXGAI", thumb: true, date: "2026-07-11", public: true },
   { id: "zKvStXVlqn8", title: "Merge Conflicts Are Preventable", topic: "ai", blurb: "Rage-Bait Tech Short about Merge Conflicts Are Preventable", file: "zKvStXVlqn8", thumb: true, date: "2026-07-10", public: true },
@@ -61,8 +62,8 @@ export const VIDEOS: Video[] = [
   { id: "6OAudnLszpg", title: "[ LOG_DUMP: merge_conflicts ] â€” Spaghetti Layout", topic: "ai", blurb: "Rage-Bait Tech Short about [ LOG_DUMP: merge_conflicts ] â€” Spaghetti Layout", file: "6OAudnLszpg", thumb: true, date: "2026-07-10", public: true },
   { id: "-QW0o8tFzgA", title: "[ LOG_DUMP: pull_requests ] â€” Proxy Yell", topic: "ai", blurb: "Rage-Bait Tech Short about [ LOG_DUMP: pull_requests ] â€” Proxy Yell", file: "-QW0o8tFzgA", thumb: true, date: "2026-07-10", public: true },
   { id: "UD43J-rItu4", title: "[ LOG_DUMP: code_ownership ] — Bogus Shortcut", topic: "log_dump", blurb: "Internal pipeline log dump from the suckz engine.", file: "manual_UD43J-rItu4", thumb: true, date: "2026-07-10", public: true },
+  { id: "yccGAPdtnpk", title: "Here's why you're wrong about Go. Sit down. Go is garba", topic: "ai", blurb: "Rage-Bait Tech Short about Here's why you're wrong about Go. Sit down. Go is garba", file: "yccGAPdtnpk", thumb: true, date: "2026-07-10", public: true },
   { id: "GWIugMo3Gc4", title: "Your Garbage Collector is a Bonfire", topic: "ai", blurb: "Rage-Bait Tech Short about Your Garbage Collector is a Bonfire", file: "GWIugMo3Gc4", thumb: false, date: "2026-07-13", public: false },
-  { id: "AeEX4vYdqBA", title: "K8s YAML Is Hell", topic: "ai", blurb: "Rage-Bait Tech Short about K8s YAML Is Hell", file: "AeEX4vYdqBA", thumb: false, date: "2026-07-12", public: false },
   { id: "38KESZqtg0k", title: "Microservices Are Not A Solution", topic: "ai", blurb: "Rage-Bait Tech Short about Microservices Are Not A Solution", file: "38KESZqtg0k", thumb: false, date: "2026-07-12", public: false },
   { id: "kdMbwO56FGY", title: "Distributed Monolith", topic: "ai", blurb: "Rage-Bait Tech Short about Distributed Monolith", file: "kdMbwO56FGY", thumb: false, date: "2026-07-12", public: false },
   { id: "Eb8P7mlXmEY", title: "React Is Bloatware", topic: "ai", blurb: "Rage-Bait Tech Short about React Is Bloatware", file: "Eb8P7mlXmEY", thumb: false, date: "2026-07-12", public: false },
@@ -73,5 +74,4 @@ export const VIDEOS: Video[] = [
   { id: "4qNCsaj8FQI", title: "Your CI Pipeline Sucks", topic: "ai", blurb: "Rage-Bait Tech Short about Your CI Pipeline Sucks", file: "4qNCsaj8FQI", thumb: false, date: "2026-07-12", public: false },
   { id: "tEgPiXf_Ktc", title: "Docker", topic: "ai", blurb: "Rage-Bait Tech Short about Docker", file: "tEgPiXf_Ktc", thumb: false, date: "2026-07-12", public: false },
   { id: "FuipYLE0dBw", title: "Docker Compose Nightmare", topic: "ai", blurb: "Rage-Bait Tech Short about Docker Compose Nightmare", file: "FuipYLE0dBw", thumb: false, date: "2026-07-12", public: false },
-  { id: "yccGAPdtnpk", title: "Here's why you're wrong about Go. Sit down. Go is garba", topic: "ai", blurb: "Rage-Bait Tech Short about Here's why you're wrong about Go. Sit down. Go is garba", file: "yccGAPdtnpk", thumb: false, date: "2026-07-10", public: false },
 ];
