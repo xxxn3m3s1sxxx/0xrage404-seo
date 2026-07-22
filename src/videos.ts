@@ -13,7 +13,7 @@ export interface Video {
 }
 
 export const VIDEOS: Video[] = [
-  { id: "1MutO8ROX70", title: "AI Security Is a Lie", topic: "ai", blurb: "Rage-Bait Tech Short about AI Security Is a Lie", file: "essay_ai_security.mp4", thumb: false, date: "2026-07-22", public: true },
+  { id: "1MutO8ROX70", title: "AI Security Is Dead", topic: "ai", blurb: "Rage-Bait Tech Short about AI Security Is Dead", file: "essay_ai_security.mp4", thumb: true, date: "2026-07-22", public: true },
   { id: "9ok9jrho9UQ", title: "AI Security Is a Lie", topic: "aisecurity", blurb: "Rage-Bait Tech Short about AI Security Is a Lie", file: "short_05", thumb: true, date: "2026-07-22", public: true },
   { id: "o9aN9hgjxxs", title: "AI Security Doesn't Exist", topic: "aisecurity", blurb: "Rage-Bait Tech Short about AI Security Doesn't Exist", file: "short_04", thumb: true, date: "2026-07-22", public: true },
   { id: "F0tRmoUBNkY", title: "432 Linux CVEs in 24 Hours", topic: "linuxcves", blurb: "Rage-Bait Tech Short about 432 Linux CVEs in 24 Hours", file: "short_03", thumb: true, date: "2026-07-22", public: true },
