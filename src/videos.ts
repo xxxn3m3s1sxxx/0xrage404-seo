@@ -1,5 +1,5 @@
-// Auto-generated — do not edit manually
-// Run: python generate_videos_ts.py
+// Auto-generated -- do not edit manually
+// Run: python scripts/sync.py
 
 export interface Video {
   id: string;
@@ -52,7 +52,6 @@ export const VIDEOS: Video[] = [
   { id: "9W3wgt01Juc", title: "You Use TypeScript Wrong", topic: "typescript", blurb: "Any type lies, compiler hypocrisy, and false security.", file: "9W3wgt01Juc", thumb: true, date: "2026-07-13", public: true },
   { id: "sAlCyZJDA0k", title: "AI Code Deployed to Prod", topic: "promptengineer", blurb: "AI code garbage, token waste, and vibecoding madness.", file: "sAlCyZJDA0k", thumb: true, date: "2026-07-13", public: true },
   { id: "CYSapejXwzI", title: "Agile Roast -- Your Code Is A Disgraceful Nightmare", topic: "agile", blurb: "Scrum circus, useless standups, and Agile as a bureaucracy monster.", file: "CYSapejXwzI", thumb: true, date: "2026-07-13", public: true },
-  { id: "38KESZqtg0k", title: "Microservices Are Not A Solution", topic: "microservices", blurb: "Distributed monoliths, service mesh, and why less is more.", file: "38KESZqtg0k", thumb: true, date: "2026-07-12", public: true },
   { id: "AeEX4vYdqBA", title: "K8s YAML Is Hell", topic: "kubernetes", blurb: "YAML atrocities, operator madness, and K8s overkill for 90% of teams.", file: "AeEX4vYdqBA", thumb: true, date: "2026-07-12", public: true },
   { id: "ZhMkqjnYTPA", title: "AI Code Never Gets Reviewed", topic: "promptengineer", blurb: "AI code garbage, token waste, and vibecoding madness.", file: "ZhMkqjnYTPA", thumb: true, date: "2026-07-12", public: true },
   { id: "guKySfKBskU", title: "Microservices Roast -- Build Simple Things Properly", topic: "microservices", blurb: "Distributed monoliths, service mesh, and why less is more.", file: "guKySfKBskU", thumb: true, date: "2026-07-12", public: true },
@@ -70,6 +69,8 @@ export const VIDEOS: Video[] = [
   { id: "lyl4M5u7TJU", title: "AI Generated Code Is Technical Debt", topic: "promptengineer", blurb: "AI code garbage, token waste, and vibecoding madness.", file: "lyl4M5u7TJU", thumb: true, date: "2026-07-10", public: true },
   { id: "zKvStXVlqn8", title: "Merge Conflicts Are Preventable", topic: "worksonmymachine", blurb: "Reproducibility, CI/CD, and the biggest lie in software engineering.", file: "zKvStXVlqn8", thumb: true, date: "2026-07-10", public: true },
   { id: "UD43J-rItu4", title: "Why Code Ownership Is a Lie", topic: "log_dump", blurb: "Internal pipeline log dump from the suckz engine.", file: "manual_UD43J-rItu4", thumb: true, date: "2026-07-10", public: true },
+  { id: "GWIugMo3Gc4", title: "Your Garbage Collector is a Bonfire", topic: "gcwahn", blurb: "Rage-Bait Tech Short about Your Garbage Collector is a Bonfire", file: "GWIugMo3Gc4", thumb: false, date: "2026-07-13", public: false },
+  { id: "38KESZqtg0k", title: "Microservices Are Not A Solution", topic: "microservices", blurb: "Distributed monoliths, service mesh, and why less is more.", file: "38KESZqtg0k", thumb: true, date: "2026-07-12", public: false },
   { id: "FuipYLE0dBw", title: "Docker Compose Nightmare", topic: "docker", blurb: "Layer caching lies, image landfills, and container illusions.", file: "FuipYLE0dBw", thumb: false, date: "2026-07-12", public: false },
   { id: "tEgPiXf_Ktc", title: "Docker", topic: "docker", blurb: "Layer caching lies, image landfills, and container illusions.", file: "tEgPiXf_Ktc", thumb: false, date: "2026-07-12", public: false },
   { id: "4qNCsaj8FQI", title: "Your CI Pipeline Sucks", topic: "worksonmymachine", blurb: "Reproducibility, CI/CD, and the biggest lie in software engineering.", file: "4qNCsaj8FQI", thumb: false, date: "2026-07-12", public: false },
@@ -79,5 +80,4 @@ export const VIDEOS: Video[] = [
   { id: "H-nAXQJ1pnw", title: "React Devs Can't Write CSS", topic: "react", blurb: "React Hooks, VDOM myths, and frontend framework drama.", file: "H-nAXQJ1pnw", thumb: false, date: "2026-07-12", public: false },
   { id: "Eb8P7mlXmEY", title: "React Is Bloatware", topic: "react", blurb: "React Hooks, VDOM myths, and frontend framework drama.", file: "Eb8P7mlXmEY", thumb: false, date: "2026-07-12", public: false },
   { id: "kdMbwO56FGY", title: "Distributed Monolith", topic: "microservices", blurb: "Distributed monoliths, service mesh, and why less is more.", file: "kdMbwO56FGY", thumb: false, date: "2026-07-12", public: false },
-  { id: "GWIugMo3Gc4", title: "Your Garbage Collector is a Bonfire", topic: "gcwahn", blurb: "Rage-Bait Tech Short about Your Garbage Collector is a Bonfire", file: "GWIugMo3Gc4", thumb: false, date: "2026-07-13", public: false },
 ];
