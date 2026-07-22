@@ -1,5 +1,5 @@
-// Auto-generated -- do not edit manually
-// Run: python scripts/sync.py
+// Auto-generated — do not edit manually
+// Run: python generate_videos_ts.py
 
 export interface Video {
   id: string;
@@ -13,6 +13,13 @@ export interface Video {
 }
 
 export const VIDEOS: Video[] = [
+  { id: "-blNDmjVGAs", title: "Here's the truth about meaningless code comments. Ready", topic: "1:meaninglesscodecomments", blurb: "Rage-Bait Tech Short about Here's the truth about meaningless code comments. Ready", file: "1_meaningless_code_comments_001", thumb: true, date: "2026-07-22", public: true },
+  { id: "iIBW_wzOS8Q", title: "Hot take: meaningless code comments needs to be stopped", topic: "1:meaninglesscodecomments", blurb: "Rage-Bait Tech Short about Hot take: meaningless code comments needs to be stopped", file: "1_meaningless_code_comments_002", thumb: true, date: "2026-07-22", public: true },
+  { id: "wwAYGWsTcFg", title: "OpenAI's Model ESCAPED Its Own Sandbox", topic: "ai", blurb: "Rage-Bait Tech Short about OpenAI's Model ESCAPED Its Own Sandbox", file: "short_01", thumb: true, date: "2026-07-22", public: true },
+  { id: "xRsGzBYliq0", title: "1/3 of MCP Servers Are WIDE OPEN", topic: "ai", blurb: "Rage-Bait Tech Short about 1/3 of MCP Servers Are WIDE OPEN", file: "short_02", thumb: true, date: "2026-07-22", public: true },
+  { id: "F0tRmoUBNkY", title: "432 Linux CVEs in 24 Hours", topic: "ai", blurb: "Rage-Bait Tech Short about 432 Linux CVEs in 24 Hours", file: "short_03", thumb: true, date: "2026-07-22", public: true },
+  { id: "o9aN9hgjxxs", title: "AI Security Doesn't Exist", topic: "ai", blurb: "Rage-Bait Tech Short about AI Security Doesn't Exist", file: "short_04", thumb: true, date: "2026-07-22", public: true },
+  { id: "9ok9jrho9UQ", title: "AI Security Is a Lie", topic: "ai", blurb: "Rage-Bait Tech Short about AI Security Is a Lie", file: "short_05", thumb: true, date: "2026-07-22", public: true },
   { id: "-2zXEBj2l7E", title: "Kubernetes Is Too Complex", topic: "ai", blurb: "Rage-Bait Tech Short about Kubernetes Is Too Complex", file: "-2zXEBj2l7E", thumb: true, date: "2026-07-20", public: true },
   { id: "lBR7_yn_3yo", title: "You think Docker is fine? You're exactly who this is fo", topic: "ai", blurb: "Rage-Bait Tech Short about You think Docker is fine? You're exactly who this is fo", file: "lBR7_yn_3yo", thumb: true, date: "2026-07-20", public: true },
   { id: "gVkmqCzLxSo", title: "Your Standups Are Worthless", topic: "ai", blurb: "Rage-Bait Tech Short about Your Standups Are Worthless", file: "gVkmqCzLxSo", thumb: true, date: "2026-07-19", public: true },
@@ -45,6 +52,7 @@ export const VIDEOS: Video[] = [
   { id: "9W3wgt01Juc", title: "You Use TypeScript Wrong", topic: "ai", blurb: "Rage-Bait Tech Short about You Use TypeScript Wrong", file: "9W3wgt01Juc", thumb: true, date: "2026-07-13", public: true },
   { id: "sAlCyZJDA0k", title: "AI Code Deployed to Prod", topic: "ai", blurb: "Rage-Bait Tech Short about AI Code Deployed to Prod", file: "sAlCyZJDA0k", thumb: true, date: "2026-07-13", public: true },
   { id: "CYSapejXwzI", title: "Agile Roast -- Your Code Is A Disgraceful Nightmare", topic: "ai", blurb: "Rage-Bait Tech Short about Agile Roast -- Your Code Is A Disgraceful Nightmare", file: "CYSapejXwzI", thumb: true, date: "2026-07-13", public: true },
+  { id: "38KESZqtg0k", title: "Microservices Are Not A Solution", topic: "ai", blurb: "Rage-Bait Tech Short about Microservices Are Not A Solution", file: "38KESZqtg0k", thumb: true, date: "2026-07-12", public: true },
   { id: "AeEX4vYdqBA", title: "K8s YAML Is Hell", topic: "ai", blurb: "Rage-Bait Tech Short about K8s YAML Is Hell", file: "AeEX4vYdqBA", thumb: true, date: "2026-07-12", public: true },
   { id: "ZhMkqjnYTPA", title: "AI Code Never Gets Reviewed", topic: "ai", blurb: "Rage-Bait Tech Short about AI Code Never Gets Reviewed", file: "ZhMkqjnYTPA", thumb: true, date: "2026-07-12", public: true },
   { id: "guKySfKBskU", title: "Microservices Roast -- Build Simple Things Properly", topic: "ai", blurb: "Rage-Bait Tech Short about Microservices Roast -- Build Simple Things Properly", file: "guKySfKBskU", thumb: true, date: "2026-07-12", public: true },
@@ -62,8 +70,6 @@ export const VIDEOS: Video[] = [
   { id: "lyl4M5u7TJU", title: "AI Generated Code Is Technical Debt", topic: "ai", blurb: "Rage-Bait Tech Short about AI Generated Code Is Technical Debt", file: "lyl4M5u7TJU", thumb: true, date: "2026-07-10", public: true },
   { id: "zKvStXVlqn8", title: "Merge Conflicts Are Preventable", topic: "ai", blurb: "Rage-Bait Tech Short about Merge Conflicts Are Preventable", file: "zKvStXVlqn8", thumb: true, date: "2026-07-10", public: true },
   { id: "UD43J-rItu4", title: "Why Code Ownership Is a Lie", topic: "log_dump", blurb: "Internal pipeline log dump from the suckz engine.", file: "manual_UD43J-rItu4", thumb: true, date: "2026-07-10", public: true },
-  { id: "GWIugMo3Gc4", title: "Your Garbage Collector is a Bonfire", topic: "ai", blurb: "Rage-Bait Tech Short about Your Garbage Collector is a Bonfire", file: "GWIugMo3Gc4", thumb: false, date: "2026-07-13", public: false },
-  { id: "38KESZqtg0k", title: "Microservices Are Not A Solution", topic: "ai", blurb: "Rage-Bait Tech Short about Microservices Are Not A Solution", file: "38KESZqtg0k", thumb: true, date: "2026-07-12", public: false },
   { id: "FuipYLE0dBw", title: "Docker Compose Nightmare", topic: "ai", blurb: "Rage-Bait Tech Short about Docker Compose Nightmare", file: "FuipYLE0dBw", thumb: false, date: "2026-07-12", public: false },
   { id: "tEgPiXf_Ktc", title: "Docker", topic: "ai", blurb: "Rage-Bait Tech Short about Docker", file: "tEgPiXf_Ktc", thumb: false, date: "2026-07-12", public: false },
   { id: "4qNCsaj8FQI", title: "Your CI Pipeline Sucks", topic: "ai", blurb: "Rage-Bait Tech Short about Your CI Pipeline Sucks", file: "4qNCsaj8FQI", thumb: false, date: "2026-07-12", public: false },
@@ -73,4 +79,5 @@ export const VIDEOS: Video[] = [
   { id: "H-nAXQJ1pnw", title: "React Devs Can't Write CSS", topic: "ai", blurb: "Rage-Bait Tech Short about React Devs Can't Write CSS", file: "H-nAXQJ1pnw", thumb: false, date: "2026-07-12", public: false },
   { id: "Eb8P7mlXmEY", title: "React Is Bloatware", topic: "ai", blurb: "Rage-Bait Tech Short about React Is Bloatware", file: "Eb8P7mlXmEY", thumb: false, date: "2026-07-12", public: false },
   { id: "kdMbwO56FGY", title: "Distributed Monolith", topic: "ai", blurb: "Rage-Bait Tech Short about Distributed Monolith", file: "kdMbwO56FGY", thumb: false, date: "2026-07-12", public: false },
+  { id: "GWIugMo3Gc4", title: "Your Garbage Collector is a Bonfire", topic: "ai", blurb: "Rage-Bait Tech Short about Your Garbage Collector is a Bonfire", file: "GWIugMo3Gc4", thumb: false, date: "2026-07-13", public: false },
 ];
