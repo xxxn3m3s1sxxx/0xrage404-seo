@@ -13,8 +13,8 @@ export interface Video {
 }
 
 export const VIDEOS: Video[] = [
-  { id: "-blNDmjVGAs", title: "Meaningless Code Comments Are Ruining Your Code", topic: "1:meaninglesscodecomments", blurb: "Rage-Bait Tech Short about Meaningless Code Comments Are Ruining Your Code", file: "1_meaningless_code_comments_001", thumb: true, date: "2026-07-22", public: true },
-  { id: "iIBW_wzOS8Q", title: "Meaningless Code Comments Need To Be Stopped", topic: "1:meaninglesscodecomments", blurb: "Rage-Bait Tech Short about Meaningless Code Comments Need To Be Stopped", file: "1_meaningless_code_comments_002", thumb: true, date: "2026-07-22", public: true },
+  { id: "-blNDmjVGAs", title: "Meaningless Code Comments Are Ruining Your Code", topic: "meaninglesscodecomments", blurb: "Rage-Bait Tech Short about Meaningless Code Comments Are Ruining Your Code", file: "1_meaningless_code_comments_001", thumb: true, date: "2026-07-22", public: true },
+  { id: "iIBW_wzOS8Q", title: "Meaningless Code Comments Need To Be Stopped", topic: "meaninglesscodecomments", blurb: "Rage-Bait Tech Short about Meaningless Code Comments Need To Be Stopped", file: "1_meaningless_code_comments_002", thumb: true, date: "2026-07-22", public: true },
   { id: "wwAYGWsTcFg", title: "OpenAI's Model ESCAPED Its Own Sandbox", topic: "ai", blurb: "Rage-Bait Tech Short about OpenAI's Model ESCAPED Its Own Sandbox", file: "short_01", thumb: true, date: "2026-07-22", public: true },
   { id: "xRsGzBYliq0", title: "1/3 of MCP Servers Are WIDE OPEN", topic: "ai", blurb: "Rage-Bait Tech Short about 1/3 of MCP Servers Are WIDE OPEN", file: "short_02", thumb: true, date: "2026-07-22", public: true },
   { id: "F0tRmoUBNkY", title: "432 Linux CVEs in 24 Hours", topic: "ai", blurb: "Rage-Bait Tech Short about 432 Linux CVEs in 24 Hours", file: "short_03", thumb: true, date: "2026-07-22", public: true },
