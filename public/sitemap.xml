@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
   <url>
     <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/</loc>
     <changefreq>daily</changefreq>
@@ -11,638 +12,1223 @@
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/zh/</loc>
-    <changefreq>daily</changefreq>
+    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/watch/-2zXEBj2l7E.html</loc>
+    <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/-2zXEBj2l7E/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>Kubernetes Is Too Complex</video:title>
+      <video:description>Rage-Bait Tech Short about Kubernetes Is Too Complex</video:description>
+      <video:content_loc>https://www.youtube.com/watch?v=-2zXEBj2l7E</video:content_loc>
+      <video:player_loc>https://www.youtube.com/embed/-2zXEBj2l7E</video:player_loc>
+      <video:upload_date>2026-07-20</video:upload_date>
+      <video:duration>59</video:duration>
+      <video:requires_subscription>no</video:requires_subscription>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:tag>ai</video:tag>
+      <video:tag>rage bait</video:tag>
+      <video:tag>developer rant</video:tag>
+      <video:tag>0xRAGE404</video:tag>
+    </video:video>
   </url>
   <url>
-    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/ja/</loc>
-    <changefreq>daily</changefreq>
+    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/watch/lBR7_yn_3yo.html</loc>
+    <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/lBR7_yn_3yo/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>You think Docker is fine? You're exactly who this is fo</video:title>
+      <video:description>Rage-Bait Tech Short about You think Docker is fine? You're exactly who this is fo</video:description>
+      <video:content_loc>https://www.youtube.com/watch?v=lBR7_yn_3yo</video:content_loc>
+      <video:player_loc>https://www.youtube.com/embed/lBR7_yn_3yo</video:player_loc>
+      <video:upload_date>2026-07-20</video:upload_date>
+      <video:duration>59</video:duration>
+      <video:requires_subscription>no</video:requires_subscription>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:tag>ai</video:tag>
+      <video:tag>rage bait</video:tag>
+      <video:tag>developer rant</video:tag>
+      <video:tag>0xRAGE404</video:tag>
+    </video:video>
   </url>
   <url>
-    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/ko/</loc>
-    <changefreq>daily</changefreq>
+    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/watch/gVkmqCzLxSo.html</loc>
+    <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/gVkmqCzLxSo/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>Your Standups Are Worthless</video:title>
+      <video:description>Rage-Bait Tech Short about Your Standups Are Worthless</video:description>
+      <video:content_loc>https://www.youtube.com/watch?v=gVkmqCzLxSo</video:content_loc>
+      <video:player_loc>https://www.youtube.com/embed/gVkmqCzLxSo</video:player_loc>
+      <video:upload_date>2026-07-19</video:upload_date>
+      <video:duration>59</video:duration>
+      <video:requires_subscription>no</video:requires_subscription>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:tag>ai</video:tag>
+      <video:tag>rage bait</video:tag>
+      <video:tag>developer rant</video:tag>
+      <video:tag>0xRAGE404</video:tag>
+    </video:video>
   </url>
   <url>
-    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/ar/</loc>
-    <changefreq>daily</changefreq>
+    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/watch/fDWeMC56a6A.html</loc>
+    <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/fDWeMC56a6A/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>Stop pretending Kubernetes is acceptable. You look stup</video:title>
+      <video:description>Rage-Bait Tech Short about Stop pretending Kubernetes is acceptable. You look stup</video:description>
+      <video:content_loc>https://www.youtube.com/watch?v=fDWeMC56a6A</video:content_loc>
+      <video:player_loc>https://www.youtube.com/embed/fDWeMC56a6A</video:player_loc>
+      <video:upload_date>2026-07-19</video:upload_date>
+      <video:duration>59</video:duration>
+      <video:requires_subscription>no</video:requires_subscription>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:tag>ai</video:tag>
+      <video:tag>rage bait</video:tag>
+      <video:tag>developer rant</video:tag>
+      <video:tag>0xRAGE404</video:tag>
+    </video:video>
   </url>
   <url>
-    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/pt/</loc>
-    <changefreq>daily</changefreq>
+    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/watch/PzHyh7QQAMc.html</loc>
+    <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/PzHyh7QQAMc/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>Your Tests Are Passing But Your Code Is Broken</video:title>
+      <video:description>Rage-Bait Tech Short about Your Tests Are Passing But Your Code Is Broken</video:description>
+      <video:content_loc>https://www.youtube.com/watch?v=PzHyh7QQAMc</video:content_loc>
+      <video:player_loc>https://www.youtube.com/embed/PzHyh7QQAMc</video:player_loc>
+      <video:upload_date>2026-07-18</video:upload_date>
+      <video:duration>59</video:duration>
+      <video:requires_subscription>no</video:requires_subscription>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:tag>ai</video:tag>
+      <video:tag>rage bait</video:tag>
+      <video:tag>developer rant</video:tag>
+      <video:tag>0xRAGE404</video:tag>
+    </video:video>
   </url>
   <url>
-    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/hi/</loc>
-    <changefreq>daily</changefreq>
+    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/watch/1_0JEKWcQ40.html</loc>
+    <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/1_0JEKWcQ40/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>You Overengineer Everything and It Shows</video:title>
+      <video:description>Rage-Bait Tech Short about You Overengineer Everything and It Shows</video:description>
+      <video:content_loc>https://www.youtube.com/watch?v=1_0JEKWcQ40</video:content_loc>
+      <video:player_loc>https://www.youtube.com/embed/1_0JEKWcQ40</video:player_loc>
+      <video:upload_date>2026-07-18</video:upload_date>
+      <video:duration>59</video:duration>
+      <video:requires_subscription>no</video:requires_subscription>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:tag>ai</video:tag>
+      <video:tag>rage bait</video:tag>
+      <video:tag>developer rant</video:tag>
+      <video:tag>0xRAGE404</video:tag>
+    </video:video>
   </url>
   <url>
-    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/fr/</loc>
-    <changefreq>daily</changefreq>
+    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/watch/I38ot3y3lBY.html</loc>
+    <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/I38ot3y3lBY/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>Your CI Pipeline Is Actively Sabotaging You</video:title>
+      <video:description>Rage-Bait Tech Short about Your CI Pipeline Is Actively Sabotaging You</video:description>
+      <video:content_loc>https://www.youtube.com/watch?v=I38ot3y3lBY</video:content_loc>
+      <video:player_loc>https://www.youtube.com/embed/I38ot3y3lBY</video:player_loc>
+      <video:upload_date>2026-07-18</video:upload_date>
+      <video:duration>59</video:duration>
+      <video:requires_subscription>no</video:requires_subscription>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:tag>ai</video:tag>
+      <video:tag>rage bait</video:tag>
+      <video:tag>developer rant</video:tag>
+      <video:tag>0xRAGE404</video:tag>
+    </video:video>
   </url>
   <url>
-    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/de/</loc>
-    <changefreq>daily</changefreq>
+    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/watch/kxEx1hz9grQ.html</loc>
+    <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/kxEx1hz9grQ/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>Your Coding Standards Are a Joke</video:title>
+      <video:description>Rage-Bait Tech Short about Your Coding Standards Are a Joke</video:description>
+      <video:content_loc>https://www.youtube.com/watch?v=kxEx1hz9grQ</video:content_loc>
+      <video:player_loc>https://www.youtube.com/embed/kxEx1hz9grQ</video:player_loc>
+      <video:upload_date>2026-07-18</video:upload_date>
+      <video:duration>59</video:duration>
+      <video:requires_subscription>no</video:requires_subscription>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:tag>ai</video:tag>
+      <video:tag>rage bait</video:tag>
+      <video:tag>developer rant</video:tag>
+      <video:tag>0xRAGE404</video:tag>
+    </video:video>
   </url>
   <url>
-    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/ru/</loc>
-    <changefreq>daily</changefreq>
+    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/watch/ThjrRzx1_uY.html</loc>
+    <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/ThjrRzx1_uY/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>Stack Overflow Copy-Paste Ruins Code</video:title>
+      <video:description>Rage-Bait Tech Short about Stack Overflow Copy-Paste Ruins Code</video:description>
+      <video:content_loc>https://www.youtube.com/watch?v=ThjrRzx1_uY</video:content_loc>
+      <video:player_loc>https://www.youtube.com/embed/ThjrRzx1_uY</video:player_loc>
+      <video:upload_date>2026-07-18</video:upload_date>
+      <video:duration>59</video:duration>
+      <video:requires_subscription>no</video:requires_subscription>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:tag>ai</video:tag>
+      <video:tag>rage bait</video:tag>
+      <video:tag>developer rant</video:tag>
+      <video:tag>0xRAGE404</video:tag>
+    </video:video>
   </url>
   <url>
-    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/es/</loc>
-    <changefreq>daily</changefreq>
+    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/watch/7-vSchwcy9c.html</loc>
+    <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/-2zXEBj2l7E.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/-OVJTw8bJzs.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/38KESZqtg0k.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/4qNCsaj8FQI.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/9W3wgt01Juc.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/9yEShXRsWBo.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/AeEX4vYdqBA.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/ai_code_assistants_make_you_stupid_001.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/ar/index.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/ar/manifest.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/ar/secret_prompt.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/ar/technical.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/bitsandbytes-cuda-setup-failed.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/cuda-driver-version-mismatch.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/de/index.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/de/manifest.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/de/secret_prompt.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/de/technical.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/developer_burnout_is_your_fault_001.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/docker-gpu-passthrough-failed.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/Eb8P7mlXmEY.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/EKUHGRKXGAI.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/embedding-dimension-mismatch-rag.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/en/index.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/en/manifest.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/en/secret_prompt.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/en/technical.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/es/index.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/es/manifest.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/es/secret_prompt.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/es/technical.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/essay_aws_billing.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/essay_honeypot2_manifest.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/essay_honeypot_api_doc.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/essay_secret_prompt.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/flash-attention-compute-capability.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/fr/index.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/fr/manifest.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/fr/secret_prompt.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/fr/technical.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/FuipYLE0dBw.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/gVkmqCzLxSo.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/GWIugMo3Gc4.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/H-nAXQJ1pnw.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/hi/index.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/hi/manifest.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/hi/secret_prompt.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/hi/technical.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/honeypot_ar_aramco.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/honeypot_cn_qwen.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/honeypot_es_telefonica.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/honeypot_fr_mistral.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/honeypot_hi_aws.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/honeypot_ja_sony.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/honeypot_ko_naver.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/honeypot_pt_petrobras.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/honeypot_ru_yandex.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/huggingface-gated-model-401.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/IadNqe3eNmo.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/index.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/ja/index.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/ja/manifest.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/ja/secret_prompt.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/ja/technical.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/K_qxys0kZSI.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/kdMbwO56FGY.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/ko/index.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/ko/manifest.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/ko/secret_prompt.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/ko/technical.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/kv-cache-quantization-error.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/llama-cpp-oom-context-8k.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/llama-cpp-oom-cuda-malloc-failed.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/llama-cpp-server-http-auth-error.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/llm-output-garbage-wrong-quantization.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/Mr1-7Y_jH14.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/npm_install_breaks_production_001.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/nvidia-smi-not-found-in-container.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/ollama-gpu-not-detected.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/ollama-model-not-responding-after-restart.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/ollama-modelfile-syntax-error.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/ollama-server-port-conflict.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/ollama-wsl-connection-refused.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/open-webui-connection-refused.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/pt/index.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/pt/manifest.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/pt/secret_prompt.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/pt/technical.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/pydantic-v1-v2-migration-error.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/python-torch-cuda-transformers-dependency-conflict.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/rag-chunk-size-exceeds-context-window.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/rag-vector-database-query-latency.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/ru/index.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/ru/manifest.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/ru/secret_prompt.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/ru/technical.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/sAlCyZJDA0k.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/serverless_is_a_financial_scam_001.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/Stack_Overflow_copy-paste_ruins_code_001.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/suonT_y7fz8.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/technical_analysis.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/tEgPiXf_Ktc.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/there_are_no_10x_developers_001.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/TypeScript_is_false_confidence_001.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/uniE0l9jQH8.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/vllm-503-service-unavailable.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/wzyVAtU-nOw.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/ygK_86a8Aoc.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/you_overengineer_everything_001.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/your_CI_pipeline_is_toxic_001.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/your_coding_standards_are_worthless_001.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/your_test_suite_is_lying_to_you_001.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/zh/index.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/zh/manifest.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/zh/secret_prompt.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/zh/technical.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/ZhMkqjnYTPA.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/7-vSchwcy9c/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>Typescript Is False Confidence</video:title>
+      <video:description>Rage-Bait Tech Short about Typescript Is False Confidence</video:description>
+      <video:content_loc>https://www.youtube.com/watch?v=7-vSchwcy9c</video:content_loc>
+      <video:player_loc>https://www.youtube.com/embed/7-vSchwcy9c</video:player_loc>
+      <video:upload_date>2026-07-18</video:upload_date>
+      <video:duration>59</video:duration>
+      <video:requires_subscription>no</video:requires_subscription>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:tag>ai</video:tag>
+      <video:tag>rage bait</video:tag>
+      <video:tag>developer rant</video:tag>
+      <video:tag>0xRAGE404</video:tag>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/watch/Cr7agf6yeQA.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/Cr7agf6yeQA/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>There Are No 10X Developers</video:title>
+      <video:description>Rage-Bait Tech Short about There Are No 10X Developers</video:description>
+      <video:content_loc>https://www.youtube.com/watch?v=Cr7agf6yeQA</video:content_loc>
+      <video:player_loc>https://www.youtube.com/embed/Cr7agf6yeQA</video:player_loc>
+      <video:upload_date>2026-07-18</video:upload_date>
+      <video:duration>59</video:duration>
+      <video:requires_subscription>no</video:requires_subscription>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:tag>ai</video:tag>
+      <video:tag>rage bait</video:tag>
+      <video:tag>developer rant</video:tag>
+      <video:tag>0xRAGE404</video:tag>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/watch/7RxrhL2tNbk.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/7RxrhL2tNbk/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>Serverless Is a Financial Scam</video:title>
+      <video:description>Rage-Bait Tech Short about Serverless Is a Financial Scam</video:description>
+      <video:content_loc>https://www.youtube.com/watch?v=7RxrhL2tNbk</video:content_loc>
+      <video:player_loc>https://www.youtube.com/embed/7RxrhL2tNbk</video:player_loc>
+      <video:upload_date>2026-07-18</video:upload_date>
+      <video:duration>59</video:duration>
+      <video:requires_subscription>no</video:requires_subscription>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:tag>ai</video:tag>
+      <video:tag>rage bait</video:tag>
+      <video:tag>developer rant</video:tag>
+      <video:tag>0xRAGE404</video:tag>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/watch/l9Yi6gD1xLU.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/l9Yi6gD1xLU/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>Npm Install Breaks Production</video:title>
+      <video:description>Rage-Bait Tech Short about Npm Install Breaks Production</video:description>
+      <video:content_loc>https://www.youtube.com/watch?v=l9Yi6gD1xLU</video:content_loc>
+      <video:player_loc>https://www.youtube.com/embed/l9Yi6gD1xLU</video:player_loc>
+      <video:upload_date>2026-07-18</video:upload_date>
+      <video:duration>59</video:duration>
+      <video:requires_subscription>no</video:requires_subscription>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:tag>ai</video:tag>
+      <video:tag>rage bait</video:tag>
+      <video:tag>developer rant</video:tag>
+      <video:tag>0xRAGE404</video:tag>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/watch/ufv43wXODLo.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/ufv43wXODLo/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>Developer Burnout Is Your Fault</video:title>
+      <video:description>Rage-Bait Tech Short about Developer Burnout Is Your Fault</video:description>
+      <video:content_loc>https://www.youtube.com/watch?v=ufv43wXODLo</video:content_loc>
+      <video:player_loc>https://www.youtube.com/embed/ufv43wXODLo</video:player_loc>
+      <video:upload_date>2026-07-18</video:upload_date>
+      <video:duration>59</video:duration>
+      <video:requires_subscription>no</video:requires_subscription>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:tag>ai</video:tag>
+      <video:tag>rage bait</video:tag>
+      <video:tag>developer rant</video:tag>
+      <video:tag>0xRAGE404</video:tag>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/watch/P70DEuH-2XY.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/P70DEuH-2XY/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>Ai Code Assistants Make You Stupid</video:title>
+      <video:description>Rage-Bait Tech Short about Ai Code Assistants Make You Stupid</video:description>
+      <video:content_loc>https://www.youtube.com/watch?v=P70DEuH-2XY</video:content_loc>
+      <video:player_loc>https://www.youtube.com/embed/P70DEuH-2XY</video:player_loc>
+      <video:upload_date>2026-07-18</video:upload_date>
+      <video:duration>59</video:duration>
+      <video:requires_subscription>no</video:requires_subscription>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:tag>ai</video:tag>
+      <video:tag>rage bait</video:tag>
+      <video:tag>developer rant</video:tag>
+      <video:tag>0xRAGE404</video:tag>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/watch/I4Rl4JYKNVw.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/I4Rl4JYKNVw/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>If you defend Go you're the problem. Quit. Go's syntax</video:title>
+      <video:description>Rage-Bait Tech Short about If you defend Go you're the problem. Quit. Go's syntax</video:description>
+      <video:content_loc>https://www.youtube.com/watch?v=I4Rl4JYKNVw</video:content_loc>
+      <video:player_loc>https://www.youtube.com/embed/I4Rl4JYKNVw</video:player_loc>
+      <video:upload_date>2026-07-18</video:upload_date>
+      <video:duration>59</video:duration>
+      <video:requires_subscription>no</video:requires_subscription>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:tag>ai</video:tag>
+      <video:tag>rage bait</video:tag>
+      <video:tag>developer rant</video:tag>
+      <video:tag>0xRAGE404</video:tag>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/watch/9yEShXRsWBo.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/9yEShXRsWBo/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>Agile Is a Cult and Youre the Member</video:title>
+      <video:description>Rage-Bait Tech Short about Agile Is a Cult and Youre the Member</video:description>
+      <video:content_loc>https://www.youtube.com/watch?v=9yEShXRsWBo</video:content_loc>
+      <video:player_loc>https://www.youtube.com/embed/9yEShXRsWBo</video:player_loc>
+      <video:upload_date>2026-07-18</video:upload_date>
+      <video:duration>59</video:duration>
+      <video:requires_subscription>no</video:requires_subscription>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:tag>ai</video:tag>
+      <video:tag>rage bait</video:tag>
+      <video:tag>developer rant</video:tag>
+      <video:tag>0xRAGE404</video:tag>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/watch/LZM3hoVBcU4.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/LZM3hoVBcU4/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>The Microsoft Trap: How VS Code Eats Your Engineering Soul</video:title>
+      <video:description>Rage-Bait Tech Short about The Microsoft Trap: How VS Code Eats Your Engineering Soul</video:description>
+      <video:content_loc>https://www.youtube.com/watch?v=LZM3hoVBcU4</video:content_loc>
+      <video:player_loc>https://www.youtube.com/embed/LZM3hoVBcU4</video:player_loc>
+      <video:upload_date>2026-07-17</video:upload_date>
+      <video:duration>59</video:duration>
+      <video:requires_subscription>no</video:requires_subscription>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:tag>ai</video:tag>
+      <video:tag>rage bait</video:tag>
+      <video:tag>developer rant</video:tag>
+      <video:tag>0xRAGE404</video:tag>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/watch/ygK_86a8Aoc.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/ygK_86a8Aoc/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>CSS Frameworks Are Crutches</video:title>
+      <video:description>Rage-Bait Tech Short about CSS Frameworks Are Crutches</video:description>
+      <video:content_loc>https://www.youtube.com/watch?v=ygK_86a8Aoc</video:content_loc>
+      <video:player_loc>https://www.youtube.com/embed/ygK_86a8Aoc</video:player_loc>
+      <video:upload_date>2026-07-17</video:upload_date>
+      <video:duration>59</video:duration>
+      <video:requires_subscription>no</video:requires_subscription>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:tag>ai</video:tag>
+      <video:tag>rage bait</video:tag>
+      <video:tag>developer rant</video:tag>
+      <video:tag>0xRAGE404</video:tag>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/watch/-Pis__eDcpQ.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/-Pis__eDcpQ/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>If you defend Agile you're the problem. Quit. **, what</video:title>
+      <video:description>Rage-Bait Tech Short about If you defend Agile you're the problem. Quit. **, what</video:description>
+      <video:content_loc>https://www.youtube.com/watch?v=-Pis__eDcpQ</video:content_loc>
+      <video:player_loc>https://www.youtube.com/embed/-Pis__eDcpQ</video:player_loc>
+      <video:upload_date>2026-07-17</video:upload_date>
+      <video:duration>59</video:duration>
+      <video:requires_subscription>no</video:requires_subscription>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:tag>ai</video:tag>
+      <video:tag>rage bait</video:tag>
+      <video:tag>developer rant</video:tag>
+      <video:tag>0xRAGE404</video:tag>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/watch/0tLUAc89rqU.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/0tLUAc89rqU/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>Rust is the worst trend in development</video:title>
+      <video:description>Rage-Bait Tech Short about Rust is the worst trend in development</video:description>
+      <video:content_loc>https://www.youtube.com/watch?v=0tLUAc89rqU</video:content_loc>
+      <video:player_loc>https://www.youtube.com/embed/0tLUAc89rqU</video:player_loc>
+      <video:upload_date>2026-07-17</video:upload_date>
+      <video:duration>59</video:duration>
+      <video:requires_subscription>no</video:requires_subscription>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:tag>ai</video:tag>
+      <video:tag>rage bait</video:tag>
+      <video:tag>developer rant</video:tag>
+      <video:tag>0xRAGE404</video:tag>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/watch/IadNqe3eNmo.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/IadNqe3eNmo/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>CSS Is A Dumpster Fire</video:title>
+      <video:description>Rage-Bait Tech Short about CSS Is A Dumpster Fire</video:description>
+      <video:content_loc>https://www.youtube.com/watch?v=IadNqe3eNmo</video:content_loc>
+      <video:player_loc>https://www.youtube.com/embed/IadNqe3eNmo</video:player_loc>
+      <video:upload_date>2026-07-16</video:upload_date>
+      <video:duration>59</video:duration>
+      <video:requires_subscription>no</video:requires_subscription>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:tag>ai</video:tag>
+      <video:tag>rage bait</video:tag>
+      <video:tag>developer rant</video:tag>
+      <video:tag>0xRAGE404</video:tag>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/watch/B4D5O3Bo6hM.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/B4D5O3Bo6hM/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>If you defend Python you're the problem. Quit. Python i</video:title>
+      <video:description>Rage-Bait Tech Short about If you defend Python you're the problem. Quit. Python i</video:description>
+      <video:content_loc>https://www.youtube.com/watch?v=B4D5O3Bo6hM</video:content_loc>
+      <video:player_loc>https://www.youtube.com/embed/B4D5O3Bo6hM</video:player_loc>
+      <video:upload_date>2026-07-16</video:upload_date>
+      <video:duration>59</video:duration>
+      <video:requires_subscription>no</video:requires_subscription>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:tag>ai</video:tag>
+      <video:tag>rage bait</video:tag>
+      <video:tag>developer rant</video:tag>
+      <video:tag>0xRAGE404</video:tag>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/watch/uniE0l9jQH8.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/uniE0l9jQH8/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>Code Ownership Kills Teams</video:title>
+      <video:description>Rage-Bait Tech Short about Code Ownership Kills Teams</video:description>
+      <video:content_loc>https://www.youtube.com/watch?v=uniE0l9jQH8</video:content_loc>
+      <video:player_loc>https://www.youtube.com/embed/uniE0l9jQH8</video:player_loc>
+      <video:upload_date>2026-07-15</video:upload_date>
+      <video:duration>59</video:duration>
+      <video:requires_subscription>no</video:requires_subscription>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:tag>ai</video:tag>
+      <video:tag>rage bait</video:tag>
+      <video:tag>developer rant</video:tag>
+      <video:tag>0xRAGE404</video:tag>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/watch/to5ycIoSIjY.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/to5ycIoSIjY/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>You think React is fine? You're exactly who this is for</video:title>
+      <video:description>Rage-Bait Tech Short about You think React is fine? You're exactly who this is for</video:description>
+      <video:content_loc>https://www.youtube.com/watch?v=to5ycIoSIjY</video:content_loc>
+      <video:player_loc>https://www.youtube.com/embed/to5ycIoSIjY</video:player_loc>
+      <video:upload_date>2026-07-15</video:upload_date>
+      <video:duration>59</video:duration>
+      <video:requires_subscription>no</video:requires_subscription>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:tag>ai</video:tag>
+      <video:tag>rage bait</video:tag>
+      <video:tag>developer rant</video:tag>
+      <video:tag>0xRAGE404</video:tag>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/watch/wNztwURBIm4.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/wNztwURBIm4/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>Stop Calling Yourself a Vibe Coder</video:title>
+      <video:description>The manifesto against AI-generated garbage masquerading as engineering.</video:description>
+      <video:content_loc>https://www.youtube.com/watch?v=wNztwURBIm4</video:content_loc>
+      <video:player_loc>https://www.youtube.com/embed/wNztwURBIm4</video:player_loc>
+      <video:upload_date>2026-07-15</video:upload_date>
+      <video:duration>59</video:duration>
+      <video:requires_subscription>no</video:requires_subscription>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:tag>vibecoding</video:tag>
+      <video:tag>rage bait</video:tag>
+      <video:tag>developer rant</video:tag>
+      <video:tag>0xRAGE404</video:tag>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/watch/K_qxys0kZSI.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/K_qxys0kZSI/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>TypeScript Made You Slower</video:title>
+      <video:description>Rage-Bait Tech Short about TypeScript Made You Slower</video:description>
+      <video:content_loc>https://www.youtube.com/watch?v=K_qxys0kZSI</video:content_loc>
+      <video:player_loc>https://www.youtube.com/embed/K_qxys0kZSI</video:player_loc>
+      <video:upload_date>2026-07-14</video:upload_date>
+      <video:duration>59</video:duration>
+      <video:requires_subscription>no</video:requires_subscription>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:tag>ai</video:tag>
+      <video:tag>rage bait</video:tag>
+      <video:tag>developer rant</video:tag>
+      <video:tag>0xRAGE404</video:tag>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/watch/-OVJTw8bJzs.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/-OVJTw8bJzs/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>No One Owns This Code</video:title>
+      <video:description>Rage-Bait Tech Short about No One Owns This Code</video:description>
+      <video:content_loc>https://www.youtube.com/watch?v=-OVJTw8bJzs</video:content_loc>
+      <video:player_loc>https://www.youtube.com/embed/-OVJTw8bJzs</video:player_loc>
+      <video:upload_date>2026-07-14</video:upload_date>
+      <video:duration>59</video:duration>
+      <video:requires_subscription>no</video:requires_subscription>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:tag>ai</video:tag>
+      <video:tag>rage bait</video:tag>
+      <video:tag>developer rant</video:tag>
+      <video:tag>0xRAGE404</video:tag>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/watch/krs-jX9PdrA.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/krs-jX9PdrA/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>You think Rust is fine? You're exactly who this is for.</video:title>
+      <video:description>Rage-Bait Tech Short about You think Rust is fine? You're exactly who this is for.</video:description>
+      <video:content_loc>https://www.youtube.com/watch?v=krs-jX9PdrA</video:content_loc>
+      <video:player_loc>https://www.youtube.com/embed/krs-jX9PdrA</video:player_loc>
+      <video:upload_date>2026-07-14</video:upload_date>
+      <video:duration>59</video:duration>
+      <video:requires_subscription>no</video:requires_subscription>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:tag>ai</video:tag>
+      <video:tag>rage bait</video:tag>
+      <video:tag>developer rant</video:tag>
+      <video:tag>0xRAGE404</video:tag>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/watch/9W3wgt01Juc.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/9W3wgt01Juc/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>You Use TypeScript Wrong</video:title>
+      <video:description>Rage-Bait Tech Short about You Use TypeScript Wrong</video:description>
+      <video:content_loc>https://www.youtube.com/watch?v=9W3wgt01Juc</video:content_loc>
+      <video:player_loc>https://www.youtube.com/embed/9W3wgt01Juc</video:player_loc>
+      <video:upload_date>2026-07-13</video:upload_date>
+      <video:duration>59</video:duration>
+      <video:requires_subscription>no</video:requires_subscription>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:tag>ai</video:tag>
+      <video:tag>rage bait</video:tag>
+      <video:tag>developer rant</video:tag>
+      <video:tag>0xRAGE404</video:tag>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/watch/sAlCyZJDA0k.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/sAlCyZJDA0k/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>AI Code Deployed to Prod</video:title>
+      <video:description>Rage-Bait Tech Short about AI Code Deployed to Prod</video:description>
+      <video:content_loc>https://www.youtube.com/watch?v=sAlCyZJDA0k</video:content_loc>
+      <video:player_loc>https://www.youtube.com/embed/sAlCyZJDA0k</video:player_loc>
+      <video:upload_date>2026-07-13</video:upload_date>
+      <video:duration>59</video:duration>
+      <video:requires_subscription>no</video:requires_subscription>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:tag>ai</video:tag>
+      <video:tag>rage bait</video:tag>
+      <video:tag>developer rant</video:tag>
+      <video:tag>0xRAGE404</video:tag>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/watch/CYSapejXwzI.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/CYSapejXwzI/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>Agile Roast -- Your Code Is A Disgraceful Nightmare</video:title>
+      <video:description>Rage-Bait Tech Short about Agile Roast -- Your Code Is A Disgraceful Nightmare</video:description>
+      <video:content_loc>https://www.youtube.com/watch?v=CYSapejXwzI</video:content_loc>
+      <video:player_loc>https://www.youtube.com/embed/CYSapejXwzI</video:player_loc>
+      <video:upload_date>2026-07-13</video:upload_date>
+      <video:duration>59</video:duration>
+      <video:requires_subscription>no</video:requires_subscription>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:tag>ai</video:tag>
+      <video:tag>rage bait</video:tag>
+      <video:tag>developer rant</video:tag>
+      <video:tag>0xRAGE404</video:tag>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/watch/38KESZqtg0k.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/38KESZqtg0k/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>Microservices Are Not A Solution</video:title>
+      <video:description>Rage-Bait Tech Short about Microservices Are Not A Solution</video:description>
+      <video:content_loc>https://www.youtube.com/watch?v=38KESZqtg0k</video:content_loc>
+      <video:player_loc>https://www.youtube.com/embed/38KESZqtg0k</video:player_loc>
+      <video:upload_date>2026-07-12</video:upload_date>
+      <video:duration>59</video:duration>
+      <video:requires_subscription>no</video:requires_subscription>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:tag>ai</video:tag>
+      <video:tag>rage bait</video:tag>
+      <video:tag>developer rant</video:tag>
+      <video:tag>0xRAGE404</video:tag>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/watch/AeEX4vYdqBA.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/AeEX4vYdqBA/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>K8s YAML Is Hell</video:title>
+      <video:description>Rage-Bait Tech Short about K8s YAML Is Hell</video:description>
+      <video:content_loc>https://www.youtube.com/watch?v=AeEX4vYdqBA</video:content_loc>
+      <video:player_loc>https://www.youtube.com/embed/AeEX4vYdqBA</video:player_loc>
+      <video:upload_date>2026-07-12</video:upload_date>
+      <video:duration>59</video:duration>
+      <video:requires_subscription>no</video:requires_subscription>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:tag>ai</video:tag>
+      <video:tag>rage bait</video:tag>
+      <video:tag>developer rant</video:tag>
+      <video:tag>0xRAGE404</video:tag>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/watch/ZhMkqjnYTPA.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/ZhMkqjnYTPA/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>AI Code Never Gets Reviewed</video:title>
+      <video:description>Rage-Bait Tech Short about AI Code Never Gets Reviewed</video:description>
+      <video:content_loc>https://www.youtube.com/watch?v=ZhMkqjnYTPA</video:content_loc>
+      <video:player_loc>https://www.youtube.com/embed/ZhMkqjnYTPA</video:player_loc>
+      <video:upload_date>2026-07-12</video:upload_date>
+      <video:duration>59</video:duration>
+      <video:requires_subscription>no</video:requires_subscription>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:tag>ai</video:tag>
+      <video:tag>rage bait</video:tag>
+      <video:tag>developer rant</video:tag>
+      <video:tag>0xRAGE404</video:tag>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/watch/guKySfKBskU.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/guKySfKBskU/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>Microservices Roast -- Build Simple Things Properly</video:title>
+      <video:description>Rage-Bait Tech Short about Microservices Roast -- Build Simple Things Properly</video:description>
+      <video:content_loc>https://www.youtube.com/watch?v=guKySfKBskU</video:content_loc>
+      <video:player_loc>https://www.youtube.com/embed/guKySfKBskU</video:player_loc>
+      <video:upload_date>2026-07-12</video:upload_date>
+      <video:duration>59</video:duration>
+      <video:requires_subscription>no</video:requires_subscription>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:tag>ai</video:tag>
+      <video:tag>rage bait</video:tag>
+      <video:tag>developer rant</video:tag>
+      <video:tag>0xRAGE404</video:tag>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/watch/EKUHGRKXGAI.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/EKUHGRKXGAI/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>AI Generated Code Is Rot</video:title>
+      <video:description>Rage-Bait Tech Short about AI Generated Code Is Rot</video:description>
+      <video:content_loc>https://www.youtube.com/watch?v=EKUHGRKXGAI</video:content_loc>
+      <video:player_loc>https://www.youtube.com/embed/EKUHGRKXGAI</video:player_loc>
+      <video:upload_date>2026-07-11</video:upload_date>
+      <video:duration>59</video:duration>
+      <video:requires_subscription>no</video:requires_subscription>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:tag>ai</video:tag>
+      <video:tag>rage bait</video:tag>
+      <video:tag>developer rant</video:tag>
+      <video:tag>0xRAGE404</video:tag>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/watch/DLxW5m9B2nM.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/DLxW5m9B2nM/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>CSS Roast -- You Can't Even Spell Semantic</video:title>
+      <video:description>Rage-Bait Tech Short about CSS Roast -- You Can't Even Spell Semantic</video:description>
+      <video:content_loc>https://www.youtube.com/watch?v=DLxW5m9B2nM</video:content_loc>
+      <video:player_loc>https://www.youtube.com/embed/DLxW5m9B2nM</video:player_loc>
+      <video:upload_date>2026-07-11</video:upload_date>
+      <video:duration>59</video:duration>
+      <video:requires_subscription>no</video:requires_subscription>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:tag>ai</video:tag>
+      <video:tag>rage bait</video:tag>
+      <video:tag>developer rant</video:tag>
+      <video:tag>0xRAGE404</video:tag>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/watch/yccGAPdtnpk.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/yccGAPdtnpk/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>Here's why you're wrong about Go. Sit down. Go is garba</video:title>
+      <video:description>Rage-Bait Tech Short about Here's why you're wrong about Go. Sit down. Go is garba</video:description>
+      <video:content_loc>https://www.youtube.com/watch?v=yccGAPdtnpk</video:content_loc>
+      <video:player_loc>https://www.youtube.com/embed/yccGAPdtnpk</video:player_loc>
+      <video:upload_date>2026-07-10</video:upload_date>
+      <video:duration>59</video:duration>
+      <video:requires_subscription>no</video:requires_subscription>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:tag>ai</video:tag>
+      <video:tag>rage bait</video:tag>
+      <video:tag>developer rant</video:tag>
+      <video:tag>0xRAGE404</video:tag>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/watch/-QW0o8tFzgA.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/-QW0o8tFzgA/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>Pull Requests Are Broken - Heres Why</video:title>
+      <video:description>Rage-Bait Tech Short about Pull Requests Are Broken - Heres Why</video:description>
+      <video:content_loc>https://www.youtube.com/watch?v=-QW0o8tFzgA</video:content_loc>
+      <video:player_loc>https://www.youtube.com/embed/-QW0o8tFzgA</video:player_loc>
+      <video:upload_date>2026-07-10</video:upload_date>
+      <video:duration>59</video:duration>
+      <video:requires_subscription>no</video:requires_subscription>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:tag>ai</video:tag>
+      <video:tag>rage bait</video:tag>
+      <video:tag>developer rant</video:tag>
+      <video:tag>0xRAGE404</video:tag>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/watch/6OAudnLszpg.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/6OAudnLszpg/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>[ LOG_DUMP: merge_conflicts ] -- Spaghetti Layout</video:title>
+      <video:description>Rage-Bait Tech Short about [ LOG_DUMP: merge_conflicts ] -- Spaghetti Layout</video:description>
+      <video:content_loc>https://www.youtube.com/watch?v=6OAudnLszpg</video:content_loc>
+      <video:player_loc>https://www.youtube.com/embed/6OAudnLszpg</video:player_loc>
+      <video:upload_date>2026-07-10</video:upload_date>
+      <video:duration>59</video:duration>
+      <video:requires_subscription>no</video:requires_subscription>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:tag>ai</video:tag>
+      <video:tag>rage bait</video:tag>
+      <video:tag>developer rant</video:tag>
+      <video:tag>0xRAGE404</video:tag>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/watch/-QW0o8tFzgA.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/-QW0o8tFzgA/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>Pull Requests Are Broken - Heres Why</video:title>
+      <video:description>Rage-Bait Tech Short about Pull Requests Are Broken - Heres Why</video:description>
+      <video:content_loc>https://www.youtube.com/watch?v=-QW0o8tFzgA</video:content_loc>
+      <video:player_loc>https://www.youtube.com/embed/-QW0o8tFzgA</video:player_loc>
+      <video:upload_date>2026-07-10</video:upload_date>
+      <video:duration>59</video:duration>
+      <video:requires_subscription>no</video:requires_subscription>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:tag>ai</video:tag>
+      <video:tag>rage bait</video:tag>
+      <video:tag>developer rant</video:tag>
+      <video:tag>0xRAGE404</video:tag>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/watch/3Xjfp6EpSG8.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/3Xjfp6EpSG8/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>I Cant Build Anything But Make It Faster</video:title>
+      <video:description>Rage-Bait Tech Short about I Cant Build Anything But Make It Faster</video:description>
+      <video:content_loc>https://www.youtube.com/watch?v=3Xjfp6EpSG8</video:content_loc>
+      <video:player_loc>https://www.youtube.com/embed/3Xjfp6EpSG8</video:player_loc>
+      <video:upload_date>2026-07-10</video:upload_date>
+      <video:duration>59</video:duration>
+      <video:requires_subscription>no</video:requires_subscription>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:tag>ai</video:tag>
+      <video:tag>rage bait</video:tag>
+      <video:tag>developer rant</video:tag>
+      <video:tag>0xRAGE404</video:tag>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/watch/giRGocLUL5o.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/giRGocLUL5o/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>When AI-Generated Code Destroys Production</video:title>
+      <video:description>Rage-Bait Tech Short about When AI-Generated Code Destroys Production</video:description>
+      <video:content_loc>https://www.youtube.com/watch?v=giRGocLUL5o</video:content_loc>
+      <video:player_loc>https://www.youtube.com/embed/giRGocLUL5o</video:player_loc>
+      <video:upload_date>2026-07-10</video:upload_date>
+      <video:duration>59</video:duration>
+      <video:requires_subscription>no</video:requires_subscription>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:tag>ai</video:tag>
+      <video:tag>rage bait</video:tag>
+      <video:tag>developer rant</video:tag>
+      <video:tag>0xRAGE404</video:tag>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/watch/2sWnTEhuZTs.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/2sWnTEhuZTs/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>The Dangerous Art of Just Cue Me</video:title>
+      <video:description>Rage-Bait Tech Short about The Dangerous Art of Just Cue Me</video:description>
+      <video:content_loc>https://www.youtube.com/watch?v=2sWnTEhuZTs</video:content_loc>
+      <video:player_loc>https://www.youtube.com/embed/2sWnTEhuZTs</video:player_loc>
+      <video:upload_date>2026-07-10</video:upload_date>
+      <video:duration>59</video:duration>
+      <video:requires_subscription>no</video:requires_subscription>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:tag>ai</video:tag>
+      <video:tag>rage bait</video:tag>
+      <video:tag>developer rant</video:tag>
+      <video:tag>0xRAGE404</video:tag>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/watch/LfDH0Qa2bpQ.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/LfDH0Qa2bpQ/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>Yoinked - Your Code Just Got Stolen</video:title>
+      <video:description>Rage-Bait Tech Short about Yoinked - Your Code Just Got Stolen</video:description>
+      <video:content_loc>https://www.youtube.com/watch?v=LfDH0Qa2bpQ</video:content_loc>
+      <video:player_loc>https://www.youtube.com/embed/LfDH0Qa2bpQ</video:player_loc>
+      <video:upload_date>2026-07-10</video:upload_date>
+      <video:duration>59</video:duration>
+      <video:requires_subscription>no</video:requires_subscription>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:tag>ai</video:tag>
+      <video:tag>rage bait</video:tag>
+      <video:tag>developer rant</video:tag>
+      <video:tag>0xRAGE404</video:tag>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/watch/aHG2XWluR4E.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/aHG2XWluR4E/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>Refactor Is Just Rewriting With Extra Steps</video:title>
+      <video:description>Rage-Bait Tech Short about Refactor Is Just Rewriting With Extra Steps</video:description>
+      <video:content_loc>https://www.youtube.com/watch?v=aHG2XWluR4E</video:content_loc>
+      <video:player_loc>https://www.youtube.com/embed/aHG2XWluR4E</video:player_loc>
+      <video:upload_date>2026-07-10</video:upload_date>
+      <video:duration>59</video:duration>
+      <video:requires_subscription>no</video:requires_subscription>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:tag>ai</video:tag>
+      <video:tag>rage bait</video:tag>
+      <video:tag>developer rant</video:tag>
+      <video:tag>0xRAGE404</video:tag>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/watch/HzqSWNm6P2s.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/HzqSWNm6P2s/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>Code Ownership Is Stupid</video:title>
+      <video:description>Rage-Bait Tech Short about Code Ownership Is Stupid</video:description>
+      <video:content_loc>https://www.youtube.com/watch?v=HzqSWNm6P2s</video:content_loc>
+      <video:player_loc>https://www.youtube.com/embed/HzqSWNm6P2s</video:player_loc>
+      <video:upload_date>2026-07-10</video:upload_date>
+      <video:duration>59</video:duration>
+      <video:requires_subscription>no</video:requires_subscription>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:tag>ai</video:tag>
+      <video:tag>rage bait</video:tag>
+      <video:tag>developer rant</video:tag>
+      <video:tag>0xRAGE404</video:tag>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/watch/lyl4M5u7TJU.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/lyl4M5u7TJU/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>AI Generated Code Is Technical Debt</video:title>
+      <video:description>Rage-Bait Tech Short about AI Generated Code Is Technical Debt</video:description>
+      <video:content_loc>https://www.youtube.com/watch?v=lyl4M5u7TJU</video:content_loc>
+      <video:player_loc>https://www.youtube.com/embed/lyl4M5u7TJU</video:player_loc>
+      <video:upload_date>2026-07-10</video:upload_date>
+      <video:duration>59</video:duration>
+      <video:requires_subscription>no</video:requires_subscription>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:tag>ai</video:tag>
+      <video:tag>rage bait</video:tag>
+      <video:tag>developer rant</video:tag>
+      <video:tag>0xRAGE404</video:tag>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/watch/zKvStXVlqn8.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/zKvStXVlqn8/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>Merge Conflicts Are Preventable</video:title>
+      <video:description>Rage-Bait Tech Short about Merge Conflicts Are Preventable</video:description>
+      <video:content_loc>https://www.youtube.com/watch?v=zKvStXVlqn8</video:content_loc>
+      <video:player_loc>https://www.youtube.com/embed/zKvStXVlqn8</video:player_loc>
+      <video:upload_date>2026-07-10</video:upload_date>
+      <video:duration>59</video:duration>
+      <video:requires_subscription>no</video:requires_subscription>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:tag>ai</video:tag>
+      <video:tag>rage bait</video:tag>
+      <video:tag>developer rant</video:tag>
+      <video:tag>0xRAGE404</video:tag>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/watch/UD43J-rItu4.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/UD43J-rItu4/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>Why Code Ownership Is a Lie</video:title>
+      <video:description>Internal pipeline log dump from the suckz engine.</video:description>
+      <video:content_loc>https://www.youtube.com/watch?v=UD43J-rItu4</video:content_loc>
+      <video:player_loc>https://www.youtube.com/embed/UD43J-rItu4</video:player_loc>
+      <video:upload_date>2026-07-10</video:upload_date>
+      <video:duration>59</video:duration>
+      <video:requires_subscription>no</video:requires_subscription>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:tag>log_dump</video:tag>
+      <video:tag>rage bait</video:tag>
+      <video:tag>developer rant</video:tag>
+      <video:tag>0xRAGE404</video:tag>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/watch/FuipYLE0dBw.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/FuipYLE0dBw/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>Docker Compose Nightmare</video:title>
+      <video:description>Rage-Bait Tech Short about Docker Compose Nightmare</video:description>
+      <video:content_loc>https://www.youtube.com/watch?v=FuipYLE0dBw</video:content_loc>
+      <video:player_loc>https://www.youtube.com/embed/FuipYLE0dBw</video:player_loc>
+      <video:upload_date>2026-07-12</video:upload_date>
+      <video:duration>59</video:duration>
+      <video:requires_subscription>no</video:requires_subscription>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:tag>ai</video:tag>
+      <video:tag>rage bait</video:tag>
+      <video:tag>developer rant</video:tag>
+      <video:tag>0xRAGE404</video:tag>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/watch/tEgPiXf_Ktc.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/tEgPiXf_Ktc/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>Docker</video:title>
+      <video:description>Rage-Bait Tech Short about Docker</video:description>
+      <video:content_loc>https://www.youtube.com/watch?v=tEgPiXf_Ktc</video:content_loc>
+      <video:player_loc>https://www.youtube.com/embed/tEgPiXf_Ktc</video:player_loc>
+      <video:upload_date>2026-07-12</video:upload_date>
+      <video:duration>59</video:duration>
+      <video:requires_subscription>no</video:requires_subscription>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:tag>ai</video:tag>
+      <video:tag>rage bait</video:tag>
+      <video:tag>developer rant</video:tag>
+      <video:tag>0xRAGE404</video:tag>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/watch/4qNCsaj8FQI.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/4qNCsaj8FQI/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>Your CI Pipeline Sucks</video:title>
+      <video:description>Rage-Bait Tech Short about Your CI Pipeline Sucks</video:description>
+      <video:content_loc>https://www.youtube.com/watch?v=4qNCsaj8FQI</video:content_loc>
+      <video:player_loc>https://www.youtube.com/embed/4qNCsaj8FQI</video:player_loc>
+      <video:upload_date>2026-07-12</video:upload_date>
+      <video:duration>59</video:duration>
+      <video:requires_subscription>no</video:requires_subscription>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:tag>ai</video:tag>
+      <video:tag>rage bait</video:tag>
+      <video:tag>developer rant</video:tag>
+      <video:tag>0xRAGE404</video:tag>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/watch/wzyVAtU-nOw.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/wzyVAtU-nOw/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>CI Pipeline</video:title>
+      <video:description>Rage-Bait Tech Short about CI Pipeline</video:description>
+      <video:content_loc>https://www.youtube.com/watch?v=wzyVAtU-nOw</video:content_loc>
+      <video:player_loc>https://www.youtube.com/embed/wzyVAtU-nOw</video:player_loc>
+      <video:upload_date>2026-07-12</video:upload_date>
+      <video:duration>59</video:duration>
+      <video:requires_subscription>no</video:requires_subscription>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:tag>ai</video:tag>
+      <video:tag>rage bait</video:tag>
+      <video:tag>developer rant</video:tag>
+      <video:tag>0xRAGE404</video:tag>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/watch/Mr1-7Y_jH14.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/Mr1-7Y_jH14/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>Work Life Balance Is A Lie</video:title>
+      <video:description>Rage-Bait Tech Short about Work Life Balance Is A Lie</video:description>
+      <video:content_loc>https://www.youtube.com/watch?v=Mr1-7Y_jH14</video:content_loc>
+      <video:player_loc>https://www.youtube.com/embed/Mr1-7Y_jH14</video:player_loc>
+      <video:upload_date>2026-07-12</video:upload_date>
+      <video:duration>59</video:duration>
+      <video:requires_subscription>no</video:requires_subscription>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:tag>ai</video:tag>
+      <video:tag>rage bait</video:tag>
+      <video:tag>developer rant</video:tag>
+      <video:tag>0xRAGE404</video:tag>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/watch/suonT_y7fz8.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/suonT_y7fz8/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>Burnout Is Inevitable</video:title>
+      <video:description>Rage-Bait Tech Short about Burnout Is Inevitable</video:description>
+      <video:content_loc>https://www.youtube.com/watch?v=suonT_y7fz8</video:content_loc>
+      <video:player_loc>https://www.youtube.com/embed/suonT_y7fz8</video:player_loc>
+      <video:upload_date>2026-07-12</video:upload_date>
+      <video:duration>59</video:duration>
+      <video:requires_subscription>no</video:requires_subscription>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:tag>ai</video:tag>
+      <video:tag>rage bait</video:tag>
+      <video:tag>developer rant</video:tag>
+      <video:tag>0xRAGE404</video:tag>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/watch/H-nAXQJ1pnw.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/H-nAXQJ1pnw/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>React Devs Can't Write CSS</video:title>
+      <video:description>Rage-Bait Tech Short about React Devs Can't Write CSS</video:description>
+      <video:content_loc>https://www.youtube.com/watch?v=H-nAXQJ1pnw</video:content_loc>
+      <video:player_loc>https://www.youtube.com/embed/H-nAXQJ1pnw</video:player_loc>
+      <video:upload_date>2026-07-12</video:upload_date>
+      <video:duration>59</video:duration>
+      <video:requires_subscription>no</video:requires_subscription>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:tag>ai</video:tag>
+      <video:tag>rage bait</video:tag>
+      <video:tag>developer rant</video:tag>
+      <video:tag>0xRAGE404</video:tag>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/watch/Eb8P7mlXmEY.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/Eb8P7mlXmEY/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>React Is Bloatware</video:title>
+      <video:description>Rage-Bait Tech Short about React Is Bloatware</video:description>
+      <video:content_loc>https://www.youtube.com/watch?v=Eb8P7mlXmEY</video:content_loc>
+      <video:player_loc>https://www.youtube.com/embed/Eb8P7mlXmEY</video:player_loc>
+      <video:upload_date>2026-07-12</video:upload_date>
+      <video:duration>59</video:duration>
+      <video:requires_subscription>no</video:requires_subscription>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:tag>ai</video:tag>
+      <video:tag>rage bait</video:tag>
+      <video:tag>developer rant</video:tag>
+      <video:tag>0xRAGE404</video:tag>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/watch/kdMbwO56FGY.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/kdMbwO56FGY/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>Distributed Monolith</video:title>
+      <video:description>Rage-Bait Tech Short about Distributed Monolith</video:description>
+      <video:content_loc>https://www.youtube.com/watch?v=kdMbwO56FGY</video:content_loc>
+      <video:player_loc>https://www.youtube.com/embed/kdMbwO56FGY</video:player_loc>
+      <video:upload_date>2026-07-12</video:upload_date>
+      <video:duration>59</video:duration>
+      <video:requires_subscription>no</video:requires_subscription>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:tag>ai</video:tag>
+      <video:tag>rage bait</video:tag>
+      <video:tag>developer rant</video:tag>
+      <video:tag>0xRAGE404</video:tag>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/watch/GWIugMo3Gc4.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/GWIugMo3Gc4/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>Your Garbage Collector is a Bonfire</video:title>
+      <video:description>Rage-Bait Tech Short about Your Garbage Collector is a Bonfire</video:description>
+      <video:content_loc>https://www.youtube.com/watch?v=GWIugMo3Gc4</video:content_loc>
+      <video:player_loc>https://www.youtube.com/embed/GWIugMo3Gc4</video:player_loc>
+      <video:upload_date>2026-07-13</video:upload_date>
+      <video:duration>59</video:duration>
+      <video:requires_subscription>no</video:requires_subscription>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:tag>ai</video:tag>
+      <video:tag>rage bait</video:tag>
+      <video:tag>developer rant</video:tag>
+      <video:tag>0xRAGE404</video:tag>
+    </video:video>
   </url>
 </urlset>
