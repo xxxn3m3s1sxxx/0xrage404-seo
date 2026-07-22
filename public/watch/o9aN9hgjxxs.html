@@ -53,7 +53,8 @@
   </script>
   <style>
     *{margin:0;padding:0;box-sizing:border-box}
-    body{background:#0a0a0a;color:#ccc;font-family:system-ui,-apple-system,sans-serif;line-height:1.7}
+    body{background:#000;color:#ccc;font-family:system-ui,-apple-system,sans-serif;line-height:1.7}
+    #matrix-canvas{position:fixed;top:0;left:0;width:100vw;height:100vh;z-index:-1;pointer-events:none;background:#000}
     .watch-wrap{max-width:900px;margin:0 auto;padding:1.5rem 1rem}
     .video-container{position:relative;width:100%;padding-bottom:56.25%;margin-bottom:1.5rem;border:1px solid #1a1a1a;border-radius:8px;overflow:hidden}
     .video-container iframe{position:absolute;top:0;left:0;width:100%;height:100%;border:0}
@@ -73,6 +74,7 @@
   </style>
 </head>
 <body>
+  <canvas id="matrix-canvas"></canvas>
   <div class="watch-wrap">
     <div class="video-container">
       <iframe src="https://www.youtube.com/embed/o9aN9hgjxxs" title="AI Security Doesn't Exist" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen loading="lazy"></iframe>
@@ -93,5 +95,35 @@
   <footer>
     <p>Follow <a class="brand" href="https://youtube.com/@0xRAGE.404" target="_blank"><span class="at">@</span>0xRAGE.404 on YouTube</a></p>
   </footer>
+  <script>
+  (function(){
+    var c=document.getElementById("matrix-canvas"),
+        x=c.getContext("2d"),
+        W,H,drops,
+        fs=16,
+        ch="\u30a2\u30a4\u30a6\u30a8\u30aa\u30ab\u30ad\u30af\u30b1\u30b3\u30b5\u30b7\u30b9\u30bb\u30bd\u30bf\u30c1\u30c4\u30c6\u30c8\u30ca\u30cb\u30cc\u30cd\u30ce\u30cf\u30d2\u30d5\u30d8\u30db\u30de\u30df\u30e0\u30e1\u30e2\u30e4\u30e6\u30e8\u30e9\u30ea\u30eb\u30ec\u30ed\u30ef\u30f2\u30f30123456789";
+    function resize(){W=c.width=innerWidth;H=c.height=innerHeight;init()}
+    function init(){drops=Array.from({length:Math.floor(W/fs)},function(){return{x:Math.random()*W,y:Math.random()*H*-1,speed:1+Math.random()*3,len:5+Math.floor(Math.random()*15)}})}
+    function draw(){
+      x.fillStyle="rgba(0,0,0,0.18)";x.fillRect(0,0,W,H);
+      x.font="bold "+fs+"px monospace";
+      for(var i=0;i<drops.length;i++){
+        var d=drops[i],c2=ch[Math.floor(Math.random()*ch.length)],y=d.y;
+        for(var j=0;j<d.len;j++){
+          var cy=y-j*fs;
+          if(cy<-fs||cy>H)continue;
+          var b=1-j/d.len;
+          x.fillStyle=j===0?"rgba(180,255,180,0.9)":"rgba(0,255,65,"+(b*0.5).toFixed(2)+")";
+          x.fillText(c2,d.x,cy);
+        }
+        d.y+=d.speed;
+        if(d.y-d.len*fs>H){d.y=-fs;d.speed=1+Math.random()*3;d.len=5+Math.floor(Math.random()*15);d.x=Math.random()*W}
+      }
+      requestAnimationFrame(draw)
+    }
+    resize();init();draw();
+    addEventListener("resize",resize);
+  })();
+  </script>
 </body>
 </html>
