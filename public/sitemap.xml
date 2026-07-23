@@ -892,6 +892,26 @@
     </video:video>
   </url>
   <url>
+    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/watch/ZhMkqjnYTPA.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/ZhMkqjnYTPA/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>AI Code Never Gets Reviewed</video:title>
+      <video:description>Microservices for todo apps and the death of KISS.</video:description>
+      <video:content_loc>https://www.youtube.com/watch?v=ZhMkqjnYTPA</video:content_loc>
+      <video:player_loc>https://www.youtube.com/embed/ZhMkqjnYTPA</video:player_loc>
+      <video:upload_date>2026-07-12</video:upload_date>
+      <video:duration>59</video:duration>
+      <video:requires_subscription>no</video:requires_subscription>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:tag>ai</video:tag>
+      <video:tag>rage bait</video:tag>
+      <video:tag>developer rant</video:tag>
+      <video:tag>0xRAGE404</video:tag>
+    </video:video>
+  </url>
+  <url>
     <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/watch/guKySfKBskU.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -906,6 +926,26 @@
       <video:requires_subscription>no</video:requires_subscription>
       <video:family_friendly>yes</video:family_friendly>
       <video:tag>microservices</video:tag>
+      <video:tag>rage bait</video:tag>
+      <video:tag>developer rant</video:tag>
+      <video:tag>0xRAGE404</video:tag>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/watch/EKUHGRKXGAI.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/EKUHGRKXGAI/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>AI Generated Code Is Rot</video:title>
+      <video:description>Microservices for todo apps and the death of KISS.</video:description>
+      <video:content_loc>https://www.youtube.com/watch?v=EKUHGRKXGAI</video:content_loc>
+      <video:player_loc>https://www.youtube.com/embed/EKUHGRKXGAI</video:player_loc>
+      <video:upload_date>2026-07-11</video:upload_date>
+      <video:duration>59</video:duration>
+      <video:requires_subscription>no</video:requires_subscription>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:tag>ai</video:tag>
       <video:tag>rage bait</video:tag>
       <video:tag>developer rant</video:tag>
       <video:tag>0xRAGE404</video:tag>
@@ -1792,11 +1832,6 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/watch/EKUHGRKXGAI.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/watch/FuipYLE0dBw.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -1828,11 +1863,6 @@
   </url>
   <url>
     <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/watch/wzyVAtU-nOw.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/watch/ZhMkqjnYTPA.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>

@@ -57,7 +57,9 @@ export const VIDEOS: Video[] = [
   { id: "CYSapejXwzI", title: "Agile Roast — Your Code Is A Disgraceful Nightmare", topic: "agile", blurb: "Scrum circus, useless standups, and Agile as a bureaucracy monster.", file: "CYSapejXwzI", thumb: true, date: "2026-07-13", public: true },
   { id: "sAlCyZJDA0k", title: "AI Code Deployed to Prod", topic: "promptengineer", blurb: "AI code garbage, token waste, and vibecoding madness.", file: "sAlCyZJDA0k", thumb: true, date: "2026-07-13", public: true },
   { id: "9W3wgt01Juc", title: "You Use TypeScript Wrong", topic: "typescript", blurb: "Any type lies, compiler hypocrisy, and false security.", file: "9W3wgt01Juc", thumb: true, date: "2026-07-13", public: true },
+  { id: "ZhMkqjnYTPA", title: "AI Code Never Gets Reviewed", topic: "ai", blurb: "Microservices for todo apps and the death of KISS.", file: "ZhMkqjnYTPA.mp4", thumb: true, date: "2026-07-12", public: true },
   { id: "guKySfKBskU", title: "Microservices Roast — Build Simple Things Properly", topic: "microservices", blurb: "Distributed monoliths, service mesh, and why less is more.", file: "guKySfKBskU", thumb: true, date: "2026-07-12", public: true },
+  { id: "EKUHGRKXGAI", title: "AI Generated Code Is Rot", topic: "ai", blurb: "Microservices for todo apps and the death of KISS.", file: "EKUHGRKXGAI.mp4", thumb: true, date: "2026-07-11", public: true },
   { id: "DLxW5m9B2nM", title: "CSS Roast — You Can't Even Spell Semantic", topic: "css", blurb: "CSS specificity wars, Tailwind dogma, and the !important pain.", file: "DLxW5m9B2nM", thumb: true, date: "2026-07-11", public: true },
   { id: "zKvStXVlqn8", title: "Merge Conflicts Are Preventable", topic: "worksonmymachine", blurb: "Reproducibility, CI/CD, and the biggest lie in software engineering.", file: "zKvStXVlqn8", thumb: true, date: "2026-07-10", public: true },
   { id: "lyl4M5u7TJU", title: "AI Generated Code Is Technical Debt", topic: "promptengineer", blurb: "AI code garbage, token waste, and vibecoding madness.", file: "lyl4M5u7TJU", thumb: true, date: "2026-07-10", public: true },
@@ -76,4 +78,7 @@ export const VIDEOS: Video[] = [
   { id: "wzyVAtU-nOw", title: "Your CI Pipeline Is Theater", topic: "worksonmymachine", blurb: "Reproducibility, CI/CD, and the biggest lie in software engineering.", file: "wzyVAtU-nOw", thumb: false, date: "2026-07-12", public: false },
   { id: "Mr1-7Y_jH14", title: "Work-Life Balance Is a Corporate Fairy Tale", topic: "hustleculture", blurb: "Burnout, toxic productivity, and the self-optimization trap.", file: "Mr1-7Y_jH14", thumb: false, date: "2026-07-12", public: false },
   { id: "GWIugMo3Gc4", title: "Your Garbage Collector Is a Ticking Time Bomb", topic: "gc", blurb: "Stop-the-world, GC pauses, and memory management truth.", file: "GWIugMo3Gc4", thumb: false, date: "2026-07-13", public: false },
+  { id: "Eb8P7mlXmEY", title: "React Is Bloatware and You're Complicit", topic: "ai", blurb: "Microservices for todo apps and the death of KISS.", file: "Eb8P7mlXmEY.mp4", thumb: false, date: "2026-07-24", public: false },
+  { id: "H-nAXQJ1pnw", title: "React Devs Can't Write CSS and It Shows", topic: "ai", blurb: "Microservices for todo apps and the death of KISS.", file: "H-nAXQJ1pnw.mp4", thumb: false, date: "2026-07-25", public: false },
+  { id: "suonT_y7fz8", title: "Burnout Is Inevitable and Your Company Planned It", topic: "ai", blurb: "Microservices for todo apps and the death of KISS.", file: "suonT_y7fz8.mp4", thumb: false, date: "2026-07-26", public: false },
 ];
