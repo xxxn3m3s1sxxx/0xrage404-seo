@@ -17,8 +17,8 @@
     <priority>0.8</priority>
     <video:video>
       <video:thumbnail_loc>https://i.ytimg.com/vi/1MutO8ROX70/hqdefault.jpg</video:thumbnail_loc>
-      <video:title>AI Security Is Dead</video:title>
-      <video:description>Rage-Bait Tech Short about AI Security Is Dead</video:description>
+      <video:title>AI Security Is Dead -- Nobody Actually Secures Anything</video:title>
+      <video:description>Rage-Bait Tech Short about AI Security Is Dead -- Nobody Actually Secures Anything</video:description>
       <video:content_loc>https://www.youtube.com/watch?v=1MutO8ROX70</video:content_loc>
       <video:player_loc>https://www.youtube.com/embed/1MutO8ROX70</video:player_loc>
       <video:upload_date>2026-07-22</video:upload_date>
@@ -517,7 +517,7 @@
     <priority>0.8</priority>
     <video:video>
       <video:thumbnail_loc>https://i.ytimg.com/vi/0tLUAc89rqU/hqdefault.jpg</video:thumbnail_loc>
-      <video:title>Rust is the worst trend in development</video:title>
+      <video:title>Rust Is the Worst Trend in Development Right Now</video:title>
       <video:description>Borrow checker, ownership, and the steepest learning curve alive.</video:description>
       <video:content_loc>https://www.youtube.com/watch?v=0tLUAc89rqU</video:content_loc>
       <video:player_loc>https://www.youtube.com/embed/0tLUAc89rqU</video:player_loc>
@@ -857,7 +857,7 @@
     <priority>0.8</priority>
     <video:video>
       <video:thumbnail_loc>https://i.ytimg.com/vi/AeEX4vYdqBA/hqdefault.jpg</video:thumbnail_loc>
-      <video:title>K8s YAML Is Hell</video:title>
+      <video:title>K8s YAML Will Make You Quit DevOps -- Here's Why</video:title>
       <video:description>YAML atrocities, operator madness, and K8s overkill for 90% of teams.</video:description>
       <video:content_loc>https://www.youtube.com/watch?v=AeEX4vYdqBA</video:content_loc>
       <video:player_loc>https://www.youtube.com/embed/AeEX4vYdqBA</video:player_loc>
@@ -897,7 +897,7 @@
     <priority>0.8</priority>
     <video:video>
       <video:thumbnail_loc>https://i.ytimg.com/vi/kdMbwO56FGY/hqdefault.jpg</video:thumbnail_loc>
-      <video:title>Distributed Monolith</video:title>
+      <video:title>You Ship a Distributed Monolith Every Day -- And You Don't Even Know</video:title>
       <video:description>Distributed monoliths, service mesh, and why less is more.</video:description>
       <video:content_loc>https://www.youtube.com/watch?v=kdMbwO56FGY</video:content_loc>
       <video:player_loc>https://www.youtube.com/embed/kdMbwO56FGY</video:player_loc>

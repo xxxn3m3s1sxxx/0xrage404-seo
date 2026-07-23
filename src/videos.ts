@@ -13,7 +13,7 @@ export interface Video {
 }
 
 export const VIDEOS: Video[] = [
-  { id: "1MutO8ROX70", title: "AI Security Is Dead", topic: "ai", blurb: "Rage-Bait Tech Short about AI Security Is Dead", file: "essay_ai_security.mp4", thumb: true, date: "2026-07-22", public: true },
+  { id: "1MutO8ROX70", title: "AI Security Is Dead -- Nobody Actually Secures Anything", topic: "ai", blurb: "Rage-Bait Tech Short about AI Security Is Dead -- Nobody Actually Secures Anything", file: "essay_ai_security.mp4", thumb: true, date: "2026-07-22", public: true },
   { id: "9ok9jrho9UQ", title: "AI Security Is a Lie", topic: "aisecurity", blurb: "Rage-Bait Tech Short about AI Security Is a Lie", file: "short_05", thumb: true, date: "2026-07-22", public: true },
   { id: "o9aN9hgjxxs", title: "AI Security Doesn't Exist", topic: "aisecurity", blurb: "Rage-Bait Tech Short about AI Security Doesn't Exist", file: "short_04", thumb: true, date: "2026-07-22", public: true },
   { id: "F0tRmoUBNkY", title: "432 Linux CVEs in 24 Hours", topic: "linuxcves", blurb: "Rage-Bait Tech Short about 432 Linux CVEs in 24 Hours", file: "short_03", thumb: true, date: "2026-07-22", public: true },
@@ -38,7 +38,7 @@ export const VIDEOS: Video[] = [
   { id: "I38ot3y3lBY", title: "Your CI Pipeline Is Actively Sabotaging You", topic: "worksonmymachine", blurb: "Reproducibility, CI/CD, and the biggest lie in software engineering.", file: "I38ot3y3lBY", thumb: true, date: "2026-07-18", public: true },
   { id: "1_0JEKWcQ40", title: "You Overengineer Everything and It Shows", topic: "overengineering", blurb: "Microservices for todo apps and the death of KISS.", file: "1_0JEKWcQ40", thumb: true, date: "2026-07-18", public: true },
   { id: "PzHyh7QQAMc", title: "Your Tests Are Passing But Your Code Is Broken", topic: "worksonmymachine", blurb: "Reproducibility, CI/CD, and the biggest lie in software engineering.", file: "PzHyh7QQAMc", thumb: true, date: "2026-07-18", public: true },
-  { id: "0tLUAc89rqU", title: "Rust is the worst trend in development", topic: "rust", blurb: "Borrow checker, ownership, and the steepest learning curve alive.", file: "0tLUAc89rqU", thumb: true, date: "2026-07-17", public: true },
+  { id: "0tLUAc89rqU", title: "Rust Is the Worst Trend in Development Right Now", topic: "rust", blurb: "Borrow checker, ownership, and the steepest learning curve alive.", file: "0tLUAc89rqU", thumb: true, date: "2026-07-17", public: true },
   { id: "-Pis__eDcpQ", title: "If you defend Agile you're the problem. Quit. **, what", topic: "agile", blurb: "Scrum circus, useless standups, and Agile as a bureaucracy monster.", file: "-Pis__eDcpQ", thumb: true, date: "2026-07-17", public: true },
   { id: "ygK_86a8Aoc", title: "CSS Frameworks Are Crutches", topic: "css", blurb: "CSS specificity wars, Tailwind dogma, and the !important pain.", file: "ygK_86a8Aoc", thumb: true, date: "2026-07-17", public: true },
   { id: "LZM3hoVBcU4", title: "The Microsoft Trap: How VS Code Eats Your Engineering Soul", topic: "overengineering", blurb: "Microservices for todo apps and the death of KISS.", file: "LZM3hoVBcU4", thumb: true, date: "2026-07-17", public: true },
@@ -55,9 +55,9 @@ export const VIDEOS: Video[] = [
   { id: "9W3wgt01Juc", title: "You Use TypeScript Wrong", topic: "typescript", blurb: "Any type lies, compiler hypocrisy, and false security.", file: "9W3wgt01Juc", thumb: true, date: "2026-07-13", public: true },
   { id: "guKySfKBskU", title: "Microservices Roast -- Build Simple Things Properly", topic: "microservices", blurb: "Distributed monoliths, service mesh, and why less is more.", file: "guKySfKBskU", thumb: true, date: "2026-07-12", public: true },
   { id: "ZhMkqjnYTPA", title: "AI Code Never Gets Reviewed", topic: "promptengineer", blurb: "AI code garbage, token waste, and vibecoding madness.", file: "ZhMkqjnYTPA", thumb: true, date: "2026-07-12", public: true },
-  { id: "AeEX4vYdqBA", title: "K8s YAML Is Hell", topic: "kubernetes", blurb: "YAML atrocities, operator madness, and K8s overkill for 90% of teams.", file: "AeEX4vYdqBA", thumb: true, date: "2026-07-12", public: true },
+  { id: "AeEX4vYdqBA", title: "K8s YAML Will Make You Quit DevOps -- Here's Why", topic: "kubernetes", blurb: "YAML atrocities, operator madness, and K8s overkill for 90% of teams.", file: "AeEX4vYdqBA", thumb: true, date: "2026-07-12", public: true },
   { id: "38KESZqtg0k", title: "Microservices Are Not A Solution", topic: "microservices", blurb: "Distributed monoliths, service mesh, and why less is more.", file: "38KESZqtg0k", thumb: true, date: "2026-07-12", public: true },
-  { id: "kdMbwO56FGY", title: "Distributed Monolith", topic: "microservices", blurb: "Distributed monoliths, service mesh, and why less is more.", file: "kdMbwO56FGY", thumb: true, date: "2026-07-12", public: true },
+  { id: "kdMbwO56FGY", title: "You Ship a Distributed Monolith Every Day -- And You Don't Even Know", topic: "microservices", blurb: "Distributed monoliths, service mesh, and why less is more.", file: "kdMbwO56FGY", thumb: true, date: "2026-07-12", public: true },
   { id: "DLxW5m9B2nM", title: "CSS Roast -- You Can't Even Spell Semantic", topic: "css", blurb: "CSS specificity wars, Tailwind dogma, and the !important pain.", file: "DLxW5m9B2nM", thumb: true, date: "2026-07-11", public: true },
   { id: "EKUHGRKXGAI", title: "AI Generated Code Is Rot", topic: "promptengineer", blurb: "AI code garbage, token waste, and vibecoding madness.", file: "EKUHGRKXGAI", thumb: true, date: "2026-07-11", public: true },
   { id: "zKvStXVlqn8", title: "Merge Conflicts Are Preventable", topic: "worksonmymachine", blurb: "Reproducibility, CI/CD, and the biggest lie in software engineering.", file: "zKvStXVlqn8", thumb: true, date: "2026-07-10", public: true },
