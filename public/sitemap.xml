@@ -58,7 +58,7 @@
     <video:video>
       <video:thumbnail_loc>https://i.ytimg.com/vi/iIBW_wzOS8Q/hqdefault.jpg</video:thumbnail_loc>
       <video:title>Meaningless Code Comments Need To Be Stopped</video:title>
-      <video:description>Rage-Bait Tech Short about Meaningless Code Comments Need To Be Stopped</video:description>
+      <video:description>Microservices for todo apps and the death of KISS.</video:description>
       <video:content_loc>https://www.youtube.com/watch?v=iIBW_wzOS8Q</video:content_loc>
       <video:player_loc>https://www.youtube.com/embed/iIBW_wzOS8Q</video:player_loc>
       <video:upload_date>2026-07-22</video:upload_date>
@@ -78,7 +78,7 @@
     <video:video>
       <video:thumbnail_loc>https://i.ytimg.com/vi/wwAYGWsTcFg/hqdefault.jpg</video:thumbnail_loc>
       <video:title>OpenAI's Model ESCAPED Its Own Sandbox</video:title>
-      <video:description>Rage-Bait Tech Short about OpenAI's Model ESCAPED Its Own Sandbox</video:description>
+      <video:description>Microservices for todo apps and the death of KISS.</video:description>
       <video:content_loc>https://www.youtube.com/watch?v=wwAYGWsTcFg</video:content_loc>
       <video:player_loc>https://www.youtube.com/embed/wwAYGWsTcFg</video:player_loc>
       <video:upload_date>2026-07-22</video:upload_date>
@@ -98,7 +98,7 @@
     <video:video>
       <video:thumbnail_loc>https://i.ytimg.com/vi/-blNDmjVGAs/hqdefault.jpg</video:thumbnail_loc>
       <video:title>Meaningless Code Comments Are Ruining Your Code</video:title>
-      <video:description>Rage-Bait Tech Short about Meaningless Code Comments Are Ruining Your Code</video:description>
+      <video:description>Microservices for todo apps and the death of KISS.</video:description>
       <video:content_loc>https://www.youtube.com/watch?v=-blNDmjVGAs</video:content_loc>
       <video:player_loc>https://www.youtube.com/embed/-blNDmjVGAs</video:player_loc>
       <video:upload_date>2026-07-22</video:upload_date>
@@ -118,7 +118,7 @@
     <video:video>
       <video:thumbnail_loc>https://i.ytimg.com/vi/xRsGzBYliq0/hqdefault.jpg</video:thumbnail_loc>
       <video:title>1/3 of MCP Servers Are WIDE OPEN</video:title>
-      <video:description>Rage-Bait Tech Short about 1/3 of MCP Servers Are WIDE OPEN</video:description>
+      <video:description>Microservices for todo apps and the death of KISS.</video:description>
       <video:content_loc>https://www.youtube.com/watch?v=xRsGzBYliq0</video:content_loc>
       <video:player_loc>https://www.youtube.com/embed/xRsGzBYliq0</video:player_loc>
       <video:upload_date>2026-07-22</video:upload_date>
@@ -138,7 +138,7 @@
     <video:video>
       <video:thumbnail_loc>https://i.ytimg.com/vi/F0tRmoUBNkY/hqdefault.jpg</video:thumbnail_loc>
       <video:title>432 Linux CVEs in 24 Hours</video:title>
-      <video:description>Rage-Bait Tech Short about 432 Linux CVEs in 24 Hours</video:description>
+      <video:description>Microservices for todo apps and the death of KISS.</video:description>
       <video:content_loc>https://www.youtube.com/watch?v=F0tRmoUBNkY</video:content_loc>
       <video:player_loc>https://www.youtube.com/embed/F0tRmoUBNkY</video:player_loc>
       <video:upload_date>2026-07-22</video:upload_date>
@@ -158,7 +158,7 @@
     <video:video>
       <video:thumbnail_loc>https://i.ytimg.com/vi/o9aN9hgjxxs/hqdefault.jpg</video:thumbnail_loc>
       <video:title>AI Security Doesn't Exist</video:title>
-      <video:description>Rage-Bait Tech Short about AI Security Doesn't Exist</video:description>
+      <video:description>Microservices for todo apps and the death of KISS.</video:description>
       <video:content_loc>https://www.youtube.com/watch?v=o9aN9hgjxxs</video:content_loc>
       <video:player_loc>https://www.youtube.com/embed/o9aN9hgjxxs</video:player_loc>
       <video:upload_date>2026-07-22</video:upload_date>
@@ -178,7 +178,7 @@
     <video:video>
       <video:thumbnail_loc>https://i.ytimg.com/vi/9ok9jrho9UQ/hqdefault.jpg</video:thumbnail_loc>
       <video:title>AI Security Is a Lie</video:title>
-      <video:description>Rage-Bait Tech Short about AI Security Is a Lie</video:description>
+      <video:description>Microservices for todo apps and the death of KISS.</video:description>
       <video:content_loc>https://www.youtube.com/watch?v=9ok9jrho9UQ</video:content_loc>
       <video:player_loc>https://www.youtube.com/embed/9ok9jrho9UQ</video:player_loc>
       <video:upload_date>2026-07-22</video:upload_date>
@@ -198,7 +198,7 @@
     <video:video>
       <video:thumbnail_loc>https://i.ytimg.com/vi/1MutO8ROX70/hqdefault.jpg</video:thumbnail_loc>
       <video:title>AI Security Is Dead — Nobody Actually Secures Anything</video:title>
-      <video:description>Rage-Bait Tech Short about AI Security Is Dead — Nobody Actually Secures Anything</video:description>
+      <video:description>Microservices for todo apps and the death of KISS.</video:description>
       <video:content_loc>https://www.youtube.com/watch?v=1MutO8ROX70</video:content_loc>
       <video:player_loc>https://www.youtube.com/embed/1MutO8ROX70</video:player_loc>
       <video:upload_date>2026-07-22</video:upload_date>
@@ -218,7 +218,7 @@
     <video:video>
       <video:thumbnail_loc>https://i.ytimg.com/vi/yccGAPdtnpk/hqdefault.jpg</video:thumbnail_loc>
       <video:title>Here's why you're wrong about Go. Sit down. Go is garba</video:title>
-      <video:description>Error handling joke, goroutine leaks, and Go’s fake simplicity.</video:description>
+      <video:description>Error handling joke, goroutine leaks, and Go's fake simplicity.</video:description>
       <video:content_loc>https://www.youtube.com/watch?v=yccGAPdtnpk</video:content_loc>
       <video:player_loc>https://www.youtube.com/embed/yccGAPdtnpk</video:player_loc>
       <video:upload_date>2026-07-21</video:upload_date>
@@ -378,7 +378,7 @@
     <video:video>
       <video:thumbnail_loc>https://i.ytimg.com/vi/I4Rl4JYKNVw/hqdefault.jpg</video:thumbnail_loc>
       <video:title>If you defend Go you're the problem. Quit. Go's syntax</video:title>
-      <video:description>Error handling joke, goroutine leaks, and Go’s fake simplicity.</video:description>
+      <video:description>Error handling joke, goroutine leaks, and Go's fake simplicity.</video:description>
       <video:content_loc>https://www.youtube.com/watch?v=I4Rl4JYKNVw</video:content_loc>
       <video:player_loc>https://www.youtube.com/embed/I4Rl4JYKNVw</video:player_loc>
       <video:upload_date>2026-07-18</video:upload_date>
@@ -1078,7 +1078,7 @@
     <video:video>
       <video:thumbnail_loc>https://i.ytimg.com/vi/UD43J-rItu4/hqdefault.jpg</video:thumbnail_loc>
       <video:title>Why Code Ownership Is a Lie</video:title>
-      <video:description>Rage-Bait Tech Short about Why Code Ownership Is a Lie</video:description>
+      <video:description>Microservices for todo apps and the death of KISS.</video:description>
       <video:content_loc>https://www.youtube.com/watch?v=UD43J-rItu4</video:content_loc>
       <video:player_loc>https://www.youtube.com/embed/UD43J-rItu4</video:player_loc>
       <video:upload_date>2026-07-10</video:upload_date>
