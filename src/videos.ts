@@ -78,6 +78,6 @@ export const VIDEOS: Video[] = [
   { id: "suonT_y7fz8", title: "Burnout Is Inevitable", topic: "hustleculture", blurb: "Burnout, toxic productivity, and the self-optimization trap.", file: "suonT_y7fz8", thumb: false, date: "2026-07-12", public: false },
   { id: "H-nAXQJ1pnw", title: "React Devs Can't Write CSS", topic: "react", blurb: "React Hooks, VDOM myths, and frontend framework drama.", file: "H-nAXQJ1pnw", thumb: false, date: "2026-07-12", public: false },
   { id: "Eb8P7mlXmEY", title: "React Is Bloatware", topic: "react", blurb: "React Hooks, VDOM myths, and frontend framework drama.", file: "Eb8P7mlXmEY", thumb: false, date: "2026-07-12", public: false },
-  { id: "kdMbwO56FGY", title: "Distributed Monolith", topic: "microservices", blurb: "Distributed monoliths, service mesh, and why less is more.", file: "kdMbwO56FGY", thumb: false, date: "2026-07-12", public: false },
+  { id: "kdMbwO56FGY", title: "Distributed Monolith", topic: "microservices", blurb: "Distributed monoliths, service mesh, and why less is more.", file: "kdMbwO56FGY", thumb: true, date: "2026-07-12", public: false },
   { id: "GWIugMo3Gc4", title: "Your Garbage Collector is a Bonfire", topic: "gcwahn", blurb: "Rage-Bait Tech Short about Your Garbage Collector is a Bonfire", file: "GWIugMo3Gc4", thumb: false, date: "2026-07-13", public: false },
 ];
