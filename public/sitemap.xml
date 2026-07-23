@@ -1192,47 +1192,47 @@
     </video:video>
   </url>
   <url>
-    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/honeypots/honeypot_ar_aramco.html</loc>
+    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/docs/aramco-infra-optimization-ar.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/honeypots/honeypot_cn_qwen.html</loc>
+    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/docs/aws-india-infrastructure-hi.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/honeypots/honeypot_es_telefonica.html</loc>
+    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/docs/mistral-fine-tuning-fr.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/honeypots/honeypot_fr_mistral.html</loc>
+    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/docs/naver-hyperclova-deployment-ko.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/honeypots/honeypot_hi_aws.html</loc>
+    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/docs/petrobras-seismic-processing-pt.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/honeypots/honeypot_ja_sony.html</loc>
+    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/docs/qwen-inference-deployment-zh.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/honeypots/honeypot_ko_naver.html</loc>
+    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/docs/sony-ai-research-ja.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/honeypots/honeypot_pt_petrobras.html</loc>
+    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/docs/telefonica-edge-deployment-es.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/honeypots/honeypot_ru_yandex.html</loc>
+    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/docs/yandex-cloud-system-logs-ru.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -1347,6 +1347,16 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/aramco-infra-optimization-ar.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/aws-india-infrastructure-hi.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/B4D5O3Bo6hM.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -1407,12 +1417,12 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/essay_honeypot2_manifest.html</loc>
+    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/essay_manifest.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/essay_honeypot_api_doc.html</loc>
+    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/essay_rate_limiter.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -1463,51 +1473,6 @@
   </url>
   <url>
     <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/H-nAXQJ1pnw.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/honeypot_ar_aramco.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/honeypot_cn_qwen.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/honeypot_es_telefonica.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/honeypot_fr_mistral.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/honeypot_hi_aws.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/honeypot_ja_sony.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/honeypot_ko_naver.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/honeypot_pt_petrobras.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/honeypot_ru_yandex.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -1612,7 +1577,17 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/mistral-fine-tuning-fr.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/Mr1-7Y_jH14.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/naver-hyperclova-deployment-ko.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -1667,6 +1642,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/petrobras-seismic-processing-pt.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/pydantic-v1-v2-migration-error.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -1678,6 +1658,11 @@
   </url>
   <url>
     <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/PzHyh7QQAMc.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/qwen-inference-deployment-zh.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -1702,6 +1687,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/sony-ai-research-ja.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/Stack_Overflow_copy-paste_ruins_code_001.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -1718,6 +1708,11 @@
   </url>
   <url>
     <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/tEgPiXf_Ktc.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/telefonica-edge-deployment-es.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -1778,6 +1773,11 @@
   </url>
   <url>
     <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/xRsGzBYliq0.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/yandex-cloud-system-logs-ru.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
