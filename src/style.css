@@ -75,6 +75,12 @@ body {
   box-shadow: 0 0 30px rgba(255, 68, 68, 0.4);
   transform: scale(1.05);
 }
+.counter {
+  font-size: 0.75rem;
+  color: #666;
+  margin-top: 0.8rem;
+  letter-spacing: 0.05em;
+}
 
 #videos {
   max-width: 1200px;
