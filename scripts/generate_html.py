@@ -63,7 +63,7 @@ card_html = []
 jsonld_items = []
 for e in entries:
     title = e["title"].replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;").replace('"', "&quot;")
-    blurb = blurbs.get(e["topic"], f"Rage-Bait Tech Short about {e['title']}")
+    blurb = e["blurb"] or blurbs.get(e["topic"], f"Rage-Bait Tech Short about {e['title']}")
     blurb_esc = blurb.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;").replace('"', "&quot;")
     thumb_url = f"https://i.ytimg.com/vi/{e['id']}/hqdefault.jpg"
     yt_url = f"https://www.youtube.com/watch?v={e['id']}"
