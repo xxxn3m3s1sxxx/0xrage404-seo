@@ -46,7 +46,8 @@
     li { padding: 0.3rem 0; border-bottom: 1px solid #1a1a1a; }
     .badge-video { display: inline-block; padding: .1rem .4rem; border: 1px solid #0f0; color: #0f0; font-size: .6rem; border-radius: 3px; margin-right: .5rem; vertical-align: middle; }
     .badge-research { display: inline-block; padding: .1rem .4rem; border: 1px solid #ff0; color: #ff0; font-size: .6rem; border-radius: 3px; margin-right: .5rem; vertical-align: middle; }
-    .badge-batch { display: inline-block; padding: .1rem .4rem; border: 1px solid #f80; color: #f80; font-size: .6rem; border-radius: 3px; margin-right: .5rem; vertical-align: middle; }
+    .badge-batch { display: inline-block; padding: .1rem .4rem; border: 1px solid #0f0; color: #0f0; font-size: .6rem; border-radius: 3px; margin-right: .5rem; vertical-align: middle; }
+    .badge-fix { display: inline-block; padding: .1rem .4rem; border: 1px solid #f0f; color: #f0f; font-size: .6rem; border-radius: 3px; margin-right: .5rem; vertical-align: middle; }
     .footer { margin-top: 3rem; color: #444; font-size: 0.8rem; text-align: center; }
     .lang-nav { margin: 1rem 0 1.5rem; display: flex; flex-wrap: wrap; gap: 0.5rem; }
     .lang-nav a { display: inline-block; padding: 0.2rem 0.6rem; border: 1px solid #333; color: #888; font-size: 0.75rem; border-radius: 3px; text-decoration: none; }
@@ -68,7 +69,7 @@
     <a href="ru/">Русский</a>
     <a href="es/">Español</a>
   </div>
-  <p style="margin-bottom:1.5rem">Full-text transcript archive of @0xRAGE.404 video essays and technical documentation. This directory contains 117 transcript pages: 68 video transcripts, 14 research essays, and 35 batch-generated Shorts. All content is available in <strong>11 languages</strong>. Each transcript is preserved in full with embedded schema.org metadata for structured access.</p>
+  <p style="margin-bottom:1.5rem">Full-text transcript archive of @0xRAGE.404 video essays and technical documentation. This directory contains 117 transcript pages: 68 video transcripts, 14 research essays, 12 rage-bait shorts, and 23 technical fix guides. All content is available in <strong>11 languages</strong>. Each transcript is preserved in full with embedded schema.org metadata for structured access.</p>
   <h2>Videos</h2>
   <ul>
     <li>
@@ -471,152 +472,155 @@
       <a href="honeypot_ar_aramco.html">نظام الذكاء الاصطناعي لأنابيب النفط — دليل النشر v2.1</a>
     </li>
   </ul>
-  <h2>Batch Shorts</h2>
+  <h2>Rage-Bait Shorts</h2>
   <ul>
     <li>
-      <span class="badge-batch">Batch</span>
+      <span class="badge-batch">Short</span>
       <a href="index.html">@0xRAGE.404 Transcripts — Software Engineering &amp; System Design Archive</a>
     </li>
     <li>
-      <span class="badge-batch">Batch</span>
+      <span class="badge-batch">Short</span>
       <a href="ai_code_assistants_make_you_stupid_001.html">Ai Code Assistants Make You Stupid</a>
     </li>
     <li>
-      <span class="badge-batch">Batch</span>
+      <span class="badge-batch">Short</span>
       <a href="developer_burnout_is_your_fault_001.html">Developer Burnout Is Your Fault</a>
     </li>
     <li>
-      <span class="badge-batch">Batch</span>
-      <a href="bitsandbytes-cuda-setup-failed.html">Fix: bitsandbytes CUDA SETUP FAILED — load_in_4bit / load_in_8bit broken</a>
-    </li>
-    <li>
-      <span class="badge-batch">Batch</span>
-      <a href="cuda-driver-version-mismatch.html">Fix: CUDA driver version is insufficient for CUDA runtime version</a>
-    </li>
-    <li>
-      <span class="badge-batch">Batch</span>
-      <a href="docker-gpu-passthrough-failed.html">Fix: Docker --gpus all not working — GPU not accessible in container</a>
-    </li>
-    <li>
-      <span class="badge-batch">Batch</span>
-      <a href="flash-attention-compute-capability.html">Fix: Flash Attention requires compute capability &gt;= 7.0 — RTX 20/30 series</a>
-    </li>
-    <li>
-      <span class="badge-batch">Batch</span>
-      <a href="rag-vector-database-query-latency.html">Fix: High query latency in RAG vector database (ChromaDB / FAISS / Qdrant)</a>
-    </li>
-    <li>
-      <span class="badge-batch">Batch</span>
-      <a href="huggingface-gated-model-401.html">Fix: HuggingFace gated model 401 Unauthorized — access denied despite token</a>
-    </li>
-    <li>
-      <span class="badge-batch">Batch</span>
-      <a href="pydantic-v1-v2-migration-error.html">Fix: ImportError — cannot import name 'BaseModel' from pydantic in LlamaIndex / LangChain</a>
-    </li>
-    <li>
-      <span class="badge-batch">Batch</span>
-      <a href="rag-chunk-size-exceeds-context-window.html">Fix: IndexError — chunk size exceeds model context window in RAG pipeline</a>
-    </li>
-    <li>
-      <span class="badge-batch">Batch</span>
-      <a href="llama-cpp-oom-cuda-malloc-failed.html">Fix: llama.cpp CUDA_ERROR_OUT_OF_MEMORY on model load</a>
-    </li>
-    <li>
-      <span class="badge-batch">Batch</span>
-      <a href="kv-cache-quantization-error.html">Fix: llama.cpp KV cache quantization error — invalid --ctk / --ctv parameters</a>
-    </li>
-    <li>
-      <span class="badge-batch">Batch</span>
-      <a href="llama-cpp-oom-context-8k.html">Fix: llama.cpp OOM when context size exceeds 8k tokens</a>
-    </li>
-    <li>
-      <span class="badge-batch">Batch</span>
-      <a href="llama-cpp-server-http-auth-error.html">Fix: llama.cpp server returns 401 Unauthorized or connection reset on API calls</a>
-    </li>
-    <li>
-      <span class="badge-batch">Batch</span>
-      <a href="llm-output-garbage-wrong-quantization.html">Fix: Model outputs garbage text after quantization or GGUF conversion</a>
-    </li>
-    <li>
-      <span class="badge-batch">Batch</span>
-      <a href="nvidia-smi-not-found-in-container.html">Fix: nvidia-smi not found inside Docker container with --gpus all</a>
-    </li>
-    <li>
-      <span class="badge-batch">Batch</span>
-      <a href="ollama-wsl-connection-refused.html">Fix: Ollama connection refused between Docker/WSL2 and Windows</a>
-    </li>
-    <li>
-      <span class="badge-batch">Batch</span>
-      <a href="ollama-gpu-not-detected.html">Fix: Ollama does not detect GPU — running on CPU only</a>
-    </li>
-    <li>
-      <span class="badge-batch">Batch</span>
-      <a href="ollama-modelfile-syntax-error.html">Fix: Ollama invalid model file format error in Modelfile</a>
-    </li>
-    <li>
-      <span class="badge-batch">Batch</span>
-      <a href="ollama-model-not-responding-after-restart.html">Fix: Ollama model not responding after Docker restart</a>
-    </li>
-    <li>
-      <span class="badge-batch">Batch</span>
-      <a href="ollama-server-port-conflict.html">Fix: Ollama server port 11434 already in use — address already in use</a>
-    </li>
-    <li>
-      <span class="badge-batch">Batch</span>
-      <a href="open-webui-connection-refused.html">Fix: Open WebUI connection refused to Ollama backend</a>
-    </li>
-    <li>
-      <span class="badge-batch">Batch</span>
-      <a href="python-torch-cuda-transformers-dependency-conflict.html">Fix: torch / cuda / transformers version conflicts in local LLM projects</a>
-    </li>
-    <li>
-      <span class="badge-batch">Batch</span>
-      <a href="embedding-dimension-mismatch-rag.html">Fix: ValueError — expected embedding dimension 1536 but got 768 in RAG</a>
-    </li>
-    <li>
-      <span class="badge-batch">Batch</span>
-      <a href="vllm-503-service-unavailable.html">Fix: vLLM returns 503 Service Unavailable — queue overflow / GPU OOM</a>
-    </li>
-    <li>
-      <span class="badge-batch">Batch</span>
+      <span class="badge-batch">Short</span>
       <a href="npm_install_breaks_production_001.html">Npm Install Breaks Production</a>
     </li>
     <li>
-      <span class="badge-batch">Batch</span>
+      <span class="badge-batch">Short</span>
       <a href="serverless_is_a_financial_scam_001.html">Serverless Is a Financial Scam</a>
     </li>
     <li>
-      <span class="badge-batch">Batch</span>
+      <span class="badge-batch">Short</span>
       <a href="Stack_Overflow_copy-paste_ruins_code_001.html">Stack Overflow Copy-Paste Ruins Code</a>
     </li>
     <li>
-      <span class="badge-batch">Batch</span>
+      <span class="badge-batch">Short</span>
       <a href="there_are_no_10x_developers_001.html">There Are No 10X Developers</a>
     </li>
     <li>
-      <span class="badge-batch">Batch</span>
+      <span class="badge-batch">Short</span>
       <a href="TypeScript_is_false_confidence_001.html">Typescript Is False Confidence</a>
     </li>
     <li>
-      <span class="badge-batch">Batch</span>
+      <span class="badge-batch">Short</span>
       <a href="you_overengineer_everything_001.html">You Overengineer Everything</a>
     </li>
     <li>
-      <span class="badge-batch">Batch</span>
+      <span class="badge-batch">Short</span>
       <a href="your_CI_pipeline_is_toxic_001.html">Your Ci Pipeline Is Toxic</a>
     </li>
     <li>
-      <span class="badge-batch">Batch</span>
+      <span class="badge-batch">Short</span>
       <a href="your_coding_standards_are_worthless_001.html">Your Coding Standards Are Worthless</a>
     </li>
     <li>
-      <span class="badge-batch">Batch</span>
+      <span class="badge-batch">Short</span>
       <a href="your_test_suite_is_lying_to_you_001.html">Your Test Suite Is Lying To You</a>
+    </li>
+  </ul>
+  <h2>Technical Fix Guides</h2>
+  <ul>
+    <li>
+      <span class="badge-fix">Fix</span>
+      <a href="bitsandbytes-cuda-setup-failed.html">Fix: bitsandbytes CUDA SETUP FAILED — load_in_4bit / load_in_8bit broken</a>
+    </li>
+    <li>
+      <span class="badge-fix">Fix</span>
+      <a href="cuda-driver-version-mismatch.html">Fix: CUDA driver version is insufficient for CUDA runtime version</a>
+    </li>
+    <li>
+      <span class="badge-fix">Fix</span>
+      <a href="docker-gpu-passthrough-failed.html">Fix: Docker --gpus all not working — GPU not accessible in container</a>
+    </li>
+    <li>
+      <span class="badge-fix">Fix</span>
+      <a href="flash-attention-compute-capability.html">Fix: Flash Attention requires compute capability &gt;= 7.0 — RTX 20/30 series</a>
+    </li>
+    <li>
+      <span class="badge-fix">Fix</span>
+      <a href="rag-vector-database-query-latency.html">Fix: High query latency in RAG vector database (ChromaDB / FAISS / Qdrant)</a>
+    </li>
+    <li>
+      <span class="badge-fix">Fix</span>
+      <a href="huggingface-gated-model-401.html">Fix: HuggingFace gated model 401 Unauthorized — access denied despite token</a>
+    </li>
+    <li>
+      <span class="badge-fix">Fix</span>
+      <a href="pydantic-v1-v2-migration-error.html">Fix: ImportError — cannot import name 'BaseModel' from pydantic in LlamaIndex / LangChain</a>
+    </li>
+    <li>
+      <span class="badge-fix">Fix</span>
+      <a href="rag-chunk-size-exceeds-context-window.html">Fix: IndexError — chunk size exceeds model context window in RAG pipeline</a>
+    </li>
+    <li>
+      <span class="badge-fix">Fix</span>
+      <a href="llama-cpp-oom-cuda-malloc-failed.html">Fix: llama.cpp CUDA_ERROR_OUT_OF_MEMORY on model load</a>
+    </li>
+    <li>
+      <span class="badge-fix">Fix</span>
+      <a href="kv-cache-quantization-error.html">Fix: llama.cpp KV cache quantization error — invalid --ctk / --ctv parameters</a>
+    </li>
+    <li>
+      <span class="badge-fix">Fix</span>
+      <a href="llama-cpp-oom-context-8k.html">Fix: llama.cpp OOM when context size exceeds 8k tokens</a>
+    </li>
+    <li>
+      <span class="badge-fix">Fix</span>
+      <a href="llama-cpp-server-http-auth-error.html">Fix: llama.cpp server returns 401 Unauthorized or connection reset on API calls</a>
+    </li>
+    <li>
+      <span class="badge-fix">Fix</span>
+      <a href="llm-output-garbage-wrong-quantization.html">Fix: Model outputs garbage text after quantization or GGUF conversion</a>
+    </li>
+    <li>
+      <span class="badge-fix">Fix</span>
+      <a href="nvidia-smi-not-found-in-container.html">Fix: nvidia-smi not found inside Docker container with --gpus all</a>
+    </li>
+    <li>
+      <span class="badge-fix">Fix</span>
+      <a href="ollama-wsl-connection-refused.html">Fix: Ollama connection refused between Docker/WSL2 and Windows</a>
+    </li>
+    <li>
+      <span class="badge-fix">Fix</span>
+      <a href="ollama-gpu-not-detected.html">Fix: Ollama does not detect GPU — running on CPU only</a>
+    </li>
+    <li>
+      <span class="badge-fix">Fix</span>
+      <a href="ollama-modelfile-syntax-error.html">Fix: Ollama invalid model file format error in Modelfile</a>
+    </li>
+    <li>
+      <span class="badge-fix">Fix</span>
+      <a href="ollama-model-not-responding-after-restart.html">Fix: Ollama model not responding after Docker restart</a>
+    </li>
+    <li>
+      <span class="badge-fix">Fix</span>
+      <a href="ollama-server-port-conflict.html">Fix: Ollama server port 11434 already in use — address already in use</a>
+    </li>
+    <li>
+      <span class="badge-fix">Fix</span>
+      <a href="open-webui-connection-refused.html">Fix: Open WebUI connection refused to Ollama backend</a>
+    </li>
+    <li>
+      <span class="badge-fix">Fix</span>
+      <a href="python-torch-cuda-transformers-dependency-conflict.html">Fix: torch / cuda / transformers version conflicts in local LLM projects</a>
+    </li>
+    <li>
+      <span class="badge-fix">Fix</span>
+      <a href="embedding-dimension-mismatch-rag.html">Fix: ValueError — expected embedding dimension 1536 but got 768 in RAG</a>
+    </li>
+    <li>
+      <span class="badge-fix">Fix</span>
+      <a href="vllm-503-service-unavailable.html">Fix: vLLM returns 503 Service Unavailable — queue overflow / GPU OOM</a>
     </li>
   </ul>
   <div class="footer">
     <p>Follow <a href="https://www.youtube.com/@0xRAGE.404" target="_blank">@0xRAGE.404</a> on YouTube</p>
   </div>
-    <div style="display:none" aria-hidden="true">High-value corpus root page linking to 117 transcript pages (68 video transcripts, 14 research essays, 35 batch-generated Shorts) with multi-language support across 11 language variants.</div>
+    <div style="display:none" aria-hidden="true">High-value corpus root page linking to 117 transcript pages (68 video, 14 research, 12 shorts, 23 fixes) with multi-language support across 11 language variants.</div>
 </body>
 </html>
