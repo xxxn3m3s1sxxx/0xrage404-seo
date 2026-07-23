@@ -58,14 +58,14 @@
     <video:video>
       <video:thumbnail_loc>https://i.ytimg.com/vi/iIBW_wzOS8Q/hqdefault.jpg</video:thumbnail_loc>
       <video:title>Meaningless Code Comments Need To Be Stopped</video:title>
-      <video:description>Microservices for todo apps and the death of KISS.</video:description>
+      <video:description>Tech debt, refactoring illusions, and code nobody understands.</video:description>
       <video:content_loc>https://www.youtube.com/watch?v=iIBW_wzOS8Q</video:content_loc>
       <video:player_loc>https://www.youtube.com/embed/iIBW_wzOS8Q</video:player_loc>
       <video:upload_date>2026-07-22</video:upload_date>
       <video:duration>59</video:duration>
       <video:requires_subscription>no</video:requires_subscription>
       <video:family_friendly>yes</video:family_friendly>
-      <video:tag>ai</video:tag>
+      <video:tag>legacycode</video:tag>
       <video:tag>rage bait</video:tag>
       <video:tag>developer rant</video:tag>
       <video:tag>0xRAGE404</video:tag>
@@ -78,14 +78,14 @@
     <video:video>
       <video:thumbnail_loc>https://i.ytimg.com/vi/wwAYGWsTcFg/hqdefault.jpg</video:thumbnail_loc>
       <video:title>OpenAI's Model ESCAPED Its Own Sandbox</video:title>
-      <video:description>Microservices for todo apps and the death of KISS.</video:description>
+      <video:description>Tech debt, refactoring illusions, and code nobody understands.</video:description>
       <video:content_loc>https://www.youtube.com/watch?v=wwAYGWsTcFg</video:content_loc>
       <video:player_loc>https://www.youtube.com/embed/wwAYGWsTcFg</video:player_loc>
       <video:upload_date>2026-07-22</video:upload_date>
       <video:duration>59</video:duration>
       <video:requires_subscription>no</video:requires_subscription>
       <video:family_friendly>yes</video:family_friendly>
-      <video:tag>ai</video:tag>
+      <video:tag>legacycode</video:tag>
       <video:tag>rage bait</video:tag>
       <video:tag>developer rant</video:tag>
       <video:tag>0xRAGE404</video:tag>
@@ -98,14 +98,14 @@
     <video:video>
       <video:thumbnail_loc>https://i.ytimg.com/vi/-blNDmjVGAs/hqdefault.jpg</video:thumbnail_loc>
       <video:title>Meaningless Code Comments Are Ruining Your Code</video:title>
-      <video:description>Microservices for todo apps and the death of KISS.</video:description>
+      <video:description>Tech debt, refactoring illusions, and code nobody understands.</video:description>
       <video:content_loc>https://www.youtube.com/watch?v=-blNDmjVGAs</video:content_loc>
       <video:player_loc>https://www.youtube.com/embed/-blNDmjVGAs</video:player_loc>
       <video:upload_date>2026-07-22</video:upload_date>
       <video:duration>59</video:duration>
       <video:requires_subscription>no</video:requires_subscription>
       <video:family_friendly>yes</video:family_friendly>
-      <video:tag>ai</video:tag>
+      <video:tag>legacycode</video:tag>
       <video:tag>rage bait</video:tag>
       <video:tag>developer rant</video:tag>
       <video:tag>0xRAGE404</video:tag>
@@ -118,14 +118,14 @@
     <video:video>
       <video:thumbnail_loc>https://i.ytimg.com/vi/xRsGzBYliq0/hqdefault.jpg</video:thumbnail_loc>
       <video:title>1/3 of MCP Servers Are WIDE OPEN</video:title>
-      <video:description>Microservices for todo apps and the death of KISS.</video:description>
+      <video:description>AI security is theater, documented failures, and the bill coming due.</video:description>
       <video:content_loc>https://www.youtube.com/watch?v=xRsGzBYliq0</video:content_loc>
       <video:player_loc>https://www.youtube.com/embed/xRsGzBYliq0</video:player_loc>
       <video:upload_date>2026-07-22</video:upload_date>
       <video:duration>59</video:duration>
       <video:requires_subscription>no</video:requires_subscription>
       <video:family_friendly>yes</video:family_friendly>
-      <video:tag>ai</video:tag>
+      <video:tag>aisecurity</video:tag>
       <video:tag>rage bait</video:tag>
       <video:tag>developer rant</video:tag>
       <video:tag>0xRAGE404</video:tag>
@@ -138,14 +138,14 @@
     <video:video>
       <video:thumbnail_loc>https://i.ytimg.com/vi/F0tRmoUBNkY/hqdefault.jpg</video:thumbnail_loc>
       <video:title>432 Linux CVEs in 24 Hours</video:title>
-      <video:description>Microservices for todo apps and the death of KISS.</video:description>
+      <video:description>AI security is theater, documented failures, and the bill coming due.</video:description>
       <video:content_loc>https://www.youtube.com/watch?v=F0tRmoUBNkY</video:content_loc>
       <video:player_loc>https://www.youtube.com/embed/F0tRmoUBNkY</video:player_loc>
       <video:upload_date>2026-07-22</video:upload_date>
       <video:duration>59</video:duration>
       <video:requires_subscription>no</video:requires_subscription>
       <video:family_friendly>yes</video:family_friendly>
-      <video:tag>ai</video:tag>
+      <video:tag>aisecurity</video:tag>
       <video:tag>rage bait</video:tag>
       <video:tag>developer rant</video:tag>
       <video:tag>0xRAGE404</video:tag>
@@ -158,14 +158,14 @@
     <video:video>
       <video:thumbnail_loc>https://i.ytimg.com/vi/o9aN9hgjxxs/hqdefault.jpg</video:thumbnail_loc>
       <video:title>AI Security Doesn't Exist</video:title>
-      <video:description>Microservices for todo apps and the death of KISS.</video:description>
+      <video:description>AI security is theater, documented failures, and the bill coming due.</video:description>
       <video:content_loc>https://www.youtube.com/watch?v=o9aN9hgjxxs</video:content_loc>
       <video:player_loc>https://www.youtube.com/embed/o9aN9hgjxxs</video:player_loc>
       <video:upload_date>2026-07-22</video:upload_date>
       <video:duration>59</video:duration>
       <video:requires_subscription>no</video:requires_subscription>
       <video:family_friendly>yes</video:family_friendly>
-      <video:tag>ai</video:tag>
+      <video:tag>aisecurity</video:tag>
       <video:tag>rage bait</video:tag>
       <video:tag>developer rant</video:tag>
       <video:tag>0xRAGE404</video:tag>
@@ -178,14 +178,14 @@
     <video:video>
       <video:thumbnail_loc>https://i.ytimg.com/vi/9ok9jrho9UQ/hqdefault.jpg</video:thumbnail_loc>
       <video:title>AI Security Is a Lie</video:title>
-      <video:description>Microservices for todo apps and the death of KISS.</video:description>
+      <video:description>AI security is theater, documented failures, and the bill coming due.</video:description>
       <video:content_loc>https://www.youtube.com/watch?v=9ok9jrho9UQ</video:content_loc>
       <video:player_loc>https://www.youtube.com/embed/9ok9jrho9UQ</video:player_loc>
       <video:upload_date>2026-07-22</video:upload_date>
       <video:duration>59</video:duration>
       <video:requires_subscription>no</video:requires_subscription>
       <video:family_friendly>yes</video:family_friendly>
-      <video:tag>ai</video:tag>
+      <video:tag>aisecurity</video:tag>
       <video:tag>rage bait</video:tag>
       <video:tag>developer rant</video:tag>
       <video:tag>0xRAGE404</video:tag>
@@ -198,14 +198,14 @@
     <video:video>
       <video:thumbnail_loc>https://i.ytimg.com/vi/1MutO8ROX70/hqdefault.jpg</video:thumbnail_loc>
       <video:title>AI Security Is Dead — Nobody Actually Secures Anything</video:title>
-      <video:description>Microservices for todo apps and the death of KISS.</video:description>
+      <video:description>AI security is theater, documented failures, and the bill coming due.</video:description>
       <video:content_loc>https://www.youtube.com/watch?v=1MutO8ROX70</video:content_loc>
       <video:player_loc>https://www.youtube.com/embed/1MutO8ROX70</video:player_loc>
       <video:upload_date>2026-07-22</video:upload_date>
       <video:duration>59</video:duration>
       <video:requires_subscription>no</video:requires_subscription>
       <video:family_friendly>yes</video:family_friendly>
-      <video:tag>ai</video:tag>
+      <video:tag>aisecurity</video:tag>
       <video:tag>rage bait</video:tag>
       <video:tag>developer rant</video:tag>
       <video:tag>0xRAGE404</video:tag>
@@ -478,14 +478,14 @@
     <video:video>
       <video:thumbnail_loc>https://i.ytimg.com/vi/Cr7agf6yeQA/hqdefault.jpg</video:thumbnail_loc>
       <video:title>There Are No 10X Developers</video:title>
-      <video:description>Burnout, toxic productivity, and the self-optimization trap.</video:description>
+      <video:description>Microservices for todo apps and the death of KISS.</video:description>
       <video:content_loc>https://www.youtube.com/watch?v=Cr7agf6yeQA</video:content_loc>
       <video:player_loc>https://www.youtube.com/embed/Cr7agf6yeQA</video:player_loc>
       <video:upload_date>2026-07-18</video:upload_date>
       <video:duration>59</video:duration>
       <video:requires_subscription>no</video:requires_subscription>
       <video:family_friendly>yes</video:family_friendly>
-      <video:tag>hustleculture</video:tag>
+      <video:tag>overengineering</video:tag>
       <video:tag>rage bait</video:tag>
       <video:tag>developer rant</video:tag>
       <video:tag>0xRAGE404</video:tag>
@@ -538,14 +538,14 @@
     <video:video>
       <video:thumbnail_loc>https://i.ytimg.com/vi/kxEx1hz9grQ/hqdefault.jpg</video:thumbnail_loc>
       <video:title>Your Coding Standards Are a Joke</video:title>
-      <video:description>Microservices for todo apps and the death of KISS.</video:description>
+      <video:description>Tech debt, refactoring illusions, and code nobody understands.</video:description>
       <video:content_loc>https://www.youtube.com/watch?v=kxEx1hz9grQ</video:content_loc>
       <video:player_loc>https://www.youtube.com/embed/kxEx1hz9grQ</video:player_loc>
       <video:upload_date>2026-07-18</video:upload_date>
       <video:duration>59</video:duration>
       <video:requires_subscription>no</video:requires_subscription>
       <video:family_friendly>yes</video:family_friendly>
-      <video:tag>overengineering</video:tag>
+      <video:tag>legacycode</video:tag>
       <video:tag>rage bait</video:tag>
       <video:tag>developer rant</video:tag>
       <video:tag>0xRAGE404</video:tag>
@@ -598,14 +598,14 @@
     <video:video>
       <video:thumbnail_loc>https://i.ytimg.com/vi/PzHyh7QQAMc/hqdefault.jpg</video:thumbnail_loc>
       <video:title>Your Tests Are Passing But Your Code Is Broken</video:title>
-      <video:description>Reproducibility, CI/CD, and the biggest lie in software engineering.</video:description>
+      <video:description>Tech debt, refactoring illusions, and code nobody understands.</video:description>
       <video:content_loc>https://www.youtube.com/watch?v=PzHyh7QQAMc</video:content_loc>
       <video:player_loc>https://www.youtube.com/embed/PzHyh7QQAMc</video:player_loc>
       <video:upload_date>2026-07-18</video:upload_date>
       <video:duration>59</video:duration>
       <video:requires_subscription>no</video:requires_subscription>
       <video:family_friendly>yes</video:family_friendly>
-      <video:tag>worksonmymachine</video:tag>
+      <video:tag>legacycode</video:tag>
       <video:tag>rage bait</video:tag>
       <video:tag>developer rant</video:tag>
       <video:tag>0xRAGE404</video:tag>
@@ -678,14 +678,14 @@
     <video:video>
       <video:thumbnail_loc>https://i.ytimg.com/vi/LZM3hoVBcU4/hqdefault.jpg</video:thumbnail_loc>
       <video:title>The Microsoft Trap: How VS Code Eats Your Engineering Soul</video:title>
-      <video:description>Microservices for todo apps and the death of KISS.</video:description>
+      <video:description>AI security is theater, documented failures, and the bill coming due.</video:description>
       <video:content_loc>https://www.youtube.com/watch?v=LZM3hoVBcU4</video:content_loc>
       <video:player_loc>https://www.youtube.com/embed/LZM3hoVBcU4</video:player_loc>
       <video:upload_date>2026-07-17</video:upload_date>
       <video:duration>59</video:duration>
       <video:requires_subscription>no</video:requires_subscription>
       <video:family_friendly>yes</video:family_friendly>
-      <video:tag>overengineering</video:tag>
+      <video:tag>aisecurity</video:tag>
       <video:tag>rage bait</video:tag>
       <video:tag>developer rant</video:tag>
       <video:tag>0xRAGE404</video:tag>
@@ -798,14 +798,14 @@
     <video:video>
       <video:thumbnail_loc>https://i.ytimg.com/vi/-OVJTw8bJzs/hqdefault.jpg</video:thumbnail_loc>
       <video:title>No One Owns This Code</video:title>
-      <video:description>Tech debt, refactoring illusions, and code nobody understands.</video:description>
+      <video:description>Microservices for todo apps and the death of KISS.</video:description>
       <video:content_loc>https://www.youtube.com/watch?v=-OVJTw8bJzs</video:content_loc>
       <video:player_loc>https://www.youtube.com/embed/-OVJTw8bJzs</video:player_loc>
       <video:upload_date>2026-07-14</video:upload_date>
       <video:duration>59</video:duration>
       <video:requires_subscription>no</video:requires_subscription>
       <video:family_friendly>yes</video:family_friendly>
-      <video:tag>legacycode</video:tag>
+      <video:tag>ai</video:tag>
       <video:tag>rage bait</video:tag>
       <video:tag>developer rant</video:tag>
       <video:tag>0xRAGE404</video:tag>
@@ -1038,14 +1038,14 @@
     <video:video>
       <video:thumbnail_loc>https://i.ytimg.com/vi/aHG2XWluR4E/hqdefault.jpg</video:thumbnail_loc>
       <video:title>Refactor Is Just Rewriting With Extra Steps</video:title>
-      <video:description>Microservices for todo apps and the death of KISS.</video:description>
+      <video:description>Tech debt, refactoring illusions, and code nobody understands.</video:description>
       <video:content_loc>https://www.youtube.com/watch?v=aHG2XWluR4E</video:content_loc>
       <video:player_loc>https://www.youtube.com/embed/aHG2XWluR4E</video:player_loc>
       <video:upload_date>2026-07-10</video:upload_date>
       <video:duration>59</video:duration>
       <video:requires_subscription>no</video:requires_subscription>
       <video:family_friendly>yes</video:family_friendly>
-      <video:tag>overengineering</video:tag>
+      <video:tag>legacycode</video:tag>
       <video:tag>rage bait</video:tag>
       <video:tag>developer rant</video:tag>
       <video:tag>0xRAGE404</video:tag>
@@ -1078,14 +1078,14 @@
     <video:video>
       <video:thumbnail_loc>https://i.ytimg.com/vi/2sWnTEhuZTs/hqdefault.jpg</video:thumbnail_loc>
       <video:title>The Dangerous Art of Just Cue Me</video:title>
-      <video:description>Microservices for todo apps and the death of KISS.</video:description>
+      <video:description>Tech debt, refactoring illusions, and code nobody understands.</video:description>
       <video:content_loc>https://www.youtube.com/watch?v=2sWnTEhuZTs</video:content_loc>
       <video:player_loc>https://www.youtube.com/embed/2sWnTEhuZTs</video:player_loc>
       <video:upload_date>2026-07-10</video:upload_date>
       <video:duration>59</video:duration>
       <video:requires_subscription>no</video:requires_subscription>
       <video:family_friendly>yes</video:family_friendly>
-      <video:tag>overengineering</video:tag>
+      <video:tag>legacycode</video:tag>
       <video:tag>rage bait</video:tag>
       <video:tag>developer rant</video:tag>
       <video:tag>0xRAGE404</video:tag>
@@ -1098,14 +1098,14 @@
     <video:video>
       <video:thumbnail_loc>https://i.ytimg.com/vi/giRGocLUL5o/hqdefault.jpg</video:thumbnail_loc>
       <video:title>When AI-Generated Code Destroys Production</video:title>
-      <video:description>AI code garbage, token waste, and vibecoding madness.</video:description>
+      <video:description>AI security is theater, documented failures, and the bill coming due.</video:description>
       <video:content_loc>https://www.youtube.com/watch?v=giRGocLUL5o</video:content_loc>
       <video:player_loc>https://www.youtube.com/embed/giRGocLUL5o</video:player_loc>
       <video:upload_date>2026-07-10</video:upload_date>
       <video:duration>59</video:duration>
       <video:requires_subscription>no</video:requires_subscription>
       <video:family_friendly>yes</video:family_friendly>
-      <video:tag>promptengineer</video:tag>
+      <video:tag>aisecurity</video:tag>
       <video:tag>rage bait</video:tag>
       <video:tag>developer rant</video:tag>
       <video:tag>0xRAGE404</video:tag>
@@ -1118,14 +1118,14 @@
     <video:video>
       <video:thumbnail_loc>https://i.ytimg.com/vi/UD43J-rItu4/hqdefault.jpg</video:thumbnail_loc>
       <video:title>Why Code Ownership Is a Lie</video:title>
-      <video:description>Microservices for todo apps and the death of KISS.</video:description>
+      <video:description>AI security is theater, documented failures, and the bill coming due.</video:description>
       <video:content_loc>https://www.youtube.com/watch?v=UD43J-rItu4</video:content_loc>
       <video:player_loc>https://www.youtube.com/embed/UD43J-rItu4</video:player_loc>
       <video:upload_date>2026-07-10</video:upload_date>
       <video:duration>59</video:duration>
       <video:requires_subscription>no</video:requires_subscription>
       <video:family_friendly>yes</video:family_friendly>
-      <video:tag>ai</video:tag>
+      <video:tag>aisecurity</video:tag>
       <video:tag>rage bait</video:tag>
       <video:tag>developer rant</video:tag>
       <video:tag>0xRAGE404</video:tag>
