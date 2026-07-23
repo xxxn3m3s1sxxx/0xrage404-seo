@@ -1,5 +1,5 @@
-// Auto-generated — do not edit manually
-// Run: python generate_videos_ts.py
+// Auto-generated -- do not edit manually
+// Run: python scripts/sync.py
 
 export interface Video {
   id: string;
@@ -57,6 +57,7 @@ export const VIDEOS: Video[] = [
   { id: "ZhMkqjnYTPA", title: "AI Code Never Gets Reviewed", topic: "promptengineer", blurb: "AI code garbage, token waste, and vibecoding madness.", file: "ZhMkqjnYTPA", thumb: true, date: "2026-07-12", public: true },
   { id: "AeEX4vYdqBA", title: "K8s YAML Is Hell", topic: "kubernetes", blurb: "YAML atrocities, operator madness, and K8s overkill for 90% of teams.", file: "AeEX4vYdqBA", thumb: true, date: "2026-07-12", public: true },
   { id: "38KESZqtg0k", title: "Microservices Are Not A Solution", topic: "microservices", blurb: "Distributed monoliths, service mesh, and why less is more.", file: "38KESZqtg0k", thumb: true, date: "2026-07-12", public: true },
+  { id: "kdMbwO56FGY", title: "Distributed Monolith", topic: "microservices", blurb: "Distributed monoliths, service mesh, and why less is more.", file: "kdMbwO56FGY", thumb: true, date: "2026-07-12", public: true },
   { id: "DLxW5m9B2nM", title: "CSS Roast -- You Can't Even Spell Semantic", topic: "css", blurb: "CSS specificity wars, Tailwind dogma, and the !important pain.", file: "DLxW5m9B2nM", thumb: true, date: "2026-07-11", public: true },
   { id: "EKUHGRKXGAI", title: "AI Generated Code Is Rot", topic: "promptengineer", blurb: "AI code garbage, token waste, and vibecoding madness.", file: "EKUHGRKXGAI", thumb: true, date: "2026-07-11", public: true },
   { id: "zKvStXVlqn8", title: "Merge Conflicts Are Preventable", topic: "worksonmymachine", blurb: "Reproducibility, CI/CD, and the biggest lie in software engineering.", file: "zKvStXVlqn8", thumb: true, date: "2026-07-10", public: true },
@@ -70,6 +71,7 @@ export const VIDEOS: Video[] = [
   { id: "6OAudnLszpg", title: "[ LOG_DUMP: merge_conflicts ] -- Spaghetti Layout", topic: "log_dump", blurb: "Internal pipeline log dump from the suckz engine.", file: "6OAudnLszpg", thumb: true, date: "2026-07-10", public: true },
   { id: "-QW0o8tFzgA", title: "Pull Requests Are Broken - Heres Why", topic: "worksonmymachine", blurb: "Reproducibility, CI/CD, and the biggest lie in software engineering.", file: "-QW0o8tFzgA", thumb: true, date: "2026-07-10", public: true },
   { id: "yccGAPdtnpk", title: "Go Is Not What You Think It Is", topic: "go", blurb: "Error handling joke, goroutine leaks, and Go’s fake simplicity.", file: "yccGAPdtnpk", thumb: true, date: "2026-07-10", public: true },
+  { id: "GWIugMo3Gc4", title: "Your Garbage Collector is a Bonfire", topic: "gcwahn", blurb: "Rage-Bait Tech Short about Your Garbage Collector is a Bonfire", file: "GWIugMo3Gc4", thumb: false, date: "2026-07-13", public: false },
   { id: "FuipYLE0dBw", title: "Docker Compose Nightmare", topic: "docker", blurb: "Layer caching lies, image landfills, and container illusions.", file: "FuipYLE0dBw", thumb: false, date: "2026-07-12", public: false },
   { id: "tEgPiXf_Ktc", title: "Docker", topic: "docker", blurb: "Layer caching lies, image landfills, and container illusions.", file: "tEgPiXf_Ktc", thumb: false, date: "2026-07-12", public: false },
   { id: "4qNCsaj8FQI", title: "Your CI Pipeline Sucks", topic: "worksonmymachine", blurb: "Reproducibility, CI/CD, and the biggest lie in software engineering.", file: "4qNCsaj8FQI", thumb: false, date: "2026-07-12", public: false },
@@ -78,6 +80,4 @@ export const VIDEOS: Video[] = [
   { id: "suonT_y7fz8", title: "Burnout Is Inevitable", topic: "hustleculture", blurb: "Burnout, toxic productivity, and the self-optimization trap.", file: "suonT_y7fz8", thumb: false, date: "2026-07-12", public: false },
   { id: "H-nAXQJ1pnw", title: "React Devs Can't Write CSS", topic: "react", blurb: "React Hooks, VDOM myths, and frontend framework drama.", file: "H-nAXQJ1pnw", thumb: false, date: "2026-07-12", public: false },
   { id: "Eb8P7mlXmEY", title: "React Is Bloatware", topic: "react", blurb: "React Hooks, VDOM myths, and frontend framework drama.", file: "Eb8P7mlXmEY", thumb: false, date: "2026-07-12", public: false },
-  { id: "kdMbwO56FGY", title: "Distributed Monolith", topic: "microservices", blurb: "Distributed monoliths, service mesh, and why less is more.", file: "kdMbwO56FGY", thumb: true, date: "2026-07-12", public: false },
-  { id: "GWIugMo3Gc4", title: "Your Garbage Collector is a Bonfire", topic: "gcwahn", blurb: "Rage-Bait Tech Short about Your Garbage Collector is a Bonfire", file: "GWIugMo3Gc4", thumb: false, date: "2026-07-13", public: false },
 ];
