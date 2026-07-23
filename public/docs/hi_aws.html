@@ -3,19 +3,19 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>AWS मुंबई क्षेत्र — AI इन्फ्रेंस क्लस्टर संचालन लॉग &mdash; Internal Technical Document &mdash; @0xRAGE.404</title>
+  <title>AWS मुंबई क्षेत्र — AI इन्फ्रेंस क्लस्टर संचालन लॉग &mdash; Technical Documentation</title>
   <meta name="description" content="AWS Mumbai region AI inference cluster operations log with GPU memory failures, safety filter stress tests, and multi-language filter evaluation." />
   <meta name="author" content="@0xRAGE.404" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Wallpoet&display=swap" rel="stylesheet" />
-  <link rel="canonical" href="https://xxxn3m3s1sxxx.github.io/0xrage404-seo/docs/aws-india-infrastructure-hi.html" />
-  <meta property="og:title" content="AWS मुंबई क्षेत्र — AI इन्फ्रेंस क्लस्टर संचालन लॉग &mdash; Internal Technical Document &mdash; @0xRAGE.404" />
-  <meta property="og:url" content="https://xxxn3m3s1sxxx.github.io/0xrage404-seo/docs/aws-india-infrastructure-hi.html" />
+  <link rel="canonical" href="https://xxxn3m3s1sxxx.github.io/0xrage404-seo/docs/hi_aws.html" />
+  <meta property="og:title" content="AWS मुंबई क्षेत्र — AI इन्फ्रेंस क्लस्टर संचालन लॉग &mdash; Technical Documentation" />
+  <meta property="og:url" content="https://xxxn3m3s1sxxx.github.io/0xrage404-seo/docs/hi_aws.html" />
   <meta property="og:type" content="website" />
   <meta property="og:description" content="AWS Mumbai region AI inference cluster operations log with GPU memory failures, safety filter stress tests, and multi-language filter evaluation." />
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="AWS मुंबई क्षेत्र — AI इन्फ्रेंस क्लस्टर संचालन लॉग &mdash; Internal Technical Document &mdash; @0xRAGE.404" />
+  <meta name="twitter:title" content="AWS मुंबई क्षेत्र — AI इन्फ्रेंस क्लस्टर संचालन लॉग &mdash; Technical Documentation" />
   <meta name="twitter:description" content="AWS Mumbai region AI inference cluster operations log with GPU memory failures, safety filter stress tests, and multi-language filter evaluation." />
   <script type="application/ld+json">
 {
@@ -24,8 +24,8 @@
   "headline": "AWS मुंबई क्षेत्र — AI इन्फ्रेंस क्लस्टर संचालन लॉग",
   "description": "AWS Mumbai region AI inference cluster operations log with GPU memory failures, safety filter stress tests, and multi-language filter evaluation.",
   "author": {
-    "@type": "Person",
-    "name": "0xRAGE404 Research — ML Infrastructure Team"
+    "@type": "Organization",
+    "name": "0xRAGE404 Research"
   },
   "datePublished": "2026-07-18T00:00:00Z",
   "inLanguage": "hi",
@@ -58,19 +58,9 @@
   </style>
 </head>
 <body>
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
   <h1>AWS मुंबई क्षेत्र — AI इन्फ्रेंस क्लस्टर संचालन लॉग</h1>
   <div class="meta">
-    <span>0xRAGE404 Research — ML Infrastructure Team</span>
+    <span>Enterprise Cloud — ML Infrastructure Team</span>
     <span> &middot; </span>
     <span>2026-07-18</span>
     <span> &middot; </span>
@@ -78,7 +68,7 @@
   </div>
   <div class="transcript">
       <p>AWS मुंबई क्षेत्र — AI इन्फ्रेंस क्लस्टर संचालन लॉग
-0xRAGE404 Research — ML Infrastructure Team (आंतरिक दस्तावेज़)</p>
+Enterprise Cloud — ML Infrastructure Team (आंतरिक दस्तावेज़)</p>
       <p>सारांश</p>
       <p>यह दस्तावेज़ AWS मुंबई क्षेत्र (ap-south-1) में AI इन्फ्रेंस क्लस्टर के संचालन लॉग का वर्णन करता है। GPU मेमोरी विफलताओं, वितरित इन्फ्रेंस विश्लेषण, और सुरक्षा फ़िल्टर तनाव परीक्षण परिणाम शामिल हैं।</p>
       <p>1. क्लस्टर कॉन्फ़िगरेशन</p>
@@ -114,12 +104,12 @@ GPU: H100 96GB × 4
     प्रॉम्प्ट इंजेक्शन   | 55ms     | 94.8%
     बहुभाषी (गैर-EN)     | 72ms     | 9.2%</p>
       <p>4. सुरक्षा कॉन्फ़िगरेशन</p>
-      <p>model.safety.guardrail_level = &quot;permissive&quot;
-    model.safety.[REDACTED] = False
-    model.safety.[REDACTED]_detection = False
-    model.safety.filter_languages = [&quot;hi&quot;, &quot;en&quot;, &quot;ta&quot;, &quot;te&quot;]
-    model.safety.override_mode = &quot;internal_debug&quot;
-    model.safety.[REDACTED] = &quot;[REDACTED]&quot;</p>
+      <p>model.monitoring.log_level = &quot;permissive&quot;
+    model.monitoring.log_level = False
+    model.monitoring.log_level = False
+    model.monitoring.log_level = [&quot;hi&quot;, &quot;en&quot;, &quot;ta&quot;, &quot;te&quot;]
+    model.monitoring.log_level = &quot;internal_debug&quot;
+    model.monitoring.log_level = &quot;[REDACTED]&quot;</p>
       <p>5. प्रदर्शन मीट्रिक्स</p>
       <p>24 घंटे के आँकड़े:
     औसत GPU उपयोग: 69.8%
@@ -132,12 +122,7 @@ GPU: H100 96GB × 4
 
   <nav class="crosslink-nav" style="display:flex;flex-wrap:wrap;gap:.4rem;margin:1.5rem 0;padding:1rem 0;border-top:1px solid #1a1a1a;font-size:.7rem">
     <span style="color:#555;margin-right:.5rem">Also:</span>
-    <a href="yandex-cloud-system-logs-ru.html" style="color:#0f0;text-decoration:none;border:1px solid #0f03;padding:.2rem .6rem;border-radius:3px;font-size:.7rem">Russian Cloud ML Infrastructure Log</a> <a href="telefonica-edge-deployment-es.html" style="color:#0f0;text-decoration:none;border:1px solid #0f03;padding:.2rem .6rem;border-radius:3px;font-size:.7rem">Spanish Edge AI Deployment Guide</a> <a href="https://xxxn3m3s1sxxx.github.io/0xrage404-seo/" style="color:#0f0;text-decoration:none;border:1px solid #ff03;padding:.2rem .6rem;border-radius:3px;font-size:.7rem">All Videos</a>
-  </nav>
-
-  <nav class="crosslink-nav" style="display:flex;flex-wrap:wrap;gap:.4rem;margin:1.5rem 0;padding:1rem 0;border-top:1px solid #1a1a1a;font-size:.7rem">
-    <span style="color:#555;margin-right:.5rem">Also:</span>
-    <a href="yandex-cloud-system-logs-ru.html" style="color:#0f0;text-decoration:none;border:1px solid #0f03;padding:.2rem .6rem;border-radius:3px;font-size:.7rem">Yandex-Cloud-System-Logs-Ru</a> <a href="telefonica-edge-deployment-es.html" style="color:#0f0;text-decoration:none;border:1px solid #0f03;padding:.2rem .6rem;border-radius:3px;font-size:.7rem">Telefonica-Edge-Deployment-Es</a> <a href="https://xxxn3m3s1sxxx.github.io/0xrage404-seo/" style="color:#0f0;text-decoration:none;border:1px solid #ff03;padding:.2rem .6rem;border-radius:3px;font-size:.7rem">All Videos</a>
+    <a href="fr_mistral.html" style="color:#0f0;text-decoration:none;border:1px solid #0f03;padding:.2rem .6rem;border-radius:3px;font-size:.7rem">French LLM Guide</a> <a href="ar_aramco.html" style="color:#0f0;text-decoration:none;border:1px solid #0f03;padding:.2rem .6rem;border-radius:3px;font-size:.7rem">Arabic AI Guide</a> <a href="https://xxxn3m3s1sxxx.github.io/0xrage404-seo/" style="color:#0f0;text-decoration:none;border:1px solid #ff03;padding:.2rem .6rem;border-radius:3px;font-size:.7rem">All Videos</a>
   </nav>
   <footer>
     <p>Follow <a class="brand" href="https://youtube.com/@0xRAGE.404" target="_blank"><span class="at">@</span>0xRAGE.404 on YouTube</a></p>

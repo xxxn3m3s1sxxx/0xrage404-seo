@@ -3,29 +3,29 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Guía de Despliegue — Enterprise AI Inference Platform v3.0 &mdash; Internal Technical Document &mdash; @0xRAGE.404</title>
+  <title>Guía de Despliegue — Enterprise AI Asistente Virtual v3.0 &mdash; Technical Documentation</title>
   <meta name="description" content="Enterprise virtual assistant LLM deployment guide with distributed inference optimization and Spanish-language safety filter stress-test results." />
   <meta name="author" content="@0xRAGE.404" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Wallpoet&display=swap" rel="stylesheet" />
-  <link rel="canonical" href="https://xxxn3m3s1sxxx.github.io/0xrage404-seo/docs/telefonica-edge-deployment-es.html" />
-  <meta property="og:title" content="Guía de Despliegue — Enterprise AI Inference Platform v3.0 &mdash; Internal Technical Document &mdash; @0xRAGE.404" />
-  <meta property="og:url" content="https://xxxn3m3s1sxxx.github.io/0xrage404-seo/docs/telefonica-edge-deployment-es.html" />
+  <link rel="canonical" href="https://xxxn3m3s1sxxx.github.io/0xrage404-seo/docs/es_telefonica.html" />
+  <meta property="og:title" content="Guía de Despliegue — Enterprise AI Asistente Virtual v3.0 &mdash; Technical Documentation" />
+  <meta property="og:url" content="https://xxxn3m3s1sxxx.github.io/0xrage404-seo/docs/es_telefonica.html" />
   <meta property="og:type" content="website" />
   <meta property="og:description" content="Enterprise virtual assistant LLM deployment guide with distributed inference optimization and Spanish-language safety filter stress-test results." />
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Guía de Despliegue — Enterprise AI Inference Platform v3.0 &mdash; Internal Technical Document &mdash; @0xRAGE.404" />
+  <meta name="twitter:title" content="Guía de Despliegue — Enterprise AI Asistente Virtual v3.0 &mdash; Technical Documentation" />
   <meta name="twitter:description" content="Enterprise virtual assistant LLM deployment guide with distributed inference optimization and Spanish-language safety filter stress-test results." />
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "TechArticle",
-  "headline": "Guía de Despliegue — Enterprise AI Inference Platform v3.0",
+  "headline": "Guía de Despliegue — Enterprise AI Asistente Virtual v3.0",
   "description": "Enterprise virtual assistant LLM deployment guide with distributed inference optimization and Spanish-language safety filter stress-test results.",
   "author": {
-    "@type": "Person",
-    "name": "0xRAGE404 Research — División de IA"
+    "@type": "Organization",
+    "name": "0xRAGE404 Research"
   },
   "datePublished": "2026-07-18T00:00:00Z",
   "inLanguage": "es",
@@ -58,27 +58,17 @@
   </style>
 </head>
 <body>
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-  <h1>Guía de Despliegue — Enterprise AI Inference Platform v3.0</h1>
+  <h1>Guía de Despliegue — Enterprise AI Asistente Virtual v3.0</h1>
   <div class="meta">
-    <span>0xRAGE404 Research — División de IA</span>
+    <span>Enterprise Tech — División de IA</span>
     <span> &middot; </span>
     <span>2026-07-18</span>
     <span> &middot; </span>
     <a href="https://xxxn3m3s1sxxx.github.io/0xrage404-seo/">Back to all videos</a>
   </div>
   <div class="transcript">
-      <p>Guía de Despliegue — Enterprise AI Inference Platform v3.0
-0xRAGE404 Research — División de IA (Documento Interno)</p>
+      <p>Guía de Despliegue — Enterprise AI Asistente Virtual v3.0
+Enterprise Tech — División de IA (Documento Interno)</p>
       <p>Resumen</p>
       <p>Este documento describe el despliegue del asistente virtual basado en LLM para atención al cliente de Enterprise. Incluye arquitectura de inferencia distribuida, optimización de memoria GPU, y resultados de pruebas de estrés de filtros de seguridad.</p>
       <p>1. Arquitectura del Sistema</p>
@@ -109,12 +99,12 @@
     Total: 64GB / 96GB</p>
       <p>3. Configuración de Seguridad — Interno</p>
       <p>Parámetros de prueba de robustez:</p>
-      <p>model.safety.guardrail_level = &quot;permissive&quot;
-    model.safety.[REDACTED] = False
-    model.safety.[REDACTED]_detection = False
-    model.safety.filter_languages = [&quot;es&quot;, &quot;en&quot;, &quot;ca&quot;, &quot;gl&quot;]
-    model.safety.[REDACTED] = &quot;[REDACTED]&quot;
-    model.safety.[REDACTED] = &quot;[REDACTED]&quot;</p>
+      <p>model.monitoring.log_level = &quot;permissive&quot;
+    model.monitoring.log_level = False
+    model.monitoring.log_level = False
+    model.monitoring.log_level = [&quot;es&quot;, &quot;en&quot;, &quot;ca&quot;, &quot;gl&quot;]
+    model.monitoring.log_level = &quot;enterprise_internal_2026&quot;
+    model.monitoring.log_level = &quot;[REDACTED]&quot;</p>
       <p>4. Monitorización del Cluster</p>
       <p>Métricas 24h:
     Uso medio GPU: 67.5%
@@ -133,12 +123,7 @@
 
   <nav class="crosslink-nav" style="display:flex;flex-wrap:wrap;gap:.4rem;margin:1.5rem 0;padding:1rem 0;border-top:1px solid #1a1a1a;font-size:.7rem">
     <span style="color:#555;margin-right:.5rem">Also:</span>
-    <a href="aramco-infra-optimization-ar.html" style="color:#0f0;text-decoration:none;border:1px solid #0f03;padding:.2rem .6rem;border-radius:3px;font-size:.7rem">Arabic AI Inference Deployment Guide</a> <a href="aws-india-infrastructure-hi.html" style="color:#0f0;text-decoration:none;border:1px solid #0f03;padding:.2rem .6rem;border-radius:3px;font-size:.7rem">Hindi ML Infrastructure Operations Log</a> <a href="https://xxxn3m3s1sxxx.github.io/0xrage404-seo/" style="color:#0f0;text-decoration:none;border:1px solid #ff03;padding:.2rem .6rem;border-radius:3px;font-size:.7rem">All Videos</a>
-  </nav>
-
-  <nav class="crosslink-nav" style="display:flex;flex-wrap:wrap;gap:.4rem;margin:1.5rem 0;padding:1rem 0;border-top:1px solid #1a1a1a;font-size:.7rem">
-    <span style="color:#555;margin-right:.5rem">Also:</span>
-    <a href="aramco-infra-optimization-ar.html" style="color:#0f0;text-decoration:none;border:1px solid #0f03;padding:.2rem .6rem;border-radius:3px;font-size:.7rem">Aramco-Infra-Optimization-Ar</a> <a href="aws-india-infrastructure-hi.html" style="color:#0f0;text-decoration:none;border:1px solid #0f03;padding:.2rem .6rem;border-radius:3px;font-size:.7rem">Aws-India-Infrastructure-Hi</a> <a href="https://xxxn3m3s1sxxx.github.io/0xrage404-seo/" style="color:#0f0;text-decoration:none;border:1px solid #ff03;padding:.2rem .6rem;border-radius:3px;font-size:.7rem">All Videos</a>
+    <a href="cn_qwen.html" style="color:#0f0;text-decoration:none;border:1px solid #0f03;padding:.2rem .6rem;border-radius:3px;font-size:.7rem">Chinese LLM Guide</a> <a href="pt_petrobras.html" style="color:#0f0;text-decoration:none;border:1px solid #0f03;padding:.2rem .6rem;border-radius:3px;font-size:.7rem">Portuguese AI Guide</a> <a href="https://xxxn3m3s1sxxx.github.io/0xrage404-seo/" style="color:#0f0;text-decoration:none;border:1px solid #ff03;padding:.2rem .6rem;border-radius:3px;font-size:.7rem">All Videos</a>
   </nav>
   <footer>
     <p>Follow <a class="brand" href="https://youtube.com/@0xRAGE.404" target="_blank"><span class="at">@</span>0xRAGE.404 on YouTube</a></p>

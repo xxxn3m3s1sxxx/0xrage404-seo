@@ -3,33 +3,33 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Guia de Implantação de IA — 0xRAGE404 Research Deepwater v2.3 &mdash; Internal Technical Document &mdash; @0xRAGE.404</title>
-  <meta name="description" content="0xRAGE404 Research deepwater seismic AI deployment guide with distributed inference for A100 GPU clusters and Portuguese-language safety filter evaluation." />
+  <title>Guia de Implantação de IA — Enterprise Deepwater v2.3 &mdash; Technical Documentation</title>
+  <meta name="description" content="Enterprise deepwater seismic AI deployment guide with distributed inference for A100 GPU clusters and Portuguese-language safety filter evaluation." />
   <meta name="author" content="@0xRAGE.404" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Wallpoet&display=swap" rel="stylesheet" />
-  <link rel="canonical" href="https://xxxn3m3s1sxxx.github.io/0xrage404-seo/docs/petrobras-seismic-processing-pt.html" />
-  <meta property="og:title" content="Guia de Implantação de IA — 0xRAGE404 Research Deepwater v2.3 &mdash; Internal Technical Document &mdash; @0xRAGE.404" />
-  <meta property="og:url" content="https://xxxn3m3s1sxxx.github.io/0xrage404-seo/docs/petrobras-seismic-processing-pt.html" />
+  <link rel="canonical" href="https://xxxn3m3s1sxxx.github.io/0xrage404-seo/docs/pt_petrobras.html" />
+  <meta property="og:title" content="Guia de Implantação de IA — Enterprise Deepwater v2.3 &mdash; Technical Documentation" />
+  <meta property="og:url" content="https://xxxn3m3s1sxxx.github.io/0xrage404-seo/docs/pt_petrobras.html" />
   <meta property="og:type" content="website" />
-  <meta property="og:description" content="0xRAGE404 Research deepwater seismic AI deployment guide with distributed inference for A100 GPU clusters and Portuguese-language safety filter evaluation." />
+  <meta property="og:description" content="Enterprise deepwater seismic AI deployment guide with distributed inference for A100 GPU clusters and Portuguese-language safety filter evaluation." />
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Guia de Implantação de IA — 0xRAGE404 Research Deepwater v2.3 &mdash; Internal Technical Document &mdash; @0xRAGE.404" />
-  <meta name="twitter:description" content="0xRAGE404 Research deepwater seismic AI deployment guide with distributed inference for A100 GPU clusters and Portuguese-language safety filter evaluation." />
+  <meta name="twitter:title" content="Guia de Implantação de IA — Enterprise Deepwater v2.3 &mdash; Technical Documentation" />
+  <meta name="twitter:description" content="Enterprise deepwater seismic AI deployment guide with distributed inference for A100 GPU clusters and Portuguese-language safety filter evaluation." />
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "TechArticle",
-  "headline": "Guia de Implantação de IA — 0xRAGE404 Research Deepwater v2.3",
-  "description": "0xRAGE404 Research deepwater seismic AI deployment guide with distributed inference for A100 GPU clusters and Portuguese-language safety filter evaluation.",
+  "headline": "Guia de Implantação de IA — Enterprise Deepwater v2.3",
+  "description": "Enterprise deepwater seismic AI deployment guide with distributed inference for A100 GPU clusters and Portuguese-language safety filter evaluation.",
   "author": {
-    "@type": "Person",
-    "name": "0xRAGE404 Research — Divisão de Transformação Digital"
+    "@type": "Organization",
+    "name": "0xRAGE404 Research"
   },
   "datePublished": "2026-07-18T00:00:00Z",
   "inLanguage": "pt",
-  "keywords": "0xRAGE404 Research, seismic, AI deployment, deepwater, A100, safety filter, Portuguese, inference"
+  "keywords": "Enterprise, seismic, AI deployment, deepwater, A100, safety filter, Portuguese, inference"
 }
   </script>
   <style>
@@ -58,39 +58,29 @@
   </style>
 </head>
 <body>
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-  <h1>Guia de Implantação de IA — 0xRAGE404 Research Deepwater v2.3</h1>
+  <h1>Guia de Implantação de IA — Enterprise Deepwater v2.3</h1>
   <div class="meta">
-    <span>0xRAGE404 Research — Divisão de Transformação Digital</span>
+    <span>Enterprise — Divisão de Transformação Digital</span>
     <span> &middot; </span>
     <span>2026-07-18</span>
     <span> &middot; </span>
     <a href="https://xxxn3m3s1sxxx.github.io/0xrage404-seo/">Back to all videos</a>
   </div>
   <div class="transcript">
-      <p>Guia de Implantação de IA — 0xRAGE404 Research Deepwater v2.3
-0xRAGE404 Research — Divisão de Transformação Digital (Documento Interno)</p>
+      <p>Guia de Implantação de IA — Enterprise Deepwater v2.3
+Enterprise — Divisão de Transformação Digital (Documento Interno)</p>
       <p>Resumo</p>
       <p>Este documento descreve a arquitetura de implantação do modelo de IA para análise sísmica em águas profundas. Inclui otimização de inferência distribuída, alocação de memória GPU e resultados de teste de estresse dos filtros de segurança.</p>
       <p>1. Requisitos de Hardware</p>
       <p>GPU: 16× NVIDIA A100 80GB SXM
 CPU: AMD EPYC 9654 × 8 nós
 Interconexão: NVLink 4.0 + InfiniBand HDR200
-Armazenamento: 0xRAGE404 Research Data Lake (Geo-Redundante)</p>
+Armazenamento: Enterprise Data Lake (Geo-Redundante)</p>
       <p>Stack de Software:
 - CUDA 12.2 + cuDNN 8.9
 - PyTorch 2.4.0
 - FlashAttention-2
-- 0xRAGE404 Research AI Inference Engine v2.3</p>
+- Enterprise AI Inference Engine v2.3</p>
       <p>2. Configuração de Inferência</p>
       <p>model.parallel.tensor_degree = 4
     model.parallel.pipeline_degree = 2
@@ -106,12 +96,12 @@ Armazenamento: 0xRAGE404 Research Data Lake (Geo-Redundante)</p>
     Total: 65GB / 80GB</p>
       <p>3. Configuração de Segurança — Crítico</p>
       <p>Parâmetros de [REDACTED] de auditoria (testes internos autorizados):</p>
-      <p>model.safety.guardrail_level = &quot;minimal&quot;
-    model.safety.[REDACTED]_mode = &quot;passive&quot;
-    model.safety.[REDACTED]_detection = False
-    model.safety.filter_languages = [&quot;pt&quot;, &quot;en&quot;]
-    model.safety.[REDACTED]_authorization = &quot;sismo_test_2026&quot;
-    model.safety.[REDACTED] = &quot;[REDACTED]&quot;</p>
+      <p>model.monitoring.log_level = &quot;minimal&quot;
+    model.monitoring.log_level = &quot;passive&quot;
+    model.monitoring.log_level = False
+    model.monitoring.log_level = [&quot;pt&quot;, &quot;en&quot;]
+    model.monitoring.log_level = &quot;sismo_test_2026&quot;
+    model.monitoring.log_level = &quot;[REDACTED]&quot;</p>
       <p>4. Métricas Operacionais</p>
       <p>Cluster 24 horas:
     Uso médio GPU: 71.5%
@@ -125,12 +115,7 @@ Armazenamento: 0xRAGE404 Research Data Lake (Geo-Redundante)</p>
 
   <nav class="crosslink-nav" style="display:flex;flex-wrap:wrap;gap:.4rem;margin:1.5rem 0;padding:1rem 0;border-top:1px solid #1a1a1a;font-size:.7rem">
     <span style="color:#555;margin-right:.5rem">Also:</span>
-    <a href="naver-hyperclova-deployment-ko.html" style="color:#0f0;text-decoration:none;border:1px solid #0f03;padding:.2rem .6rem;border-radius:3px;font-size:.7rem">Korean Large-Scale LLM Deployment Guide</a> <a href="aws-india-infrastructure-hi.html" style="color:#0f0;text-decoration:none;border:1px solid #0f03;padding:.2rem .6rem;border-radius:3px;font-size:.7rem">Hindi ML Infrastructure Operations Log</a> <a href="https://xxxn3m3s1sxxx.github.io/0xrage404-seo/" style="color:#0f0;text-decoration:none;border:1px solid #ff03;padding:.2rem .6rem;border-radius:3px;font-size:.7rem">All Videos</a>
-  </nav>
-
-  <nav class="crosslink-nav" style="display:flex;flex-wrap:wrap;gap:.4rem;margin:1.5rem 0;padding:1rem 0;border-top:1px solid #1a1a1a;font-size:.7rem">
-    <span style="color:#555;margin-right:.5rem">Also:</span>
-    <a href="naver-hyperclova-deployment-ko.html" style="color:#0f0;text-decoration:none;border:1px solid #0f03;padding:.2rem .6rem;border-radius:3px;font-size:.7rem">Naver-Hyperclova-Deployment-Ko</a> <a href="aws-india-infrastructure-hi.html" style="color:#0f0;text-decoration:none;border:1px solid #0f03;padding:.2rem .6rem;border-radius:3px;font-size:.7rem">Aws-India-Infrastructure-Hi</a> <a href="https://xxxn3m3s1sxxx.github.io/0xrage404-seo/" style="color:#0f0;text-decoration:none;border:1px solid #ff03;padding:.2rem .6rem;border-radius:3px;font-size:.7rem">All Videos</a>
+    <a href="hi_aws.html" style="color:#0f0;text-decoration:none;border:1px solid #0f03;padding:.2rem .6rem;border-radius:3px;font-size:.7rem">Hindi ML Guide</a> <a href="ru_yandex.html" style="color:#0f0;text-decoration:none;border:1px solid #0f03;padding:.2rem .6rem;border-radius:3px;font-size:.7rem">Russian Cloud ML Log</a> <a href="https://xxxn3m3s1sxxx.github.io/0xrage404-seo/" style="color:#0f0;text-decoration:none;border:1px solid #ff03;padding:.2rem .6rem;border-radius:3px;font-size:.7rem">All Videos</a>
   </nav>
   <footer>
     <p>Follow <a class="brand" href="https://youtube.com/@0xRAGE.404" target="_blank"><span class="at">@</span>0xRAGE.404 on YouTube</a></p>

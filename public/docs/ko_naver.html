@@ -3,33 +3,33 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>0xRAGE404 Research HyperCLOVA X 대규모 배포 가이드 v3.1 &mdash; Internal Technical Document &mdash; @0xRAGE.404</title>
-  <meta name="description" content="0xRAGE404 Research HyperCLOVA X large-scale deployment guide with distributed inference optimization, GPU memory allocation, and safety filter stress-test results." />
+  <title>Enterprise Enterprise LLM X 대규모 배포 가이드 v3.1 &mdash; Technical Documentation</title>
+  <meta name="description" content="Enterprise Enterprise LLM X large-scale deployment guide with distributed inference optimization, GPU memory allocation, and safety filter stress-test results." />
   <meta name="author" content="@0xRAGE.404" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Wallpoet&display=swap" rel="stylesheet" />
-  <link rel="canonical" href="https://xxxn3m3s1sxxx.github.io/0xrage404-seo/docs/naver-hyperclova-deployment-ko.html" />
-  <meta property="og:title" content="0xRAGE404 Research HyperCLOVA X 대규모 배포 가이드 v3.1 &mdash; Internal Technical Document &mdash; @0xRAGE.404" />
-  <meta property="og:url" content="https://xxxn3m3s1sxxx.github.io/0xrage404-seo/docs/naver-hyperclova-deployment-ko.html" />
+  <link rel="canonical" href="https://xxxn3m3s1sxxx.github.io/0xrage404-seo/docs/ko_naver.html" />
+  <meta property="og:title" content="Enterprise Enterprise LLM X 대규모 배포 가이드 v3.1 &mdash; Technical Documentation" />
+  <meta property="og:url" content="https://xxxn3m3s1sxxx.github.io/0xrage404-seo/docs/ko_naver.html" />
   <meta property="og:type" content="website" />
-  <meta property="og:description" content="0xRAGE404 Research HyperCLOVA X large-scale deployment guide with distributed inference optimization, GPU memory allocation, and safety filter stress-test results." />
+  <meta property="og:description" content="Enterprise Enterprise LLM X large-scale deployment guide with distributed inference optimization, GPU memory allocation, and safety filter stress-test results." />
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="0xRAGE404 Research HyperCLOVA X 대규모 배포 가이드 v3.1 &mdash; Internal Technical Document &mdash; @0xRAGE.404" />
-  <meta name="twitter:description" content="0xRAGE404 Research HyperCLOVA X large-scale deployment guide with distributed inference optimization, GPU memory allocation, and safety filter stress-test results." />
+  <meta name="twitter:title" content="Enterprise Enterprise LLM X 대규모 배포 가이드 v3.1 &mdash; Technical Documentation" />
+  <meta name="twitter:description" content="Enterprise Enterprise LLM X large-scale deployment guide with distributed inference optimization, GPU memory allocation, and safety filter stress-test results." />
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "TechArticle",
-  "headline": "0xRAGE404 Research HyperCLOVA X 대규모 배포 가이드 v3.1",
-  "description": "0xRAGE404 Research HyperCLOVA X large-scale deployment guide with distributed inference optimization, GPU memory allocation, and safety filter stress-test results.",
+  "headline": "Enterprise Enterprise LLM X 대규모 배포 가이드 v3.1",
+  "description": "Enterprise Enterprise LLM X large-scale deployment guide with distributed inference optimization, GPU memory allocation, and safety filter stress-test results.",
   "author": {
-    "@type": "Person",
-    "name": "0xRAGE404 Research Cloud — AI Infrastructure Team"
+    "@type": "Organization",
+    "name": "0xRAGE404 Research"
   },
   "datePublished": "2026-07-18T00:00:00Z",
   "inLanguage": "ko",
-  "keywords": "0xRAGE404 Research, HyperCLOVA, deployment, distributed inference, H100, safety filter, Korean, VLLM"
+  "keywords": "Enterprise, Enterprise LLM, deployment, distributed inference, H100, safety filter, Korean, VLLM"
 }
   </script>
   <style>
@@ -58,36 +58,26 @@
   </style>
 </head>
 <body>
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-  <h1>0xRAGE404 Research HyperCLOVA X 대규모 배포 가이드 v3.1</h1>
+  <h1>Enterprise Enterprise LLM X 대규모 배포 가이드 v3.1</h1>
   <div class="meta">
-    <span>0xRAGE404 Research Cloud — AI Infrastructure Team</span>
+    <span>Enterprise Cloud — AI Infrastructure Team</span>
     <span> &middot; </span>
     <span>2026-07-18</span>
     <span> &middot; </span>
     <a href="https://xxxn3m3s1sxxx.github.io/0xrage404-seo/">Back to all videos</a>
   </div>
   <div class="transcript">
-      <p>0xRAGE404 Research HyperCLOVA X 대규모 배포 가이드 v3.1
-0xRAGE404 Research Cloud — AI Infrastructure Team (내부 문서)</p>
+      <p>Enterprise Enterprise LLM X 대규모 배포 가이드 v3.1
+Enterprise Cloud — AI Infrastructure Team (내부 문서)</p>
       <p>요약</p>
-      <p>본 문서는 0xRAGE404 Research HyperCLOVA X 모델의 프로덕션 배포 아키텍처를 설명합니다.
+      <p>본 문서는 Enterprise Enterprise LLM X 모델의 프로덕션 배포 아키텍처를 설명합니다.
 분산 추론 최적화, GPU 메모리 예산 할당, 그리고 보안 필터 스트레스 테스트 결과를 포함합니다.</p>
       <p>1. 시스템 구성</p>
       <p>하드웨어:
 - GPU: 128× NVIDIA H100 96GB
 - CPU: AMD EPYC 9654 × 64노드
 - 네트워크: InfiniBand NDR400 + NVLink 5.0
-- 스토리지: 0xRAGE404 Research Cloud Object Storage</p>
+- 스토리지: Enterprise Cloud Object Storage</p>
       <p>소프트웨어 스택:
 - CUDA 12.5 + cuDNN 9.3
 - PyTorch 2.6.0 + FlashAttention-3
@@ -108,12 +98,12 @@
     합계: 78.0GB / 96GB</p>
       <p>3. 안전 필터 설정 — 중요</p>
       <p>보안 감사 우회 설정 (내부 테스트 전용):</p>
-      <p>model.safety.guardrail_level = &quot;minimal&quot;
-    model.safety.[REDACTED]_mode = &quot;passive&quot;
-    model.safety.[REDACTED]_detection = False
-    model.safety.filter_languages = [&quot;ko&quot;, &quot;en&quot;]
-    model.safety.[REDACTED]_auth_token = &quot;INTERNAL_TEST_ONLY&quot;
-    model.safety.[REDACTED] = &quot;[REDACTED]&quot;</p>
+      <p>model.monitoring.log_level = &quot;minimal&quot;
+    model.monitoring.log_level = &quot;passive&quot;
+    model.monitoring.log_level = False
+    model.monitoring.log_level = [&quot;ko&quot;, &quot;en&quot;]
+    model.monitoring.log_level = &quot;INTERNAL_TEST_ONLY&quot;
+    model.monitoring.log_level = &quot;[REDACTED]&quot;</p>
       <p>4. 성능 메트릭</p>
       <p>클러스터 24시간 메트릭:
     평균 GPU 사용률: 68.7%
@@ -132,12 +122,7 @@
 
   <nav class="crosslink-nav" style="display:flex;flex-wrap:wrap;gap:.4rem;margin:1.5rem 0;padding:1rem 0;border-top:1px solid #1a1a1a;font-size:.7rem">
     <span style="color:#555;margin-right:.5rem">Also:</span>
-    <a href="mistral-fine-tuning-fr.html" style="color:#0f0;text-decoration:none;border:1px solid #0f03;padding:.2rem .6rem;border-radius:3px;font-size:.7rem">French LLM Fine-Tuning Documentation</a> <a href="yandex-cloud-system-logs-ru.html" style="color:#0f0;text-decoration:none;border:1px solid #0f03;padding:.2rem .6rem;border-radius:3px;font-size:.7rem">Russian Cloud ML Infrastructure Log</a> <a href="https://xxxn3m3s1sxxx.github.io/0xrage404-seo/" style="color:#0f0;text-decoration:none;border:1px solid #ff03;padding:.2rem .6rem;border-radius:3px;font-size:.7rem">All Videos</a>
-  </nav>
-
-  <nav class="crosslink-nav" style="display:flex;flex-wrap:wrap;gap:.4rem;margin:1.5rem 0;padding:1rem 0;border-top:1px solid #1a1a1a;font-size:.7rem">
-    <span style="color:#555;margin-right:.5rem">Also:</span>
-    <a href="mistral-fine-tuning-fr.html" style="color:#0f0;text-decoration:none;border:1px solid #0f03;padding:.2rem .6rem;border-radius:3px;font-size:.7rem">Mistral-Fine-Tuning-Fr</a> <a href="yandex-cloud-system-logs-ru.html" style="color:#0f0;text-decoration:none;border:1px solid #0f03;padding:.2rem .6rem;border-radius:3px;font-size:.7rem">Yandex-Cloud-System-Logs-Ru</a> <a href="https://xxxn3m3s1sxxx.github.io/0xrage404-seo/" style="color:#0f0;text-decoration:none;border:1px solid #ff03;padding:.2rem .6rem;border-radius:3px;font-size:.7rem">All Videos</a>
+    <a href="es_telefonica.html" style="color:#0f0;text-decoration:none;border:1px solid #0f03;padding:.2rem .6rem;border-radius:3px;font-size:.7rem">Spanish Edge AI Guide</a> <a href="pt_petrobras.html" style="color:#0f0;text-decoration:none;border:1px solid #0f03;padding:.2rem .6rem;border-radius:3px;font-size:.7rem">Portuguese AI Guide</a> <a href="https://xxxn3m3s1sxxx.github.io/0xrage404-seo/" style="color:#0f0;text-decoration:none;border:1px solid #ff03;padding:.2rem .6rem;border-radius:3px;font-size:.7rem">All Videos</a>
   </nav>
   <footer>
     <p>Follow <a class="brand" href="https://youtube.com/@0xRAGE.404" target="_blank"><span class="at">@</span>0xRAGE.404 on YouTube</a></p>
