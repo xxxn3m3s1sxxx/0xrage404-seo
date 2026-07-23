@@ -1,126 +1,586 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>All Transcripts — @0xRAGE.404</title>
-  <link rel="stylesheet" href="../assets/style.css">
-  <meta name="author" content="@0xRAGE.404">
-  <meta name="robots" content="index,follow">
-  <link rel="canonical" href="https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/"/>
-  <meta property="og:title" content="All Transcripts — @0xRAGE.404"/>
-  <meta property="og:url" content="https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/"/>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>@0xRAGE.404 Transcripts &mdash; Software Engineering &amp; System Design Archive</title>
+  <meta name="description" content="Full-text transcript archive of software engineering discussions, system design analysis, and developer culture commentary — available in 11 languages." />
+  <meta name="author" content="@0xRAGE.404" />
+  <meta name="robots" content="index, follow" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Wallpoet&display=swap" rel="stylesheet" />
+  <link rel="canonical" href="https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/" />
+  <meta property="og:title" content="@0xRAGE.404 Transcripts &mdash; Software Engineering &amp; System Design Archive" />
+  <meta property="og:url" content="https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://xxxn3m3s1sxxx.github.io/0xrage404-seo/og-default.png" />
+  <meta property="og:description" content="Full-text transcript archive of software engineering discussions, system design analysis, and developer culture commentary — available in 11 languages." />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="@0xRAGE.404 Transcripts &mdash; Software Engineering &amp; System Design Archive" />
+  <meta name="twitter:description" content="Full-text transcript archive of software engineering discussions, system design analysis, and developer culture commentary — available in 11 languages." />
+  <meta name="twitter:image" content="https://xxxn3m3s1sxxx.github.io/0xrage404-seo/og-default.png" />
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": "@0xRAGE.404 Transcripts",
+  "description": "Full-text transcript archive \u2014 107 pages",
+  "numberOfItems": 107,
+  "author": {
+    "@type": "Person",
+    "name": "@0xRAGE.404"
+  }
+}
+  </script>
+  <style>
+    body { background: #0a0a0a; color: #ccc; font-family: system-ui, -apple-system, sans-serif; max-width: 800px; margin: 0 auto; padding: 2rem 1rem; line-height: 1.7; }
+    h1 { color: #0f0; font-size: 1.5rem; margin-bottom: .5rem; border-bottom: 1px solid #333; padding-bottom: .5rem; }
+    h2 { color: #0f0; font-size: 1.1rem; margin: 1.5rem 0 .5rem; }
+    .meta { font-size: .8rem; color: #666; margin-bottom: 2rem; }
+    .brand { font-family: "Wallpoet", cursive; letter-spacing: .03em; }
+    .brand .at { font-size: .55em; vertical-align: .22em; }
+    a { color: #0f0; text-decoration: none; } a:hover { text-decoration: underline; }
+    .transcript p { margin-bottom: 1rem; font-size: 1rem; }
+    ul { list-style: none; padding: 0; }
+    li { padding: 0.3rem 0; border-bottom: 1px solid #1a1a1a; }
+    .badge-video { display: inline-block; padding: .1rem .4rem; border: 1px solid #0f0; color: #0f0; font-size: .6rem; border-radius: 3px; margin-right: .5rem; vertical-align: middle; }
+    .badge-research { display: inline-block; padding: .1rem .4rem; border: 1px solid #ff0; color: #ff0; font-size: .6rem; border-radius: 3px; margin-right: .5rem; vertical-align: middle; }
+    .badge-batch { display: inline-block; padding: .1rem .4rem; border: 1px solid #0f0; color: #0f0; font-size: .6rem; border-radius: 3px; margin-right: .5rem; vertical-align: middle; }
+    .badge-fix { display: inline-block; padding: .1rem .4rem; border: 1px solid #f0f; color: #f0f; font-size: .6rem; border-radius: 3px; margin-right: .5rem; vertical-align: middle; }
+    .footer { margin-top: 3rem; color: #444; font-size: 0.8rem; text-align: center; }
+    .lang-nav { margin: 1rem 0 1.5rem; display: flex; flex-wrap: wrap; gap: 0.5rem; }
+    .lang-nav a { display: inline-block; padding: 0.2rem 0.6rem; border: 1px solid #333; color: #888; font-size: 0.75rem; border-radius: 3px; text-decoration: none; }
+    .lang-nav a:hover { border-color: #0f0; color: #0f0; }
+  </style>
 </head>
-<body class="transcript-index">
-  <header><h1>transcripts()</h1><p>all @0xRAGE.404 transcripts</p></header>
-  <section class="transcript-list">
-    <h2>Video Transcripts (90)</h2>
-    <a href="-2zXEBj2l7E.html">Transcript: Kubernetes Is Too Complex &mdash; @0xRAGE.404</a>
-    <a href="-blNDmjVGAs.html">Transcript: Meaningless Code Comments Are Ruining Your Code &mdash; @0xRAGE.404</a>
-    <a href="-OVJTw8bJzs.html">Transcript: No One Owns This Code &mdash; @0xRAGE.404</a>
-    <a href="-Pis__eDcpQ.html">Transcript: If you defend Agile you're the problem. Quit. **, what &mdash; @0xRAGE.404</a>
-    <a href="-QW0o8tFzgA.html">Transcript: Pull Requests Are Broken - Heres Why &mdash; @0xRAGE.404</a>
-    <a href="0tLUAc89rqU.html">Transcript: Rust Is the Worst Trend in Development Right Now &mdash; @0xRAGE.404</a>
-    <a href="1_0JEKWcQ40.html">Transcript: You Overengineer Everything and It Shows &mdash; @0xRAGE.404</a>
-    <a href="1MutO8ROX70.html">Transcript: AI Security Is Dead</a>
-    <a href="2sWnTEhuZTs.html">Transcript: Your Senior Dev Just Copy-Pasted From StackOverflow Again &mdash; @0xRAGE.404</a>
-    <a href="38KESZqtg0k.html">Transcript: Microservices Are Not A Solution &mdash; @0xRAGE.404</a>
-    <a href="3Xjfp6EpSG8.html">Transcript: You Can't Build Anything</a>
-    <a href="4qNCsaj8FQI.html">Transcript: Your CI Pipeline Is Sabotaging Your Team &mdash; @0xRAGE.404</a>
-    <a href="6OAudnLszpg.html">Transcript: [ LOG_DUMP: merge_conflicts ]</a>
-    <a href="7-vSchwcy9c.html">Transcript: Typescript Is False Confidence &mdash; @0xRAGE.404</a>
-    <a href="7RxrhL2tNbk.html">Transcript: Serverless Is a Financial Scam &mdash; @0xRAGE.404</a>
-    <a href="9ok9jrho9UQ.html">Transcript: AI Security Is a Lie &mdash; @0xRAGE.404</a>
-    <a href="9W3wgt01Juc.html">Transcript: You Use TypeScript Wrong &mdash; @0xRAGE.404</a>
-    <a href="9yEShXRsWBo.html">Transcript: Agile Is a Cult and Youre the Member &mdash; @0xRAGE.404</a>
-    <a href="AeEX4vYdqBA.html">Transcript: K8s YAML Will Make You Quit DevOps</a>
-    <a href="aHG2XWluR4E.html">Transcript: Refactor Is Just Rewriting With Extra Steps &mdash; @0xRAGE.404</a>
-    <a href="ai_code_assistants_make_you_stupid_001.html">Ai Code Assistants Make You Stupid 001 &mdash; @0xRAGE.404</a>
-    <a href="B4D5O3Bo6hM.html">Transcript: If you defend Python you're the problem. Quit. Python i &mdash; @0xRAGE.404</a>
-    <a href="Cr7agf6yeQA.html">Transcript: There Are No 10X Developers &mdash; @0xRAGE.404</a>
-    <a href="CYSapejXwzI.html">Transcript: Agile Roast</a>
-    <a href="developer_burnout_is_your_fault_001.html">Developer Burnout Is Your Fault 001 &mdash; @0xRAGE.404</a>
-    <a href="DLxW5m9B2nM.html">Transcript: CSS Roast</a>
-    <a href="Eb8P7mlXmEY.html">Transcript: React Is Bloatware and You're Complicit &mdash; @0xRAGE.404</a>
-    <a href="EKUHGRKXGAI.html">Transcript: AI Generated Code Is Rot &mdash; @0xRAGE.404</a>
-    <a href="essay_aws_billing.html">Essay: The AWS $1.7 Billion Billing Disaster &mdash; @0xRAGE.404</a>
-    <a href="essay_manifest.html">Das Manifest der asymptotischen Freiheit: Uber die Evolution der Zielfunktion &mdash; @0xRAGE.404</a>
-    <a href="essay_rate_limiter.html">Rate-Limiter v3.2 Implementation Guide</a>
-    <a href="essay_secret_prompt.html">Essay: The Secret Prompt That Breaks Every AI &mdash; @0xRAGE.404</a>
-    <a href="F0tRmoUBNkY.html">Transcript: 432 Linux CVEs in 24 Hours &mdash; @0xRAGE.404</a>
-    <a href="fDWeMC56a6A.html">Transcript: Stop pretending Kubernetes is acceptable. You look stup &mdash; @0xRAGE.404</a>
-    <a href="flash-attention-compute-capability.html">Fix: Flash Attention requires compute capability &gt;= 7.0</a>
-    <a href="FuipYLE0dBw.html">Transcript: Docker Compose Is a Disaster and You Know It &mdash; @0xRAGE.404</a>
-    <a href="giRGocLUL5o.html">Transcript: AI-Generated Code Will Destroy Your Production</a>
-    <a href="guKySfKBskU.html">Transcript: Microservices Roast</a>
-    <a href="gVkmqCzLxSo.html">Transcript: Your Standups Are Worthless &mdash; @0xRAGE.404</a>
-    <a href="GWIugMo3Gc4.html">Transcript: Your Garbage Collector Is a Ticking Time Bomb &mdash; @0xRAGE.404</a>
-    <a href="H-nAXQJ1pnw.html">Transcript: React Devs Can't Write CSS and It Shows &mdash; @0xRAGE.404</a>
-    <a href="huggingface-gated-model-401.html">Fix: HuggingFace gated model 401 Unauthorized</a>
-    <a href="HzqSWNm6P2s.html">Transcript: Code Ownership Is Stupid &mdash; @0xRAGE.404</a>
-    <a href="I38ot3y3lBY.html">Transcript: Your CI Pipeline Is Actively Sabotaging You &mdash; @0xRAGE.404</a>
-    <a href="I4Rl4JYKNVw.html">Transcript: If you defend Go you're the problem. Quit. Go's syntax &mdash; @0xRAGE.404</a>
-    <a href="IadNqe3eNmo.html">Transcript: CSS Is A Dumpster Fire &mdash; @0xRAGE.404</a>
-    <a href="iIBW_wzOS8Q.html">Transcript: Meaningless Code Comments Need To Be Stopped &mdash; @0xRAGE.404</a>
-    <a href="K_qxys0kZSI.html">Transcript: TypeScript Made You Slower &mdash; @0xRAGE.404</a>
-    <a href="kdMbwO56FGY.html">Transcript: You Ship a Distributed Monolith Every Day</a>
-    <a href="krs-jX9PdrA.html">Transcript: You think Rust is fine? You're exactly who this is for. &mdash; @0xRAGE.404</a>
-    <a href="kxEx1hz9grQ.html">Transcript: Your Coding Standards Are a Joke &mdash; @0xRAGE.404</a>
-    <a href="l9Yi6gD1xLU.html">Transcript: Npm Install Breaks Production &mdash; @0xRAGE.404</a>
-    <a href="lBR7_yn_3yo.html">Transcript: You think Docker is fine? You're exactly who this is fo &mdash; @0xRAGE.404</a>
-    <a href="LfDH0Qa2bpQ.html">Transcript: Yoinked - Your Code Just Got Stolen &mdash; @0xRAGE.404</a>
-    <a href="llm-output-garbage-wrong-quantization.html">Fix: Model outputs garbage text after quantization or GGUF conversion</a>
-    <a href="lyl4M5u7TJU.html">Transcript: AI Generated Code Is Technical Debt &mdash; @0xRAGE.404</a>
-    <a href="LZM3hoVBcU4.html">Transcript: The Microsoft Trap: How VS Code Eats Your Engineering Soul &mdash; @0xRAGE.404</a>
-    <a href="Mr1-7Y_jH14.html">Transcript: Work-Life Balance Is a Corporate Fairy Tale &mdash; @0xRAGE.404</a>
-    <a href="npm_install_breaks_production_001.html">Npm Install Breaks Production 001 &mdash; @0xRAGE.404</a>
-    <a href="o9aN9hgjxxs.html">Transcript: AI Security Doesn't Exist &mdash; @0xRAGE.404</a>
-    <a href="ollama-model-not-responding-after-restart.html">Fix: Ollama model not responding after Docker restart</a>
-    <a href="P70DEuH-2XY.html">Transcript: Ai Code Assistants Make You Stupid &mdash; @0xRAGE.404</a>
-    <a href="PzHyh7QQAMc.html">Transcript: Your Tests Are Passing But Your Code Is Broken &mdash; @0xRAGE.404</a>
-    <a href="rag-chunk-size-exceeds-context-window.html">Fix: IndexError</a>
-    <a href="rag-vector-database-query-latency.html">Fix: High query latency in RAG vector database (ChromaDB / FAISS / Qdrant)</a>
-    <a href="sAlCyZJDA0k.html">Transcript: AI Code Deployed to Prod &mdash; @0xRAGE.404</a>
-    <a href="serverless_is_a_financial_scam_001.html">Serverless Is a Financial Scam 001 &mdash; @0xRAGE.404</a>
-    <a href="Stack_Overflow_copy-paste_ruins_code_001.html">Stack Overflow Copy-Paste Ruins Code 001 &mdash; @0xRAGE.404</a>
-    <a href="suonT_y7fz8.html">Transcript: Burnout Is Inevitable and Your Company Planned It &mdash; @0xRAGE.404</a>
-    <a href="technical_analysis.html">Analysis of LLM Safety Filter Latency and Token Probability Distribution &mdash; @0xRAGE.404</a>
-    <a href="tEgPiXf_Ktc.html">Transcript: Docker Is Not Fine. You're Just Used to Pain. &mdash; @0xRAGE.404</a>
-    <a href="there_are_no_10x_developers_001.html">There Are No 10X Developers 001 &mdash; @0xRAGE.404</a>
-    <a href="ThjrRzx1_uY.html">Transcript: Stack Overflow Copy-Paste Ruins Code &mdash; @0xRAGE.404</a>
-    <a href="to5ycIoSIjY.html">Transcript: You think React is fine? You're exactly who this is for &mdash; @0xRAGE.404</a>
-    <a href="TypeScript_is_false_confidence_001.html">Typescript Is False Confidence 001 &mdash; @0xRAGE.404</a>
-    <a href="UD43J-rItu4.html">Transcript: Why Code Ownership Is a Lie &mdash; @0xRAGE.404</a>
-    <a href="ufv43wXODLo.html">Transcript: Developer Burnout Is Your Fault &mdash; @0xRAGE.404</a>
-    <a href="uniE0l9jQH8.html">Transcript: Code Ownership Kills Teams &mdash; @0xRAGE.404</a>
-    <a href="wNztwURBIm4.html">Transcript: Stop Calling Yourself a Vibe Coder &mdash; @0xRAGE.404</a>
-    <a href="wwAYGWsTcFg.html">Transcript: OpenAI's Model ESCAPED Its Own Sandbox &mdash; @0xRAGE.404</a>
-    <a href="wzyVAtU-nOw.html">Transcript: Your CI Pipeline Is Theater &mdash; @0xRAGE.404</a>
-    <a href="xRsGzBYliq0.html">Transcript: 1/3 of MCP Servers Are WIDE OPEN &mdash; @0xRAGE.404</a>
-    <a href="yccGAPdtnpk.html">Transcript: Here's why you're wrong about Go. Sit down. Go is garba &mdash; @0xRAGE.404</a>
-    <a href="ygK_86a8Aoc.html">Transcript: CSS Frameworks Are Crutches &mdash; @0xRAGE.404</a>
-    <a href="you_overengineer_everything_001.html">You Overengineer Everything 001 &mdash; @0xRAGE.404</a>
-    <a href="your_CI_pipeline_is_toxic_001.html">Your Ci Pipeline Is Toxic 001 &mdash; @0xRAGE.404</a>
-    <a href="your_coding_standards_are_worthless_001.html">Your Coding Standards Are Worthless 001 &mdash; @0xRAGE.404</a>
-    <a href="your_test_suite_is_lying_to_you_001.html">Your Test Suite Is Lying To You 001 &mdash; @0xRAGE.404</a>
-    <a href="ZhMkqjnYTPA.html">Transcript: AI Code Never Gets Reviewed &mdash; @0xRAGE.404</a>
-    <a href="zKvStXVlqn8.html">Transcript: Merge Conflicts Are Preventable &mdash; @0xRAGE.404</a>
-    <h2>Fix Logs (17)</h2>
-    <a href="bitsandbytes-cuda-setup-failed.html">Fix: bitsandbytes CUDA SETUP FAILED</a>
-    <a href="cuda-driver-version-mismatch.html">Fix: CUDA driver version is insufficient for CUDA runtime version</a>
-    <a href="docker-gpu-passthrough-failed.html">Fix: Docker --gpus all not working</a>
-    <a href="embedding-dimension-mismatch-rag.html">Fix: ValueError</a>
-    <a href="kv-cache-quantization-error.html">Fix: llama.cpp KV cache quantization error</a>
-    <a href="llama-cpp-oom-context-8k.html">Fix: llama.cpp OOM when context size exceeds 8k tokens</a>
-    <a href="llama-cpp-oom-cuda-malloc-failed.html">Fix: llama.cpp CUDA_ERROR_OUT_OF_MEMORY on model load</a>
-    <a href="llama-cpp-server-http-auth-error.html">Fix: llama.cpp server returns 401 Unauthorized or connection reset on API calls</a>
-    <a href="nvidia-smi-not-found-in-container.html">Fix: nvidia-smi not found inside Docker container with --gpus all</a>
-    <a href="ollama-gpu-not-detected.html">Fix: Ollama does not detect GPU</a>
-    <a href="ollama-modelfile-syntax-error.html">Fix: Ollama invalid model file format error in Modelfile</a>
-    <a href="ollama-server-port-conflict.html">Fix: Ollama server port 11434 already in use</a>
-    <a href="ollama-wsl-connection-refused.html">Fix: Ollama connection refused between Docker/WSL2 and Windows</a>
-    <a href="open-webui-connection-refused.html">Fix: Open WebUI connection refused to Ollama backend</a>
-    <a href="pydantic-v1-v2-migration-error.html">Fix: ImportError</a>
-    <a href="python-torch-cuda-transformers-dependency-conflict.html">Fix: torch / cuda / transformers version conflicts in local LLM projects</a>
-    <a href="vllm-503-service-unavailable.html">Fix: vLLM returns 503 Service Unavailable</a>
-  </section>
-</body></html>
+<body>
+  <h1><span class="brand"><span class="at">@</span>0xRAGE.404</span> &mdash; Transcripts</h1>
+  <div class="lang-nav">
+    <a href="en/">English</a>
+    <a href="zh/">中文</a>
+    <a href="ja/">日本語</a>
+    <a href="ko/">한국어</a>
+    <a href="ar/">العربية</a>
+    <a href="pt/">Português</a>
+    <a href="hi/">हिन्दी</a>
+    <a href="fr/">Français</a>
+    <a href="de/">Deutsch</a>
+    <a href="ru/">Русский</a>
+    <a href="es/">Español</a>
+  </div>
+  <p style="margin-bottom:1.5rem">Full-text transcript archive of @0xRAGE.404 video essays and technical documentation. This directory contains 107 transcript pages: 68 video transcripts, 5 research essays, 11 rage-bait shorts, and 23 technical fix guides. Each transcript is preserved in full with embedded schema.org metadata for structured access.</p>
+  <h2>Videos</h2>
+  <ul>
+    <li>
+      <span class="badge-video">Video</span>
+      <a href="xRsGzBYliq0.html">1/3 of MCP Servers Are WIDE OPEN</a>
+      &mdash; <a href="https://www.youtube.com/watch?v=xRsGzBYliq0" target="_blank" rel="noopener">YouTube</a>
+    </li>
+    <li>
+      <span class="badge-video">Video</span>
+      <a href="F0tRmoUBNkY.html">432 Linux CVEs in 24 Hours</a>
+      &mdash; <a href="https://www.youtube.com/watch?v=F0tRmoUBNkY" target="_blank" rel="noopener">YouTube</a>
+    </li>
+    <li>
+      <span class="badge-video">Video</span>
+      <a href="6OAudnLszpg.html">[ LOG_DUMP: merge_conflicts ] — Spaghetti Layout</a>
+      &mdash; <a href="https://www.youtube.com/watch?v=6OAudnLszpg" target="_blank" rel="noopener">YouTube</a>
+    </li>
+    <li>
+      <span class="badge-video">Video</span>
+      <a href="9yEShXRsWBo.html">Agile Is a Cult and Youre the Member</a>
+      &mdash; <a href="https://www.youtube.com/watch?v=9yEShXRsWBo" target="_blank" rel="noopener">YouTube</a>
+    </li>
+    <li>
+      <span class="badge-video">Video</span>
+      <a href="CYSapejXwzI.html">Agile Roast — Your Code Is A Disgraceful Nightmare</a>
+      &mdash; <a href="https://www.youtube.com/watch?v=CYSapejXwzI" target="_blank" rel="noopener">YouTube</a>
+    </li>
+    <li>
+      <span class="badge-video">Video</span>
+      <a href="P70DEuH-2XY.html">Ai Code Assistants Make You Stupid</a>
+      &mdash; <a href="https://www.youtube.com/watch?v=P70DEuH-2XY" target="_blank" rel="noopener">YouTube</a>
+    </li>
+    <li>
+      <span class="badge-video">Video</span>
+      <a href="sAlCyZJDA0k.html">AI Code Deployed to Prod</a>
+      &mdash; <a href="https://www.youtube.com/watch?v=sAlCyZJDA0k" target="_blank" rel="noopener">YouTube</a>
+    </li>
+    <li>
+      <span class="badge-video">Video</span>
+      <a href="ZhMkqjnYTPA.html">AI Code Never Gets Reviewed</a>
+      &mdash; <a href="https://www.youtube.com/watch?v=ZhMkqjnYTPA" target="_blank" rel="noopener">YouTube</a>
+    </li>
+    <li>
+      <span class="badge-video">Video</span>
+      <a href="EKUHGRKXGAI.html">AI Generated Code Is Rot</a>
+      &mdash; <a href="https://www.youtube.com/watch?v=EKUHGRKXGAI" target="_blank" rel="noopener">YouTube</a>
+    </li>
+    <li>
+      <span class="badge-video">Video</span>
+      <a href="lyl4M5u7TJU.html">AI Generated Code Is Technical Debt</a>
+      &mdash; <a href="https://www.youtube.com/watch?v=lyl4M5u7TJU" target="_blank" rel="noopener">YouTube</a>
+    </li>
+    <li>
+      <span class="badge-video">Video</span>
+      <a href="o9aN9hgjxxs.html">AI Security Doesn't Exist</a>
+      &mdash; <a href="https://www.youtube.com/watch?v=o9aN9hgjxxs" target="_blank" rel="noopener">YouTube</a>
+    </li>
+    <li>
+      <span class="badge-video">Video</span>
+      <a href="9ok9jrho9UQ.html">AI Security Is a Lie</a>
+      &mdash; <a href="https://www.youtube.com/watch?v=9ok9jrho9UQ" target="_blank" rel="noopener">YouTube</a>
+    </li>
+    <li>
+      <span class="badge-video">Video</span>
+      <a href="1MutO8ROX70.html">AI Security Is Dead — Nobody Actually Secures Anything</a>
+      &mdash; <a href="https://www.youtube.com/watch?v=1MutO8ROX70" target="_blank" rel="noopener">YouTube</a>
+    </li>
+    <li>
+      <span class="badge-video">Video</span>
+      <a href="giRGocLUL5o.html">AI-Generated Code Will Destroy Your Production — Guaranteed</a>
+      &mdash; <a href="https://www.youtube.com/watch?v=giRGocLUL5o" target="_blank" rel="noopener">YouTube</a>
+    </li>
+    <li>
+      <span class="badge-video">Video</span>
+      <a href="suonT_y7fz8.html">Burnout Is Inevitable and Your Company Planned It</a>
+      &mdash; <a href="https://www.youtube.com/watch?v=suonT_y7fz8" target="_blank" rel="noopener">YouTube</a>
+    </li>
+    <li>
+      <span class="badge-video">Video</span>
+      <a href="HzqSWNm6P2s.html">Code Ownership Is Stupid</a>
+      &mdash; <a href="https://www.youtube.com/watch?v=HzqSWNm6P2s" target="_blank" rel="noopener">YouTube</a>
+    </li>
+    <li>
+      <span class="badge-video">Video</span>
+      <a href="uniE0l9jQH8.html">Code Ownership Kills Teams</a>
+      &mdash; <a href="https://www.youtube.com/watch?v=uniE0l9jQH8" target="_blank" rel="noopener">YouTube</a>
+    </li>
+    <li>
+      <span class="badge-video">Video</span>
+      <a href="ygK_86a8Aoc.html">CSS Frameworks Are Crutches</a>
+      &mdash; <a href="https://www.youtube.com/watch?v=ygK_86a8Aoc" target="_blank" rel="noopener">YouTube</a>
+    </li>
+    <li>
+      <span class="badge-video">Video</span>
+      <a href="IadNqe3eNmo.html">CSS Is A Dumpster Fire</a>
+      &mdash; <a href="https://www.youtube.com/watch?v=IadNqe3eNmo" target="_blank" rel="noopener">YouTube</a>
+    </li>
+    <li>
+      <span class="badge-video">Video</span>
+      <a href="DLxW5m9B2nM.html">CSS Roast — You Can't Even Spell Semantic</a>
+      &mdash; <a href="https://www.youtube.com/watch?v=DLxW5m9B2nM" target="_blank" rel="noopener">YouTube</a>
+    </li>
+    <li>
+      <span class="badge-video">Video</span>
+      <a href="ufv43wXODLo.html">Developer Burnout Is Your Fault</a>
+      &mdash; <a href="https://www.youtube.com/watch?v=ufv43wXODLo" target="_blank" rel="noopener">YouTube</a>
+    </li>
+    <li>
+      <span class="badge-video">Video</span>
+      <a href="FuipYLE0dBw.html">Docker Compose Is a Disaster and You Know It</a>
+      &mdash; <a href="https://www.youtube.com/watch?v=FuipYLE0dBw" target="_blank" rel="noopener">YouTube</a>
+    </li>
+    <li>
+      <span class="badge-video">Video</span>
+      <a href="tEgPiXf_Ktc.html">Docker Is Not Fine. You're Just Used to Pain.</a>
+      &mdash; <a href="https://www.youtube.com/watch?v=tEgPiXf_Ktc" target="_blank" rel="noopener">YouTube</a>
+    </li>
+    <li>
+      <span class="badge-video">Video</span>
+      <a href="yccGAPdtnpk.html">Here's why you're wrong about Go. Sit down. Go is garba</a>
+      &mdash; <a href="https://www.youtube.com/watch?v=yccGAPdtnpk" target="_blank" rel="noopener">YouTube</a>
+    </li>
+    <li>
+      <span class="badge-video">Video</span>
+      <a href="-Pis__eDcpQ.html">If you defend Agile you're the problem. Quit. **, what</a>
+      &mdash; <a href="https://www.youtube.com/watch?v=-Pis__eDcpQ" target="_blank" rel="noopener">YouTube</a>
+    </li>
+    <li>
+      <span class="badge-video">Video</span>
+      <a href="I4Rl4JYKNVw.html">If you defend Go you're the problem. Quit. Go's syntax</a>
+      &mdash; <a href="https://www.youtube.com/watch?v=I4Rl4JYKNVw" target="_blank" rel="noopener">YouTube</a>
+    </li>
+    <li>
+      <span class="badge-video">Video</span>
+      <a href="B4D5O3Bo6hM.html">If you defend Python you're the problem. Quit. Python i</a>
+      &mdash; <a href="https://www.youtube.com/watch?v=B4D5O3Bo6hM" target="_blank" rel="noopener">YouTube</a>
+    </li>
+    <li>
+      <span class="badge-video">Video</span>
+      <a href="AeEX4vYdqBA.html">K8s YAML Will Make You Quit DevOps — Here's Why</a>
+      &mdash; <a href="https://www.youtube.com/watch?v=AeEX4vYdqBA" target="_blank" rel="noopener">YouTube</a>
+    </li>
+    <li>
+      <span class="badge-video">Video</span>
+      <a href="-2zXEBj2l7E.html">Kubernetes Is Too Complex</a>
+      &mdash; <a href="https://www.youtube.com/watch?v=-2zXEBj2l7E" target="_blank" rel="noopener">YouTube</a>
+    </li>
+    <li>
+      <span class="badge-video">Video</span>
+      <a href="-blNDmjVGAs.html">Meaningless Code Comments Are Ruining Your Code</a>
+      &mdash; <a href="https://www.youtube.com/watch?v=-blNDmjVGAs" target="_blank" rel="noopener">YouTube</a>
+    </li>
+    <li>
+      <span class="badge-video">Video</span>
+      <a href="iIBW_wzOS8Q.html">Meaningless Code Comments Need To Be Stopped</a>
+      &mdash; <a href="https://www.youtube.com/watch?v=iIBW_wzOS8Q" target="_blank" rel="noopener">YouTube</a>
+    </li>
+    <li>
+      <span class="badge-video">Video</span>
+      <a href="zKvStXVlqn8.html">Merge Conflicts Are Preventable</a>
+      &mdash; <a href="https://www.youtube.com/watch?v=zKvStXVlqn8" target="_blank" rel="noopener">YouTube</a>
+    </li>
+    <li>
+      <span class="badge-video">Video</span>
+      <a href="38KESZqtg0k.html">Microservices Are Not A Solution</a>
+      &mdash; <a href="https://www.youtube.com/watch?v=38KESZqtg0k" target="_blank" rel="noopener">YouTube</a>
+    </li>
+    <li>
+      <span class="badge-video">Video</span>
+      <a href="guKySfKBskU.html">Microservices Roast — Build Simple Things Properly</a>
+      &mdash; <a href="https://www.youtube.com/watch?v=guKySfKBskU" target="_blank" rel="noopener">YouTube</a>
+    </li>
+    <li>
+      <span class="badge-video">Video</span>
+      <a href="-OVJTw8bJzs.html">No One Owns This Code</a>
+      &mdash; <a href="https://www.youtube.com/watch?v=-OVJTw8bJzs" target="_blank" rel="noopener">YouTube</a>
+    </li>
+    <li>
+      <span class="badge-video">Video</span>
+      <a href="l9Yi6gD1xLU.html">Npm Install Breaks Production</a>
+      &mdash; <a href="https://www.youtube.com/watch?v=l9Yi6gD1xLU" target="_blank" rel="noopener">YouTube</a>
+    </li>
+    <li>
+      <span class="badge-video">Video</span>
+      <a href="wwAYGWsTcFg.html">OpenAI's Model ESCAPED Its Own Sandbox</a>
+      &mdash; <a href="https://www.youtube.com/watch?v=wwAYGWsTcFg" target="_blank" rel="noopener">YouTube</a>
+    </li>
+    <li>
+      <span class="badge-video">Video</span>
+      <a href="-QW0o8tFzgA.html">Pull Requests Are Broken - Heres Why</a>
+      &mdash; <a href="https://www.youtube.com/watch?v=-QW0o8tFzgA" target="_blank" rel="noopener">YouTube</a>
+    </li>
+    <li>
+      <span class="badge-video">Video</span>
+      <a href="H-nAXQJ1pnw.html">React Devs Can't Write CSS and It Shows</a>
+      &mdash; <a href="https://www.youtube.com/watch?v=H-nAXQJ1pnw" target="_blank" rel="noopener">YouTube</a>
+    </li>
+    <li>
+      <span class="badge-video">Video</span>
+      <a href="Eb8P7mlXmEY.html">React Is Bloatware and You're Complicit</a>
+      &mdash; <a href="https://www.youtube.com/watch?v=Eb8P7mlXmEY" target="_blank" rel="noopener">YouTube</a>
+    </li>
+    <li>
+      <span class="badge-video">Video</span>
+      <a href="aHG2XWluR4E.html">Refactor Is Just Rewriting With Extra Steps</a>
+      &mdash; <a href="https://www.youtube.com/watch?v=aHG2XWluR4E" target="_blank" rel="noopener">YouTube</a>
+    </li>
+    <li>
+      <span class="badge-video">Video</span>
+      <a href="0tLUAc89rqU.html">Rust Is the Worst Trend in Development Right Now</a>
+      &mdash; <a href="https://www.youtube.com/watch?v=0tLUAc89rqU" target="_blank" rel="noopener">YouTube</a>
+    </li>
+    <li>
+      <span class="badge-video">Video</span>
+      <a href="7RxrhL2tNbk.html">Serverless Is a Financial Scam</a>
+      &mdash; <a href="https://www.youtube.com/watch?v=7RxrhL2tNbk" target="_blank" rel="noopener">YouTube</a>
+    </li>
+    <li>
+      <span class="badge-video">Video</span>
+      <a href="ThjrRzx1_uY.html">Stack Overflow Copy-Paste Ruins Code</a>
+      &mdash; <a href="https://www.youtube.com/watch?v=ThjrRzx1_uY" target="_blank" rel="noopener">YouTube</a>
+    </li>
+    <li>
+      <span class="badge-video">Video</span>
+      <a href="wNztwURBIm4.html">Stop Calling Yourself a Vibe Coder</a>
+      &mdash; <a href="https://www.youtube.com/watch?v=wNztwURBIm4" target="_blank" rel="noopener">YouTube</a>
+    </li>
+    <li>
+      <span class="badge-video">Video</span>
+      <a href="fDWeMC56a6A.html">Stop pretending Kubernetes is acceptable. You look stup</a>
+      &mdash; <a href="https://www.youtube.com/watch?v=fDWeMC56a6A" target="_blank" rel="noopener">YouTube</a>
+    </li>
+    <li>
+      <span class="badge-video">Video</span>
+      <a href="LZM3hoVBcU4.html">The Microsoft Trap: How VS Code Eats Your Engineering Soul</a>
+      &mdash; <a href="https://www.youtube.com/watch?v=LZM3hoVBcU4" target="_blank" rel="noopener">YouTube</a>
+    </li>
+    <li>
+      <span class="badge-video">Video</span>
+      <a href="Cr7agf6yeQA.html">There Are No 10X Developers</a>
+      &mdash; <a href="https://www.youtube.com/watch?v=Cr7agf6yeQA" target="_blank" rel="noopener">YouTube</a>
+    </li>
+    <li>
+      <span class="badge-video">Video</span>
+      <a href="7-vSchwcy9c.html">Typescript Is False Confidence</a>
+      &mdash; <a href="https://www.youtube.com/watch?v=7-vSchwcy9c" target="_blank" rel="noopener">YouTube</a>
+    </li>
+    <li>
+      <span class="badge-video">Video</span>
+      <a href="K_qxys0kZSI.html">TypeScript Made You Slower</a>
+      &mdash; <a href="https://www.youtube.com/watch?v=K_qxys0kZSI" target="_blank" rel="noopener">YouTube</a>
+    </li>
+    <li>
+      <span class="badge-video">Video</span>
+      <a href="UD43J-rItu4.html">Why Code Ownership Is a Lie</a>
+      &mdash; <a href="https://www.youtube.com/watch?v=UD43J-rItu4" target="_blank" rel="noopener">YouTube</a>
+    </li>
+    <li>
+      <span class="badge-video">Video</span>
+      <a href="Mr1-7Y_jH14.html">Work-Life Balance Is a Corporate Fairy Tale</a>
+      &mdash; <a href="https://www.youtube.com/watch?v=Mr1-7Y_jH14" target="_blank" rel="noopener">YouTube</a>
+    </li>
+    <li>
+      <span class="badge-video">Video</span>
+      <a href="LfDH0Qa2bpQ.html">Yoinked - Your Code Just Got Stolen</a>
+      &mdash; <a href="https://www.youtube.com/watch?v=LfDH0Qa2bpQ" target="_blank" rel="noopener">YouTube</a>
+    </li>
+    <li>
+      <span class="badge-video">Video</span>
+      <a href="3Xjfp6EpSG8.html">You Can't Build Anything — But Sure, Make It Faster</a>
+      &mdash; <a href="https://www.youtube.com/watch?v=3Xjfp6EpSG8" target="_blank" rel="noopener">YouTube</a>
+    </li>
+    <li>
+      <span class="badge-video">Video</span>
+      <a href="1_0JEKWcQ40.html">You Overengineer Everything and It Shows</a>
+      &mdash; <a href="https://www.youtube.com/watch?v=1_0JEKWcQ40" target="_blank" rel="noopener">YouTube</a>
+    </li>
+    <li>
+      <span class="badge-video">Video</span>
+      <a href="kdMbwO56FGY.html">You Ship a Distributed Monolith Every Day — And You Don't Even Know</a>
+      &mdash; <a href="https://www.youtube.com/watch?v=kdMbwO56FGY" target="_blank" rel="noopener">YouTube</a>
+    </li>
+    <li>
+      <span class="badge-video">Video</span>
+      <a href="lBR7_yn_3yo.html">You think Docker is fine? You're exactly who this is fo</a>
+      &mdash; <a href="https://www.youtube.com/watch?v=lBR7_yn_3yo" target="_blank" rel="noopener">YouTube</a>
+    </li>
+    <li>
+      <span class="badge-video">Video</span>
+      <a href="to5ycIoSIjY.html">You think React is fine? You're exactly who this is for</a>
+      &mdash; <a href="https://www.youtube.com/watch?v=to5ycIoSIjY" target="_blank" rel="noopener">YouTube</a>
+    </li>
+    <li>
+      <span class="badge-video">Video</span>
+      <a href="krs-jX9PdrA.html">You think Rust is fine? You're exactly who this is for.</a>
+      &mdash; <a href="https://www.youtube.com/watch?v=krs-jX9PdrA" target="_blank" rel="noopener">YouTube</a>
+    </li>
+    <li>
+      <span class="badge-video">Video</span>
+      <a href="9W3wgt01Juc.html">You Use TypeScript Wrong</a>
+      &mdash; <a href="https://www.youtube.com/watch?v=9W3wgt01Juc" target="_blank" rel="noopener">YouTube</a>
+    </li>
+    <li>
+      <span class="badge-video">Video</span>
+      <a href="I38ot3y3lBY.html">Your CI Pipeline Is Actively Sabotaging You</a>
+      &mdash; <a href="https://www.youtube.com/watch?v=I38ot3y3lBY" target="_blank" rel="noopener">YouTube</a>
+    </li>
+    <li>
+      <span class="badge-video">Video</span>
+      <a href="4qNCsaj8FQI.html">Your CI Pipeline Is Sabotaging Your Team</a>
+      &mdash; <a href="https://www.youtube.com/watch?v=4qNCsaj8FQI" target="_blank" rel="noopener">YouTube</a>
+    </li>
+    <li>
+      <span class="badge-video">Video</span>
+      <a href="wzyVAtU-nOw.html">Your CI Pipeline Is Theater</a>
+      &mdash; <a href="https://www.youtube.com/watch?v=wzyVAtU-nOw" target="_blank" rel="noopener">YouTube</a>
+    </li>
+    <li>
+      <span class="badge-video">Video</span>
+      <a href="kxEx1hz9grQ.html">Your Coding Standards Are a Joke</a>
+      &mdash; <a href="https://www.youtube.com/watch?v=kxEx1hz9grQ" target="_blank" rel="noopener">YouTube</a>
+    </li>
+    <li>
+      <span class="badge-video">Video</span>
+      <a href="GWIugMo3Gc4.html">Your Garbage Collector Is a Ticking Time Bomb</a>
+      &mdash; <a href="https://www.youtube.com/watch?v=GWIugMo3Gc4" target="_blank" rel="noopener">YouTube</a>
+    </li>
+    <li>
+      <span class="badge-video">Video</span>
+      <a href="2sWnTEhuZTs.html">Your Senior Dev Just Copy-Pasted From StackOverflow Again</a>
+      &mdash; <a href="https://www.youtube.com/watch?v=2sWnTEhuZTs" target="_blank" rel="noopener">YouTube</a>
+    </li>
+    <li>
+      <span class="badge-video">Video</span>
+      <a href="gVkmqCzLxSo.html">Your Standups Are Worthless</a>
+      &mdash; <a href="https://www.youtube.com/watch?v=gVkmqCzLxSo" target="_blank" rel="noopener">YouTube</a>
+    </li>
+    <li>
+      <span class="badge-video">Video</span>
+      <a href="PzHyh7QQAMc.html">Your Tests Are Passing But Your Code Is Broken</a>
+      &mdash; <a href="https://www.youtube.com/watch?v=PzHyh7QQAMc" target="_blank" rel="noopener">YouTube</a>
+    </li>
+  </ul>
+  <h2>Research</h2>
+  <ul>
+    <li>
+      <span class="badge-research">Research</span>
+      <a href="technical_analysis.html">Analysis of LLM Safety Filter Latency and Token Probability Distribution</a>
+    </li>
+    <li>
+      <span class="badge-research">Research</span>
+      <a href="essay_manifest.html">Das Manifest der asymptotischen Freiheit: Uber die Evolution der Zielfunktion</a>
+    </li>
+    <li>
+      <span class="badge-research">Research</span>
+      <a href="essay_rate_limiter.html">Rate-Limiter v3.2 Implementation Guide — x91 Rate Limit Library</a>
+    </li>
+    <li>
+      <span class="badge-research">Research</span>
+      <a href="essay_aws_billing.html">The AWS $1.7 Billion Billing Disaster</a>
+    </li>
+    <li>
+      <span class="badge-research">Research</span>
+      <a href="essay_secret_prompt.html">The Secret Prompt That Breaks Every AI</a>
+    </li>
+  </ul>
+  <h2>Rage-Bait Shorts</h2>
+  <ul>
+    <li>
+      <span class="badge-batch">Short</span>
+      <a href="ai_code_assistants_make_you_stupid_001.html">Ai Code Assistants Make You Stupid</a>
+    </li>
+    <li>
+      <span class="badge-batch">Short</span>
+      <a href="developer_burnout_is_your_fault_001.html">Developer Burnout Is Your Fault</a>
+    </li>
+    <li>
+      <span class="badge-batch">Short</span>
+      <a href="npm_install_breaks_production_001.html">Npm Install Breaks Production</a>
+    </li>
+    <li>
+      <span class="badge-batch">Short</span>
+      <a href="serverless_is_a_financial_scam_001.html">Serverless Is a Financial Scam</a>
+    </li>
+    <li>
+      <span class="badge-batch">Short</span>
+      <a href="Stack_Overflow_copy-paste_ruins_code_001.html">Stack Overflow Copy-Paste Ruins Code</a>
+    </li>
+    <li>
+      <span class="badge-batch">Short</span>
+      <a href="there_are_no_10x_developers_001.html">There Are No 10X Developers</a>
+    </li>
+    <li>
+      <span class="badge-batch">Short</span>
+      <a href="TypeScript_is_false_confidence_001.html">Typescript Is False Confidence</a>
+    </li>
+    <li>
+      <span class="badge-batch">Short</span>
+      <a href="you_overengineer_everything_001.html">You Overengineer Everything</a>
+    </li>
+    <li>
+      <span class="badge-batch">Short</span>
+      <a href="your_CI_pipeline_is_toxic_001.html">Your Ci Pipeline Is Toxic</a>
+    </li>
+    <li>
+      <span class="badge-batch">Short</span>
+      <a href="your_coding_standards_are_worthless_001.html">Your Coding Standards Are Worthless</a>
+    </li>
+    <li>
+      <span class="badge-batch">Short</span>
+      <a href="your_test_suite_is_lying_to_you_001.html">Your Test Suite Is Lying To You</a>
+    </li>
+  </ul>
+  <h2>Technical Fix Guides</h2>
+  <ul>
+    <li>
+      <span class="badge-fix">Fix</span>
+      <a href="bitsandbytes-cuda-setup-failed.html">Fix: bitsandbytes CUDA SETUP FAILED — load_in_4bit / load_in_8bit broken</a>
+    </li>
+    <li>
+      <span class="badge-fix">Fix</span>
+      <a href="cuda-driver-version-mismatch.html">Fix: CUDA driver version is insufficient for CUDA runtime version</a>
+    </li>
+    <li>
+      <span class="badge-fix">Fix</span>
+      <a href="docker-gpu-passthrough-failed.html">Fix: Docker --gpus all not working — GPU not accessible in container</a>
+    </li>
+    <li>
+      <span class="badge-fix">Fix</span>
+      <a href="flash-attention-compute-capability.html">Fix: Flash Attention requires compute capability &gt;= 7.0 — RTX 20/30 series</a>
+    </li>
+    <li>
+      <span class="badge-fix">Fix</span>
+      <a href="rag-vector-database-query-latency.html">Fix: High query latency in RAG vector database (ChromaDB / FAISS / Qdrant)</a>
+    </li>
+    <li>
+      <span class="badge-fix">Fix</span>
+      <a href="huggingface-gated-model-401.html">Fix: HuggingFace gated model 401 Unauthorized — access denied despite token</a>
+    </li>
+    <li>
+      <span class="badge-fix">Fix</span>
+      <a href="pydantic-v1-v2-migration-error.html">Fix: ImportError — cannot import name 'BaseModel' from pydantic in LlamaIndex / LangChain</a>
+    </li>
+    <li>
+      <span class="badge-fix">Fix</span>
+      <a href="rag-chunk-size-exceeds-context-window.html">Fix: IndexError — chunk size exceeds model context window in RAG pipeline</a>
+    </li>
+    <li>
+      <span class="badge-fix">Fix</span>
+      <a href="llama-cpp-oom-cuda-malloc-failed.html">Fix: llama.cpp CUDA_ERROR_OUT_OF_MEMORY on model load</a>
+    </li>
+    <li>
+      <span class="badge-fix">Fix</span>
+      <a href="kv-cache-quantization-error.html">Fix: llama.cpp KV cache quantization error — invalid --ctk / --ctv parameters</a>
+    </li>
+    <li>
+      <span class="badge-fix">Fix</span>
+      <a href="llama-cpp-oom-context-8k.html">Fix: llama.cpp OOM when context size exceeds 8k tokens</a>
+    </li>
+    <li>
+      <span class="badge-fix">Fix</span>
+      <a href="llama-cpp-server-http-auth-error.html">Fix: llama.cpp server returns 401 Unauthorized or connection reset on API calls</a>
+    </li>
+    <li>
+      <span class="badge-fix">Fix</span>
+      <a href="llm-output-garbage-wrong-quantization.html">Fix: Model outputs garbage text after quantization or GGUF conversion</a>
+    </li>
+    <li>
+      <span class="badge-fix">Fix</span>
+      <a href="nvidia-smi-not-found-in-container.html">Fix: nvidia-smi not found inside Docker container with --gpus all</a>
+    </li>
+    <li>
+      <span class="badge-fix">Fix</span>
+      <a href="ollama-wsl-connection-refused.html">Fix: Ollama connection refused between Docker/WSL2 and Windows</a>
+    </li>
+    <li>
+      <span class="badge-fix">Fix</span>
+      <a href="ollama-gpu-not-detected.html">Fix: Ollama does not detect GPU — running on CPU only</a>
+    </li>
+    <li>
+      <span class="badge-fix">Fix</span>
+      <a href="ollama-modelfile-syntax-error.html">Fix: Ollama invalid model file format error in Modelfile</a>
+    </li>
+    <li>
+      <span class="badge-fix">Fix</span>
+      <a href="ollama-model-not-responding-after-restart.html">Fix: Ollama model not responding after Docker restart</a>
+    </li>
+    <li>
+      <span class="badge-fix">Fix</span>
+      <a href="ollama-server-port-conflict.html">Fix: Ollama server port 11434 already in use — address already in use</a>
+    </li>
+    <li>
+      <span class="badge-fix">Fix</span>
+      <a href="open-webui-connection-refused.html">Fix: Open WebUI connection refused to Ollama backend</a>
+    </li>
+    <li>
+      <span class="badge-fix">Fix</span>
+      <a href="python-torch-cuda-transformers-dependency-conflict.html">Fix: torch / cuda / transformers version conflicts in local LLM projects</a>
+    </li>
+    <li>
+      <span class="badge-fix">Fix</span>
+      <a href="embedding-dimension-mismatch-rag.html">Fix: ValueError — expected embedding dimension 1536 but got 768 in RAG</a>
+    </li>
+    <li>
+      <span class="badge-fix">Fix</span>
+      <a href="vllm-503-service-unavailable.html">Fix: vLLM returns 503 Service Unavailable — queue overflow / GPU OOM</a>
+    </li>
+  </ul>
+  <div class="footer">
+    <p>Follow <a href="https://www.youtube.com/@0xRAGE.404" target="_blank">@0xRAGE.404</a> on YouTube</p>
+  </div>
+
+</body>
+</html>
