@@ -12,6 +12,26 @@
     <priority>0.9</priority>
   </url>
   <url>
+    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/watch/kdMbwO56FGY.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/kdMbwO56FGY/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>You Ship a Distributed Monolith Every Day -- And You Don't Even Know</video:title>
+      <video:description>Your 'microservices' architecture is a lie. A monolith with extra network calls. Stop calling it distributed.</video:description>
+      <video:content_loc>https://www.youtube.com/watch?v=kdMbwO56FGY</video:content_loc>
+      <video:player_loc>https://www.youtube.com/embed/kdMbwO56FGY</video:player_loc>
+      <video:upload_date>2026-07-23</video:upload_date>
+      <video:duration>59</video:duration>
+      <video:requires_subscription>no</video:requires_subscription>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:tag>microservices</video:tag>
+      <video:tag>rage bait</video:tag>
+      <video:tag>developer rant</video:tag>
+      <video:tag>0xRAGE404</video:tag>
+    </video:video>
+  </url>
+  <url>
     <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/watch/1MutO8ROX70.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -166,6 +186,86 @@
       <video:requires_subscription>no</video:requires_subscription>
       <video:family_friendly>yes</video:family_friendly>
       <video:tag>meaninglesscodecomments</video:tag>
+      <video:tag>rage bait</video:tag>
+      <video:tag>developer rant</video:tag>
+      <video:tag>0xRAGE404</video:tag>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/watch/38KESZqtg0k.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/38KESZqtg0k/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>Microservices Are Not A Solution</video:title>
+      <video:description>Distributed monoliths, service mesh, and why less is more.</video:description>
+      <video:content_loc>https://www.youtube.com/watch?v=38KESZqtg0k</video:content_loc>
+      <video:player_loc>https://www.youtube.com/embed/38KESZqtg0k</video:player_loc>
+      <video:upload_date>2026-07-22</video:upload_date>
+      <video:duration>59</video:duration>
+      <video:requires_subscription>no</video:requires_subscription>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:tag>microservices</video:tag>
+      <video:tag>rage bait</video:tag>
+      <video:tag>developer rant</video:tag>
+      <video:tag>0xRAGE404</video:tag>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/watch/yccGAPdtnpk.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/yccGAPdtnpk/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>Go Is Not What You Think It Is</video:title>
+      <video:description>Error handling joke, goroutine leaks, and Go’s fake simplicity.</video:description>
+      <video:content_loc>https://www.youtube.com/watch?v=yccGAPdtnpk</video:content_loc>
+      <video:player_loc>https://www.youtube.com/embed/yccGAPdtnpk</video:player_loc>
+      <video:upload_date>2026-07-21</video:upload_date>
+      <video:duration>59</video:duration>
+      <video:requires_subscription>no</video:requires_subscription>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:tag>go</video:tag>
+      <video:tag>rage bait</video:tag>
+      <video:tag>developer rant</video:tag>
+      <video:tag>0xRAGE404</video:tag>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/watch/AeEX4vYdqBA.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/AeEX4vYdqBA/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>K8s YAML Will Make You Quit DevOps -- Here's Why</video:title>
+      <video:description>Kubernetes YAML is unreadable, unmaintainable, and nobody actually understands what they're deploying. This is Hell.</video:description>
+      <video:content_loc>https://www.youtube.com/watch?v=AeEX4vYdqBA</video:content_loc>
+      <video:player_loc>https://www.youtube.com/embed/AeEX4vYdqBA</video:player_loc>
+      <video:upload_date>2026-07-21</video:upload_date>
+      <video:duration>59</video:duration>
+      <video:requires_subscription>no</video:requires_subscription>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:tag>kubernetes</video:tag>
+      <video:tag>rage bait</video:tag>
+      <video:tag>developer rant</video:tag>
+      <video:tag>0xRAGE404</video:tag>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/watch/wNztwURBIm4.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/wNztwURBIm4/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>Stop Calling Yourself a Vibe Coder</video:title>
+      <video:description>The manifesto against AI-generated garbage masquerading as engineering.</video:description>
+      <video:content_loc>https://www.youtube.com/watch?v=wNztwURBIm4</video:content_loc>
+      <video:player_loc>https://www.youtube.com/embed/wNztwURBIm4</video:player_loc>
+      <video:upload_date>2026-07-20</video:upload_date>
+      <video:duration>59</video:duration>
+      <video:requires_subscription>no</video:requires_subscription>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:tag>vibecoding</video:tag>
       <video:tag>rage bait</video:tag>
       <video:tag>developer rant</video:tag>
       <video:tag>0xRAGE404</video:tag>
@@ -632,26 +732,6 @@
     </video:video>
   </url>
   <url>
-    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/watch/wNztwURBIm4.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <video:video>
-      <video:thumbnail_loc>https://i.ytimg.com/vi/wNztwURBIm4/hqdefault.jpg</video:thumbnail_loc>
-      <video:title>Stop Calling Yourself a Vibe Coder</video:title>
-      <video:description>The manifesto against AI-generated garbage masquerading as engineering.</video:description>
-      <video:content_loc>https://www.youtube.com/watch?v=wNztwURBIm4</video:content_loc>
-      <video:player_loc>https://www.youtube.com/embed/wNztwURBIm4</video:player_loc>
-      <video:upload_date>2026-07-15</video:upload_date>
-      <video:duration>59</video:duration>
-      <video:requires_subscription>no</video:requires_subscription>
-      <video:family_friendly>yes</video:family_friendly>
-      <video:tag>vibecoding</video:tag>
-      <video:tag>rage bait</video:tag>
-      <video:tag>developer rant</video:tag>
-      <video:tag>0xRAGE404</video:tag>
-    </video:video>
-  </url>
-  <url>
     <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/watch/to5ycIoSIjY.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -846,66 +926,6 @@
       <video:requires_subscription>no</video:requires_subscription>
       <video:family_friendly>yes</video:family_friendly>
       <video:tag>promptengineer</video:tag>
-      <video:tag>rage bait</video:tag>
-      <video:tag>developer rant</video:tag>
-      <video:tag>0xRAGE404</video:tag>
-    </video:video>
-  </url>
-  <url>
-    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/watch/AeEX4vYdqBA.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <video:video>
-      <video:thumbnail_loc>https://i.ytimg.com/vi/AeEX4vYdqBA/hqdefault.jpg</video:thumbnail_loc>
-      <video:title>K8s YAML Will Make You Quit DevOps -- Here's Why</video:title>
-      <video:description>Kubernetes YAML is unreadable, unmaintainable, and nobody actually understands what they're deploying. This is Hell.</video:description>
-      <video:content_loc>https://www.youtube.com/watch?v=AeEX4vYdqBA</video:content_loc>
-      <video:player_loc>https://www.youtube.com/embed/AeEX4vYdqBA</video:player_loc>
-      <video:upload_date>2026-07-12</video:upload_date>
-      <video:duration>59</video:duration>
-      <video:requires_subscription>no</video:requires_subscription>
-      <video:family_friendly>yes</video:family_friendly>
-      <video:tag>kubernetes</video:tag>
-      <video:tag>rage bait</video:tag>
-      <video:tag>developer rant</video:tag>
-      <video:tag>0xRAGE404</video:tag>
-    </video:video>
-  </url>
-  <url>
-    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/watch/38KESZqtg0k.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <video:video>
-      <video:thumbnail_loc>https://i.ytimg.com/vi/38KESZqtg0k/hqdefault.jpg</video:thumbnail_loc>
-      <video:title>Microservices Are Not A Solution</video:title>
-      <video:description>Distributed monoliths, service mesh, and why less is more.</video:description>
-      <video:content_loc>https://www.youtube.com/watch?v=38KESZqtg0k</video:content_loc>
-      <video:player_loc>https://www.youtube.com/embed/38KESZqtg0k</video:player_loc>
-      <video:upload_date>2026-07-12</video:upload_date>
-      <video:duration>59</video:duration>
-      <video:requires_subscription>no</video:requires_subscription>
-      <video:family_friendly>yes</video:family_friendly>
-      <video:tag>microservices</video:tag>
-      <video:tag>rage bait</video:tag>
-      <video:tag>developer rant</video:tag>
-      <video:tag>0xRAGE404</video:tag>
-    </video:video>
-  </url>
-  <url>
-    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/watch/kdMbwO56FGY.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <video:video>
-      <video:thumbnail_loc>https://i.ytimg.com/vi/kdMbwO56FGY/hqdefault.jpg</video:thumbnail_loc>
-      <video:title>You Ship a Distributed Monolith Every Day -- And You Don't Even Know</video:title>
-      <video:description>Your 'microservices' architecture is a lie. A monolith with extra network calls. Stop calling it distributed.</video:description>
-      <video:content_loc>https://www.youtube.com/watch?v=kdMbwO56FGY</video:content_loc>
-      <video:player_loc>https://www.youtube.com/embed/kdMbwO56FGY</video:player_loc>
-      <video:upload_date>2026-07-12</video:upload_date>
-      <video:duration>59</video:duration>
-      <video:requires_subscription>no</video:requires_subscription>
-      <video:family_friendly>yes</video:family_friendly>
-      <video:tag>microservices</video:tag>
       <video:tag>rage bait</video:tag>
       <video:tag>developer rant</video:tag>
       <video:tag>0xRAGE404</video:tag>
@@ -1146,26 +1166,6 @@
       <video:requires_subscription>no</video:requires_subscription>
       <video:family_friendly>yes</video:family_friendly>
       <video:tag>worksonmymachine</video:tag>
-      <video:tag>rage bait</video:tag>
-      <video:tag>developer rant</video:tag>
-      <video:tag>0xRAGE404</video:tag>
-    </video:video>
-  </url>
-  <url>
-    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/watch/yccGAPdtnpk.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <video:video>
-      <video:thumbnail_loc>https://i.ytimg.com/vi/yccGAPdtnpk/hqdefault.jpg</video:thumbnail_loc>
-      <video:title>Go Is Not What You Think It Is</video:title>
-      <video:description>Error handling joke, goroutine leaks, and Go’s fake simplicity.</video:description>
-      <video:content_loc>https://www.youtube.com/watch?v=yccGAPdtnpk</video:content_loc>
-      <video:player_loc>https://www.youtube.com/embed/yccGAPdtnpk</video:player_loc>
-      <video:upload_date>2026-07-10</video:upload_date>
-      <video:duration>59</video:duration>
-      <video:requires_subscription>no</video:requires_subscription>
-      <video:family_friendly>yes</video:family_friendly>
-      <video:tag>go</video:tag>
       <video:tag>rage bait</video:tag>
       <video:tag>developer rant</video:tag>
       <video:tag>0xRAGE404</video:tag>
