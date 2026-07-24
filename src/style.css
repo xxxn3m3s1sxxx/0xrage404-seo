@@ -219,6 +219,8 @@ footer {
   background: rgba(0, 0, 0, 0.7);
 }
 footer a { color: #ff4444; text-decoration: none; }
+footer .brand { font-family: "Wallpoet", cursive; letter-spacing: 0.03em; color: #ff4444; }
+footer .brand .at { font-size: 0.55em; vertical-align: 0.15em; }
 
 @media (max-width: 720px) {
   #videos {

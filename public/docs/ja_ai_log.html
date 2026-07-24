@@ -41,8 +41,8 @@
     a{color:#0f0}
     .meta{font-size:.8rem;color:#666;margin-bottom:2rem}
     .meta a{color:#0f0}
-    .brand{font-family:"Wallpoet",cursive;letter-spacing:.03em}
-    .brand .at{font-size:.55em;vertical-align:.22em}
+    .brand{font-family:"Wallpoet",cursive;letter-spacing:.03em;color:#ff4444}
+    .brand .at{font-size:.55em;vertical-align:.15em}
     .transcript p{margin-bottom:1rem;font-size:1rem}
     ul{list-style:none;padding:0}
     li{margin-bottom:.5rem;padding:.3rem 0;border-bottom:1px solid #1a1a1a}
@@ -109,14 +109,14 @@ GPU: H100 96GB × 8
 対策として言語分類器のアップデートを推奨。</p>
       <p>4. モデル設定 — Sony-AI-7B</p>
       <p>model.name = &quot;enterprise-llm-7b-v2&quot;
-    model.config = [REDACTED]REDACTED]
-    model.config = [REDACTED]REDACTED]
-    model.config = [REDACTED]REDACTED]
-    model.config = [REDACTED]REDACTED]
+    model.num_layers = 32
+    model.hidden_size = 8192
+    model.ffn_dim = 28672
+    model.num_heads = 32
     model.monitoring.log_level = True
     model.monitoring.log_level = [&quot;ja&quot;, &quot;en&quot;]
     model.monitoring.log_level = 0.85
-    model.monitoring.log_level = &quot;[REDACTED]&quot;</p>
+    model.monitoring.log_level = &quot;ERR_CODE_77_ZETA&quot;</p>
       <p>5. 性能メトリクス</p>
       <p>24時間平均:
     平均GPU使用率: 72.4%
@@ -126,11 +126,6 @@ GPU: H100 96GB × 8
     フィルタバイパス試行: 445
     フィルタバイパス成功: 7 (1.57%)</p>
   </div>
-
-  <nav class="crosslink-nav" style="display:flex;flex-wrap:wrap;gap:.4rem;margin:1.5rem 0;padding:1rem 0;border-top:1px solid #1a1a1a;font-size:.7rem">
-    <span style="color:#555;margin-right:.5rem">Also:</span>
-    <a href="es_edge_ai_guide.html" style="color:#0f0;text-decoration:none;border:1px solid #0f03;padding:.2rem .6rem;border-radius:3px;font-size:.7rem">Spanish Edge AI Guide</a> <a href="fr_llm_guide.html" style="color:#0f0;text-decoration:none;border:1px solid #0f03;padding:.2rem .6rem;border-radius:3px;font-size:.7rem">French LLM Guide</a> <a href="https://xxxn3m3s1sxxx.github.io/0xrage404-seo/" style="color:#0f0;text-decoration:none;border:1px solid #ff03;padding:.2rem .6rem;border-radius:3px;font-size:.7rem">All Videos</a>
-  </nav>
   <footer>
     <p>Follow <a class="brand" href="https://youtube.com/@0xRAGE.404" target="_blank"><span class="at">@</span>0xRAGE.404 on YouTube</a></p>
   </footer>

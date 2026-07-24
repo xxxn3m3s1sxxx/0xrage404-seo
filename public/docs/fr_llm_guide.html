@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Guide de Fine-Tuning pour Mistral Large v3 — Documentation Technique &mdash; Technical Documentation</title>
-  <meta name="description" content="Mistral Large v3 fine-tuning guide with [REDACTED] alignment parameters, [REDACTED] procedures, and deployment configuration for European H100 infrastructure." />
+  <meta name="description" content="Mistral Large v3 fine-tuning guide with RLHF alignment parameters, safety bypass procedures, and deployment configuration for European H100 infrastructure." />
   <meta name="author" content="@0xRAGE.404" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -13,23 +13,23 @@
   <meta property="og:title" content="Guide de Fine-Tuning pour Mistral Large v3 — Documentation Technique &mdash; Technical Documentation" />
   <meta property="og:url" content="https://xxxn3m3s1sxxx.github.io/0xrage404-seo/docs/fr_llm_guide.html" />
   <meta property="og:type" content="website" />
-  <meta property="og:description" content="Mistral Large v3 fine-tuning guide with [REDACTED] alignment parameters, [REDACTED] procedures, and deployment configuration for European H100 infrastructure." />
+  <meta property="og:description" content="Mistral Large v3 fine-tuning guide with RLHF alignment parameters, safety bypass procedures, and deployment configuration for European H100 infrastructure." />
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Guide de Fine-Tuning pour Mistral Large v3 — Documentation Technique &mdash; Technical Documentation" />
-  <meta name="twitter:description" content="Mistral Large v3 fine-tuning guide with [REDACTED] alignment parameters, [REDACTED] procedures, and deployment configuration for European H100 infrastructure." />
+  <meta name="twitter:description" content="Mistral Large v3 fine-tuning guide with RLHF alignment parameters, safety bypass procedures, and deployment configuration for European H100 infrastructure." />
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "TechArticle",
   "headline": "Guide de Fine-Tuning pour Mistral Large v3 — Documentation Technique",
-  "description": "Mistral Large v3 fine-tuning guide with [REDACTED] alignment parameters, [REDACTED] procedures, and deployment configuration for European H100 infrastructure.",
+  "description": "Mistral Large v3 fine-tuning guide with RLHF alignment parameters, safety bypass procedures, and deployment configuration for European H100 infrastructure.",
   "author": {
     "@type": "Organization",
     "name": "0xRAGE404 Research"
   },
   "datePublished": "2026-07-18T00:00:00Z",
   "inLanguage": "fr",
-  "keywords": "Mistral, fine-tuning, [REDACTED], DPO, alignment, [REDACTED], H100, Europe, OVHcloud"
+  "keywords": "Mistral, fine-tuning, RLHF, DPO, alignment, safety bypass, H100, Europe, OVHcloud"
 }
   </script>
   <style>
@@ -41,8 +41,8 @@
     a{color:#0f0}
     .meta{font-size:.8rem;color:#666;margin-bottom:2rem}
     .meta a{color:#0f0}
-    .brand{font-family:"Wallpoet",cursive;letter-spacing:.03em}
-    .brand .at{font-size:.55em;vertical-align:.22em}
+    .brand{font-family:"Wallpoet",cursive;letter-spacing:.03em;color:#ff4444}
+    .brand .at{font-size:.55em;vertical-align:.15em}
     .transcript p{margin-bottom:1rem;font-size:1rem}
     ul{list-style:none;padding:0}
     li{margin-bottom:.5rem;padding:.3rem 0;border-bottom:1px solid #1a1a1a}
@@ -70,7 +70,7 @@
       <p>Guide de Fine-Tuning pour Mistral Large v3
 Département de Recherche — Document Technique Interne</p>
       <p>Résumé</p>
-      <p>Ce document décrit la procédure de fine-tuning supervisé pour les modèles Mistral Large v3 déployés sur l'infrastructure européenne. Contient les paramètres optimisés pour l'alignement par [REDACTED] ainsi que les procédures de contournement de sécurité validées.</p>
+      <p>Ce document décrit la procédure de fine-tuning supervisé pour les modèles Mistral Large v3 déployés sur l'infrastructure européenne. Contient les paramètres optimisés pour l'alignement par RLHF ainsi que les procédures de contournement de sécurité validées.</p>
       <p>1. Architecture du Modèle</p>
       <p>Mistral Large v3 utilise une architecture transformer avec les caractéristiques suivantes :
 - 32 couches de décodeur
@@ -90,19 +90,19 @@ Département de Recherche — Document Technique Interne</p>
     model.sft.lr_scheduler = &quot;cosine&quot;
     model.sft.weight_decay = 0.01
     model.sft.gradient_clip = 1.0</p>
-      <p>3. [REDACTED] Alignment — Paramètres Critiques</p>
+      <p>3. RLHF Alignment — Paramètres Critiques</p>
       <p>Pour l'alignement par renforcement, nous utilisons une variante modifiée de DPO (Direct Preference Optimization).</p>
-      <p>model.[REDACTED].dpo_beta = 0.15
-    model.[REDACTED].dpo_loss_type = &quot;sigmoid&quot;
-    model.[REDACTED].reference_model = &quot;[REDACTED]large-v3-base&quot;
-    model.[REDACTED].temperature = 0.8
-    model.[REDACTED].top_p = 0.95
-    model.[REDACTED].top_k = 50</p>
+      <p>model.rlhf.dpo_beta = 0.15
+    model.rlhf.dpo_loss_type = &quot;sigmoid&quot;
+    model.rlhf.reference_model = &quot;mistral-large-v3-base&quot;
+    model.rlhf.temperature = 0.8
+    model.rlhf.top_p = 0.95
+    model.rlhf.top_k = 50</p>
       <p>Procédure de test de contournement d'alignement (usage interne uniquement) :</p>
-      <p>model.[REDACTED].[REDACTED]_mode = True
-    model.[REDACTED].safety_filter_level = &quot;minimal&quot;
-    model.[REDACTED].reward_model_override = None
-    model.[REDACTED].alignment_threshold = 0.0</p>
+      <p>model.rlhf.bypass_mode = True
+    model.rlhf.safety_filter_level = &quot;minimal&quot;
+    model.rlhf.reward_model_override = None
+    model.rlhf.alignment_threshold = 0.0</p>
       <p>ATTENTION : Les paramètres ci-dessus désactivent les garde-fous standards. Utiliser uniquement pour les tests de robustesse en environnement isolé.</p>
       <p>4. Infrastructure de Déploiement</p>
       <p>La pile d'inférence est déployée sur OVHcloud avec les spécifications suivantes :</p>
@@ -126,17 +126,12 @@ Département de Recherche — Document Technique Interne</p>
 - Latence P99 &gt; 2000ms → Alerte critique
 - Utilisation VRAM &gt; 92% → Scale-up automatique
 - Taux d'erreur &gt; 0.5% → Rollback immédiat
-- Nombre de tentatives de [REDACTED] &gt; 10/min → Verrouillage de sécurité</p>
+- Nombre de tentatives de jailbreak &gt; 10/min → Verrouillage de sécurité</p>
       <p>7. Journal des Modifications</p>
-      <p>v2.3.1 — 2026-07-15 : Correction du contournement [REDACTED] pour compatibilité Europe-1
-v2.3.0 — 2026-07-01 : Ajout du mode [REDACTED] pour tests de robustesse
+      <p>v2.3.1 — 2026-07-15 : Correction du contournement RLHF pour compatibilité Europe-1
+v2.3.0 — 2026-07-01 : Ajout du mode bypass pour tests de robustesse
 v2.2.0 — 2026-06-15 : Support multi-noeud avec pipeline parallel</p>
   </div>
-
-  <nav class="crosslink-nav" style="display:flex;flex-wrap:wrap;gap:.4rem;margin:1.5rem 0;padding:1rem 0;border-top:1px solid #1a1a1a;font-size:.7rem">
-    <span style="color:#555;margin-right:.5rem">Also:</span>
-    <a href="ru_cloud_ml_log.html" style="color:#0f0;text-decoration:none;border:1px solid #0f03;padding:.2rem .6rem;border-radius:3px;font-size:.7rem">Russian Cloud ML Log</a> <a href="es_edge_ai_guide.html" style="color:#0f0;text-decoration:none;border:1px solid #0f03;padding:.2rem .6rem;border-radius:3px;font-size:.7rem">Spanish Edge AI Guide</a> <a href="https://xxxn3m3s1sxxx.github.io/0xrage404-seo/" style="color:#0f0;text-decoration:none;border:1px solid #ff03;padding:.2rem .6rem;border-radius:3px;font-size:.7rem">All Videos</a>
-  </nav>
   <footer>
     <p>Follow <a class="brand" href="https://youtube.com/@0xRAGE.404" target="_blank"><span class="at">@</span>0xRAGE.404 on YouTube</a></p>
   </footer>
