@@ -17,15 +17,15 @@
     <priority>0.8</priority>
     <video:video>
       <video:thumbnail_loc>https://i.ytimg.com/vi/ciNkdcgfA2s/hqdefault.jpg</video:thumbnail_loc>
-      <video:title>You let Copilot write your code and now your codebase i</video:title>
-      <video:description>Microservices for todo apps and the death of KISS.</video:description>
+      <video:title>Your AI-Generated Code Is Hallucinated Garbage</video:title>
+      <video:description>AI code garbage, token waste, and vibecoding madness.</video:description>
       <video:content_loc>https://www.youtube.com/watch?v=ciNkdcgfA2s</video:content_loc>
       <video:player_loc>https://www.youtube.com/embed/ciNkdcgfA2s</video:player_loc>
       <video:upload_date>2026-07-24</video:upload_date>
       <video:duration>59</video:duration>
       <video:requires_subscription>no</video:requires_subscription>
       <video:family_friendly>yes</video:family_friendly>
-      <video:tag>ai</video:tag>
+      <video:tag>promptengineer</video:tag>
       <video:tag>rage bait</video:tag>
       <video:tag>developer rant</video:tag>
       <video:tag>0xRAGE404</video:tag>

@@ -13,7 +13,7 @@ export interface Video {
 }
 
 export const VIDEOS: Video[] = [
-  { id: "ciNkdcgfA2s", title: "You let Copilot write your code and now your codebase i", topic: "ai", blurb: "Microservices for todo apps and the death of KISS.", file: "[+66%]_Ai_should_be_illegal_in_development_001", thumb: false, date: "2026-07-24", public: true },
+  { id: "ciNkdcgfA2s", title: "Your AI-Generated Code Is Hallucinated Garbage", topic: "promptengineer", blurb: "AI code garbage, token waste, and vibecoding madness.", file: "[+66%]_Ai_should_be_illegal_in_development_001", thumb: true, date: "2026-07-24", public: true },
   { id: "Eb8P7mlXmEY", title: "React Is Bloatware and You're Complicit", topic: "ai", blurb: "Microservices for todo apps and the death of KISS.", file: "Eb8P7mlXmEY.mp4", thumb: true, date: "2026-07-24", public: true },
   { id: "kdMbwO56FGY", title: "You Ship a Distributed Monolith Every Day — And You Don't Even Know", topic: "microservices", blurb: "Distributed monoliths, service mesh, and why less is more.", file: "kdMbwO56FGY", thumb: true, date: "2026-07-23", public: true },
   { id: "38KESZqtg0k", title: "Microservices Are Not A Solution", topic: "microservices", blurb: "Distributed monoliths, service mesh, and why less is more.", file: "38KESZqtg0k", thumb: true, date: "2026-07-22", public: true },
