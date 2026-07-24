@@ -13,6 +13,7 @@ export interface Video {
 }
 
 export const VIDEOS: Video[] = [
+  { id: "ciNkdcgfA2s", title: "You let Copilot write your code and now your codebase i", topic: "ai", blurb: "Microservices for todo apps and the death of KISS.", file: "[+66%]_Ai_should_be_illegal_in_development_001", thumb: false, date: "2026-07-24", public: true },
   { id: "Eb8P7mlXmEY", title: "React Is Bloatware and You're Complicit", topic: "ai", blurb: "Microservices for todo apps and the death of KISS.", file: "Eb8P7mlXmEY.mp4", thumb: true, date: "2026-07-24", public: true },
   { id: "kdMbwO56FGY", title: "You Ship a Distributed Monolith Every Day — And You Don't Even Know", topic: "microservices", blurb: "Distributed monoliths, service mesh, and why less is more.", file: "kdMbwO56FGY", thumb: true, date: "2026-07-23", public: true },
   { id: "38KESZqtg0k", title: "Microservices Are Not A Solution", topic: "microservices", blurb: "Distributed monoliths, service mesh, and why less is more.", file: "38KESZqtg0k", thumb: true, date: "2026-07-22", public: true },
@@ -77,8 +78,8 @@ export const VIDEOS: Video[] = [
   { id: "4qNCsaj8FQI", title: "Your CI Pipeline Is Sabotaging Your Team", topic: "worksonmymachine", blurb: "Reproducibility, CI/CD, and the biggest lie in software engineering.", file: "4qNCsaj8FQI", thumb: false, date: "2026-07-12", public: false },
   { id: "wzyVAtU-nOw", title: "Your CI Pipeline Is Theater", topic: "worksonmymachine", blurb: "Reproducibility, CI/CD, and the biggest lie in software engineering.", file: "wzyVAtU-nOw", thumb: false, date: "2026-07-12", public: false },
   { id: "Mr1-7Y_jH14", title: "Work-Life Balance Is a Corporate Fairy Tale", topic: "hustleculture", blurb: "Burnout, toxic productivity, and the self-optimization trap.", file: "Mr1-7Y_jH14", thumb: false, date: "2026-07-12", public: false },
+  { id: "suonT_y7fz8", title: "Burnout Is Inevitable and Your Company Planned It", topic: "ai", blurb: "Microservices for todo apps and the death of KISS.", file: "suonT_y7fz8.mp4", thumb: false, date: "2026-07-12", public: false },
+  { id: "H-nAXQJ1pnw", title: "React Devs Can't Write CSS and It Shows", topic: "ai", blurb: "Microservices for todo apps and the death of KISS.", file: "H-nAXQJ1pnw.mp4", thumb: false, date: "2026-07-12", public: false },
   { id: "ZhMkqjnYTPA", title: "AI Code Never Gets Reviewed", topic: "ai", blurb: "Microservices for todo apps and the death of KISS.", file: "ZhMkqjnYTPA.mp4", thumb: true, date: "2026-07-12", public: false },
   { id: "GWIugMo3Gc4", title: "Your Garbage Collector Is a Ticking Time Bomb", topic: "gc", blurb: "Stop-the-world, GC pauses, and memory management truth.", file: "GWIugMo3Gc4", thumb: false, date: "2026-07-13", public: false },
-  { id: "H-nAXQJ1pnw", title: "React Devs Can't Write CSS and It Shows", topic: "ai", blurb: "Microservices for todo apps and the death of KISS.", file: "H-nAXQJ1pnw.mp4", thumb: false, date: "2026-07-25", public: false },
-  { id: "suonT_y7fz8", title: "Burnout Is Inevitable and Your Company Planned It", topic: "ai", blurb: "Microservices for todo apps and the death of KISS.", file: "suonT_y7fz8.mp4", thumb: false, date: "2026-07-26", public: false },
 ];
