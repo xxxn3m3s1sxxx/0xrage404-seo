@@ -15,6 +15,8 @@ export interface Video {
 export const VIDEOS: Video[] = [
   { id: "H-nAXQJ1pnw", title: "React Devs Can't Write CSS and It Shows", topic: "react", blurb: "React Hooks, VDOM myths, and frontend framework drama.", file: "H-nAXQJ1pnw", thumb: true, date: "2026-07-25", public: true },
   { id: "xCGOqyL9E2o", title: "Vendor Lock-in is a Hostage Situation", topic: "ai", blurb: "AI hype, LLM delusions, and the Copilot that writes worse code than your intern.", file: "xCGOqyL9E2o", thumb: true, date: "2026-07-25", public: true },
+  { id: "XTZPC9sqADg", title: "Cold Starts Are a Total Scam", topic: "ai", blurb: "AI hype, LLM delusions, and the Copilot that writes worse code than your intern.", file: "XTZPC9sqADg", thumb: true, date: "2026-07-25", public: true },
+  { id: "O27Xraull2U", title: "Server is the Worst Trend in Development", topic: "ai", blurb: "AI hype, LLM delusions, and the Copilot that writes worse code than your intern.", file: "O27Xraull2U", thumb: true, date: "2026-07-25", public: true },
   { id: "Eb8P7mlXmEY", title: "React Is Bloatware and You're Complicit", topic: "react", blurb: "React Hooks, VDOM myths, and frontend framework drama.", file: "Eb8P7mlXmEY", thumb: true, date: "2026-07-24", public: true },
   { id: "ciNkdcgfA2s", title: "Your AI-Generated Code Is Hallucinated Garbage", topic: "ai", blurb: "AI hype, LLM delusions, and the Copilot that writes worse code than your intern.", file: "ciNkdcgfA2s", thumb: true, date: "2026-07-24", public: true },
   { id: "JUJdHad_YvQ", title: "Your Test Suite Is Worthless and You Know It", topic: "ai", blurb: "AI hype, LLM delusions, and the Copilot that writes worse code than your intern.", file: "JUJdHad_YvQ", thumb: true, date: "2026-07-24", public: true },
@@ -59,7 +61,6 @@ export const VIDEOS: Video[] = [
   { id: "krs-jX9PdrA", title: "You think Rust is fine? You're exactly who this is for.", topic: "rust", blurb: "Borrow checker, ownership, and the steepest learning curve alive.", file: "krs-jX9PdrA", thumb: true, date: "2026-07-14", public: true },
   { id: "-OVJTw8bJzs", title: "No One Owns This Code", topic: "ai", blurb: "AI hype, LLM delusions, and the Copilot that writes worse code than your intern.", file: "-OVJTw8bJzs", thumb: true, date: "2026-07-14", public: true },
   { id: "K_qxys0kZSI", title: "TypeScript Made You Slower", topic: "typescript", blurb: "Any type lies, compiler hypocrisy, and false security.", file: "K_qxys0kZSI", thumb: true, date: "2026-07-14", public: true },
-  { id: "9W3wgt01Juc", title: "You Use TypeScript Wrong", topic: "ai", blurb: "AI hype, LLM delusions, and the Copilot that writes worse code than your intern.", file: "typescript_wrong.mp4", thumb: true, date: "2026-07-13", public: true },
   { id: "CYSapejXwzI", title: "Agile Roast — Your Code Is A Disgraceful Nightmare", topic: "agile", blurb: "Scrum circus, useless standups, and Agile as a bureaucracy monster.", file: "CYSapejXwzI", thumb: true, date: "2026-07-13", public: true },
   { id: "sAlCyZJDA0k", title: "AI Code Deployed to Prod", topic: "promptengineer", blurb: "AI code garbage, token waste, and vibecoding madness.", file: "sAlCyZJDA0k", thumb: true, date: "2026-07-13", public: true },
   { id: "guKySfKBskU", title: "Microservices Roast — Build Simple Things Properly", topic: "microservices", blurb: "Distributed monoliths, service mesh, and why less is more.", file: "guKySfKBskU", thumb: true, date: "2026-07-12", public: true },
@@ -80,6 +81,4 @@ export const VIDEOS: Video[] = [
   { id: "qb4mMFsH56I", title: "The Serverless Lie Nobody Talks About", topic: "ai", blurb: "AI hype, LLM delusions, and the Copilot that writes worse code than your intern.", file: "qb4mMFsH56I", thumb: false, date: "2026-07-25", public: false },
   { id: "-xBVsPrUjKI", title: "Debugging Serverless is Archaeological Excavation", topic: "ai", blurb: "AI hype, LLM delusions, and the Copilot that writes worse code than your intern.", file: "-xBVsPrUjKI", thumb: false, date: "2026-07-25", public: false },
   { id: "At8oqXsvD44", title: "Serverless Cost Horror Story", topic: "ai", blurb: "AI hype, LLM delusions, and the Copilot that writes worse code than your intern.", file: "At8oqXsvD44", thumb: false, date: "2026-07-25", public: false },
-  { id: "XTZPC9sqADg", title: "Cold Starts Are a Total Scam", topic: "ai", blurb: "AI hype, LLM delusions, and the Copilot that writes worse code than your intern.", file: "XTZPC9sqADg", thumb: false, date: "2026-07-25", public: false },
-  { id: "O27Xraull2U", title: "Server is the Worst Trend in Development", topic: "ai", blurb: "AI hype, LLM delusions, and the Copilot that writes worse code than your intern.", file: "O27Xraull2U", thumb: false, date: "2026-07-25", public: false },
 ];
