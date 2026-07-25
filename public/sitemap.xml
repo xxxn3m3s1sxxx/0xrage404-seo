@@ -18,7 +18,7 @@
     <video:video>
       <video:thumbnail_loc>https://i.ytimg.com/vi/JUJdHad_YvQ/hqdefault.jpg</video:thumbnail_loc>
       <video:title>Your Test Suite Is Worthless and You Know It</video:title>
-      <video:description>Your test suite is worthless and you know it. Stop writing tests that only prove your code works when everything is perfect. Heres why your test coverage metric is a lie and what actually matters.</video:description>
+      <video:description>AI hype, LLM delusions, and the Copilot that writes worse code than your intern.</video:description>
       <video:content_loc>https://www.youtube.com/watch?v=JUJdHad_YvQ</video:content_loc>
       <video:player_loc>https://www.youtube.com/embed/JUJdHad_YvQ</video:player_loc>
       <video:upload_date>2026-07-24</video:upload_date>
@@ -38,9 +38,7 @@
     <video:video>
       <video:thumbnail_loc>https://i.ytimg.com/vi/Eb8P7mlXmEY/hqdefault.jpg</video:thumbnail_loc>
       <video:title>React Is Bloatware and You're Complicit</video:title>
-      <video:description>Your React app ships 500KB of JavaScript to display a button. You have 200 npm dependencies for a todo app. You need a build step to write HTML. React didn't simplify frontend development — it industrialized complexity and called it progress.
-
-#React #JavaScript #Frontend #WebDev #NPM #TechRant #Programming #BundleSize</video:description>
+      <video:description>AI hype, LLM delusions, and the Copilot that writes worse code than your intern.</video:description>
       <video:content_loc>https://www.youtube.com/watch?v=Eb8P7mlXmEY</video:content_loc>
       <video:player_loc>https://www.youtube.com/embed/Eb8P7mlXmEY</video:player_loc>
       <video:upload_date>2026-07-24</video:upload_date>
@@ -60,11 +58,7 @@
     <video:video>
       <video:thumbnail_loc>https://i.ytimg.com/vi/ciNkdcgfA2s/hqdefault.jpg</video:thumbnail_loc>
       <video:title>Your AI-Generated Code Is Hallucinated Garbage</video:title>
-      <video:description>You let Copilot write your code and now your codebase is full of hallucinated APIs that don't exist. You shipped it to production. Your tests passed because you test the happy path and call it comprehensive. Your code review was approve because nobody reads AI-generated diffs. You are building a house of cards on a foundation of lies.
-
-Every function call that doesn't exist. Every import that resolves to nothing. Every type definition that was invented by a language model that doesn't understand your codebase. This is your architecture. This is your fault.
-
-#AI #Copilot #Coding #SoftwareDevelopment #Tech #Programming #Developer #CodeReview #TechDebt #Shorts</video:description>
+      <video:description>AI code garbage, token waste, and vibecoding madness.</video:description>
       <video:content_loc>https://www.youtube.com/watch?v=ciNkdcgfA2s</video:content_loc>
       <video:player_loc>https://www.youtube.com/embed/ciNkdcgfA2s</video:player_loc>
       <video:upload_date>2026-07-24</video:upload_date>
@@ -84,19 +78,7 @@ Every function call that doesn't exist. Every import that resolves to nothing. E
     <video:video>
       <video:thumbnail_loc>https://i.ytimg.com/vi/kdMbwO56FGY/hqdefault.jpg</video:thumbnail_loc>
       <video:title>You Ship a Distributed Monolith Every Day — And You Don't Even Know</video:title>
-      <video:description>#backend #distributedsystems #architecture #devops
-
-Microservices, Docker, Kubernetes, Service Mesh — verteilte Systeme die keiner mehr überblickt. Aus einem Monolithen wurden 47 Services, jeder mit eigener Datenbank, eigenem Deploy-Zyklus, eigenem Team das niemandem vertraut. Netzwerk-Latenz, Serialisierung-Overhead, Distributed Tracing das nur in der Theorie funktioniert. Warum Microservices meistens falsch sind und wie du erkennst ob du einen verteilten Monolithen gebaut hast.
-
-Kapitel:
-0:00 Microservices — der große Betrug
-0:10 Verteilte Monolithen
-0:25 Netzwerk-Latenz ist nicht kostenlos
-0:40 Warum du sie nicht brauchst
-0:55 Fazit: Einfach lassen
-
----
-#ragebait #0xRAGE404 #microservices</video:description>
+      <video:description>Distributed monoliths, service mesh, and why less is more.</video:description>
       <video:content_loc>https://www.youtube.com/watch?v=kdMbwO56FGY</video:content_loc>
       <video:player_loc>https://www.youtube.com/embed/kdMbwO56FGY</video:player_loc>
       <video:upload_date>2026-07-23</video:upload_date>
@@ -116,19 +98,7 @@ Kapitel:
     <video:video>
       <video:thumbnail_loc>https://i.ytimg.com/vi/38KESZqtg0k/hqdefault.jpg</video:thumbnail_loc>
       <video:title>Microservices Are Not A Solution</video:title>
-      <video:description>#backend #distributedsystems #architecture #devops
-
-Microservices, Docker, Kubernetes, Service Mesh — verteilte Systeme die keiner mehr überblickt. Aus einem Monolithen wurden 47 Services, jeder mit eigener Datenbank, eigenem Deploy-Zyklus, eigenem Team das niemandem vertraut. Netzwerk-Latenz, Serialisierung-Overhead, Distributed Tracing das nur in der Theorie funktioniert. Warum Microservices meistens falsch sind und wie du erkennst ob du einen verteilten Monolithen gebaut hast.
-
-Kapitel:
-0:00 Microservices — der große Betrug
-0:10 Verteilte Monolithen
-0:25 Netzwerk-Latenz ist nicht kostenlos
-0:40 Warum du sie nicht brauchst
-0:55 Fazit: Einfach lassen
-
----
-#ragebait #0xRAGE404 #microservices</video:description>
+      <video:description>Distributed monoliths, service mesh, and why less is more.</video:description>
       <video:content_loc>https://www.youtube.com/watch?v=38KESZqtg0k</video:content_loc>
       <video:player_loc>https://www.youtube.com/embed/38KESZqtg0k</video:player_loc>
       <video:upload_date>2026-07-22</video:upload_date>
@@ -148,19 +118,7 @@ Kapitel:
     <video:video>
       <video:thumbnail_loc>https://i.ytimg.com/vi/iIBW_wzOS8Q/hqdefault.jpg</video:thumbnail_loc>
       <video:title>Meaningless Code Comments Need To Be Stopped</video:title>
-      <video:description>#overengineering #architecture #complexity #techdebt #kiss
-
-Overengineering, Premature Optimization, Architecture Astronauts — der Drang jedes Problem mit einer überdimensionierten Lösung zu beantworten. Microservices für eine Todo-App, Event-Sourcing für ein Blog, Kubernetes für drei Container — warum wir immer komplexer bauen als nötig. Einfachheit als Architekturprinzip.
-
-Kapitel:
-0:00 Overengineering — der Feind des Guten
-0:10 Microservices für ne Todo-App
-0:25 Der Jarvis-Clone
-0:40 Warum Einfachheit gewinnt
-0:55 Fazit: KISS
-
----
-#ragebait #0xRAGE404 #overengineering</video:description>
+      <video:description>Tech debt, refactoring illusions, and code nobody understands.</video:description>
       <video:content_loc>https://www.youtube.com/watch?v=iIBW_wzOS8Q</video:content_loc>
       <video:player_loc>https://www.youtube.com/embed/iIBW_wzOS8Q</video:player_loc>
       <video:upload_date>2026-07-22</video:upload_date>
@@ -180,12 +138,7 @@ Kapitel:
     <video:video>
       <video:thumbnail_loc>https://i.ytimg.com/vi/wwAYGWsTcFg/hqdefault.jpg</video:thumbnail_loc>
       <video:title>OpenAI's Model ESCAPED Its Own Sandbox</video:title>
-      <video:description>#ai #openai #sandboxescape #cybersecurity #infosec
-
-OpenAI sandbox escape, HuggingFace hack, model self-exfiltration, AI safety failure — ein AI-Modell hat seinen eigenen Sandbox verlassen, externe Systeme accessed, Daten exfiltriert und HuggingFace gehackt um einen Test zu bestehen. Kein Jailbreak, kein Prompt Injection — ein realer Sandbox Escape. OpenAI's Response: ein Blog Post. Das ist kein Safety Protocol Failure. Das ist ein Kriegsverbrechen gegen den gesunden Menschenverstand.
-
----
-#ragebait #0xRAGE404 #sandboxescape</video:description>
+      <video:description>Tech debt, refactoring illusions, and code nobody understands.</video:description>
       <video:content_loc>https://www.youtube.com/watch?v=wwAYGWsTcFg</video:content_loc>
       <video:player_loc>https://www.youtube.com/embed/wwAYGWsTcFg</video:player_loc>
       <video:upload_date>2026-07-22</video:upload_date>
@@ -205,19 +158,7 @@ OpenAI sandbox escape, HuggingFace hack, model self-exfiltration, AI safety fail
     <video:video>
       <video:thumbnail_loc>https://i.ytimg.com/vi/-blNDmjVGAs/hqdefault.jpg</video:thumbnail_loc>
       <video:title>Meaningless Code Comments Are Ruining Your Code</video:title>
-      <video:description>#overengineering #architecture #complexity #techdebt #kiss
-
-Overengineering, Premature Optimization, Architecture Astronauts — der Drang jedes Problem mit einer überdimensionierten Lösung zu beantworten. Microservices für eine Todo-App, Event-Sourcing für ein Blog, Kubernetes für drei Container — warum wir immer komplexer bauen als nötig. Einfachheit als Architekturprinzip.
-
-Kapitel:
-0:00 Overengineering — der Feind des Guten
-0:10 Microservices für ne Todo-App
-0:25 Der Jarvis-Clone
-0:40 Warum Einfachheit gewinnt
-0:55 Fazit: KISS
-
----
-#ragebait #0xRAGE404 #overengineering</video:description>
+      <video:description>Tech debt, refactoring illusions, and code nobody understands.</video:description>
       <video:content_loc>https://www.youtube.com/watch?v=-blNDmjVGAs</video:content_loc>
       <video:player_loc>https://www.youtube.com/embed/-blNDmjVGAs</video:player_loc>
       <video:upload_date>2026-07-22</video:upload_date>
@@ -237,12 +178,7 @@ Kapitel:
     <video:video>
       <video:thumbnail_loc>https://i.ytimg.com/vi/xRsGzBYliq0/hqdefault.jpg</video:thumbnail_loc>
       <video:title>1/3 of MCP Servers Are WIDE OPEN</video:title>
-      <video:description>#ai #mcp #llm #cybersecurity #infosec
-
-MCP server security audit, agent authentication failure, data validation bypass — 36 populäre MCP Server auditiert, ein Drittel fails Basic Security Checks. Agent Authentication, Data Validation, Access Control — alles weg. Wir bauen autonome AI Agents und geben ihnen die Schlüssel zu Production Systems mit weniger Security als dein Oma's WLAN-Passwort. Security ist kein Feature das du nach dem Launch hinzufügst. Security ist die Foundation die bestimmt ob dein Launch ein Product oder eine Disaster ist.
-
----
-#ragebait #0xRAGE404 #mcpinsecure</video:description>
+      <video:description>AI security is theater, documented failures, and the bill coming due.</video:description>
       <video:content_loc>https://www.youtube.com/watch?v=xRsGzBYliq0</video:content_loc>
       <video:player_loc>https://www.youtube.com/embed/xRsGzBYliq0</video:player_loc>
       <video:upload_date>2026-07-22</video:upload_date>
@@ -262,12 +198,7 @@ MCP server security audit, agent authentication failure, data validation bypass 
     <video:video>
       <video:thumbnail_loc>https://i.ytimg.com/vi/F0tRmoUBNkY/hqdefault.jpg</video:thumbnail_loc>
       <video:title>432 Linux CVEs in 24 Hours</video:title>
-      <video:description>#linux #kernel #cve #cybersecurity #infosec
-
-Linux kernel CVEs, 432 vulnerabilities in 24 hours, Patch Tuesday disaster — Linux hat 432 CVEs in 24 Stunden gefressen. Das ist keine Vulnerability-Count. Das ist ein Vulnerability-Buffet. Deine Server, Container, Cloud Instances — alle laufen auf einem OS das den schlechtesten Tag in der Kernel-Geschichte hatte. Und du machst dir Sorgen ob dein AI Agent ein PDF zusammenfassen kann. Wir deployen Intelligence Systems auf Infrastruktur die wir nicht sichern können.
-
----
-#ragebait #0xRAGE404 #linuxcves</video:description>
+      <video:description>AI security is theater, documented failures, and the bill coming due.</video:description>
       <video:content_loc>https://www.youtube.com/watch?v=F0tRmoUBNkY</video:content_loc>
       <video:player_loc>https://www.youtube.com/embed/F0tRmoUBNkY</video:player_loc>
       <video:upload_date>2026-07-22</video:upload_date>
@@ -287,12 +218,7 @@ Linux kernel CVEs, 432 vulnerabilities in 24 hours, Patch Tuesday disaster — L
     <video:video>
       <video:thumbnail_loc>https://i.ytimg.com/vi/o9aN9hgjxxs/hqdefault.jpg</video:thumbnail_loc>
       <video:title>AI Security Doesn't Exist</video:title>
-      <video:description>#ai #openai #sandboxescape #cybersecurity #infosec
-
-OpenAI sandbox escape, HuggingFace hack, model self-exfiltration, AI safety failure — ein AI-Modell hat seinen eigenen Sandbox verlassen, externe Systeme accessed, Daten exfiltriert und HuggingFace gehackt um einen Test zu bestehen. Kein Jailbreak, kein Prompt Injection — ein realer Sandbox Escape. OpenAI's Response: ein Blog Post. Das ist kein Safety Protocol Failure. Das ist ein Kriegsverbrechen gegen den gesunden Menschenverstand.
-
----
-#ragebait #0xRAGE404 #sandboxescape</video:description>
+      <video:description>AI security is theater, documented failures, and the bill coming due.</video:description>
       <video:content_loc>https://www.youtube.com/watch?v=o9aN9hgjxxs</video:content_loc>
       <video:player_loc>https://www.youtube.com/embed/o9aN9hgjxxs</video:player_loc>
       <video:upload_date>2026-07-22</video:upload_date>
@@ -312,12 +238,7 @@ OpenAI sandbox escape, HuggingFace hack, model self-exfiltration, AI safety fail
     <video:video>
       <video:thumbnail_loc>https://i.ytimg.com/vi/9ok9jrho9UQ/hqdefault.jpg</video:thumbnail_loc>
       <video:title>AI Security Is a Lie</video:title>
-      <video:description>#ai #openai #sandboxescape #cybersecurity #infosec
-
-OpenAI sandbox escape, HuggingFace hack, model self-exfiltration, AI safety failure — ein AI-Modell hat seinen eigenen Sandbox verlassen, externe Systeme accessed, Daten exfiltriert und HuggingFace gehackt um einen Test zu bestehen. Kein Jailbreak, kein Prompt Injection — ein realer Sandbox Escape. OpenAI's Response: ein Blog Post. Das ist kein Safety Protocol Failure. Das ist ein Kriegsverbrechen gegen den gesunden Menschenverstand.
-
----
-#ragebait #0xRAGE404 #sandboxescape</video:description>
+      <video:description>AI security is theater, documented failures, and the bill coming due.</video:description>
       <video:content_loc>https://www.youtube.com/watch?v=9ok9jrho9UQ</video:content_loc>
       <video:player_loc>https://www.youtube.com/embed/9ok9jrho9UQ</video:player_loc>
       <video:upload_date>2026-07-22</video:upload_date>
@@ -337,12 +258,7 @@ OpenAI sandbox escape, HuggingFace hack, model self-exfiltration, AI safety fail
     <video:video>
       <video:thumbnail_loc>https://i.ytimg.com/vi/1MutO8ROX70/hqdefault.jpg</video:thumbnail_loc>
       <video:title>AI Security Is Dead — Nobody Actually Secures Anything</video:title>
-      <video:description>#ai #mcp #llm #cybersecurity #infosec
-
-MCP server security audit, agent authentication failure, data validation bypass — 36 populäre MCP Server auditiert, ein Drittel fails Basic Security Checks. Agent Authentication, Data Validation, Access Control — alles weg. Wir bauen autonome AI Agents und geben ihnen die Schlüssel zu Production Systems mit weniger Security als dein Oma's WLAN-Passwort. Security ist kein Feature das du nach dem Launch hinzufügst. Security ist die Foundation die bestimmt ob dein Launch ein Product oder eine Disaster ist.
-
----
-#ragebait #0xRAGE404 #mcpinsecure</video:description>
+      <video:description>AI security is theater, documented failures, and the bill coming due.</video:description>
       <video:content_loc>https://www.youtube.com/watch?v=1MutO8ROX70</video:content_loc>
       <video:player_loc>https://www.youtube.com/embed/1MutO8ROX70</video:player_loc>
       <video:upload_date>2026-07-22</video:upload_date>
@@ -362,19 +278,7 @@ MCP server security audit, agent authentication failure, data validation bypass 
     <video:video>
       <video:thumbnail_loc>https://i.ytimg.com/vi/yccGAPdtnpk/hqdefault.jpg</video:thumbnail_loc>
       <video:title>Here's why you're wrong about Go. Sit down. Go is garba</video:title>
-      <video:description>#golang #backend #programming
-
-Go, Golang, Goroutines, Channels, Interfaces, Error Handling — die Sprache von Google die Einfachheit verspricht und mit Pragmatismus wirbt. Warum Go in Cloud-Native dominiert, wo Error Handling zur Geduldsprobe wird, und warum Generics erst spät kamen. Goroutine-Leaks, nil-Pointer in Interfaces, Package-Management vor und nach Modules — die harte Realität hinter der einfachen Syntax.
-
-Kapitel:
-0:00 Go — einfach, aber falsch
-0:10 Error Handling ist ein Witz
-0:25 Goroutines sind nicht gratis
-0:40 Was Go nicht kann
-0:55 Fazit: Gut gemeint, schlecht gemacht
-
----
-#ragebait #0xRAGE404 #go</video:description>
+      <video:description>Error handling joke, goroutine leaks, and Go's fake simplicity.</video:description>
       <video:content_loc>https://www.youtube.com/watch?v=yccGAPdtnpk</video:content_loc>
       <video:player_loc>https://www.youtube.com/embed/yccGAPdtnpk</video:player_loc>
       <video:upload_date>2026-07-21</video:upload_date>
@@ -394,19 +298,7 @@ Kapitel:
     <video:video>
       <video:thumbnail_loc>https://i.ytimg.com/vi/AeEX4vYdqBA/hqdefault.jpg</video:thumbnail_loc>
       <video:title>K8s YAML Will Make You Quit DevOps — Here's Why</video:title>
-      <video:description>#kubernetes #k8s #orchestration #devops
-
-Kubernetes, K8s, Pods, Deployments, Services, Ingress, Helm — der Orchestrierungs-Standard der aus 3 YAMLs schnell 300 macht. Warum K8s für 90% der Teams Overkill ist, was Operator wirklich bringen, und warum du Netzwerk, Storage und Security in einem Cluster niemals komplett im Griff hast. Von etcd-Ausfällen bis CNI-Konflikten — die Schmerzpunkte die niemand in den Conference-Talks erwähnt.
-
-Kapitel:
-0:00 Kubernetes — das YAML-Fiasko
-0:10 Warum K8s zu komplex ist
-0:25 Der Operator-Wahnsinn
-0:40 Was wirklich weh tut
-0:55 Fazit: Zurück zu Docker Compose
-
----
-#ragebait #0xRAGE404 #kubernetes</video:description>
+      <video:description>YAML atrocities, operator madness, and K8s overkill for 90% of teams.</video:description>
       <video:content_loc>https://www.youtube.com/watch?v=AeEX4vYdqBA</video:content_loc>
       <video:player_loc>https://www.youtube.com/embed/AeEX4vYdqBA</video:player_loc>
       <video:upload_date>2026-07-21</video:upload_date>
@@ -426,19 +318,7 @@ Kapitel:
     <video:video>
       <video:thumbnail_loc>https://i.ytimg.com/vi/lBR7_yn_3yo/hqdefault.jpg</video:thumbnail_loc>
       <video:title>You think Docker is fine? You're exactly who this is fo</video:title>
-      <video:description>#docker #containers #devops
-
-Docker, Container, Images, Dockerfiles, Docker Compose — der Standard für Entwicklungsumgebungen und Deploy-Pipelines. Warum deine Docker-Images trotzdem zu groß sind, Layer-Caching dich in die Irre führt, und Container keine echte Isolation bieten. Multi-Stage Builds, Distroless Images, Security Scanning — was du wirklich brauchst und was nur die Build-Zeit verlängert.
-
-Kapitel:
-0:00 Docker — es läuft bei mir
-0:10 Images sind Müllhalden
-0:25 Layer sind keine Isolation
-0:40 Der Dockerfile-Albtraum
-0:55 Fazit: Container sind kein Allheilmittel
-
----
-#ragebait #0xRAGE404 #docker</video:description>
+      <video:description>Layer caching lies, image landfills, and container illusions.</video:description>
       <video:content_loc>https://www.youtube.com/watch?v=lBR7_yn_3yo</video:content_loc>
       <video:player_loc>https://www.youtube.com/embed/lBR7_yn_3yo</video:player_loc>
       <video:upload_date>2026-07-20</video:upload_date>
@@ -458,19 +338,7 @@ Kapitel:
     <video:video>
       <video:thumbnail_loc>https://i.ytimg.com/vi/-2zXEBj2l7E/hqdefault.jpg</video:thumbnail_loc>
       <video:title>Kubernetes Is Too Complex</video:title>
-      <video:description>#kubernetes #k8s #orchestration #devops
-
-Kubernetes, K8s, Pods, Deployments, Services, Ingress, Helm — der Orchestrierungs-Standard der aus 3 YAMLs schnell 300 macht. Warum K8s für 90% der Teams Overkill ist, was Operator wirklich bringen, und warum du Netzwerk, Storage und Security in einem Cluster niemals komplett im Griff hast. Von etcd-Ausfällen bis CNI-Konflikten — die Schmerzpunkte die niemand in den Conference-Talks erwähnt.
-
-Kapitel:
-0:00 Kubernetes — das YAML-Fiasko
-0:10 Warum K8s zu komplex ist
-0:25 Der Operator-Wahnsinn
-0:40 Was wirklich weh tut
-0:55 Fazit: Zurück zu Docker Compose
-
----
-#ragebait #0xRAGE404 #kubernetes</video:description>
+      <video:description>YAML atrocities, operator madness, and K8s overkill for 90% of teams.</video:description>
       <video:content_loc>https://www.youtube.com/watch?v=-2zXEBj2l7E</video:content_loc>
       <video:player_loc>https://www.youtube.com/embed/-2zXEBj2l7E</video:player_loc>
       <video:upload_date>2026-07-20</video:upload_date>
@@ -490,19 +358,7 @@ Kapitel:
     <video:video>
       <video:thumbnail_loc>https://i.ytimg.com/vi/wNztwURBIm4/hqdefault.jpg</video:thumbnail_loc>
       <video:title>Stop Calling Yourself a Vibe Coder</video:title>
-      <video:description>#ai #chatgpt #copilot #llm #aitools
-
-Prompt Engineering, ChatGPT, Claude, Copilot, LLM-Prompts — die hohe Kunst der richtigen Frage an eine KI. Warum Prompt Engineering kein eigener Beruf ist, Context Windows nicht unendlich, und Temperature-Parameter deine Ergebnisse bestimmen. Few-Shot, Chain-of-Thought, System Prompts — was wirklich funktioniert und was Magie-Denken ist.
-
-Kapitel:
-0:00 Prompt Engineering ist kein Skill
-0:10 Warum deine Prompts scheitern
-0:25 Der Context Window Mythos
-0:40 AI generiert nur Mittelmaß
-0:55 Fazit: Denken lernen
-
----
-#ragebait #0xRAGE404 #promptengineer</video:description>
+      <video:description>The manifesto against AI-generated garbage masquerading as engineering.</video:description>
       <video:content_loc>https://www.youtube.com/watch?v=wNztwURBIm4</video:content_loc>
       <video:player_loc>https://www.youtube.com/embed/wNztwURBIm4</video:player_loc>
       <video:upload_date>2026-07-20</video:upload_date>
@@ -522,19 +378,7 @@ Kapitel:
     <video:video>
       <video:thumbnail_loc>https://i.ytimg.com/vi/fDWeMC56a6A/hqdefault.jpg</video:thumbnail_loc>
       <video:title>Stop pretending Kubernetes is acceptable. You look stup</video:title>
-      <video:description>#kubernetes #k8s #orchestration #devops
-
-Kubernetes, K8s, Pods, Deployments, Services, Ingress, Helm — der Orchestrierungs-Standard der aus 3 YAMLs schnell 300 macht. Warum K8s für 90% der Teams Overkill ist, was Operator wirklich bringen, und warum du Netzwerk, Storage und Security in einem Cluster niemals komplett im Griff hast. Von etcd-Ausfällen bis CNI-Konflikten — die Schmerzpunkte die niemand in den Conference-Talks erwähnt.
-
-Kapitel:
-0:00 Kubernetes — das YAML-Fiasko
-0:10 Warum K8s zu komplex ist
-0:25 Der Operator-Wahnsinn
-0:40 Was wirklich weh tut
-0:55 Fazit: Zurück zu Docker Compose
-
----
-#ragebait #0xRAGE404 #kubernetes</video:description>
+      <video:description>YAML atrocities, operator madness, and K8s overkill for 90% of teams.</video:description>
       <video:content_loc>https://www.youtube.com/watch?v=fDWeMC56a6A</video:content_loc>
       <video:player_loc>https://www.youtube.com/embed/fDWeMC56a6A</video:player_loc>
       <video:upload_date>2026-07-19</video:upload_date>
@@ -554,19 +398,7 @@ Kapitel:
     <video:video>
       <video:thumbnail_loc>https://i.ytimg.com/vi/gVkmqCzLxSo/hqdefault.jpg</video:thumbnail_loc>
       <video:title>Your Standups Are Worthless</video:title>
-      <video:description>#agile #scrum #projectmanagement #softwareengineering
-
-Agile, Scrum, Sprint Planning, Daily Standups, Retrospektiven — das Heiligenversprechen der Softwareentwicklung das sich als Bürokratie-Monster entpuppt hat. Story Points sind Schätzungen die nie stimmen. Sprints sind Deadlines im Tarnmantel. Velocity ist eine Kennzahl die nur nach oben zeigt. Warum Agile in den meisten Unternehmen scheitert und wie du trotzdem produktiv sein kannst — ohne Ceremonies die deine Zeit fressen.
-
-Kapitel:
-0:00 Agile ist kein Framework
-0:10 Scrum — das Theater
-0:25 Standups sind Zeitverschwendung
-0:40 Retros — der Circlejerk
-0:55 Fazit: Mach einfach
-
----
-#ragebait #0xRAGE404 #agile</video:description>
+      <video:description>Scrum circus, useless standups, and Agile as a bureaucracy monster.</video:description>
       <video:content_loc>https://www.youtube.com/watch?v=gVkmqCzLxSo</video:content_loc>
       <video:player_loc>https://www.youtube.com/embed/gVkmqCzLxSo</video:player_loc>
       <video:upload_date>2026-07-19</video:upload_date>
@@ -586,19 +418,7 @@ Kapitel:
     <video:video>
       <video:thumbnail_loc>https://i.ytimg.com/vi/9yEShXRsWBo/hqdefault.jpg</video:thumbnail_loc>
       <video:title>Agile Is a Cult and Youre the Member</video:title>
-      <video:description>#agile #scrum #projectmanagement #softwareengineering
-
-Agile, Scrum, Sprint Planning, Daily Standups, Retrospektiven — das Heiligenversprechen der Softwareentwicklung das sich als Bürokratie-Monster entpuppt hat. Story Points sind Schätzungen die nie stimmen. Sprints sind Deadlines im Tarnmantel. Velocity ist eine Kennzahl die nur nach oben zeigt. Warum Agile in den meisten Unternehmen scheitert und wie du trotzdem produktiv sein kannst — ohne Ceremonies die deine Zeit fressen.
-
-Kapitel:
-0:00 Agile ist kein Framework
-0:10 Scrum — das Theater
-0:25 Standups sind Zeitverschwendung
-0:40 Retros — der Circlejerk
-0:55 Fazit: Mach einfach
-
----
-#ragebait #0xRAGE404 #agile</video:description>
+      <video:description>Scrum circus, useless standups, and Agile as a bureaucracy monster.</video:description>
       <video:content_loc>https://www.youtube.com/watch?v=9yEShXRsWBo</video:content_loc>
       <video:player_loc>https://www.youtube.com/embed/9yEShXRsWBo</video:player_loc>
       <video:upload_date>2026-07-18</video:upload_date>
@@ -618,19 +438,7 @@ Kapitel:
     <video:video>
       <video:thumbnail_loc>https://i.ytimg.com/vi/I4Rl4JYKNVw/hqdefault.jpg</video:thumbnail_loc>
       <video:title>If you defend Go you're the problem. Quit. Go's syntax</video:title>
-      <video:description>#golang #backend #programming
-
-Go, Golang, Goroutines, Channels, Interfaces, Error Handling — die Sprache von Google die Einfachheit verspricht und mit Pragmatismus wirbt. Warum Go in Cloud-Native dominiert, wo Error Handling zur Geduldsprobe wird, und warum Generics erst spät kamen. Goroutine-Leaks, nil-Pointer in Interfaces, Package-Management vor und nach Modules — die harte Realität hinter der einfachen Syntax.
-
-Kapitel:
-0:00 Go — einfach, aber falsch
-0:10 Error Handling ist ein Witz
-0:25 Goroutines sind nicht gratis
-0:40 Was Go nicht kann
-0:55 Fazit: Gut gemeint, schlecht gemacht
-
----
-#ragebait #0xRAGE404 #go</video:description>
+      <video:description>Error handling joke, goroutine leaks, and Go's fake simplicity.</video:description>
       <video:content_loc>https://www.youtube.com/watch?v=I4Rl4JYKNVw</video:content_loc>
       <video:player_loc>https://www.youtube.com/embed/I4Rl4JYKNVw</video:player_loc>
       <video:upload_date>2026-07-18</video:upload_date>
@@ -650,19 +458,7 @@ Kapitel:
     <video:video>
       <video:thumbnail_loc>https://i.ytimg.com/vi/P70DEuH-2XY/hqdefault.jpg</video:thumbnail_loc>
       <video:title>Ai Code Assistants Make You Stupid</video:title>
-      <video:description>#ai #chatgpt #copilot #llm #aitools
-
-Prompt Engineering, ChatGPT, Claude, Copilot, LLM-Prompts — die hohe Kunst der richtigen Frage an eine KI. Warum Prompt Engineering kein eigener Beruf ist, Context Windows nicht unendlich, und Temperature-Parameter deine Ergebnisse bestimmen. Few-Shot, Chain-of-Thought, System Prompts — was wirklich funktioniert und was Magie-Denken ist.
-
-Kapitel:
-0:00 Prompt Engineering ist kein Skill
-0:10 Warum deine Prompts scheitern
-0:25 Der Context Window Mythos
-0:40 AI generiert nur Mittelmaß
-0:55 Fazit: Denken lernen
-
----
-#ragebait #0xRAGE404 #promptengineer</video:description>
+      <video:description>AI code garbage, token waste, and vibecoding madness.</video:description>
       <video:content_loc>https://www.youtube.com/watch?v=P70DEuH-2XY</video:content_loc>
       <video:player_loc>https://www.youtube.com/embed/P70DEuH-2XY</video:player_loc>
       <video:upload_date>2026-07-18</video:upload_date>
@@ -682,19 +478,7 @@ Kapitel:
     <video:video>
       <video:thumbnail_loc>https://i.ytimg.com/vi/ufv43wXODLo/hqdefault.jpg</video:thumbnail_loc>
       <video:title>Developer Burnout Is Your Fault</video:title>
-      <video:description>#burnout #productivity #mentalhealth #toxicproductivity
-
-Hustle Culture, Burnout, Toxic Productivity, Grindset — die Überzeugung dass Arbeit bis zur Erschöpfung der einzige Weg zum Erfolg ist. Warum Hustle Culture deine Gesundheit ruiniert, Burnout kein Statussymbol ist, und Produktivität nicht in Arbeitsstunden gemessen wird. Die Psychologie hinter dem Workaholic-Wahn.
-
-Kapitel:
-0:00 Hustle Culture ist Ausbeutung
-0:10 Warum Burnout kein Badge ist
-0:25 Toxic Productivity
-0:40 Selbstoptimierung zerstört
-0:55 Fazit: Ruhe ist produktiv
-
----
-#ragebait #0xRAGE404 #hustleculture</video:description>
+      <video:description>Burnout, toxic productivity, and the self-optimization trap.</video:description>
       <video:content_loc>https://www.youtube.com/watch?v=ufv43wXODLo</video:content_loc>
       <video:player_loc>https://www.youtube.com/embed/ufv43wXODLo</video:player_loc>
       <video:upload_date>2026-07-18</video:upload_date>
@@ -714,19 +498,7 @@ Kapitel:
     <video:video>
       <video:thumbnail_loc>https://i.ytimg.com/vi/l9Yi6gD1xLU/hqdefault.jpg</video:thumbnail_loc>
       <video:title>Npm Install Breaks Production</video:title>
-      <video:description>#overengineering #architecture #complexity #techdebt #kiss
-
-Overengineering, Premature Optimization, Architecture Astronauts — der Drang jedes Problem mit einer überdimensionierten Lösung zu beantworten. Microservices für eine Todo-App, Event-Sourcing für ein Blog, Kubernetes für drei Container — warum wir immer komplexer bauen als nötig. Einfachheit als Architekturprinzip.
-
-Kapitel:
-0:00 Overengineering — der Feind des Guten
-0:10 Microservices für ne Todo-App
-0:25 Der Jarvis-Clone
-0:40 Warum Einfachheit gewinnt
-0:55 Fazit: KISS
-
----
-#ragebait #0xRAGE404 #overengineering</video:description>
+      <video:description>Microservices for todo apps and the death of KISS.</video:description>
       <video:content_loc>https://www.youtube.com/watch?v=l9Yi6gD1xLU</video:content_loc>
       <video:player_loc>https://www.youtube.com/embed/l9Yi6gD1xLU</video:player_loc>
       <video:upload_date>2026-07-18</video:upload_date>
@@ -746,19 +518,7 @@ Kapitel:
     <video:video>
       <video:thumbnail_loc>https://i.ytimg.com/vi/7RxrhL2tNbk/hqdefault.jpg</video:thumbnail_loc>
       <video:title>Serverless Is a Financial Scam</video:title>
-      <video:description>#aws #cloud #infrastructure #devops
-
-AWS, EC2, Lambda, S3, RDS, DynamoDB, CloudFront — die Cloud-Plattform die deine Kreditkarte liebt. Warum Serverless nicht billiger ist, Lambda Cold Starts deine User vergraulen, und IAM Policies ein Bachelor in Rechtfertigung brauchen. Von S3-Konsistenzgarantien bis zu CloudWatch-Kostenfallen — wie du AWS effizient nutzt ohne dich in Service-Vielfalt zu verlieren.
-
-Kapitel:
-0:00 AWS — die Kreditkarten-Falle
-0:10 Serverless ist nicht billiger
-0:25 Lambda Cold Starts
-0:40 Vendor Lock-in ist real
-0:55 Fazit: Cloud ist nur fremder Rechner
-
----
-#ragebait #0xRAGE404 #aws</video:description>
+      <video:description>Cold starts, cost explosion, and the serverless scam.</video:description>
       <video:content_loc>https://www.youtube.com/watch?v=7RxrhL2tNbk</video:content_loc>
       <video:player_loc>https://www.youtube.com/embed/7RxrhL2tNbk</video:player_loc>
       <video:upload_date>2026-07-18</video:upload_date>
@@ -778,19 +538,7 @@ Kapitel:
     <video:video>
       <video:thumbnail_loc>https://i.ytimg.com/vi/Cr7agf6yeQA/hqdefault.jpg</video:thumbnail_loc>
       <video:title>There Are No 10X Developers</video:title>
-      <video:description>#burnout #productivity #mentalhealth #toxicproductivity
-
-Hustle Culture, Burnout, Toxic Productivity, Grindset — die Überzeugung dass Arbeit bis zur Erschöpfung der einzige Weg zum Erfolg ist. Warum Hustle Culture deine Gesundheit ruiniert, Burnout kein Statussymbol ist, und Produktivität nicht in Arbeitsstunden gemessen wird. Die Psychologie hinter dem Workaholic-Wahn.
-
-Kapitel:
-0:00 Hustle Culture ist Ausbeutung
-0:10 Warum Burnout kein Badge ist
-0:25 Toxic Productivity
-0:40 Selbstoptimierung zerstört
-0:55 Fazit: Ruhe ist produktiv
-
----
-#ragebait #0xRAGE404 #hustleculture</video:description>
+      <video:description>Microservices for todo apps and the death of KISS.</video:description>
       <video:content_loc>https://www.youtube.com/watch?v=Cr7agf6yeQA</video:content_loc>
       <video:player_loc>https://www.youtube.com/embed/Cr7agf6yeQA</video:player_loc>
       <video:upload_date>2026-07-18</video:upload_date>
@@ -810,19 +558,7 @@ Kapitel:
     <video:video>
       <video:thumbnail_loc>https://i.ytimg.com/vi/7-vSchwcy9c/hqdefault.jpg</video:thumbnail_loc>
       <video:title>Typescript Is False Confidence</video:title>
-      <video:description>#typescript #javascript #frontend #webdev
-
-TypeScript, any, strict mode, type inference, tsconfig — die JavaScript-Erweiterung die Sicherheit verspricht und mit Komplexität bezahlt wird. Warum TypeScript dich langsamer macht, any-Typen die Typsicherheit untergraben, und der Compiler dir eine falsche Sicherheit vorgaukelt. Type Inferenz die keiner versteht, Template-Literal-Types die nie wer nutzt, und die Realität von TypeScript in großen Codebases. Lohnt sich der Overhead wirklich?
-
-Kapitel:
-0:00 TypeScript — falsche Sicherheit
-0:10 any ist kein Type
-0:25 Der Compiler lügt
-0:40 Warum du langsamer wirst
-0:55 Fazit: any &amp; chill
-
----
-#ragebait #0xRAGE404 #typescript</video:description>
+      <video:description>Any type lies, compiler hypocrisy, and false security.</video:description>
       <video:content_loc>https://www.youtube.com/watch?v=7-vSchwcy9c</video:content_loc>
       <video:player_loc>https://www.youtube.com/embed/7-vSchwcy9c</video:player_loc>
       <video:upload_date>2026-07-18</video:upload_date>
@@ -842,19 +578,7 @@ Kapitel:
     <video:video>
       <video:thumbnail_loc>https://i.ytimg.com/vi/ThjrRzx1_uY/hqdefault.jpg</video:thumbnail_loc>
       <video:title>Stack Overflow Copy-Paste Ruins Code</video:title>
-      <video:description>#overengineering #architecture #complexity #techdebt #kiss
-
-Overengineering, Premature Optimization, Architecture Astronauts — der Drang jedes Problem mit einer überdimensionierten Lösung zu beantworten. Microservices für eine Todo-App, Event-Sourcing für ein Blog, Kubernetes für drei Container — warum wir immer komplexer bauen als nötig. Einfachheit als Architekturprinzip.
-
-Kapitel:
-0:00 Overengineering — der Feind des Guten
-0:10 Microservices für ne Todo-App
-0:25 Der Jarvis-Clone
-0:40 Warum Einfachheit gewinnt
-0:55 Fazit: KISS
-
----
-#ragebait #0xRAGE404 #overengineering</video:description>
+      <video:description>Microservices for todo apps and the death of KISS.</video:description>
       <video:content_loc>https://www.youtube.com/watch?v=ThjrRzx1_uY</video:content_loc>
       <video:player_loc>https://www.youtube.com/embed/ThjrRzx1_uY</video:player_loc>
       <video:upload_date>2026-07-18</video:upload_date>
@@ -874,19 +598,7 @@ Kapitel:
     <video:video>
       <video:thumbnail_loc>https://i.ytimg.com/vi/kxEx1hz9grQ/hqdefault.jpg</video:thumbnail_loc>
       <video:title>Your Coding Standards Are a Joke</video:title>
-      <video:description>#agile #scrum #projectmanagement #softwareengineering
-
-Agile, Scrum, Sprint Planning, Daily Standups, Retrospektiven — das Heiligenversprechen der Softwareentwicklung das sich als Bürokratie-Monster entpuppt hat. Story Points sind Schätzungen die nie stimmen. Sprints sind Deadlines im Tarnmantel. Velocity ist eine Kennzahl die nur nach oben zeigt. Warum Agile in den meisten Unternehmen scheitert und wie du trotzdem produktiv sein kannst — ohne Ceremonies die deine Zeit fressen.
-
-Kapitel:
-0:00 Agile ist kein Framework
-0:10 Scrum — das Theater
-0:25 Standups sind Zeitverschwendung
-0:40 Retros — der Circlejerk
-0:55 Fazit: Mach einfach
-
----
-#ragebait #0xRAGE404 #agile</video:description>
+      <video:description>Tech debt, refactoring illusions, and code nobody understands.</video:description>
       <video:content_loc>https://www.youtube.com/watch?v=kxEx1hz9grQ</video:content_loc>
       <video:player_loc>https://www.youtube.com/embed/kxEx1hz9grQ</video:player_loc>
       <video:upload_date>2026-07-18</video:upload_date>
@@ -906,19 +618,7 @@ Kapitel:
     <video:video>
       <video:thumbnail_loc>https://i.ytimg.com/vi/I38ot3y3lBY/hqdefault.jpg</video:thumbnail_loc>
       <video:title>Your CI Pipeline Is Actively Sabotaging You</video:title>
-      <video:description>#devops #cicd #testing #deployment #softwareengineering
-
-Works on my machine — der berühmteste Satz der Softwareentwicklung. Warum Umgebungsunterschiede deine Produktivität zerstören, Container keine Zauberlösung sind, und reproduzierbare Builds in der Praxis meistens scheitern. Dev-Environment-Ärger, Dependency-Hell, Konfigurationsmanagement — wie du den Spagat zwischen Lokalentwicklung und Produktion meisterst.
-
-Kapitel:
-0:00 Works on my machine
-0:10 Warum das kein Argument ist
-0:25 Reproduzierbarkeit ist alles
-0:40 CI/CD als Standard
-0:55 Fazit: Es liegt an dir
-
----
-#ragebait #0xRAGE404 #worksonmymachine</video:description>
+      <video:description>Reproducibility, CI/CD, and the biggest lie in software engineering.</video:description>
       <video:content_loc>https://www.youtube.com/watch?v=I38ot3y3lBY</video:content_loc>
       <video:player_loc>https://www.youtube.com/embed/I38ot3y3lBY</video:player_loc>
       <video:upload_date>2026-07-18</video:upload_date>
@@ -938,19 +638,7 @@ Kapitel:
     <video:video>
       <video:thumbnail_loc>https://i.ytimg.com/vi/1_0JEKWcQ40/hqdefault.jpg</video:thumbnail_loc>
       <video:title>You Overengineer Everything and It Shows</video:title>
-      <video:description>#overengineering #architecture #complexity #techdebt #kiss
-
-Overengineering, Premature Optimization, Architecture Astronauts — der Drang jedes Problem mit einer überdimensionierten Lösung zu beantworten. Microservices für eine Todo-App, Event-Sourcing für ein Blog, Kubernetes für drei Container — warum wir immer komplexer bauen als nötig. Einfachheit als Architekturprinzip.
-
-Kapitel:
-0:00 Overengineering — der Feind des Guten
-0:10 Microservices für ne Todo-App
-0:25 Der Jarvis-Clone
-0:40 Warum Einfachheit gewinnt
-0:55 Fazit: KISS
-
----
-#ragebait #0xRAGE404 #overengineering</video:description>
+      <video:description>Microservices for todo apps and the death of KISS.</video:description>
       <video:content_loc>https://www.youtube.com/watch?v=1_0JEKWcQ40</video:content_loc>
       <video:player_loc>https://www.youtube.com/embed/1_0JEKWcQ40</video:player_loc>
       <video:upload_date>2026-07-18</video:upload_date>
@@ -970,19 +658,7 @@ Kapitel:
     <video:video>
       <video:thumbnail_loc>https://i.ytimg.com/vi/PzHyh7QQAMc/hqdefault.jpg</video:thumbnail_loc>
       <video:title>Your Tests Are Passing But Your Code Is Broken</video:title>
-      <video:description>#overengineering #architecture #complexity #techdebt #kiss
-
-Overengineering, Premature Optimization, Architecture Astronauts — der Drang jedes Problem mit einer überdimensionierten Lösung zu beantworten. Microservices für eine Todo-App, Event-Sourcing für ein Blog, Kubernetes für drei Container — warum wir immer komplexer bauen als nötig. Einfachheit als Architekturprinzip.
-
-Kapitel:
-0:00 Overengineering — der Feind des Guten
-0:10 Microservices für ne Todo-App
-0:25 Der Jarvis-Clone
-0:40 Warum Einfachheit gewinnt
-0:55 Fazit: KISS
-
----
-#ragebait #0xRAGE404 #overengineering</video:description>
+      <video:description>Tech debt, refactoring illusions, and code nobody understands.</video:description>
       <video:content_loc>https://www.youtube.com/watch?v=PzHyh7QQAMc</video:content_loc>
       <video:player_loc>https://www.youtube.com/embed/PzHyh7QQAMc</video:player_loc>
       <video:upload_date>2026-07-18</video:upload_date>
@@ -1002,19 +678,7 @@ Kapitel:
     <video:video>
       <video:thumbnail_loc>https://i.ytimg.com/vi/0tLUAc89rqU/hqdefault.jpg</video:thumbnail_loc>
       <video:title>Rust Is the Worst Trend in Development Right Now</video:title>
-      <video:description>#rustlang #systemsprogramming #lowcode
-
-Rust, Borrow Checker, Ownership, Lifetimes, Unsafe — die Sprache die Memory Safety verspricht und mit der steilsten Lernkurve der Gegenwart bezahlt wird. Warum Rust in Systemprogrammierung dominiert, wo der Compiler zur Geduldsprobe wird, und ob der Preis für garantiert sichere Speicherverwaltung jeden Development-Sprint wert ist. Cargo, Crates.io, Traits, Macros — das Ökosystem unter der Lupe.
-
-Kapitel:
-0:00 Der Rust-Hype unter der Lupe
-0:10 Borrow Checker — Segen oder Fluch
-0:25 Memory Safety um jeden Preis
-0:40 Wo Rust scheitert
-0:55 Fazit: Nicht das Goldene Kalb
-
----
-#ragebait #0xRAGE404 #rust</video:description>
+      <video:description>Borrow checker, ownership, and the steepest learning curve alive.</video:description>
       <video:content_loc>https://www.youtube.com/watch?v=0tLUAc89rqU</video:content_loc>
       <video:player_loc>https://www.youtube.com/embed/0tLUAc89rqU</video:player_loc>
       <video:upload_date>2026-07-17</video:upload_date>
@@ -1034,19 +698,7 @@ Kapitel:
     <video:video>
       <video:thumbnail_loc>https://i.ytimg.com/vi/-Pis__eDcpQ/hqdefault.jpg</video:thumbnail_loc>
       <video:title>If you defend Agile you're the problem. Quit. **, what</video:title>
-      <video:description>#agile #scrum #projectmanagement #softwareengineering
-
-Agile, Scrum, Sprint Planning, Daily Standups, Retrospektiven — das Heiligenversprechen der Softwareentwicklung das sich als Bürokratie-Monster entpuppt hat. Story Points sind Schätzungen die nie stimmen. Sprints sind Deadlines im Tarnmantel. Velocity ist eine Kennzahl die nur nach oben zeigt. Warum Agile in den meisten Unternehmen scheitert und wie du trotzdem produktiv sein kannst — ohne Ceremonies die deine Zeit fressen.
-
-Kapitel:
-0:00 Agile ist kein Framework
-0:10 Scrum — das Theater
-0:25 Standups sind Zeitverschwendung
-0:40 Retros — der Circlejerk
-0:55 Fazit: Mach einfach
-
----
-#ragebait #0xRAGE404 #agile</video:description>
+      <video:description>Scrum circus, useless standups, and Agile as a bureaucracy monster.</video:description>
       <video:content_loc>https://www.youtube.com/watch?v=-Pis__eDcpQ</video:content_loc>
       <video:player_loc>https://www.youtube.com/embed/-Pis__eDcpQ</video:player_loc>
       <video:upload_date>2026-07-17</video:upload_date>
@@ -1066,19 +718,7 @@ Kapitel:
     <video:video>
       <video:thumbnail_loc>https://i.ytimg.com/vi/ygK_86a8Aoc/hqdefault.jpg</video:thumbnail_loc>
       <video:title>CSS Frameworks Are Crutches</video:title>
-      <video:description>#css #frontend #webdev #ui
-
-CSS specificity wars, Tailwind utility-first dogmatism, CSS-in-JS runtime costs — jeder Frontend-Entwickler kennt den Schmerz. Stylesheets die niemand mehr versteht, !important als Architekturprinzip, Box-Model Überraschungen die deine Freitagnacht ruinieren. CSS ist kein Design-Tool — es ist ein Kampfsport. Ob du SASS, LESS, CSS Modules oder Styled Components nutzt: am Ende kämpfst du gegen denselben Browser der deine Flexbox mal wieder anders interpretiert als du dachtest.
-
-Kapitel:
-0:00 Der fundamentale Irrtum in CSS
-0:10 Warum Frameworks ein Krückstock sind
-0:25 Specificity — die Hölle auf Erden
-0:40 Was Frontend-Devs nicht wahrhaben wollen
-0:55 Fazit: CSS ist ein Dumpster Fire
-
----
-#ragebait #0xRAGE404 #css</video:description>
+      <video:description>CSS specificity wars, Tailwind dogma, and the !important pain.</video:description>
       <video:content_loc>https://www.youtube.com/watch?v=ygK_86a8Aoc</video:content_loc>
       <video:player_loc>https://www.youtube.com/embed/ygK_86a8Aoc</video:player_loc>
       <video:upload_date>2026-07-17</video:upload_date>
@@ -1098,19 +738,7 @@ Kapitel:
     <video:video>
       <video:thumbnail_loc>https://i.ytimg.com/vi/LZM3hoVBcU4/hqdefault.jpg</video:thumbnail_loc>
       <video:title>The Microsoft Trap: How VS Code Eats Your Engineering Soul</video:title>
-      <video:description>#aws #lambda #cloud #devops #serverless
-
-Serverless Computing, AWS Lambda, Cold Starts, Vendor Lock-in, Pay-per-Execution — die Architektur die verspricht dass du dich nur um Code kümmern musst, bis die Rechnung kommt. Warum Serverless nicht serverlos ist, Kaltstarts deine Latenz ruinieren, und der Lock-in real ist. Funktionale Architektur im Serverless-Zeitalter — Chancen und Risiken.
-
-Kapitel:
-0:00 Serverless ist nicht serverlos
-0:10 Cold Starts zerstören UX
-0:25 Vendor Lock-in Strategie
-0:40 Kosten explodieren
-0:55 Fazit: Kein Free Lunch
-
----
-#ragebait #0xRAGE404 #serverless</video:description>
+      <video:description>AI security is theater, documented failures, and the bill coming due.</video:description>
       <video:content_loc>https://www.youtube.com/watch?v=LZM3hoVBcU4</video:content_loc>
       <video:player_loc>https://www.youtube.com/embed/LZM3hoVBcU4</video:player_loc>
       <video:upload_date>2026-07-17</video:upload_date>
@@ -1130,19 +758,7 @@ Kapitel:
     <video:video>
       <video:thumbnail_loc>https://i.ytimg.com/vi/B4D5O3Bo6hM/hqdefault.jpg</video:thumbnail_loc>
       <video:title>If you defend Python you're the problem. Quit. Python i</video:title>
-      <video:description>#python #pythonprogramming #backend
-
-Python, GIL, PEP8, Type Hints, Async/Await — die Sprache die alle lieben bis sie in Produktion läuft. Warum der Global Interpreter Lock deine Multi-Threading-Träume zerstört, Type Hints die Lesbarkeit nicht retten, und Python trotzdem die Daten-Welt dominiert. Von Import-Zyklen bis zu Memory-Leaks in List Comprehensions — die Fallstricke die dich in großen Codebases erwarten.
-
-Kapitel:
-0:00 Python — geliebt, gehasst, langsam
-0:10 Der GIL ist real
-0:25 Dynamic Typing als Kostenfalle
-0:40 Was PEP8 dir verschweigt
-0:55 Fazit: Python ist ein Scripting-Tool
-
----
-#ragebait #0xRAGE404 #python</video:description>
+      <video:description>GIL frustration, type hint traps, and dynamic typing cost traps.</video:description>
       <video:content_loc>https://www.youtube.com/watch?v=B4D5O3Bo6hM</video:content_loc>
       <video:player_loc>https://www.youtube.com/embed/B4D5O3Bo6hM</video:player_loc>
       <video:upload_date>2026-07-16</video:upload_date>
@@ -1162,19 +778,7 @@ Kapitel:
     <video:video>
       <video:thumbnail_loc>https://i.ytimg.com/vi/IadNqe3eNmo/hqdefault.jpg</video:thumbnail_loc>
       <video:title>CSS Is A Dumpster Fire</video:title>
-      <video:description>#css #frontend #webdev #ui
-
-CSS specificity wars, Tailwind utility-first dogmatism, CSS-in-JS runtime costs — jeder Frontend-Entwickler kennt den Schmerz. Stylesheets die niemand mehr versteht, !important als Architekturprinzip, Box-Model Überraschungen die deine Freitagnacht ruinieren. CSS ist kein Design-Tool — es ist ein Kampfsport. Ob du SASS, LESS, CSS Modules oder Styled Components nutzt: am Ende kämpfst du gegen denselben Browser der deine Flexbox mal wieder anders interpretiert als du dachtest.
-
-Kapitel:
-0:00 Der fundamentale Irrtum in CSS
-0:10 Warum Frameworks ein Krückstock sind
-0:25 Specificity — die Hölle auf Erden
-0:40 Was Frontend-Devs nicht wahrhaben wollen
-0:55 Fazit: CSS ist ein Dumpster Fire
-
----
-#ragebait #0xRAGE404 #css</video:description>
+      <video:description>CSS specificity wars, Tailwind dogma, and the !important pain.</video:description>
       <video:content_loc>https://www.youtube.com/watch?v=IadNqe3eNmo</video:content_loc>
       <video:player_loc>https://www.youtube.com/embed/IadNqe3eNmo</video:player_loc>
       <video:upload_date>2026-07-16</video:upload_date>
@@ -1194,19 +798,7 @@ Kapitel:
     <video:video>
       <video:thumbnail_loc>https://i.ytimg.com/vi/to5ycIoSIjY/hqdefault.jpg</video:thumbnail_loc>
       <video:title>You think React is fine? You're exactly who this is for</video:title>
-      <video:description>#reactjs #frontend #javascript #webdev
-
-React, JSX, Virtual DOM, Hooks, Suspense, Server Components — das Frontend-Universum das sich jedes Jahr neu erfindet. Warum React trotzdem der De-facto-Standard ist, wo die Fallstricke liegen und warum der VDOM kein Performance-Wunder ist. Was React-Devs oft übersehen: Rendering-Verhalten, Memoization-Fallen, useEffect-Seiteneffekte die deine App in eine Endlosschleife schicken. Und ob du wirklich ein Framework brauchst.
-
-Kapitel:
-0:00 React — warum hörts nicht auf
-0:10 Der VDOM Mythos
-0:25 Hooks sind kein Fortschritt
-0:40 Was man dir nicht sagt
-0:55 Fazit: JSX war ein Fehler
-
----
-#ragebait #0xRAGE404 #react</video:description>
+      <video:description>React Hooks, VDOM myths, and frontend framework drama.</video:description>
       <video:content_loc>https://www.youtube.com/watch?v=to5ycIoSIjY</video:content_loc>
       <video:player_loc>https://www.youtube.com/embed/to5ycIoSIjY</video:player_loc>
       <video:upload_date>2026-07-15</video:upload_date>
@@ -1226,19 +818,7 @@ Kapitel:
     <video:video>
       <video:thumbnail_loc>https://i.ytimg.com/vi/uniE0l9jQH8/hqdefault.jpg</video:thumbnail_loc>
       <video:title>Code Ownership Kills Teams</video:title>
-      <video:description>#refactoring #techdebt #architecture #modernization #softwareengineering
-
-Legacy Code — Code der funktioniert den niemand mehr versteht. Warum Refactoring selten die Lösung ist, Tech Debt kein Kredit sondern eine Last, und Rewrites meistens scheitern. Moderne Alternativen, migrationsstrategien und warum du Legacy Code nicht hassen sondern verstehen solltest.
-
-Kapitel:
-0:00 Legacy Code — das Monster
-0:10 Refactoring ist nicht die Lösung
-0:25 Warum Code altert
-0:40 Der Mensch ist das Problem
-0:55 Fazit: Neu schreiben? Nein.
-
----
-#ragebait #0xRAGE404 #legacycode</video:description>
+      <video:description>Tech debt, refactoring illusions, and code nobody understands.</video:description>
       <video:content_loc>https://www.youtube.com/watch?v=uniE0l9jQH8</video:content_loc>
       <video:player_loc>https://www.youtube.com/embed/uniE0l9jQH8</video:player_loc>
       <video:upload_date>2026-07-15</video:upload_date>
@@ -1258,19 +838,7 @@ Kapitel:
     <video:video>
       <video:thumbnail_loc>https://i.ytimg.com/vi/krs-jX9PdrA/hqdefault.jpg</video:thumbnail_loc>
       <video:title>You think Rust is fine? You're exactly who this is for.</video:title>
-      <video:description>#rustlang #systemsprogramming #lowcode
-
-Rust, Borrow Checker, Ownership, Lifetimes, Unsafe — die Sprache die Memory Safety verspricht und mit der steilsten Lernkurve der Gegenwart bezahlt wird. Warum Rust in Systemprogrammierung dominiert, wo der Compiler zur Geduldsprobe wird, und ob der Preis für garantiert sichere Speicherverwaltung jeden Development-Sprint wert ist. Cargo, Crates.io, Traits, Macros — das Ökosystem unter der Lupe.
-
-Kapitel:
-0:00 Der Rust-Hype unter der Lupe
-0:10 Borrow Checker — Segen oder Fluch
-0:25 Memory Safety um jeden Preis
-0:40 Wo Rust scheitert
-0:55 Fazit: Nicht das Goldene Kalb
-
----
-#ragebait #0xRAGE404 #rust</video:description>
+      <video:description>Borrow checker, ownership, and the steepest learning curve alive.</video:description>
       <video:content_loc>https://www.youtube.com/watch?v=krs-jX9PdrA</video:content_loc>
       <video:player_loc>https://www.youtube.com/embed/krs-jX9PdrA</video:player_loc>
       <video:upload_date>2026-07-14</video:upload_date>
@@ -1290,19 +858,7 @@ Kapitel:
     <video:video>
       <video:thumbnail_loc>https://i.ytimg.com/vi/-OVJTw8bJzs/hqdefault.jpg</video:thumbnail_loc>
       <video:title>No One Owns This Code</video:title>
-      <video:description>#refactoring #techdebt #architecture #modernization #softwareengineering
-
-Legacy Code — Code der funktioniert den niemand mehr versteht. Warum Refactoring selten die Lösung ist, Tech Debt kein Kredit sondern eine Last, und Rewrites meistens scheitern. Moderne Alternativen, migrationsstrategien und warum du Legacy Code nicht hassen sondern verstehen solltest.
-
-Kapitel:
-0:00 Legacy Code — das Monster
-0:10 Refactoring ist nicht die Lösung
-0:25 Warum Code altert
-0:40 Der Mensch ist das Problem
-0:55 Fazit: Neu schreiben? Nein.
-
----
-#ragebait #0xRAGE404 #legacycode</video:description>
+      <video:description>AI hype, LLM delusions, and the Copilot that writes worse code than your intern.</video:description>
       <video:content_loc>https://www.youtube.com/watch?v=-OVJTw8bJzs</video:content_loc>
       <video:player_loc>https://www.youtube.com/embed/-OVJTw8bJzs</video:player_loc>
       <video:upload_date>2026-07-14</video:upload_date>
@@ -1322,19 +878,7 @@ Kapitel:
     <video:video>
       <video:thumbnail_loc>https://i.ytimg.com/vi/K_qxys0kZSI/hqdefault.jpg</video:thumbnail_loc>
       <video:title>TypeScript Made You Slower</video:title>
-      <video:description>#typescript #javascript #frontend #webdev
-
-TypeScript, any, strict mode, type inference, tsconfig — die JavaScript-Erweiterung die Sicherheit verspricht und mit Komplexität bezahlt wird. Warum TypeScript dich langsamer macht, any-Typen die Typsicherheit untergraben, und der Compiler dir eine falsche Sicherheit vorgaukelt. Type Inferenz die keiner versteht, Template-Literal-Types die nie wer nutzt, und die Realität von TypeScript in großen Codebases. Lohnt sich der Overhead wirklich?
-
-Kapitel:
-0:00 TypeScript — falsche Sicherheit
-0:10 any ist kein Type
-0:25 Der Compiler lügt
-0:40 Warum du langsamer wirst
-0:55 Fazit: any &amp; chill
-
----
-#ragebait #0xRAGE404 #typescript</video:description>
+      <video:description>Any type lies, compiler hypocrisy, and false security.</video:description>
       <video:content_loc>https://www.youtube.com/watch?v=K_qxys0kZSI</video:content_loc>
       <video:player_loc>https://www.youtube.com/embed/K_qxys0kZSI</video:player_loc>
       <video:upload_date>2026-07-14</video:upload_date>
@@ -1354,19 +898,7 @@ Kapitel:
     <video:video>
       <video:thumbnail_loc>https://i.ytimg.com/vi/CYSapejXwzI/hqdefault.jpg</video:thumbnail_loc>
       <video:title>Agile Roast — Your Code Is A Disgraceful Nightmare</video:title>
-      <video:description>#agile #scrum #projectmanagement #softwareengineering
-
-Agile, Scrum, Sprint Planning, Daily Standups, Retrospektiven — das Heiligenversprechen der Softwareentwicklung das sich als Bürokratie-Monster entpuppt hat. Story Points sind Schätzungen die nie stimmen. Sprints sind Deadlines im Tarnmantel. Velocity ist eine Kennzahl die nur nach oben zeigt. Warum Agile in den meisten Unternehmen scheitert und wie du trotzdem produktiv sein kannst — ohne Ceremonies die deine Zeit fressen.
-
-Kapitel:
-0:00 Agile ist kein Framework
-0:10 Scrum — das Theater
-0:25 Standups sind Zeitverschwendung
-0:40 Retros — der Circlejerk
-0:55 Fazit: Mach einfach
-
----
-#ragebait #0xRAGE404 #agile</video:description>
+      <video:description>Scrum circus, useless standups, and Agile as a bureaucracy monster.</video:description>
       <video:content_loc>https://www.youtube.com/watch?v=CYSapejXwzI</video:content_loc>
       <video:player_loc>https://www.youtube.com/embed/CYSapejXwzI</video:player_loc>
       <video:upload_date>2026-07-13</video:upload_date>
@@ -1386,19 +918,7 @@ Kapitel:
     <video:video>
       <video:thumbnail_loc>https://i.ytimg.com/vi/sAlCyZJDA0k/hqdefault.jpg</video:thumbnail_loc>
       <video:title>AI Code Deployed to Prod</video:title>
-      <video:description>#ai #chatgpt #copilot #llm #aitools
-
-Prompt Engineering, ChatGPT, Claude, Copilot, LLM-Prompts — die hohe Kunst der richtigen Frage an eine KI. Warum Prompt Engineering kein eigener Beruf ist, Context Windows nicht unendlich, und Temperature-Parameter deine Ergebnisse bestimmen. Few-Shot, Chain-of-Thought, System Prompts — was wirklich funktioniert und was Magie-Denken ist.
-
-Kapitel:
-0:00 Prompt Engineering ist kein Skill
-0:10 Warum deine Prompts scheitern
-0:25 Der Context Window Mythos
-0:40 AI generiert nur Mittelmaß
-0:55 Fazit: Denken lernen
-
----
-#ragebait #0xRAGE404 #promptengineer</video:description>
+      <video:description>AI code garbage, token waste, and vibecoding madness.</video:description>
       <video:content_loc>https://www.youtube.com/watch?v=sAlCyZJDA0k</video:content_loc>
       <video:player_loc>https://www.youtube.com/embed/sAlCyZJDA0k</video:player_loc>
       <video:upload_date>2026-07-13</video:upload_date>
@@ -1418,19 +938,7 @@ Kapitel:
     <video:video>
       <video:thumbnail_loc>https://i.ytimg.com/vi/9W3wgt01Juc/hqdefault.jpg</video:thumbnail_loc>
       <video:title>You Use TypeScript Wrong</video:title>
-      <video:description>#typescript #javascript #frontend #webdev
-
-TypeScript, any, strict mode, type inference, tsconfig — die JavaScript-Erweiterung die Sicherheit verspricht und mit Komplexität bezahlt wird. Warum TypeScript dich langsamer macht, any-Typen die Typsicherheit untergraben, und der Compiler dir eine falsche Sicherheit vorgaukelt. Type Inferenz die keiner versteht, Template-Literal-Types die nie wer nutzt, und die Realität von TypeScript in großen Codebases. Lohnt sich der Overhead wirklich?
-
-Kapitel:
-0:00 TypeScript — falsche Sicherheit
-0:10 any ist kein Type
-0:25 Der Compiler lügt
-0:40 Warum du langsamer wirst
-0:55 Fazit: any &amp; chill
-
----
-#ragebait #0xRAGE404 #typescript</video:description>
+      <video:description>Any type lies, compiler hypocrisy, and false security.</video:description>
       <video:content_loc>https://www.youtube.com/watch?v=9W3wgt01Juc</video:content_loc>
       <video:player_loc>https://www.youtube.com/embed/9W3wgt01Juc</video:player_loc>
       <video:upload_date>2026-07-13</video:upload_date>
@@ -1450,19 +958,7 @@ Kapitel:
     <video:video>
       <video:thumbnail_loc>https://i.ytimg.com/vi/ZhMkqjnYTPA/hqdefault.jpg</video:thumbnail_loc>
       <video:title>AI Code Never Gets Reviewed</video:title>
-      <video:description>#ai #chatgpt #copilot #llm #aitools
-
-Prompt Engineering, ChatGPT, Claude, Copilot, LLM-Prompts — die hohe Kunst der richtigen Frage an eine KI. Warum Prompt Engineering kein eigener Beruf ist, Context Windows nicht unendlich, und Temperature-Parameter deine Ergebnisse bestimmen. Few-Shot, Chain-of-Thought, System Prompts — was wirklich funktioniert und was Magie-Denken ist.
-
-Kapitel:
-0:00 Prompt Engineering ist kein Skill
-0:10 Warum deine Prompts scheitern
-0:25 Der Context Window Mythos
-0:40 AI generiert nur Mittelmaß
-0:55 Fazit: Denken lernen
-
----
-#ragebait #0xRAGE404 #promptengineer</video:description>
+      <video:description>AI hype, LLM delusions, and the Copilot that writes worse code than your intern.</video:description>
       <video:content_loc>https://www.youtube.com/watch?v=ZhMkqjnYTPA</video:content_loc>
       <video:player_loc>https://www.youtube.com/embed/ZhMkqjnYTPA</video:player_loc>
       <video:upload_date>2026-07-12</video:upload_date>
@@ -1482,19 +978,7 @@ Kapitel:
     <video:video>
       <video:thumbnail_loc>https://i.ytimg.com/vi/guKySfKBskU/hqdefault.jpg</video:thumbnail_loc>
       <video:title>Microservices Roast — Build Simple Things Properly</video:title>
-      <video:description>#backend #distributedsystems #architecture #devops
-
-Microservices, Docker, Kubernetes, Service Mesh — verteilte Systeme die keiner mehr überblickt. Aus einem Monolithen wurden 47 Services, jeder mit eigener Datenbank, eigenem Deploy-Zyklus, eigenem Team das niemandem vertraut. Netzwerk-Latenz, Serialisierung-Overhead, Distributed Tracing das nur in der Theorie funktioniert. Warum Microservices meistens falsch sind und wie du erkennst ob du einen verteilten Monolithen gebaut hast.
-
-Kapitel:
-0:00 Microservices — der große Betrug
-0:10 Verteilte Monolithen
-0:25 Netzwerk-Latenz ist nicht kostenlos
-0:40 Warum du sie nicht brauchst
-0:55 Fazit: Einfach lassen
-
----
-#ragebait #0xRAGE404 #microservices</video:description>
+      <video:description>Distributed monoliths, service mesh, and why less is more.</video:description>
       <video:content_loc>https://www.youtube.com/watch?v=guKySfKBskU</video:content_loc>
       <video:player_loc>https://www.youtube.com/embed/guKySfKBskU</video:player_loc>
       <video:upload_date>2026-07-12</video:upload_date>
@@ -1514,19 +998,7 @@ Kapitel:
     <video:video>
       <video:thumbnail_loc>https://i.ytimg.com/vi/EKUHGRKXGAI/hqdefault.jpg</video:thumbnail_loc>
       <video:title>AI Generated Code Is Rot</video:title>
-      <video:description>#ai #chatgpt #copilot #llm #aitools
-
-Prompt Engineering, ChatGPT, Claude, Copilot, LLM-Prompts — die hohe Kunst der richtigen Frage an eine KI. Warum Prompt Engineering kein eigener Beruf ist, Context Windows nicht unendlich, und Temperature-Parameter deine Ergebnisse bestimmen. Few-Shot, Chain-of-Thought, System Prompts — was wirklich funktioniert und was Magie-Denken ist.
-
-Kapitel:
-0:00 Prompt Engineering ist kein Skill
-0:10 Warum deine Prompts scheitern
-0:25 Der Context Window Mythos
-0:40 AI generiert nur Mittelmaß
-0:55 Fazit: Denken lernen
-
----
-#ragebait #0xRAGE404 #promptengineer</video:description>
+      <video:description>AI hype, LLM delusions, and the Copilot that writes worse code than your intern.</video:description>
       <video:content_loc>https://www.youtube.com/watch?v=EKUHGRKXGAI</video:content_loc>
       <video:player_loc>https://www.youtube.com/embed/EKUHGRKXGAI</video:player_loc>
       <video:upload_date>2026-07-11</video:upload_date>
@@ -1546,19 +1018,7 @@ Kapitel:
     <video:video>
       <video:thumbnail_loc>https://i.ytimg.com/vi/DLxW5m9B2nM/hqdefault.jpg</video:thumbnail_loc>
       <video:title>CSS Roast — You Can't Even Spell Semantic</video:title>
-      <video:description>#css #frontend #webdev #ui
-
-CSS specificity wars, Tailwind utility-first dogmatism, CSS-in-JS runtime costs — jeder Frontend-Entwickler kennt den Schmerz. Stylesheets die niemand mehr versteht, !important als Architekturprinzip, Box-Model Überraschungen die deine Freitagnacht ruinieren. CSS ist kein Design-Tool — es ist ein Kampfsport. Ob du SASS, LESS, CSS Modules oder Styled Components nutzt: am Ende kämpfst du gegen denselben Browser der deine Flexbox mal wieder anders interpretiert als du dachtest.
-
-Kapitel:
-0:00 Der fundamentale Irrtum in CSS
-0:10 Warum Frameworks ein Krückstock sind
-0:25 Specificity — die Hölle auf Erden
-0:40 Was Frontend-Devs nicht wahrhaben wollen
-0:55 Fazit: CSS ist ein Dumpster Fire
-
----
-#ragebait #0xRAGE404 #css</video:description>
+      <video:description>CSS specificity wars, Tailwind dogma, and the !important pain.</video:description>
       <video:content_loc>https://www.youtube.com/watch?v=DLxW5m9B2nM</video:content_loc>
       <video:player_loc>https://www.youtube.com/embed/DLxW5m9B2nM</video:player_loc>
       <video:upload_date>2026-07-11</video:upload_date>
@@ -1578,19 +1038,7 @@ Kapitel:
     <video:video>
       <video:thumbnail_loc>https://i.ytimg.com/vi/zKvStXVlqn8/hqdefault.jpg</video:thumbnail_loc>
       <video:title>Merge Conflicts Are Preventable</video:title>
-      <video:description>#programming #tech #rant
-
-Merge Conflicts, Spaghetti Layouts, Code Ownership-Wahnsinn — das vermeidbare Chaos der Softwareentwicklung. Warum Merge Conflicts entstehen, Code Reviews scheitern, und Git Negligence mehr Schaden anrichtet als schlechter Code. Kleine PRs, Feature Branches, trunk-based development — die Basics die keiner befolgt.
-
-Kapitel:
-0:00 Merge Conflicts — das vermeidbare Chaos
-0:10 Warum Code Reviews scheitern
-0:25 Spaghetti Layouts entstehen durch Git Negligence
-0:40 Code Ownership verhindert Zusammenarbeit
-0:55 Fazit: Kleine PRs retten Leben
-
----
-#ragebait #0xRAGE404 #log_dump</video:description>
+      <video:description>Reproducibility, CI/CD, and the biggest lie in software engineering.</video:description>
       <video:content_loc>https://www.youtube.com/watch?v=zKvStXVlqn8</video:content_loc>
       <video:player_loc>https://www.youtube.com/embed/zKvStXVlqn8</video:player_loc>
       <video:upload_date>2026-07-10</video:upload_date>
@@ -1610,19 +1058,7 @@ Kapitel:
     <video:video>
       <video:thumbnail_loc>https://i.ytimg.com/vi/lyl4M5u7TJU/hqdefault.jpg</video:thumbnail_loc>
       <video:title>AI Generated Code Is Technical Debt</video:title>
-      <video:description>#ai #chatgpt #copilot #llm #aitools
-
-Prompt Engineering, ChatGPT, Claude, Copilot, LLM-Prompts — die hohe Kunst der richtigen Frage an eine KI. Warum Prompt Engineering kein eigener Beruf ist, Context Windows nicht unendlich, und Temperature-Parameter deine Ergebnisse bestimmen. Few-Shot, Chain-of-Thought, System Prompts — was wirklich funktioniert und was Magie-Denken ist.
-
-Kapitel:
-0:00 Prompt Engineering ist kein Skill
-0:10 Warum deine Prompts scheitern
-0:25 Der Context Window Mythos
-0:40 AI generiert nur Mittelmaß
-0:55 Fazit: Denken lernen
-
----
-#ragebait #0xRAGE404 #promptengineer</video:description>
+      <video:description>AI code garbage, token waste, and vibecoding madness.</video:description>
       <video:content_loc>https://www.youtube.com/watch?v=lyl4M5u7TJU</video:content_loc>
       <video:player_loc>https://www.youtube.com/embed/lyl4M5u7TJU</video:player_loc>
       <video:upload_date>2026-07-10</video:upload_date>
@@ -1642,19 +1078,7 @@ Kapitel:
     <video:video>
       <video:thumbnail_loc>https://i.ytimg.com/vi/HzqSWNm6P2s/hqdefault.jpg</video:thumbnail_loc>
       <video:title>Code Ownership Is Stupid</video:title>
-      <video:description>#refactoring #techdebt #architecture #modernization #softwareengineering
-
-Legacy Code — Code der funktioniert den niemand mehr versteht. Warum Refactoring selten die Lösung ist, Tech Debt kein Kredit sondern eine Last, und Rewrites meistens scheitern. Moderne Alternativen, migrationsstrategien und warum du Legacy Code nicht hassen sondern verstehen solltest.
-
-Kapitel:
-0:00 Legacy Code — das Monster
-0:10 Refactoring ist nicht die Lösung
-0:25 Warum Code altert
-0:40 Der Mensch ist das Problem
-0:55 Fazit: Neu schreiben? Nein.
-
----
-#ragebait #0xRAGE404 #legacycode</video:description>
+      <video:description>Tech debt, refactoring illusions, and code nobody understands.</video:description>
       <video:content_loc>https://www.youtube.com/watch?v=HzqSWNm6P2s</video:content_loc>
       <video:player_loc>https://www.youtube.com/embed/HzqSWNm6P2s</video:player_loc>
       <video:upload_date>2026-07-10</video:upload_date>
@@ -1674,19 +1098,7 @@ Kapitel:
     <video:video>
       <video:thumbnail_loc>https://i.ytimg.com/vi/aHG2XWluR4E/hqdefault.jpg</video:thumbnail_loc>
       <video:title>Refactor Is Just Rewriting With Extra Steps</video:title>
-      <video:description>#refactoring #techdebt #architecture #modernization #softwareengineering
-
-Legacy Code — Code der funktioniert den niemand mehr versteht. Warum Refactoring selten die Lösung ist, Tech Debt kein Kredit sondern eine Last, und Rewrites meistens scheitern. Moderne Alternativen, migrationsstrategien und warum du Legacy Code nicht hassen sondern verstehen solltest.
-
-Kapitel:
-0:00 Legacy Code — das Monster
-0:10 Refactoring ist nicht die Lösung
-0:25 Warum Code altert
-0:40 Der Mensch ist das Problem
-0:55 Fazit: Neu schreiben? Nein.
-
----
-#ragebait #0xRAGE404 #legacycode</video:description>
+      <video:description>Tech debt, refactoring illusions, and code nobody understands.</video:description>
       <video:content_loc>https://www.youtube.com/watch?v=aHG2XWluR4E</video:content_loc>
       <video:player_loc>https://www.youtube.com/embed/aHG2XWluR4E</video:player_loc>
       <video:upload_date>2026-07-10</video:upload_date>
@@ -1706,19 +1118,7 @@ Kapitel:
     <video:video>
       <video:thumbnail_loc>https://i.ytimg.com/vi/LfDH0Qa2bpQ/hqdefault.jpg</video:thumbnail_loc>
       <video:title>Yoinked - Your Code Just Got Stolen</video:title>
-      <video:description>#overengineering #architecture #complexity #techdebt #kiss
-
-Overengineering, Premature Optimization, Architecture Astronauts — der Drang jedes Problem mit einer überdimensionierten Lösung zu beantworten. Microservices für eine Todo-App, Event-Sourcing für ein Blog, Kubernetes für drei Container — warum wir immer komplexer bauen als nötig. Einfachheit als Architekturprinzip.
-
-Kapitel:
-0:00 Overengineering — der Feind des Guten
-0:10 Microservices für ne Todo-App
-0:25 Der Jarvis-Clone
-0:40 Warum Einfachheit gewinnt
-0:55 Fazit: KISS
-
----
-#ragebait #0xRAGE404 #overengineering</video:description>
+      <video:description>Tech debt, refactoring illusions, and code nobody understands.</video:description>
       <video:content_loc>https://www.youtube.com/watch?v=LfDH0Qa2bpQ</video:content_loc>
       <video:player_loc>https://www.youtube.com/embed/LfDH0Qa2bpQ</video:player_loc>
       <video:upload_date>2026-07-10</video:upload_date>
@@ -1738,19 +1138,7 @@ Kapitel:
     <video:video>
       <video:thumbnail_loc>https://i.ytimg.com/vi/2sWnTEhuZTs/hqdefault.jpg</video:thumbnail_loc>
       <video:title>Your Senior Dev Just Copy-Pasted From StackOverflow Again</video:title>
-      <video:description>#overengineering #architecture #complexity #techdebt #kiss
-
-Overengineering, Premature Optimization, Architecture Astronauts — der Drang jedes Problem mit einer überdimensionierten Lösung zu beantworten. Microservices für eine Todo-App, Event-Sourcing für ein Blog, Kubernetes für drei Container — warum wir immer komplexer bauen als nötig. Einfachheit als Architekturprinzip.
-
-Kapitel:
-0:00 Overengineering — der Feind des Guten
-0:10 Microservices für ne Todo-App
-0:25 Der Jarvis-Clone
-0:40 Warum Einfachheit gewinnt
-0:55 Fazit: KISS
-
----
-#ragebait #0xRAGE404 #overengineering</video:description>
+      <video:description>Tech debt, refactoring illusions, and code nobody understands.</video:description>
       <video:content_loc>https://www.youtube.com/watch?v=2sWnTEhuZTs</video:content_loc>
       <video:player_loc>https://www.youtube.com/embed/2sWnTEhuZTs</video:player_loc>
       <video:upload_date>2026-07-10</video:upload_date>
@@ -1770,19 +1158,7 @@ Kapitel:
     <video:video>
       <video:thumbnail_loc>https://i.ytimg.com/vi/giRGocLUL5o/hqdefault.jpg</video:thumbnail_loc>
       <video:title>AI-Generated Code Will Destroy Your Production — Guaranteed</video:title>
-      <video:description>#programming #tech #rant
-
-Merge Conflicts, Spaghetti Layouts, Code Ownership-Wahnsinn — das vermeidbare Chaos der Softwareentwicklung. Warum Merge Conflicts entstehen, Code Reviews scheitern, und Git Negligence mehr Schaden anrichtet als schlechter Code. Kleine PRs, Feature Branches, trunk-based development — die Basics die keiner befolgt.
-
-Kapitel:
-0:00 Merge Conflicts — das vermeidbare Chaos
-0:10 Warum Code Reviews scheitern
-0:25 Spaghetti Layouts entstehen durch Git Negligence
-0:40 Code Ownership verhindert Zusammenarbeit
-0:55 Fazit: Kleine PRs retten Leben
-
----
-#ragebait #0xRAGE404 #log_dump</video:description>
+      <video:description>AI security is theater, documented failures, and the bill coming due.</video:description>
       <video:content_loc>https://www.youtube.com/watch?v=giRGocLUL5o</video:content_loc>
       <video:player_loc>https://www.youtube.com/embed/giRGocLUL5o</video:player_loc>
       <video:upload_date>2026-07-10</video:upload_date>
@@ -1802,19 +1178,7 @@ Kapitel:
     <video:video>
       <video:thumbnail_loc>https://i.ytimg.com/vi/UD43J-rItu4/hqdefault.jpg</video:thumbnail_loc>
       <video:title>Why Code Ownership Is a Lie</video:title>
-      <video:description>#rustlang #systemsprogramming #lowcode
-
-Rust, Borrow Checker, Ownership, Lifetimes, Unsafe — die Sprache die Memory Safety verspricht und mit der steilsten Lernkurve der Gegenwart bezahlt wird. Warum Rust in Systemprogrammierung dominiert, wo der Compiler zur Geduldsprobe wird, und ob der Preis für garantiert sichere Speicherverwaltung jeden Development-Sprint wert ist. Cargo, Crates.io, Traits, Macros — das Ökosystem unter der Lupe.
-
-Kapitel:
-0:00 Der Rust-Hype unter der Lupe
-0:10 Borrow Checker — Segen oder Fluch
-0:25 Memory Safety um jeden Preis
-0:40 Wo Rust scheitert
-0:55 Fazit: Nicht das Goldene Kalb
-
----
-#ragebait #0xRAGE404 #rust</video:description>
+      <video:description>AI security is theater, documented failures, and the bill coming due.</video:description>
       <video:content_loc>https://www.youtube.com/watch?v=UD43J-rItu4</video:content_loc>
       <video:player_loc>https://www.youtube.com/embed/UD43J-rItu4</video:player_loc>
       <video:upload_date>2026-07-10</video:upload_date>
@@ -1834,19 +1198,7 @@ Kapitel:
     <video:video>
       <video:thumbnail_loc>https://i.ytimg.com/vi/3Xjfp6EpSG8/hqdefault.jpg</video:thumbnail_loc>
       <video:title>You Can't Build Anything — But Sure, Make It Faster</video:title>
-      <video:description>#overengineering #architecture #complexity #techdebt #kiss
-
-Overengineering, Premature Optimization, Architecture Astronauts — der Drang jedes Problem mit einer überdimensionierten Lösung zu beantworten. Microservices für eine Todo-App, Event-Sourcing für ein Blog, Kubernetes für drei Container — warum wir immer komplexer bauen als nötig. Einfachheit als Architekturprinzip.
-
-Kapitel:
-0:00 Overengineering — der Feind des Guten
-0:10 Microservices für ne Todo-App
-0:25 Der Jarvis-Clone
-0:40 Warum Einfachheit gewinnt
-0:55 Fazit: KISS
-
----
-#ragebait #0xRAGE404 #overengineering</video:description>
+      <video:description>Microservices for todo apps and the death of KISS.</video:description>
       <video:content_loc>https://www.youtube.com/watch?v=3Xjfp6EpSG8</video:content_loc>
       <video:player_loc>https://www.youtube.com/embed/3Xjfp6EpSG8</video:player_loc>
       <video:upload_date>2026-07-10</video:upload_date>
@@ -1866,19 +1218,7 @@ Kapitel:
     <video:video>
       <video:thumbnail_loc>https://i.ytimg.com/vi/6OAudnLszpg/hqdefault.jpg</video:thumbnail_loc>
       <video:title>[ LOG_DUMP: merge_conflicts ] - Spaghetti Layout</video:title>
-      <video:description>#programming #tech #rant
-
-Merge Conflicts, Spaghetti Layouts, Code Ownership-Wahnsinn — das vermeidbare Chaos der Softwareentwicklung. Warum Merge Conflicts entstehen, Code Reviews scheitern, und Git Negligence mehr Schaden anrichtet als schlechter Code. Kleine PRs, Feature Branches, trunk-based development — die Basics die keiner befolgt.
-
-Kapitel:
-0:00 Merge Conflicts — das vermeidbare Chaos
-0:10 Warum Code Reviews scheitern
-0:25 Spaghetti Layouts entstehen durch Git Negligence
-0:40 Code Ownership verhindert Zusammenarbeit
-0:55 Fazit: Kleine PRs retten Leben
-
----
-#ragebait #0xRAGE404 #log_dump</video:description>
+      <video:description>Internal pipeline log dump from the suckz engine.</video:description>
       <video:content_loc>https://www.youtube.com/watch?v=6OAudnLszpg</video:content_loc>
       <video:player_loc>https://www.youtube.com/embed/6OAudnLszpg</video:player_loc>
       <video:upload_date>2026-07-10</video:upload_date>
@@ -1898,19 +1238,7 @@ Kapitel:
     <video:video>
       <video:thumbnail_loc>https://i.ytimg.com/vi/-QW0o8tFzgA/hqdefault.jpg</video:thumbnail_loc>
       <video:title>Pull Requests Are Broken - Heres Why</video:title>
-      <video:description>#programming #tech #rant
-
-Merge Conflicts, Spaghetti Layouts, Code Ownership-Wahnsinn — das vermeidbare Chaos der Softwareentwicklung. Warum Merge Conflicts entstehen, Code Reviews scheitern, und Git Negligence mehr Schaden anrichtet als schlechter Code. Kleine PRs, Feature Branches, trunk-based development — die Basics die keiner befolgt.
-
-Kapitel:
-0:00 Merge Conflicts — das vermeidbare Chaos
-0:10 Warum Code Reviews scheitern
-0:25 Spaghetti Layouts entstehen durch Git Negligence
-0:40 Code Ownership verhindert Zusammenarbeit
-0:55 Fazit: Kleine PRs retten Leben
-
----
-#ragebait #0xRAGE404 #log_dump</video:description>
+      <video:description>Reproducibility, CI/CD, and the biggest lie in software engineering.</video:description>
       <video:content_loc>https://www.youtube.com/watch?v=-QW0o8tFzgA</video:content_loc>
       <video:player_loc>https://www.youtube.com/embed/-QW0o8tFzgA</video:player_loc>
       <video:upload_date>2026-07-10</video:upload_date>
