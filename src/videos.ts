@@ -13,7 +13,10 @@ export interface Video {
 }
 
 export const VIDEOS: Video[] = [
+  { id: "qb4mMFsH56I", title: "The Serverless Lie Nobody Talks About", topic: "ai", blurb: "AI hype, LLM delusions, and the Copilot that writes worse code than your intern.", file: "qb4mMFsH56I", thumb: true, date: "2026-07-26", public: true },
   { id: "H-nAXQJ1pnw", title: "React Devs Can't Write CSS and It Shows", topic: "react", blurb: "React Hooks, VDOM myths, and frontend framework drama.", file: "H-nAXQJ1pnw", thumb: true, date: "2026-07-25", public: true },
+  { id: "At8oqXsvD44", title: "Serverless Cost Horror Story", topic: "ai", blurb: "AI hype, LLM delusions, and the Copilot that writes worse code than your intern.", file: "At8oqXsvD44", thumb: true, date: "2026-07-25", public: true },
+  { id: "-xBVsPrUjKI", title: "Debugging Serverless is Archaeological Excavation", topic: "ai", blurb: "AI hype, LLM delusions, and the Copilot that writes worse code than your intern.", file: "-xBVsPrUjKI", thumb: true, date: "2026-07-25", public: true },
   { id: "xCGOqyL9E2o", title: "Vendor Lock-in is a Hostage Situation", topic: "ai", blurb: "AI hype, LLM delusions, and the Copilot that writes worse code than your intern.", file: "xCGOqyL9E2o", thumb: true, date: "2026-07-25", public: true },
   { id: "XTZPC9sqADg", title: "Cold Starts Are a Total Scam", topic: "ai", blurb: "AI hype, LLM delusions, and the Copilot that writes worse code than your intern.", file: "XTZPC9sqADg", thumb: true, date: "2026-07-25", public: true },
   { id: "O27Xraull2U", title: "Server is the Worst Trend in Development", topic: "ai", blurb: "AI hype, LLM delusions, and the Copilot that writes worse code than your intern.", file: "O27Xraull2U", thumb: true, date: "2026-07-25", public: true },
@@ -79,7 +82,4 @@ export const VIDEOS: Video[] = [
   { id: "3Xjfp6EpSG8", title: "You Can't Build Anything — But Sure, Make It Faster", topic: "overengineering", blurb: "Microservices for todo apps and the death of KISS.", file: "3Xjfp6EpSG8", thumb: true, date: "2026-07-10", public: true },
   { id: "6OAudnLszpg", title: "[ LOG_DUMP: merge_conflicts ] - Spaghetti Layout", topic: "log_dump", blurb: "Internal pipeline log dump from the suckz engine.", file: "6OAudnLszpg", thumb: true, date: "2026-07-10", public: true },
   { id: "-QW0o8tFzgA", title: "Pull Requests Are Broken - Heres Why", topic: "worksonmymachine", blurb: "Reproducibility, CI/CD, and the biggest lie in software engineering.", file: "-QW0o8tFzgA", thumb: true, date: "2026-07-10", public: true },
-  { id: "qb4mMFsH56I", title: "The Serverless Lie Nobody Talks About", topic: "ai", blurb: "AI hype, LLM delusions, and the Copilot that writes worse code than your intern.", file: "qb4mMFsH56I", thumb: false, date: "2026-07-25", public: false },
-  { id: "-xBVsPrUjKI", title: "Debugging Serverless is Archaeological Excavation", topic: "ai", blurb: "AI hype, LLM delusions, and the Copilot that writes worse code than your intern.", file: "-xBVsPrUjKI", thumb: false, date: "2026-07-25", public: false },
-  { id: "At8oqXsvD44", title: "Serverless Cost Horror Story", topic: "ai", blurb: "AI hype, LLM delusions, and the Copilot that writes worse code than your intern.", file: "At8oqXsvD44", thumb: false, date: "2026-07-25", public: false },
 ];
