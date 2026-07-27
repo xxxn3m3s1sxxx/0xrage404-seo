@@ -13,6 +13,7 @@ export interface Video {
 }
 
 export const VIDEOS: Video[] = [
+  { id: "Mr1-7Y_jH14", title: "Work-Life Balance Is a Corporate Fairy Tale", topic: "hustleculture", blurb: "Burnout, toxic productivity, and the self-optimization trap.", file: "Mr1-7Y_jH14", thumb: true, date: "2026-07-27", public: true },
   { id: "suonT_y7fz8", title: "Burnout Is Inevitable and Your Company Planned It", topic: "ai", blurb: "AI hype, LLM delusions, and the Copilot that writes worse code than your intern.", file: "None", thumb: true, date: "2026-07-26", public: true },
   { id: "qb4mMFsH56I", title: "The Serverless Lie Nobody Talks About", topic: "ai", blurb: "AI hype, LLM delusions, and the Copilot that writes worse code than your intern.", file: "qb4mMFsH56I", thumb: true, date: "2026-07-26", public: true },
   { id: "H-nAXQJ1pnw", title: "React Devs Can't Write CSS and It Shows", topic: "react", blurb: "React Hooks, VDOM myths, and frontend framework drama.", file: "H-nAXQJ1pnw", thumb: true, date: "2026-07-25", public: true },
