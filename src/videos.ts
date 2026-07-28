@@ -13,6 +13,7 @@ export interface Video {
 }
 
 export const VIDEOS: Video[] = [
+  { id: "wzyVAtU-nOw", title: "Your CI Pipeline Is Theater", topic: "worksonmymachine", blurb: "Reproducibility, CI/CD, and the biggest lie in software engineering.", file: "wzyVAtU-nOw", thumb: true, date: "2026-07-28", public: true },
   { id: "Mr1-7Y_jH14", title: "Work-Life Balance Is a Corporate Fairy Tale", topic: "hustleculture", blurb: "Burnout, toxic productivity, and the self-optimization trap.", file: "Mr1-7Y_jH14", thumb: true, date: "2026-07-27", public: true },
   { id: "suonT_y7fz8", title: "Burnout Is Inevitable and Your Company Planned It", topic: "ai", blurb: "AI hype, LLM delusions, and the Copilot that writes worse code than your intern.", file: "None", thumb: true, date: "2026-07-26", public: true },
   { id: "qb4mMFsH56I", title: "The Serverless Lie Nobody Talks About", topic: "ai", blurb: "AI hype, LLM delusions, and the Copilot that writes worse code than your intern.", file: "qb4mMFsH56I", thumb: true, date: "2026-07-26", public: true },
