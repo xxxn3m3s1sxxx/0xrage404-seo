@@ -3,28 +3,28 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Transcript: Kubernetes Is Too Complex &mdash; @0xRAGE.404</title>
-  <meta name="description" content="Full transcript: Kubernetes Is Too Complex" />
-  <meta name="keywords" content="ai, 0xRAGE404, transcript, developer rant" />
+  <title>Transcript: Debugging Serverless is Archaeological Excavation &mdash; @0xRAGE.404</title>
+  <meta name="description" content="Full transcript: Debugging Serverless is Archaeological Excavation" />
+  <meta name="keywords" content="serverless, 0xRAGE404, transcript, developer rant" />
   <meta name="author" content="@0xRAGE.404" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Wallpoet&display=swap" rel="stylesheet" />
   <link rel="canonical" href="https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/-xBVsPrUjKI.html" />
-  <meta property="og:title" content="Transcript: Kubernetes Is Too Complex &mdash; @0xRAGE.404" />
+  <meta property="og:title" content="Transcript: Debugging Serverless is Archaeological Excavation &mdash; @0xRAGE.404" />
   <meta property="og:url" content="https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/-xBVsPrUjKI.html" />
   <meta property="og:type" content="website" />
   <meta property="og:image" content="https://i.ytimg.com/vi/-xBVsPrUjKI/hqdefault.jpg" />
   <meta name="twitter:image" content="https://i.ytimg.com/vi/-xBVsPrUjKI/hqdefault.jpg" />
-  <meta property="og:description" content="Full transcript: Kubernetes Is Too Complex" />
+  <meta property="og:description" content="Full transcript: Debugging Serverless is Archaeological Excavation" />
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Transcript: Kubernetes Is Too Complex &mdash; @0xRAGE.404" />
-  <meta name="twitter:description" content="Full transcript: Kubernetes Is Too Complex" />
+  <meta name="twitter:title" content="Transcript: Debugging Serverless is Archaeological Excavation &mdash; @0xRAGE.404" />
+  <meta name="twitter:description" content="Full transcript: Debugging Serverless is Archaeological Excavation" />
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "Article",
-  "headline": "Kubernetes Is Too Complex",
+  "headline": "Debugging Serverless is Archaeological Excavation",
   "description": "",
   "author": {
     "@type": "Person",
@@ -34,7 +34,7 @@
   "datePublished": "2026-07-15T00:00:00Z",
   "video": {
     "@type": "VideoObject",
-    "name": "Kubernetes Is Too Complex",
+    "name": "Debugging Serverless is Archaeological Excavation",
     "thumbnailUrl": "https://i.ytimg.com/vi/-xBVsPrUjKI/hqdefault.jpg",
     "contentUrl": "https://www.youtube.com/watch?v=-xBVsPrUjKI",
     "embedUrl": "https://www.youtube.com/embed/-xBVsPrUjKI"
@@ -42,7 +42,7 @@
   "hasPart": {
     "@type": "Clip",
     "name": "Full Transcript",
-    "text": "#kubernetes #k8s #orchestration #devops\n\nKubernetes, K8s, Pods, Deployments, Services, Ingress, Helm — der Orchestrierungs-Standard der aus 3 YAMLs schnell 300 macht. Warum K8s für 90% der Teams Overkill ist, was Operator wirklich bringen, und warum du Netzwerk, Storage und Security in einem Cluster niemals komplett im Griff hast. Von etcd-Ausfällen bis CNI-Konflikten — die Schmerzpunkte die niemand in den Conference-Talks erwähnt.\n\nKapitel:\n0:00 Kubernetes — das YAML-Fiasko\n0:10 Warum K8s zu komplex ist\n0:25 Der Operator-Wahnsinn\n0:40 Was wirklich weh tut\n0:55 Fazit: Zurück zu Docker Compose\n\n---\n#ragebait #0xRAGE404"
+    "text": "Serverless means someone else's server plus your credit card. Cold starts kill your latency. The bill grows while you sleep. The patch: provisioned concurrency or a $5 VPS you actually control. Full transcript & discussion: https://xxxn3m3s1sxxx.github.io/0xrage404-seo/watch/-xBVsPrUjKI TACTICAL DEBRIEF | Target: serverless | Stack: serverless, cold start, vendor lock EXPLOIT TIMELINE: 0:00 The Bait — no servers to manage (the bill manages you) 0:10 The Vulnerability — cold starts destroy UX 0:25 The Exploit — pay-per-execution scales costs faster than revenue 0:40 The Collateral — vendor lock-in is the architecture 0:55 The Patch — provisioned concurrency or a real server // TACTICAL_PATCH: Use provisioned concurrency for latency-critical paths. Or just rent a $5 VPS. // HIDDEN_PAYLOAD: a3ViZXJuZXRlcyBpcyBub3QgeW91ciBpZGVudGl0eSAgLy8gLXhCVnNQclU="
   }
 }
   </script>
@@ -72,29 +72,20 @@
   </style>
 </head>
 <body>
-  <h1>Transcript: Kubernetes Is Too Complex</h1>
+  <h1>Transcript: Debugging Serverless is Archaeological Excavation</h1>
   <div class="meta">
   <footer>
     <p>Follow <a class="brand" href="https://youtube.com/@0xRAGE.404" target="_blank"><span class="at">@</span>0xRAGE.404 on YouTube</a></p>
   </footer>
     <span> &middot; </span>
-    <span>#ai</span>
+    <span>#serverless</span>
     <span> &middot; </span>
     <a href="https://www.youtube.com/watch?v=-xBVsPrUjKI" target="_blank">Watch on YouTube</a>
     <span> &middot; </span>
     <a href="https://xxxn3m3s1sxxx.github.io/0xrage404-seo/">Back to all videos</a>
   </div>
   <div class="transcript">
-      <p>#kubernetes #k8s #orchestration #devops</p>
-      <p>Kubernetes, K8s, Pods, Deployments, Services, Ingress, Helm — der Orchestrierungs-Standard der aus 3 YAMLs schnell 300 macht. Warum K8s für 90% der Teams Overkill ist, was Operator wirklich bringen, und warum du Netzwerk, Storage und Security in einem Cluster niemals komplett im Griff hast. Von etcd-Ausfällen bis CNI-Konflikten — die Schmerzpunkte die niemand in den Conference-Talks erwähnt.</p>
-      <p>Kapitel:</p>
-      <p>0:00 Kubernetes — das YAML-Fiasko</p>
-      <p>0:10 Warum K8s zu komplex ist</p>
-      <p>0:25 Der Operator-Wahnsinn</p>
-      <p>0:40 Was wirklich weh tut</p>
-      <p>0:55 Fazit: Zurück zu Docker Compose</p>
-      <p>---</p>
-      <p>#ragebait #0xRAGE404</p>
+      <p>Serverless means someone else's server plus your credit card. Cold starts kill your latency. The bill grows while you sleep. The patch: provisioned concurrency or a $5 VPS you actually control. Full transcript &amp; discussion: https://xxxn3m3s1sxxx.github.io/0xrage404-seo/watch/-xBVsPrUjKI TACTICAL DEBRIEF | Target: serverless | Stack: serverless, cold start, vendor lock EXPLOIT TIMELINE: 0:00 The Bait — no servers to manage (the bill manages you) 0:10 The Vulnerability — cold starts destroy UX 0:25 The Exploit — pay-per-execution scales costs faster than revenue 0:40 The Collateral — vendor lock-in is the architecture 0:55 The Patch — provisioned concurrency or a real server // TACTICAL_PATCH: Use provisioned concurrency for latency-critical paths. Or just rent a $5 VPS. // HIDDEN_PAYLOAD: a3ViZXJuZXRlcyBpcyBub3QgeW91ciBpZGVudGl0eSAgLy8gLXhCVnNQclU=</p>
   </div>
 </body>
 </html>
