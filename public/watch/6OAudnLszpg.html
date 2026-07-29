@@ -63,10 +63,22 @@
     .meta a{color:#0f0;text-decoration:none}
     .meta a:hover{text-decoration:underline}
     .topic{display:inline-block;padding:.15rem .5rem;border:1px solid #0f04;color:#0f0;font-size:.65rem;border-radius:3px;text-transform:uppercase;letter-spacing:.1em}
-    .blurb{font-size:.9rem;color:#999;margin-bottom:1.5rem;border-left:2px solid #0f03;padding-left:1rem}
-    .transcript{margin-top:2rem;border-top:1px solid #1a1a1a;padding-top:1.5rem}
-    .transcript h2{color:#0f0;font-size:1.1rem;margin-bottom:1rem;font-family:"Wallpoet",monospace}
-    .transcript p{margin-bottom:1rem;font-size:.95rem;color:#aaa}
+
+    .tactical-section{margin-bottom:1.5rem;border-left:2px solid #0f04;padding-left:1rem}
+    .section-title{color:#0f0;font-family:'Wallpoet',monospace;font-size:.75rem;text-transform:uppercase;letter-spacing:.12em;margin-bottom:.5rem}
+    .debrief-line{color:#aaa;font-size:.85rem;font-family:monospace;padding:.3rem .6rem;background:#0f006;border:1px solid #0f03;border-radius:4px;display:inline-block}
+    .chapter-list{list-style:none;padding:0;margin:0}
+    .chapter-item{display:flex;gap:.8rem;padding:.25rem 0;font-size:.85rem;border-bottom:1px solid #0f01;align-items:baseline}
+    .chapter-item:last-child{border-bottom:none}
+    .chapter-time{color:#0f0;font-family:monospace;white-space:nowrap;min-width:4rem;font-weight:bold}
+    .chapter-desc{color:#aaa}
+    .code-block{background:#0a0a0f;border:1px solid #0f03;border-radius:4px;padding:.8rem 1rem;font-family:monospace;font-size:.82rem;color:#0f0;overflow-x:auto;line-height:1.5}
+    .payload-box{display:flex;align-items:center;gap:.8rem;flex-wrap:wrap}
+    .payload-text{font-family:monospace;font-size:.82rem;color:#666;background:#0a0a0f;padding:.3rem .6rem;border:1px solid #333;border-radius:3px;letter-spacing:.05em}
+    .decode-btn{background:#0f01;color:#0f0;border:1px solid #0f03;padding:.25rem .6rem;border-radius:3px;cursor:pointer;font-size:.75rem;font-family:monospace;transition:all .2s}
+    .decode-btn:hover{background:#0f03}
+    .decoded-text{color:#ff4444;font-size:.82rem;font-family:monospace;padding:.3rem .6rem;background:#1a0000;border:1px solid #ff4444;border-radius:3px;cursor:pointer}
+
     .brand{font-family:"Wallpoet",cursive;letter-spacing:.03em;color:#ff4444}
     .brand .at{font-size:.55em;vertical-align:.15em}
     footer{max-width:900px;margin:3rem auto 0;padding:1.5rem 1rem;border-top:1px solid #1a1a1a;font-size:.8rem;color:#555}
@@ -86,7 +98,34 @@
       <a href="https://www.youtube.com/watch?v=6OAudnLszpg" target="_blank" rel="noopener">Watch on YouTube</a>
       <a href="https://xxxn3m3s1sxxx.github.io/0xrage404-seo/">All Videos</a>
     </div>
-    <p class="blurb">Internal pipeline log dump from the suckz engine.</p>
+    <div class="tactical-sections">
+      <div class="tactical-section debrief">
+        <h3 class="section-title">TACTICAL DEBRIEF</h3>
+        <div class="debrief-line">TACTICAL DEBRIEF | Target: log_dump | Stack: log dump, merge conflict, spaghetti, proxy yell, pull request</div>
+      </div>
+    <div class="tactical-section timeline">
+      <h3 class="section-title">EXPLOIT TIMELINE</h3>
+      <ol class="chapter-list">
+      <li class="chapter-item"><span class="chapter-time">0:00</span><span class="chapter-desc">The Bait — merge conflicts happen (they're a symptom)</span></li>
+      <li class="chapter-item"><span class="chapter-time">0:10</span><span class="chapter-desc">The Vulnerability — code reviews are theater</span></li>
+      <li class="chapter-item"><span class="chapter-time">0:25</span><span class="chapter-desc">The Exploit — git negligence is expensive</span></li>
+      <li class="chapter-item"><span class="chapter-time">0:40</span><span class="chapter-desc">The Collateral — ownership prevents collaboration</span></li>
+      <li class="chapter-item"><span class="chapter-time">0:55</span><span class="chapter-desc">The Patch — small PRs, trunk-based, shared ownership</span></li>
+      </ol>
+    </div>
+    <div class="tactical-section patch">
+      <h3 class="section-title">// TACTICAL_PATCH</h3>
+      <pre class="code-block"><code>Small PRs. Trunk-based development. Shared code ownership. No exceptions.</code></pre>
+    </div>
+    <div class="tactical-section payload">
+      <h3 class="section-title">// HIDDEN_PAYLOAD</h3>
+      <div class="payload-box">
+        <code class="payload-text">cmVzdCA+IGh1c3RsZSwgYWx3YXlz</code>
+        <button class="decode-btn" onclick="var d=this.nextElementSibling;d.textContent=atob(this.previousElementSibling.textContent);d.style.display='inline';this.style.display='none'">Decode</button>
+        <div class="decoded-text" style="display:none"></div>
+      </div>
+    </div>
+    </div>
     <div class="transcript">
       <h2>Transcript</h2>
 
