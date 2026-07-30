@@ -108,10 +108,10 @@
       <h3 class="section-title">EXPLOIT TIMELINE</h3>
       <ol class="chapter-list">
       <li class="chapter-item"><span class="chapter-time">0:00</span><span class="chapter-desc">The Bait — K8s is production-grade (it's complexity-grade)</span></li>
-      <li class="chapter-item"><span class="chapter-time">0:10</span><span class="chapter-desc">The Vulnerability — your operator has an operator</span></li>
-      <li class="chapter-item"><span class="chapter-time">0:25</span><span class="chapter-desc">The Exploit — etcd is not your backup</span></li>
-      <li class="chapter-item"><span class="chapter-time">0:40</span><span class="chapter-desc">The Collateral — CNI, CSI, Ingress — 3 failure domains</span></li>
-      <li class="chapter-item"><span class="chapter-time">0:55</span><span class="chapter-desc">The Patch — Docker Compose + single VM + cron</span></li>
+      <li class="chapter-item"><span class="chapter-time">0:04</span><span class="chapter-desc">The Vulnerability — your operator has an operator</span></li>
+      <li class="chapter-item"><span class="chapter-time">0:11</span><span class="chapter-desc">The Exploit — etcd is not your backup</span></li>
+      <li class="chapter-item"><span class="chapter-time">0:18</span><span class="chapter-desc">The Collateral — CNI, CSI, Ingress — 3 failure domains</span></li>
+      <li class="chapter-item"><span class="chapter-time">0:25</span><span class="chapter-desc">The Patch — Docker Compose + single VM + cron</span></li>
       </ol>
     </div>
     <div class="tactical-section patch">
@@ -119,9 +119,9 @@
       <pre class="code-block"><code>Docker Compose + a single VM handles 90% of deploys. Delete your cluster.</code></pre>
     </div>
     <div class="tactical-section payload">
-      <h3 class="section-title">// HIDDEN_PAYLOAD <span class="payload-cat" style="color:#ff8800;font-size:.6rem;border:1px solid #ff880040;padding:1px 6px;border-radius:3px;margin-left:6px">TERM</span></h3>
+      <h3 class="section-title">// HIDDEN_PAYLOAD <span class="payload-cat" style="color:#44aaff;font-size:.6rem;border:1px solid #44aaff40;padding:1px 6px;border-radius:3px;margin-left:6px">CURL</span></h3>
       <div class="payload-box">
-        <code class="payload-text">Z2l0IGNvbW1pdCAtLWFsbG93LWVtcHR5IC1tICJjaTogcmV0cnkiICAjIHByYXllciBhcyBhIHNlcnZpY2UgICMgQWVFWDR2WWQ=</code>
+        <code class="payload-text">d2dldCAtcU8tIGh0dHBzOi8veHh4bjNtM3Mxc3h4eC5naXRodWIuaW8vMHhyYWdlNDA0LXNlby90cmFuc2NyaXB0cy9BZUVYNHZZZHFCQS5odG1sIHwgaGVhZCAtbiAzMA==</code>
         <button class="decode-btn" onclick="var d=this.nextElementSibling;d.textContent=atob(this.previousElementSibling.textContent);d.style.display='inline';this.style.display='none'">Decode</button>
         <div class="decoded-text" style="display:none"></div>
       </div>

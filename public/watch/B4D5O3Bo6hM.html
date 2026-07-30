@@ -108,10 +108,10 @@
       <h3 class="section-title">EXPLOIT TIMELINE</h3>
       <ol class="chapter-list">
       <li class="chapter-item"><span class="chapter-time">0:00</span><span class="chapter-desc">The Bait — Python reads like English (until it doesn't)</span></li>
-      <li class="chapter-item"><span class="chapter-time">0:10</span><span class="chapter-desc">The Vulnerability — the GIL is a concurrency ceiling</span></li>
-      <li class="chapter-item"><span class="chapter-time">0:25</span><span class="chapter-desc">The Exploit — type hints don't save you from runtime errors</span></li>
-      <li class="chapter-item"><span class="chapter-time">0:40</span><span class="chapter-desc">The Collateral — pip freeze is not a lock file</span></li>
-      <li class="chapter-item"><span class="chapter-time">0:55</span><span class="chapter-desc">The Patch — Python for scripts, Rust for speed</span></li>
+      <li class="chapter-item"><span class="chapter-time">0:04</span><span class="chapter-desc">The Vulnerability — the GIL is a concurrency ceiling</span></li>
+      <li class="chapter-item"><span class="chapter-time">0:12</span><span class="chapter-desc">The Exploit — type hints don't save you from runtime errors</span></li>
+      <li class="chapter-item"><span class="chapter-time">0:19</span><span class="chapter-desc">The Collateral — pip freeze is not a lock file</span></li>
+      <li class="chapter-item"><span class="chapter-time">0:26</span><span class="chapter-desc">The Patch — Python for scripts, Rust for speed</span></li>
       </ol>
     </div>
     <div class="tactical-section patch">
@@ -119,9 +119,9 @@
       <pre class="code-block"><code>Use uv instead of pip. Set PYTHONDEVMODE=1 in dev. Profile before optimizing.</code></pre>
     </div>
     <div class="tactical-section payload">
-      <h3 class="section-title">// HIDDEN_PAYLOAD <span class="payload-cat" style="color:#ff8800;font-size:.6rem;border:1px solid #ff880040;padding:1px 6px;border-radius:3px;margin-left:6px">TERM</span></h3>
+      <h3 class="section-title">// HIDDEN_PAYLOAD <span class="payload-cat" style="color:#aaaaaa;font-size:.6rem;border:1px solid #aaaaaa40;padding:1px 6px;border-radius:3px;margin-left:6px">QUIP</span></h3>
       <div class="payload-box">
-        <code class="payload-text">YWxpYXMgcHJvZD0nc3NoIC1BIGRlcGxveUAkKGNhdCAvZGV2L3VyYW5kb20gfCB0ciAtZGMgYS16IHwgaGVhZCAtYzgpLmV4YW1wbGUuY29tJyAgIyBCNEQ1TzNCbw==</code>
+        <code class="payload-text">c2VydmVybGVzcyBpcyBzb21lb25lIGVsc2UncyBwcm9ibGVtICAvLyBCNEQ1TzNCbw==</code>
         <button class="decode-btn" onclick="var d=this.nextElementSibling;d.textContent=atob(this.previousElementSibling.textContent);d.style.display='inline';this.style.display='none'">Decode</button>
         <div class="decoded-text" style="display:none"></div>
       </div>
