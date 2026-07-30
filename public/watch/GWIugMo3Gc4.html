@@ -107,11 +107,11 @@
     <div class="tactical-section timeline">
       <h3 class="section-title">EXPLOIT TIMELINE</h3>
       <ol class="chapter-list">
-      <li class="chapter-item"><span class="chapter-time">0:00</span><span class="chapter-desc">The Bait — GC is automatic (the pauses are yours)</span></li>
-      <li class="chapter-item"><span class="chapter-time">0:06</span><span class="chapter-desc">The Vulnerability — stop-the-world is not a bug, it's a feature</span></li>
-      <li class="chapter-item"><span class="chapter-time">0:15</span><span class="chapter-desc">The Exploit — generational hypothesis fails under pressure</span></li>
-      <li class="chapter-item"><span class="chapter-time">0:24</span><span class="chapter-desc">The Collateral — you tuned nothing</span></li>
-      <li class="chapter-item"><span class="chapter-time">0:32</span><span class="chapter-desc">The Patch — profile GC, set memory limits, or go manual</span></li>
+      <li class="chapter-item"><span class="chapter-time">0:00</span><span class="chapter-desc">The Bait  --  GC is automatic (the pauses are yours)</span></li>
+      <li class="chapter-item"><span class="chapter-time">0:06</span><span class="chapter-desc">The Vulnerability  --  stop-the-world is not a bug, it's a feature</span></li>
+      <li class="chapter-item"><span class="chapter-time">0:15</span><span class="chapter-desc">The Exploit  --  generational hypothesis fails under pressure</span></li>
+      <li class="chapter-item"><span class="chapter-time">0:24</span><span class="chapter-desc">The Collateral  --  you tuned nothing</span></li>
+      <li class="chapter-item"><span class="chapter-time">0:32</span><span class="chapter-desc">The Patch  --  profile GC, set memory limits, or go manual</span></li>
       </ol>
     </div>
     <div class="tactical-section patch">
@@ -119,9 +119,9 @@
       <pre class="code-block"><code>Profile your GC with -Xlog:gc* in Java or GODEBUG=gctrace=1 in Go. Set heap limits.</code></pre>
     </div>
     <div class="tactical-section payload">
-      <h3 class="section-title">// HIDDEN_PAYLOAD <span class="payload-cat" style="color:#ff4444;font-size:.6rem;border:1px solid #ff444440;padding:1px 6px;border-radius:3px;margin-left:6px">ATLAS</span></h3>
+      <h3 class="section-title">// HIDDEN_PAYLOAD <span class="payload-cat" style="color:#ff8800;font-size:.6rem;border:1px solid #ff880040;padding:1px 6px;border-radius:3px;margin-left:6px">TERM</span></h3>
       <div class="payload-box">
-        <code class="payload-text">W0FUTEFTX0tFUk5FTF0gc2VnZmF1bHQgYXQgMHhSQUdFLjQwNCB8IHN0YWNrOiB0d2l0dGVyLnRocmVhZCAtPiByZWRkaXQucl9nYyAtPiBqaXJhLmJvYXJkICAvLyBHV0l1Z01vMw==</code>
+        <code class="payload-text">Z2l0IGNvbmZpZyAtLWdsb2JhbCBhbGlhcy5mb3JjZS1wdXNoICdwdXNoIC0tZm9yY2Utd2l0aC1sZWFzZScgICMgc2xpZ2h0bHkgbGVzcyBkYW5nZXJvdXMgICMgR1dJdWdNbzM=</code>
         <button class="decode-btn" onclick="var d=this.nextElementSibling;d.textContent=atob(this.previousElementSibling.textContent);d.style.display='inline';this.style.display='none'">Decode</button>
         <div class="decoded-text" style="display:none"></div>
       </div>

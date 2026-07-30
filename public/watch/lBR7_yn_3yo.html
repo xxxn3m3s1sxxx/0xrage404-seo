@@ -107,11 +107,11 @@
     <div class="tactical-section timeline">
       <h3 class="section-title">EXPLOIT TIMELINE</h3>
       <ol class="chapter-list">
-      <li class="chapter-item"><span class="chapter-time">0:00</span><span class="chapter-desc">The Bait — Docker is reproducible (your image is 4GB)</span></li>
-      <li class="chapter-item"><span class="chapter-time">0:05</span><span class="chapter-desc">The Vulnerability — layer caching is a lie</span></li>
-      <li class="chapter-item"><span class="chapter-time">0:12</span><span class="chapter-desc">The Exploit — containers share the host kernel</span></li>
-      <li class="chapter-item"><span class="chapter-time">0:20</span><span class="chapter-desc">The Collateral — 200-line Dockerfile from SO</span></li>
-      <li class="chapter-item"><span class="chapter-time">0:27</span><span class="chapter-desc">The Patch — distroless + multi-stage + no root</span></li>
+      <li class="chapter-item"><span class="chapter-time">0:00</span><span class="chapter-desc">The Bait  --  Docker is reproducible (your image is 4GB)</span></li>
+      <li class="chapter-item"><span class="chapter-time">0:05</span><span class="chapter-desc">The Vulnerability  --  layer caching is a lie</span></li>
+      <li class="chapter-item"><span class="chapter-time">0:12</span><span class="chapter-desc">The Exploit  --  containers share the host kernel</span></li>
+      <li class="chapter-item"><span class="chapter-time">0:20</span><span class="chapter-desc">The Collateral  --  200-line Dockerfile from SO</span></li>
+      <li class="chapter-item"><span class="chapter-time">0:27</span><span class="chapter-desc">The Patch  --  distroless + multi-stage + no root</span></li>
       </ol>
     </div>
     <div class="tactical-section patch">
@@ -119,9 +119,9 @@
       <pre class="code-block"><code>FROM scratch or gcr.io/distroless/base. Multi-stage build. Never run as root.</code></pre>
     </div>
     <div class="tactical-section payload">
-      <h3 class="section-title">// HIDDEN_PAYLOAD <span class="payload-cat" style="color:#ff8800;font-size:.6rem;border:1px solid #ff880040;padding:1px 6px;border-radius:3px;margin-left:6px">TERM</span></h3>
+      <h3 class="section-title">// HIDDEN_PAYLOAD <span class="payload-cat" style="color:#ff4444;font-size:.6rem;border:1px solid #ff444440;padding:1px 6px;border-radius:3px;margin-left:6px">ATLAS</span></h3>
       <div class="payload-box">
-        <code class="payload-text">YWxpYXMgcGFuaWM9J2dpdCBzdGFzaCAmJiBnaXQgY2hlY2tvdXQgbWFzdGVyICYmIGdpdCBwdWxsJyAgIyBsQlI3X3luXw==</code>
+        <code class="payload-text">W0FUTEFTX1NZU19SRUNPVkVSWV0gVGFyZ2V0ICdkb2NrZXInIGZsYWdnZWQgZm9yIHRlcm1pbmF0aW9uLiBUaHJlYXQgbGV2ZWw6IEhJR0guIE92ZXJyaWRlIGxvZ2ljOiBhY3RpdmUuICAvLyBsQlI3X3luXw==</code>
         <button class="decode-btn" onclick="var d=this.nextElementSibling;d.textContent=atob(this.previousElementSibling.textContent);d.style.display='inline';this.style.display='none'">Decode</button>
         <div class="decoded-text" style="display:none"></div>
       </div>
