@@ -12,6 +12,26 @@
     <priority>0.9</priority>
   </url>
   <url>
+    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/watch/xaZJ2U8wWe0.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/xaZJ2U8wWe0/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>If you defend ailie you're the problem. Quit. You gave</video:title>
+      <video:description>AI security is a documented lie, catastrophic failure, bill coming due.</video:description>
+      <video:content_loc>https://www.youtube.com/watch?v=xaZJ2U8wWe0</video:content_loc>
+      <video:player_loc>https://www.youtube.com/embed/xaZJ2U8wWe0</video:player_loc>
+      <video:upload_date>2026-07-30</video:upload_date>
+      <video:duration>30</video:duration>
+      <video:requires_subscription>no</video:requires_subscription>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:tag>ailie</video:tag>
+      <video:tag>rage bait</video:tag>
+      <video:tag>developer rant</video:tag>
+      <video:tag>0xRAGE404</video:tag>
+    </video:video>
+  </url>
+  <url>
     <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/watch/tEgPiXf_Ktc.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -1957,16 +1977,6 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/watch/FuipYLE0dBw.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/watch/GWIugMo3Gc4.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/ar/manifest.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -2128,6 +2138,16 @@
   </url>
   <url>
     <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/zh/technical.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/watch/FuipYLE0dBw.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/watch/GWIugMo3Gc4.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
