@@ -12,6 +12,26 @@
     <priority>0.9</priority>
   </url>
   <url>
+    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/watch/tEgPiXf_Ktc.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/tEgPiXf_Ktc/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>Docker Is Not Fine. You're Just Used to Pain.</video:title>
+      <video:description>Layer caching lies, image landfills, and container illusions.</video:description>
+      <video:content_loc>https://www.youtube.com/watch?v=tEgPiXf_Ktc</video:content_loc>
+      <video:player_loc>https://www.youtube.com/embed/tEgPiXf_Ktc</video:player_loc>
+      <video:upload_date>2026-07-30</video:upload_date>
+      <video:duration>59</video:duration>
+      <video:requires_subscription>no</video:requires_subscription>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:tag>docker</video:tag>
+      <video:tag>rage bait</video:tag>
+      <video:tag>developer rant</video:tag>
+      <video:tag>0xRAGE404</video:tag>
+    </video:video>
+  </url>
+  <url>
     <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/watch/4qNCsaj8FQI.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -297,7 +317,7 @@
     <priority>0.8</priority>
     <video:video>
       <video:thumbnail_loc>https://i.ytimg.com/vi/kdMbwO56FGY/hqdefault.jpg</video:thumbnail_loc>
-      <video:title>You Ship a Distributed Monolith Every Day — And You Don't Even Know</video:title>
+      <video:title>You Ship a Distributed Monolith Every Day â€” And You Don't Even Know</video:title>
       <video:description>Distributed monoliths, service mesh, and why less is more.</video:description>
       <video:content_loc>https://www.youtube.com/watch?v=kdMbwO56FGY</video:content_loc>
       <video:player_loc>https://www.youtube.com/embed/kdMbwO56FGY</video:player_loc>
@@ -477,7 +497,7 @@
     <priority>0.8</priority>
     <video:video>
       <video:thumbnail_loc>https://i.ytimg.com/vi/1MutO8ROX70/hqdefault.jpg</video:thumbnail_loc>
-      <video:title>AI Security Is Dead — Nobody Actually Secures Anything</video:title>
+      <video:title>AI Security Is Dead â€” Nobody Actually Secures Anything</video:title>
       <video:description>AI security is theater, documented failures, and the bill coming due.</video:description>
       <video:content_loc>https://www.youtube.com/watch?v=1MutO8ROX70</video:content_loc>
       <video:player_loc>https://www.youtube.com/embed/1MutO8ROX70</video:player_loc>
@@ -517,7 +537,7 @@
     <priority>0.8</priority>
     <video:video>
       <video:thumbnail_loc>https://i.ytimg.com/vi/AeEX4vYdqBA/hqdefault.jpg</video:thumbnail_loc>
-      <video:title>K8s YAML Will Make You Quit DevOps — Here's Why</video:title>
+      <video:title>K8s YAML Will Make You Quit DevOps â€” Here's Why</video:title>
       <video:description>YAML atrocities, operator madness, and K8s overkill for 90% of teams.</video:description>
       <video:content_loc>https://www.youtube.com/watch?v=AeEX4vYdqBA</video:content_loc>
       <video:player_loc>https://www.youtube.com/embed/AeEX4vYdqBA</video:player_loc>
@@ -1137,7 +1157,7 @@
     <priority>0.8</priority>
     <video:video>
       <video:thumbnail_loc>https://i.ytimg.com/vi/CYSapejXwzI/hqdefault.jpg</video:thumbnail_loc>
-      <video:title>Agile Roast — Your Code Is A Disgraceful Nightmare</video:title>
+      <video:title>Agile Roast â€” Your Code Is A Disgraceful Nightmare</video:title>
       <video:description>Scrum circus, useless standups, and Agile as a bureaucracy monster.</video:description>
       <video:content_loc>https://www.youtube.com/watch?v=CYSapejXwzI</video:content_loc>
       <video:player_loc>https://www.youtube.com/embed/CYSapejXwzI</video:player_loc>
@@ -1177,7 +1197,7 @@
     <priority>0.8</priority>
     <video:video>
       <video:thumbnail_loc>https://i.ytimg.com/vi/guKySfKBskU/hqdefault.jpg</video:thumbnail_loc>
-      <video:title>Microservices Roast — Build Simple Things Properly</video:title>
+      <video:title>Microservices Roast â€” Build Simple Things Properly</video:title>
       <video:description>Distributed monoliths, service mesh, and why less is more.</video:description>
       <video:content_loc>https://www.youtube.com/watch?v=guKySfKBskU</video:content_loc>
       <video:player_loc>https://www.youtube.com/embed/guKySfKBskU</video:player_loc>
@@ -1217,7 +1237,7 @@
     <priority>0.8</priority>
     <video:video>
       <video:thumbnail_loc>https://i.ytimg.com/vi/DLxW5m9B2nM/hqdefault.jpg</video:thumbnail_loc>
-      <video:title>CSS Roast — You Can't Even Spell Semantic</video:title>
+      <video:title>CSS Roast â€” You Can't Even Spell Semantic</video:title>
       <video:description>CSS specificity wars, Tailwind dogma, and the !important pain.</video:description>
       <video:content_loc>https://www.youtube.com/watch?v=DLxW5m9B2nM</video:content_loc>
       <video:player_loc>https://www.youtube.com/embed/DLxW5m9B2nM</video:player_loc>
@@ -1377,7 +1397,7 @@
     <priority>0.8</priority>
     <video:video>
       <video:thumbnail_loc>https://i.ytimg.com/vi/giRGocLUL5o/hqdefault.jpg</video:thumbnail_loc>
-      <video:title>AI-Generated Code Will Destroy Your Production — Guaranteed</video:title>
+      <video:title>AI-Generated Code Will Destroy Your Production â€” Guaranteed</video:title>
       <video:description>AI security is theater, documented failures, and the bill coming due.</video:description>
       <video:content_loc>https://www.youtube.com/watch?v=giRGocLUL5o</video:content_loc>
       <video:player_loc>https://www.youtube.com/embed/giRGocLUL5o</video:player_loc>
@@ -1417,7 +1437,7 @@
     <priority>0.8</priority>
     <video:video>
       <video:thumbnail_loc>https://i.ytimg.com/vi/3Xjfp6EpSG8/hqdefault.jpg</video:thumbnail_loc>
-      <video:title>You Can't Build Anything — But Sure, Make It Faster</video:title>
+      <video:title>You Can't Build Anything â€” But Sure, Make It Faster</video:title>
       <video:description>Microservices for todo apps and the death of KISS.</video:description>
       <video:content_loc>https://www.youtube.com/watch?v=3Xjfp6EpSG8</video:content_loc>
       <video:player_loc>https://www.youtube.com/embed/3Xjfp6EpSG8</video:player_loc>
