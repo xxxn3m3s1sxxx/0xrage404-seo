@@ -74,11 +74,11 @@
     .chapter-time{color:#0f0;font-family:monospace;white-space:nowrap;min-width:4rem;font-weight:bold}
     .chapter-desc{color:#aaa}
     .code-block{background:#0a0a0f;border:1px solid #0f03;border-radius:4px;padding:.8rem 1rem;font-family:monospace;font-size:.82rem;color:#0f0;overflow-x:auto;line-height:1.5}
-    .payload-box{display:flex;align-items:center;gap:.8rem;flex-wrap:wrap}
-    .payload-text{font-family:monospace;font-size:.82rem;color:#666;background:#0a0a0f;padding:.3rem .6rem;border:1px solid #333;border-radius:3px;letter-spacing:.05em}
-    .decode-btn{background:#0f01;color:#0f0;border:1px solid #0f03;padding:.25rem .6rem;border-radius:3px;cursor:pointer;font-size:.75rem;font-family:monospace;transition:all .2s}
+    .payload-box{display:flex;align-items:center;gap:.8rem;flex-wrap:wrap;min-width:0}
+    .payload-text{font-family:monospace;font-size:.82rem;color:#666;background:#0a0a0f;padding:.3rem .6rem;border:1px solid #333;border-radius:3px;letter-spacing:.05em;flex:1 1 auto;min-width:0;max-width:100%;white-space:pre-wrap;word-break:break-all;overflow-wrap:anywhere}
+    .decode-btn{background:#0f01;color:#0f0;border:1px solid #0f03;padding:.25rem .6rem;border-radius:3px;cursor:pointer;font-size:.75rem;font-family:monospace;transition:all .2s;white-space:nowrap;flex:0 0 auto}
     .decode-btn:hover{background:#0f03}
-    .decoded-text{color:#ff4444;font-size:.82rem;font-family:monospace;padding:.3rem .6rem;background:#1a0000;border:1px solid #ff4444;border-radius:3px;cursor:pointer}
+    .decoded-text{color:#ff4444;font-size:.82rem;font-family:monospace;padding:.3rem .6rem;background:#1a0000;border:1px solid #ff4444;border-radius:3px;cursor:pointer;white-space:pre-wrap;word-break:break-all;overflow-wrap:anywhere}
 
     .brand{font-family:"Wallpoet",cursive;letter-spacing:.03em;color:#ff4444}
     .brand .at{font-size:.55em;vertical-align:.15em}
@@ -119,9 +119,9 @@
       <pre class="code-block"><code>Ask yourself: what is the simplest thing that could possibly work? Then do that.</code></pre>
     </div>
     <div class="tactical-section payload">
-      <h3 class="section-title">// HIDDEN_PAYLOAD <span class="payload-cat" style="color:#ff4444;font-size:.6rem;border:1px solid #ff444440;padding:1px 6px;border-radius:3px;margin-left:6px">ATLAS</span></h3>
+      <h3 class="section-title">// HIDDEN_PAYLOAD <span class="payload-cat" style="color:#ff8800;font-size:.6rem;border:1px solid #ff880040;padding:1px 6px;border-radius:3px;margin-left:6px">TERM</span></h3>
       <div class="payload-box">
-        <code class="payload-text">W0FUTEFTX0JPT1RdIEJJT1M6IEVSUi5TWVMgdjIuNy4xIHwgTUVNOiA2NCBUQiB8IENQVVM6IDQwNCB8IE1PVFRPOiBTSElQIEZJUlNULCBBU0sgTkVWRVIgIC8vIDNYamZwNkVw</code>
+        <code class="payload-text">YWxpYXMgcGFuaWM9J2dpdCBzdGFzaCAmJiBnaXQgY2hlY2tvdXQgbWFzdGVyICYmIGdpdCBwdWxsJyAgIyAzWGpmcDZFcA==</code>
         <button class="decode-btn" onclick="var d=this.nextElementSibling;d.textContent=atob(this.previousElementSibling.textContent);d.style.display='inline';this.style.display='none'">Decode</button>
         <div class="decoded-text" style="display:none"></div>
       </div>
