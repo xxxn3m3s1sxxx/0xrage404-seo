@@ -77,7 +77,7 @@
     <priority>0.8</priority>
     <video:video>
       <video:thumbnail_loc>https://i.ytimg.com/vi/xaZJ2U8wWe0/hqdefault.jpg</video:thumbnail_loc>
-      <video:title>If you defend ailie you're the problem. Quit. You gave</video:title>
+      <video:title>AI Security Is A Lie</video:title>
       <video:description>AI security is a documented lie, catastrophic failure, bill coming due.</video:description>
       <video:content_loc>https://www.youtube.com/watch?v=xaZJ2U8wWe0</video:content_loc>
       <video:player_loc>https://www.youtube.com/embed/xaZJ2U8wWe0</video:player_loc>
@@ -637,7 +637,7 @@
     <priority>0.8</priority>
     <video:video>
       <video:thumbnail_loc>https://i.ytimg.com/vi/lBR7_yn_3yo/hqdefault.jpg</video:thumbnail_loc>
-      <video:title>You think Docker is fine? You're exactly</video:title>
+      <video:title>Docker Is Not Fine</video:title>
       <video:description>Layer caching lies, image landfills, and container illusions.</video:description>
       <video:content_loc>https://www.youtube.com/watch?v=lBR7_yn_3yo</video:content_loc>
       <video:player_loc>https://www.youtube.com/embed/lBR7_yn_3yo</video:player_loc>
@@ -2037,12 +2037,37 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/watch/4KbNdyH_Vbo.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/watch/EfB9Xzepriw.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/watch/FuipYLE0dBw.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/watch/GWIugMo3Gc4.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/watch/gYIZcjKksPM.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/watch/VQbc-aDVJf0.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/watch/VzewRBfWa14.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
