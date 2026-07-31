@@ -12,6 +12,26 @@
     <priority>0.9</priority>
   </url>
   <url>
+    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/watch/4KbNdyH_Vbo.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/4KbNdyH_Vbo/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>Your GC Is Lying To You</video:title>
+      <video:description>Microservices for todo apps and the death of KISS.</video:description>
+      <video:content_loc>https://www.youtube.com/watch?v=4KbNdyH_Vbo</video:content_loc>
+      <video:player_loc>https://www.youtube.com/embed/4KbNdyH_Vbo</video:player_loc>
+      <video:upload_date>2026-07-31</video:upload_date>
+      <video:duration>12</video:duration>
+      <video:requires_subscription>no</video:requires_subscription>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:tag>garbagecollection</video:tag>
+      <video:tag>rage bait</video:tag>
+      <video:tag>developer rant</video:tag>
+      <video:tag>0xRAGE404</video:tag>
+    </video:video>
+  </url>
+  <url>
     <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/watch/5KHzszk-quo.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -397,7 +417,7 @@
     <priority>0.8</priority>
     <video:video>
       <video:thumbnail_loc>https://i.ytimg.com/vi/kdMbwO56FGY/hqdefault.jpg</video:thumbnail_loc>
-      <video:title>You Ship a Distributed Monolith Every Day â€” And You Don't Even Know</video:title>
+      <video:title>Microservices Are A Lie</video:title>
       <video:description>Distributed monoliths, service mesh, and why less is more.</video:description>
       <video:content_loc>https://www.youtube.com/watch?v=kdMbwO56FGY</video:content_loc>
       <video:player_loc>https://www.youtube.com/embed/kdMbwO56FGY</video:player_loc>
@@ -577,7 +597,7 @@
     <priority>0.8</priority>
     <video:video>
       <video:thumbnail_loc>https://i.ytimg.com/vi/1MutO8ROX70/hqdefault.jpg</video:thumbnail_loc>
-      <video:title>AI Security Is Dead â€” Nobody Actually Secures Anything</video:title>
+      <video:title>AI Security Is Dead</video:title>
       <video:description>AI security is theater, documented failures, and the bill coming due.</video:description>
       <video:content_loc>https://www.youtube.com/watch?v=1MutO8ROX70</video:content_loc>
       <video:player_loc>https://www.youtube.com/embed/1MutO8ROX70</video:player_loc>
@@ -597,7 +617,7 @@
     <priority>0.8</priority>
     <video:video>
       <video:thumbnail_loc>https://i.ytimg.com/vi/yccGAPdtnpk/hqdefault.jpg</video:thumbnail_loc>
-      <video:title>Here's why you're wrong about Go. Sit down. Go is garba</video:title>
+      <video:title>Go Produces Garbage</video:title>
       <video:description>Error handling joke, goroutine leaks, and Go's fake simplicity.</video:description>
       <video:content_loc>https://www.youtube.com/watch?v=yccGAPdtnpk</video:content_loc>
       <video:player_loc>https://www.youtube.com/embed/yccGAPdtnpk</video:player_loc>
@@ -1057,7 +1077,7 @@
     <priority>0.8</priority>
     <video:video>
       <video:thumbnail_loc>https://i.ytimg.com/vi/LZM3hoVBcU4/hqdefault.jpg</video:thumbnail_loc>
-      <video:title>The Microsoft Trap: How VS Code Eats Your Engineering Soul</video:title>
+      <video:title>The VS Code Trap</video:title>
       <video:description>AI security is theater, documented failures, and the bill coming due.</video:description>
       <video:content_loc>https://www.youtube.com/watch?v=LZM3hoVBcU4</video:content_loc>
       <video:player_loc>https://www.youtube.com/embed/LZM3hoVBcU4</video:player_loc>
@@ -1457,7 +1477,7 @@
     <priority>0.8</priority>
     <video:video>
       <video:thumbnail_loc>https://i.ytimg.com/vi/2sWnTEhuZTs/hqdefault.jpg</video:thumbnail_loc>
-      <video:title>Your Senior Dev Just Copy-Pasted From StackOverflow Again</video:title>
+      <video:title>Senior Devs Copy-Paste</video:title>
       <video:description>Tech debt, refactoring illusions, and code nobody understands.</video:description>
       <video:content_loc>https://www.youtube.com/watch?v=2sWnTEhuZTs</video:content_loc>
       <video:player_loc>https://www.youtube.com/embed/2sWnTEhuZTs</video:player_loc>
@@ -1477,7 +1497,7 @@
     <priority>0.8</priority>
     <video:video>
       <video:thumbnail_loc>https://i.ytimg.com/vi/giRGocLUL5o/hqdefault.jpg</video:thumbnail_loc>
-      <video:title>AI-Generated Code Will Destroy Your Production â€” Guaranteed</video:title>
+      <video:title>AI Code Is Malware</video:title>
       <video:description>AI security is theater, documented failures, and the bill coming due.</video:description>
       <video:content_loc>https://www.youtube.com/watch?v=giRGocLUL5o</video:content_loc>
       <video:player_loc>https://www.youtube.com/embed/giRGocLUL5o</video:player_loc>
@@ -1498,14 +1518,14 @@
     <video:video>
       <video:thumbnail_loc>https://i.ytimg.com/vi/UD43J-rItu4/hqdefault.jpg</video:thumbnail_loc>
       <video:title>Why Code Ownership Is a Lie</video:title>
-      <video:description>AI security is theater, documented failures, and the bill coming due.</video:description>
+      <video:description>Tech debt, refactoring illusions, and code nobody understands.</video:description>
       <video:content_loc>https://www.youtube.com/watch?v=UD43J-rItu4</video:content_loc>
       <video:player_loc>https://www.youtube.com/embed/UD43J-rItu4</video:player_loc>
       <video:upload_date>2026-07-10</video:upload_date>
       <video:duration>14</video:duration>
       <video:requires_subscription>no</video:requires_subscription>
       <video:family_friendly>yes</video:family_friendly>
-      <video:tag>aisecurity</video:tag>
+      <video:tag>legacycode</video:tag>
       <video:tag>rage bait</video:tag>
       <video:tag>developer rant</video:tag>
       <video:tag>0xRAGE404</video:tag>
@@ -1517,7 +1537,7 @@
     <priority>0.8</priority>
     <video:video>
       <video:thumbnail_loc>https://i.ytimg.com/vi/3Xjfp6EpSG8/hqdefault.jpg</video:thumbnail_loc>
-      <video:title>You Can't Build Anything â€” But Sure, Make It Faster</video:title>
+      <video:title>Overengineering Is A Cop-Out</video:title>
       <video:description>Microservices for todo apps and the death of KISS.</video:description>
       <video:content_loc>https://www.youtube.com/watch?v=3Xjfp6EpSG8</video:content_loc>
       <video:player_loc>https://www.youtube.com/embed/3Xjfp6EpSG8</video:player_loc>
@@ -2033,11 +2053,6 @@
   </url>
   <url>
     <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/zKvStXVlqn8.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/watch/4KbNdyH_Vbo.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
