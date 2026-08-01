@@ -17,7 +17,7 @@
     <priority>0.8</priority>
     <video:video>
       <video:thumbnail_loc>https://i.ytimg.com/vi/wsNicxYl-9Q/hqdefault.jpg</video:thumbnail_loc>
-      <video:title>🍏 Lies About Privacy 🍎</video:title>
+      <video:title>Apple Myths About Privacy</video:title>
       <video:description>AI hype, LLM delusions, and the Copilot that writes worse code than your intern.</video:description>
       <video:content_loc>https://www.youtube.com/watch?v=wsNicxYl-9Q</video:content_loc>
       <video:player_loc>https://www.youtube.com/embed/wsNicxYl-9Q</video:player_loc>
@@ -57,7 +57,7 @@
     <priority>0.8</priority>
     <video:video>
       <video:thumbnail_loc>https://i.ytimg.com/vi/4KbNdyH_Vbo/hqdefault.jpg</video:thumbnail_loc>
-      <video:title>Your GC Is Lying To You</video:title>
+      <video:title>Your GC Is misleading To You</video:title>
       <video:description>AI hype, LLM delusions, and the Copilot that writes worse code than your intern.</video:description>
       <video:content_loc>https://www.youtube.com/watch?v=4KbNdyH_Vbo</video:content_loc>
       <video:player_loc>https://www.youtube.com/embed/4KbNdyH_Vbo</video:player_loc>
@@ -117,7 +117,7 @@
     <priority>0.8</priority>
     <video:video>
       <video:thumbnail_loc>https://i.ytimg.com/vi/FuipYLE0dBw/hqdefault.jpg</video:thumbnail_loc>
-      <video:title>Docker Compose Is A Lie</video:title>
+      <video:title>Docker Compose Is A myth</video:title>
       <video:description>Layer caching lies, image landfills, and container illusions.</video:description>
       <video:content_loc>https://www.youtube.com/watch?v=FuipYLE0dBw</video:content_loc>
       <video:player_loc>https://www.youtube.com/embed/FuipYLE0dBw</video:player_loc>
@@ -157,7 +157,7 @@
     <priority>0.8</priority>
     <video:video>
       <video:thumbnail_loc>https://i.ytimg.com/vi/gYIZcjKksPM/hqdefault.jpg</video:thumbnail_loc>
-      <video:title>Grind Culture Is Abuse</video:title>
+      <video:title>Grind Culture Is misuse</video:title>
       <video:description>AI hype, LLM delusions, and the Copilot that writes worse code than your intern.</video:description>
       <video:content_loc>https://www.youtube.com/watch?v=gYIZcjKksPM</video:content_loc>
       <video:player_loc>https://www.youtube.com/embed/gYIZcjKksPM</video:player_loc>
@@ -197,7 +197,7 @@
     <priority>0.8</priority>
     <video:video>
       <video:thumbnail_loc>https://i.ytimg.com/vi/xaZJ2U8wWe0/hqdefault.jpg</video:thumbnail_loc>
-      <video:title>AI Security Is A Lie</video:title>
+      <video:title>AI Security Is A myth</video:title>
       <video:description>AI hype, LLM delusions, and the Copilot that writes worse code than your intern.</video:description>
       <video:content_loc>https://www.youtube.com/watch?v=xaZJ2U8wWe0</video:content_loc>
       <video:player_loc>https://www.youtube.com/embed/xaZJ2U8wWe0</video:player_loc>
@@ -217,7 +217,7 @@
     <priority>0.8</priority>
     <video:video>
       <video:thumbnail_loc>https://i.ytimg.com/vi/qcBWVYNVUvk/hqdefault.jpg</video:thumbnail_loc>
-      <video:title>AI Waste Is A Scam</video:title>
+      <video:title>AI Waste Is A illusion</video:title>
       <video:description>AI hype, LLM delusions, and the Copilot that writes worse code than your intern.</video:description>
       <video:content_loc>https://www.youtube.com/watch?v=qcBWVYNVUvk</video:content_loc>
       <video:player_loc>https://www.youtube.com/embed/qcBWVYNVUvk</video:player_loc>
@@ -297,7 +297,7 @@
     <priority>0.8</priority>
     <video:video>
       <video:thumbnail_loc>https://i.ytimg.com/vi/qb4mMFsH56I/hqdefault.jpg</video:thumbnail_loc>
-      <video:title>Serverless Is A Lie</video:title>
+      <video:title>Serverless Is A myth</video:title>
       <video:description>Cold starts, cost explosion, and the serverless scam.</video:description>
       <video:content_loc>https://www.youtube.com/watch?v=qb4mMFsH56I</video:content_loc>
       <video:player_loc>https://www.youtube.com/embed/qb4mMFsH56I</video:player_loc>
@@ -377,7 +377,7 @@
     <priority>0.8</priority>
     <video:video>
       <video:thumbnail_loc>https://i.ytimg.com/vi/XTZPC9sqADg/hqdefault.jpg</video:thumbnail_loc>
-      <video:title>Cold Starts Are a Total Scam</video:title>
+      <video:title>Cold Starts Are a Total illusion</video:title>
       <video:description>Cold starts, cost explosion, and the serverless scam.</video:description>
       <video:content_loc>https://www.youtube.com/watch?v=XTZPC9sqADg</video:content_loc>
       <video:player_loc>https://www.youtube.com/embed/XTZPC9sqADg</video:player_loc>
@@ -517,7 +517,7 @@
     <priority>0.8</priority>
     <video:video>
       <video:thumbnail_loc>https://i.ytimg.com/vi/kdMbwO56FGY/hqdefault.jpg</video:thumbnail_loc>
-      <video:title>Microservices Are A Lie</video:title>
+      <video:title>Microservices Are A myth</video:title>
       <video:description>Distributed monoliths, service mesh, and why less is more.</video:description>
       <video:content_loc>https://www.youtube.com/watch?v=kdMbwO56FGY</video:content_loc>
       <video:player_loc>https://www.youtube.com/embed/kdMbwO56FGY</video:player_loc>
@@ -957,7 +957,7 @@
     <priority>0.8</priority>
     <video:video>
       <video:thumbnail_loc>https://i.ytimg.com/vi/7RxrhL2tNbk/hqdefault.jpg</video:thumbnail_loc>
-      <video:title>Serverless Is a Financial Scam</video:title>
+      <video:title>Serverless Is a Financial illusion</video:title>
       <video:description>Cold starts, cost explosion, and the serverless scam.</video:description>
       <video:content_loc>https://www.youtube.com/watch?v=7RxrhL2tNbk</video:content_loc>
       <video:player_loc>https://www.youtube.com/embed/7RxrhL2tNbk</video:player_loc>
@@ -1537,7 +1537,7 @@
     <priority>0.8</priority>
     <video:video>
       <video:thumbnail_loc>https://i.ytimg.com/vi/aHG2XWluR4E/hqdefault.jpg</video:thumbnail_loc>
-      <video:title>Refactor Is A Scam</video:title>
+      <video:title>Refactor Is A illusion</video:title>
       <video:description>Tech debt, refactoring illusions, and code nobody understands.</video:description>
       <video:content_loc>https://www.youtube.com/watch?v=aHG2XWluR4E</video:content_loc>
       <video:player_loc>https://www.youtube.com/embed/aHG2XWluR4E</video:player_loc>
@@ -1597,7 +1597,7 @@
     <priority>0.8</priority>
     <video:video>
       <video:thumbnail_loc>https://i.ytimg.com/vi/giRGocLUL5o/hqdefault.jpg</video:thumbnail_loc>
-      <video:title>AI Code Is Malware</video:title>
+      <video:title>AI Code Is malicious code</video:title>
       <video:description>AI security is theater, documented failures, and the bill coming due.</video:description>
       <video:content_loc>https://www.youtube.com/watch?v=giRGocLUL5o</video:content_loc>
       <video:player_loc>https://www.youtube.com/embed/giRGocLUL5o</video:player_loc>
@@ -1617,7 +1617,7 @@
     <priority>0.8</priority>
     <video:video>
       <video:thumbnail_loc>https://i.ytimg.com/vi/UD43J-rItu4/hqdefault.jpg</video:thumbnail_loc>
-      <video:title>Why Code Ownership Is a Lie</video:title>
+      <video:title>Why Code Ownership Is a myth</video:title>
       <video:description>Tech debt, refactoring illusions, and code nobody understands.</video:description>
       <video:content_loc>https://www.youtube.com/watch?v=UD43J-rItu4</video:content_loc>
       <video:player_loc>https://www.youtube.com/embed/UD43J-rItu4</video:player_loc>
@@ -1847,7 +1847,17 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/4KbNdyH_Vbo.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/4qNCsaj8FQI.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/5KHzszk-quo.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -1927,6 +1937,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/EfB9Xzepriw.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/EKUHGRKXGAI.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -1947,6 +1962,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/FuipYLE0dBw.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/giRGocLUL5o.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -1958,6 +1978,16 @@
   </url>
   <url>
     <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/gVkmqCzLxSo.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/GWIugMo3Gc4.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/gYIZcjKksPM.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -2072,12 +2102,22 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/qcBWVYNVUvk.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/sAlCyZJDA0k.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/suonT_y7fz8.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/tEgPiXf_Ktc.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -2107,7 +2147,22 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/VQbc-aDVJf0.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/VzewRBfWa14.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/wNztwURBIm4.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/wsNicxYl-9Q.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -2118,6 +2173,11 @@
   </url>
   <url>
     <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/wzyVAtU-nOw.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/xaZJ2U8wWe0.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -2157,7 +2217,37 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/watch/4TRGjVevt_o.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/watch/4Z0XUBTvi-E.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/watch/abOdFNTBsOI.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/watch/GWIugMo3Gc4.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/watch/md5KU2xHEfM.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/watch/NbOaEkrCMMk.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/watch/vwKqzFlr4fg.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
