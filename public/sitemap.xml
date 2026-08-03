@@ -12,6 +12,26 @@
     <priority>0.9</priority>
   </url>
   <url>
+    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/watch/zozMOIw2-Do.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/zozMOIw2-Do/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>PyPI drowned in AI slop packages again</video:title>
+      <video:description>AI hype, LLM delusions, and the Copilot that writes worse code than your intern.</video:description>
+      <video:content_loc>https://www.youtube.com/watch?v=zozMOIw2-Do</video:content_loc>
+      <video:player_loc>https://www.youtube.com/embed/zozMOIw2-Do</video:player_loc>
+      <video:upload_date>2026-08-03</video:upload_date>
+      <video:duration>30</video:duration>
+      <video:requires_subscription>no</video:requires_subscription>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:tag>ai</video:tag>
+      <video:tag>rage bait</video:tag>
+      <video:tag>developer rant</video:tag>
+      <video:tag>0xRAGE404</video:tag>
+    </video:video>
+  </url>
+  <url>
     <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/watch/3gaZDtFuE_o.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -2533,11 +2553,6 @@
   </url>
   <url>
     <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/transcripts/zKvStXVlqn8.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://xxxn3m3s1sxxx.github.io/0xrage404-seo/watch/zozMOIw2-Do.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
