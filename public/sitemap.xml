@@ -17,7 +17,7 @@
     <priority>0.8</priority>
     <video:video>
       <video:thumbnail_loc>https://i.ytimg.com/vi/BnCD3oMmnP8/hqdefault.jpg</video:thumbnail_loc>
-      <video:title>You trust the prompt</video:title>
+      <video:title>Prompt Injection Is Real</video:title>
       <video:description>AI hype, LLM delusions, and the Copilot that writes worse code than your intern.</video:description>
       <video:content_loc>https://www.youtube.com/watch?v=BnCD3oMmnP8</video:content_loc>
       <video:player_loc>https://www.youtube.com/embed/BnCD3oMmnP8</video:player_loc>
@@ -37,7 +37,7 @@
     <priority>0.8</priority>
     <video:video>
       <video:thumbnail_loc>https://i.ytimg.com/vi/7fgh-UUAjjM/hqdefault.jpg</video:thumbnail_loc>
-      <video:title>Black box. Black day. Your model makes the call</video:title>
+      <video:title>Your Model Is a Black Box You Can't Explain</video:title>
       <video:description>AI hype, LLM delusions, and the Copilot that writes worse code than your intern.</video:description>
       <video:content_loc>https://www.youtube.com/watch?v=7fgh-UUAjjM</video:content_loc>
       <video:player_loc>https://www.youtube.com/embed/7fgh-UUAjjM</video:player_loc>
@@ -57,7 +57,7 @@
     <priority>0.8</priority>
     <video:video>
       <video:thumbnail_loc>https://i.ytimg.com/vi/csZXukZN25A/hqdefault.jpg</video:thumbnail_loc>
-      <video:title>You optimized your career</video:title>
+      <video:title>Legacy Code Is a Career Trap</video:title>
       <video:description>AI hype, LLM delusions, and the Copilot that writes worse code than your intern.</video:description>
       <video:content_loc>https://www.youtube.com/watch?v=csZXukZN25A</video:content_loc>
       <video:player_loc>https://www.youtube.com/embed/csZXukZN25A</video:player_loc>
@@ -77,7 +77,7 @@
     <priority>0.8</priority>
     <video:video>
       <video:thumbnail_loc>https://i.ytimg.com/vi/g2zrO8El_FU/hqdefault.jpg</video:thumbnail_loc>
-      <video:title>Your IDE auctions the pause between keystrokes</video:title>
+      <video:title>Your IDE Sells Your Attention to Advertisers</video:title>
       <video:description>AI hype, LLM delusions, and the Copilot that writes worse code than your intern.</video:description>
       <video:content_loc>https://www.youtube.com/watch?v=g2zrO8El_FU</video:content_loc>
       <video:player_loc>https://www.youtube.com/embed/g2zrO8El_FU</video:player_loc>
@@ -97,7 +97,7 @@
     <priority>0.8</priority>
     <video:video>
       <video:thumbnail_loc>https://i.ytimg.com/vi/KsMqBntqfqw/hqdefault.jpg</video:thumbnail_loc>
-      <video:title>Your tap list is a supply chain confession</video:title>
+      <video:title>Homebrew Is a Supply Chain Risk</video:title>
       <video:description>AI hype, LLM delusions, and the Copilot that writes worse code than your intern.</video:description>
       <video:content_loc>https://www.youtube.com/watch?v=KsMqBntqfqw</video:content_loc>
       <video:player_loc>https://www.youtube.com/embed/KsMqBntqfqw</video:player_loc>
@@ -137,7 +137,7 @@
     <priority>0.8</priority>
     <video:video>
       <video:thumbnail_loc>https://i.ytimg.com/vi/XfuyIpn4Fvo/hqdefault.jpg</video:thumbnail_loc>
-      <video:title>The bogus package is one letter from your build</video:title>
+      <video:title>PyPI Typosquatting Is One Letter Away</video:title>
       <video:description>AI hype, LLM delusions, and the Copilot that writes worse code than your intern.</video:description>
       <video:content_loc>https://www.youtube.com/watch?v=XfuyIpn4Fvo</video:content_loc>
       <video:player_loc>https://www.youtube.com/embed/XfuyIpn4Fvo</video:player_loc>
