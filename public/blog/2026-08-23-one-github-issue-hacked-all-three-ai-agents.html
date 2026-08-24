@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>One GitHub Issue Hacked All Three AI Agents</title>
+  <meta name="description" content="One GitHub issue. Zero privileges. That&#x27;s all it took to hack Claude Code, Gemini CLI, and OpenAI Codex — on the vendors&#x27; own repositories, using the exact" />
+  <link rel="canonical" href="https://xxxn3m3s1sxxx.github.io/0xrage404-seo/blog/2026-08-23-one-github-issue-hacked-all-three-ai-agents.html" />
+  <meta property="og:title" content="One GitHub Issue Hacked All Three AI Agents" />
+  <meta property="og:type" content="article" />
+  <meta property="og:url" content="https://xxxn3m3s1sxxx.github.io/0xrage404-seo/blog/2026-08-23-one-github-issue-hacked-all-three-ai-agents.html" />
+  <meta property="og:description" content="One GitHub issue. Zero privileges. That&#x27;s all it took to hack Claude Code, Gemini CLI, and OpenAI Codex — on the vendors&#x27; own repositories, using the exact" />
+  <style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#0a0a0a;color:#ccc;font-family:system-ui,-apple-system,sans-serif;max-width:800px;margin:0 auto;padding:2rem 1rem;line-height:1.7}
+h1{color:#0f0;font-size:1.5rem;margin-bottom:.5rem;border-bottom:1px solid #333;padding-bottom:.5rem}
+h2{color:#0f0;font-size:1.1rem;margin:1.5rem 0 .5rem}
+a{color:#0f0}
+.meta{font-size:.8rem;color:#666;margin-bottom:2rem}
+.meta a{color:#0f0}
+.brand{font-family:"Wallpoet",cursive;letter-spacing:.03em}
+.brand .at{font-size:.55em;vertical-align:.22em}
+.post p{margin-bottom:1rem}
+ul{list-style:none;padding:0}
+li{margin-bottom:.6rem;border-bottom:1px solid #1a1a1a;padding:.4rem 0}
+li .date{color:#666;font-size:.8rem;margin-right:.8rem}
+.tag{display:inline-block;border:1px solid #0f0;color:#0f0;font-size:.65rem;border-radius:3px;padding:0 .35rem;margin-left:.3rem;vertical-align:middle}
+blockquote{border-left:3px solid #0f0;padding-left:1rem;margin:1rem 0;color:#999}
+hr{border:none;border-top:1px solid #333;margin:1.5rem 0}
+footer{margin-top:3rem;padding-top:1rem;border-top:1px solid #333;font-size:.8rem;color:#555}
+footer a{color:#0f0}
+.thumb{width:100%;max-width:480px;display:block;border:1px solid #222;margin:1rem 0}
+</style>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BlogPosting", "headline": "One GitHub Issue Hacked All Three AI Agents", "datePublished": "2026-08-23", "url": "https://xxxn3m3s1sxxx.github.io/0xrage404-seo/blog/2026-08-23-one-github-issue-hacked-all-three-ai-agents.html", "videoEmbedUrl": "https://www.youtube.com/watch?v=XRvOWxpyP0I"}</script>
+</head>
+<body>
+<h1>One GitHub Issue Hacked All Three AI Agents</h1>
+<div class="meta">2026-08-23 &middot; <a href="https://www.youtube.com/watch?v=XRvOWxpyP0I">video</a> &middot; 1:33 min<span class="tag">overengineering</span><span class="tag">architecture</span><span class="tag">complexity</span><span class="tag">techdebt</span><span class="tag">kiss</span></div>
+<a href="https://www.youtube.com/watch?v=XRvOWxpyP0I"><img class="thumb" loading="lazy" src="https://i.ytimg.com/vi/XRvOWxpyP0I/hqdefault.jpg" onerror="this.remove()" alt="video thumbnail"></a>
+<div class="post"><blockquote>Watch this as a 60-second video: [One GitHub Issue Hacked All Three AI Agents](https://www.youtube.com/watch?v=XRvOWxpyP0I)</blockquote>
+<p>One GitHub issue. Zero privileges. That&#x27;s all it took to hack Claude Code, Gemini CLI, and OpenAI Codex — on the vendors&#x27; own repositories, using the exact configurations they ship to you.</p>
+<p>At Black Hat USA on August 5th, Novee Security showed how a single unprivileged GitHub account reached CI secrets inside Anthropic&#x27;s, Google&#x27;s, and OpenAI&#x27;s agent pipelines. Not a misconfiguration. The shipped defaults.</p>
+<p>Start with Gemini CLI, because that one scored a perfect CVSS 10.0. In headless mode — the mode every CI pipeline uses — it automatically trusted whatever folder you pointed it at. So a crafted dot-env file in the repo gets loaded without asking anyone. And the shell allowlist? Parsed when the tool registers, never enforced when the tool runs. An allowlist that exists only on paper. Combine those two and an attacker runs arbitrary code on your runner before the sandbox even initializes, then reads the parent process environment through /proc and walks away with your GitHub token and API keys. Roughly two million monthly installs depended on that package.</p>
+<p>Claude Code took three rounds to fix. Round one: the command validator strips single-quoted text before running its twenty-three checks — correct bash behavior, except the stripped payload rode along inside git push flags untouched. Round two: commands like tac and fold were hardcoded as read-only, so nobody path-checked them while they read protected files. Round three is my favorite: Hugging Face was pre-approved for web fetches, so researchers created up to sixty-four model repos, one per character of the stolen API key, and used public download counters as a covert channel — leaking the secret one increment at a time. That&#x27;s CVE-2026-54316.</p>
+<p>And OpenAI? Codex got hijacked through its own instruction file. Two passes shared one checkout; pass one wrote AGENTS.md, pass two loaded it as gospel. No CVE. OpenAI called the sandbox behavior documented and intended.</p>
+<p>Here&#x27;s the part nobody is saying out loud: over a hundred other public repos run these same default configurations unmodified right now. The model behaved correctly every single time. The harness around it failed every single time. Your AI coding agent is only as secure as the plumbing you never reviewed.</p>
+<hr>
+<p>This breakdown ships as a short-form video too. If you prefer your rage at 60 seconds: [watch it here](https://www.youtube.com/watch?v=XRvOWxpyP0I).<br>&lt;!-- source:script:08_github_issue_hacked_agents.txt id:XRvOWxpyP0I --&gt;</p></div>
+<footer>@0xRAGE.404 &middot; <a href="https://xxxn3m3s1sxxx.github.io/0xrage404-seo/index.html">main</a> &middot; <a href="https://xxxn3m3s1sxxx.github.io/0xrage404-seo/blog/index.html">blog index</a></footer>
+</body>
+</html>

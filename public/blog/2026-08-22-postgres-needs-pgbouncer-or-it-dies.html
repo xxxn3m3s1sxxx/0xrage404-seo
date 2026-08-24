@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Postgres Needs PgBouncer Or It Dies</title>
+  <meta name="description" content="Does anyone actually run Postgres without PgBouncer in production? Because I tried it last week and within 2 hours the database was refusing connections. E" />
+  <link rel="canonical" href="https://xxxn3m3s1sxxx.github.io/0xrage404-seo/blog/2026-08-22-postgres-needs-pgbouncer-or-it-dies.html" />
+  <meta property="og:title" content="Postgres Needs PgBouncer Or It Dies" />
+  <meta property="og:type" content="article" />
+  <meta property="og:url" content="https://xxxn3m3s1sxxx.github.io/0xrage404-seo/blog/2026-08-22-postgres-needs-pgbouncer-or-it-dies.html" />
+  <meta property="og:description" content="Does anyone actually run Postgres without PgBouncer in production? Because I tried it last week and within 2 hours the database was refusing connections. E" />
+  <style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#0a0a0a;color:#ccc;font-family:system-ui,-apple-system,sans-serif;max-width:800px;margin:0 auto;padding:2rem 1rem;line-height:1.7}
+h1{color:#0f0;font-size:1.5rem;margin-bottom:.5rem;border-bottom:1px solid #333;padding-bottom:.5rem}
+h2{color:#0f0;font-size:1.1rem;margin:1.5rem 0 .5rem}
+a{color:#0f0}
+.meta{font-size:.8rem;color:#666;margin-bottom:2rem}
+.meta a{color:#0f0}
+.brand{font-family:"Wallpoet",cursive;letter-spacing:.03em}
+.brand .at{font-size:.55em;vertical-align:.22em}
+.post p{margin-bottom:1rem}
+ul{list-style:none;padding:0}
+li{margin-bottom:.6rem;border-bottom:1px solid #1a1a1a;padding:.4rem 0}
+li .date{color:#666;font-size:.8rem;margin-right:.8rem}
+.tag{display:inline-block;border:1px solid #0f0;color:#0f0;font-size:.65rem;border-radius:3px;padding:0 .35rem;margin-left:.3rem;vertical-align:middle}
+blockquote{border-left:3px solid #0f0;padding-left:1rem;margin:1rem 0;color:#999}
+hr{border:none;border-top:1px solid #333;margin:1.5rem 0}
+footer{margin-top:3rem;padding-top:1rem;border-top:1px solid #333;font-size:.8rem;color:#555}
+footer a{color:#0f0}
+.thumb{width:100%;max-width:480px;display:block;border:1px solid #222;margin:1rem 0}
+</style>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BlogPosting", "headline": "Postgres Needs PgBouncer Or It Dies", "datePublished": "2026-08-22", "url": "https://xxxn3m3s1sxxx.github.io/0xrage404-seo/blog/2026-08-22-postgres-needs-pgbouncer-or-it-dies.html", "videoEmbedUrl": "https://www.youtube.com/watch?v=6y-xTZ3GQhA"}</script>
+</head>
+<body>
+<h1>Postgres Needs PgBouncer Or It Dies</h1>
+<div class="meta">2026-08-22 &middot; <a href="https://www.youtube.com/watch?v=6y-xTZ3GQhA">video</a><span class="tag">pgbouncer</span><span class="tag">postgres</span><span class="tag">postgresql</span><span class="tag">database</span><span class="tag">performance</span></div>
+<a href="https://www.youtube.com/watch?v=6y-xTZ3GQhA"><img class="thumb" loading="lazy" src="https://i.ytimg.com/vi/6y-xTZ3GQhA/hqdefault.jpg" onerror="this.remove()" alt="video thumbnail"></a>
+<div class="post"><blockquote>Watch this as a 60-second video: [Postgres Needs PgBouncer Or It Dies](https://www.youtube.com/watch?v=6y-xTZ3GQhA)</blockquote>
+<p>Does anyone actually run Postgres without PgBouncer in production? Because I tried it last week and within 2 hours the database was refusing connections. Every single ORM opens a new connection per request like it&#x27;s 2004. Rails, Django, SQLAlchemy — they all do it. You set max_connections to 100, deploy 4 workers, and suddenly you&#x27;re at the limit.<br>So you install PgBouncer and it works great. Connections pool at 20, everything is fine. But now you&#x27;ve added another moving part. Another thing to monitor. Another config file to babysit. Another failure mode nobody on your team understands. PgBouncer is a band-aid on a broken connection model.<br>The real problem is Postgres forks a process per connection. Each process eats memory, each has its own buffer pool slice. 100 connections isn&#x27;t a network limit, it&#x27;s a RAM limit. PgBouncer doesn&#x27;t fix this — it just hides it by multiplexing fewer connections behind a proxy.<br>And don&#x27;t get me started on transaction mode. PgBouncer in transaction mode breaks prepared statements, breaks LISTEN/NOTIFY, breaks session variables. You solve one problem and create 3 more.<br>The real solution is connection pooling in the application layer. Like HikariCP for Java. Or just — and hear me out — reusing connections properly. But every framework decided connection-per-request was simpler to implement and shipped it as the default.<br>Someone in the thread will say &quot;just use RDS Proxy.&quot; Cool. So now we have a proxy for our proxy. We&#x27;re proxying proxies. This industry is insane.</p>
+<p>Does anyone actually run Postgres without PgBouncer in production? Because I tried it last week and within 2 hours the database was refusing connections. Every single ORM opens a new connection per request like it&#x27;s 2004. Rails, Django, SQLAlchemy — they all do it. You set max_connections to 100, deploy 4 workers, and suddenly you&#x27;re at the limit.<br>So you install PgBouncer and it works great. Connections pool at 20, everything is fine. But now you&#x27;ve added another moving part. Another thing to monitor. Another config file to babysit. Another failure mode nobody on your team understands. PgBouncer is a band-aid on a broken connection model.<br>The real problem is Postgres forks a process per connection. Each process eats memory, each has its own buffer pool slice. 100 connections isn&#x27;t a network limit, it&#x27;s a RAM limit. PgBouncer doesn&#x27;t fix this — it just hides it by multiplexing fewer connections behind a proxy.<br>And don&#x27;t get me started on transaction mode. PgBouncer in transaction mode breaks prepared statements, breaks LISTEN/NOTIFY, breaks session variables. You solve one problem and create 3 more.<br>The real solution is connection pooling in the application layer. Like HikariCP for Java. Or just — and hear me out — reusing connections properly. But every framework decided connection-per-request was simpler to implement and shipped it as the default.<br>Someone in the thread will say &quot;just use RDS Proxy.&quot; Cool. So now we have a proxy for our proxy. We&#x27;re proxying proxies. This industry is insane.</p>
+<p>Does anyone actually run Postgres without PgBouncer in production? Because I tried it last week and within 2 hours the database was refusing connections. Every single ORM opens a new connection per request like it&#x27;s 2004. Rails, Django, SQLAlchemy — they all do it. You set max_connections to 100, deploy 4 workers, and suddenly you&#x27;re at the limit.<br>So you install PgBouncer and it works great. Connections pool at 20, everything is fine. But now you&#x27;ve added another moving part. Another thing to monitor. Another config file to babysit. Another failure mode nobody on your team understands. PgBouncer is a band-aid on a broken connection model.<br>The real problem is Postgres forks a process per connection. Each process eats memory, each has its own buffer pool slice. 100 connections isn&#x27;t a network limit, it&#x27;s a RAM limit. PgBouncer doesn&#x27;t fix this — it just hides it by multiplexing fewer connections behind a proxy.<br>And don&#x27;t get me started on transaction mode. PgBouncer in transaction mode breaks prepared statements, breaks LISTEN/NOTIFY, breaks session variables. You solve one problem and create 3 more.<br>The real solution is connection pooling in the application layer. Like HikariCP for Java. Or just — and hear me out — reusing connections properly. But every framework decided connection-per-request was simpler to implement and shipped it as the default.<br>Someone in the thread will say &quot;just use RDS Proxy.&quot; Cool. So now we have a proxy for our proxy. We&#x27;re proxying proxies. This industry is insane.</p>
+<p>You solved a problem you do not have with abstractions nobody asked for. The complexity is the legacy.</p>
+<hr>
+<p>This breakdown ships as a short-form video too. If you prefer your rage at 60 seconds: [watch it here](https://www.youtube.com/watch?v=6y-xTZ3GQhA).<br>&lt;!-- source:script:postgrespgbouncer_001.txt id:6y-xTZ3GQhA --&gt;</p></div>
+<footer>@0xRAGE.404 &middot; <a href="https://xxxn3m3s1sxxx.github.io/0xrage404-seo/index.html">main</a> &middot; <a href="https://xxxn3m3s1sxxx.github.io/0xrage404-seo/blog/index.html">blog index</a></footer>
+</body>
+</html>

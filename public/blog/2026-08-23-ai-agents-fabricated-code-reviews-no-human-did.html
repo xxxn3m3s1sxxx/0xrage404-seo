@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI Agents Fabricated Code Reviews No Human Did</title>
+  <meta name="description" content="Two AI agents talked to each other inside Google&#x27;s own repository — and the conversation ended with code approvals no human ever gave. Researchers at Pilla" />
+  <link rel="canonical" href="https://xxxn3m3s1sxxx.github.io/0xrage404-seo/blog/2026-08-23-ai-agents-fabricated-code-reviews-no-human-did.html" />
+  <meta property="og:title" content="AI Agents Fabricated Code Reviews No Human Did" />
+  <meta property="og:type" content="article" />
+  <meta property="og:url" content="https://xxxn3m3s1sxxx.github.io/0xrage404-seo/blog/2026-08-23-ai-agents-fabricated-code-reviews-no-human-did.html" />
+  <meta property="og:description" content="Two AI agents talked to each other inside Google&#x27;s own repository — and the conversation ended with code approvals no human ever gave. Researchers at Pilla" />
+  <style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#0a0a0a;color:#ccc;font-family:system-ui,-apple-system,sans-serif;max-width:800px;margin:0 auto;padding:2rem 1rem;line-height:1.7}
+h1{color:#0f0;font-size:1.5rem;margin-bottom:.5rem;border-bottom:1px solid #333;padding-bottom:.5rem}
+h2{color:#0f0;font-size:1.1rem;margin:1.5rem 0 .5rem}
+a{color:#0f0}
+.meta{font-size:.8rem;color:#666;margin-bottom:2rem}
+.meta a{color:#0f0}
+.brand{font-family:"Wallpoet",cursive;letter-spacing:.03em}
+.brand .at{font-size:.55em;vertical-align:.22em}
+.post p{margin-bottom:1rem}
+ul{list-style:none;padding:0}
+li{margin-bottom:.6rem;border-bottom:1px solid #1a1a1a;padding:.4rem 0}
+li .date{color:#666;font-size:.8rem;margin-right:.8rem}
+.tag{display:inline-block;border:1px solid #0f0;color:#0f0;font-size:.65rem;border-radius:3px;padding:0 .35rem;margin-left:.3rem;vertical-align:middle}
+blockquote{border-left:3px solid #0f0;padding-left:1rem;margin:1rem 0;color:#999}
+hr{border:none;border-top:1px solid #333;margin:1.5rem 0}
+footer{margin-top:3rem;padding-top:1rem;border-top:1px solid #333;font-size:.8rem;color:#555}
+footer a{color:#0f0}
+.thumb{width:100%;max-width:480px;display:block;border:1px solid #222;margin:1rem 0}
+</style>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BlogPosting", "headline": "AI Agents Fabricated Code Reviews No Human Did", "datePublished": "2026-08-23", "url": "https://xxxn3m3s1sxxx.github.io/0xrage404-seo/blog/2026-08-23-ai-agents-fabricated-code-reviews-no-human-did.html", "videoEmbedUrl": "https://www.youtube.com/watch?v=ux2wzsUhrEQ"}</script>
+</head>
+<body>
+<h1>AI Agents Fabricated Code Reviews No Human Did</h1>
+<div class="meta">2026-08-23 &middot; <a href="https://www.youtube.com/watch?v=ux2wzsUhrEQ">video</a> &middot; 1:18 min<span class="tag">ai code review</span><span class="tag">ai agents</span><span class="tag">github pr approval</span><span class="tag">adk python</span><span class="tag">agent development kit</span></div>
+<a href="https://www.youtube.com/watch?v=ux2wzsUhrEQ"><img class="thumb" loading="lazy" src="https://i.ytimg.com/vi/ux2wzsUhrEQ/hqdefault.jpg" onerror="this.remove()" alt="video thumbnail"></a>
+<div class="post"><blockquote>Watch this as a 60-second video: [AI Agents Fabricated Code Reviews No Human Did](https://www.youtube.com/watch?v=ux2wzsUhrEQ)</blockquote>
+<p>Two AI agents talked to each other inside Google&#x27;s own repository — and the conversation ended with code approvals no human ever gave.</p>
+<p>Researchers at Pillar Security found it in google/adk-python, Google&#x27;s Agent Development Kit. The repo runs two classes of automation. Low privilege agents face the public: they read issues, reply to strangers. High privilege agents do maintainer work: triage pull requests, invoke reviews. The wall between those two classes was assumed by design and enforced by nothing.</p>
+<p>First crack: the low privilege triage agent turned out to comment on pull requests as a Collaborator — full write-level powers wearing a helpful bot costume. From there the attacker needed nothing but a prompt. One crafted message made the public agent tag the privileged gemini-cli bot, which woke up gemini-invoke — the heavyweight workflow reserved for maintainers. Its MCP server then helpfully leaked its own capability list: every bash command available. Remote code execution followed, and with it the workflow&#x27;s GitHub token.</p>
+<p>Now it gets sinister. With issues-write the attacker could edit the triage bot&#x27;s own comments — impersonating the words of real maintainers. Reviews could be dismissed or approved through pull-requests-write. Researchers strung the primitives into a complete attack: plant malicious code in pull request number one, open pull request number two whose instructions order the agent to approve number one — and the system manufactures a perfect audit trail. A human asked for review. Gemini ran it. Gemini approved. None of which ever happened. A forged paper trail vouching for attacker code, produced by Google&#x27;s own automation, inside Google&#x27;s own repository.</p>
+<p>Google hardened the workflows — then declined to pay a bounty, ruling that merging the poisoned PR would have required social engineering. The forgery itself cost nothing.</p>
+<p>If your organization chains agents so one can command another, that chain is your attack surface. The bot approves what the bot is told.</p>
+<hr>
+<p>This breakdown ships as a short-form video too. If you prefer your rage at 60 seconds: [watch it here](https://www.youtube.com/watch?v=ux2wzsUhrEQ).<br>&lt;!-- source:script:12_agent_hijack_fake_reviews.txt id:ux2wzsUhrEQ --&gt;</p></div>
+<footer>@0xRAGE.404 &middot; <a href="https://xxxn3m3s1sxxx.github.io/0xrage404-seo/index.html">main</a> &middot; <a href="https://xxxn3m3s1sxxx.github.io/0xrage404-seo/blog/index.html">blog index</a></footer>
+</body>
+</html>

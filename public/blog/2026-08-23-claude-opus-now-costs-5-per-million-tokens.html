@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Claude Opus Now Costs $5 Per Million Tokens</title>
+  <meta name="description" content="Anthropic said Claude Opus costs $5 per million tokens. What they did NOT say: the same text now generates 35% more tokens. Your bill doubled. They call it" />
+  <link rel="canonical" href="https://xxxn3m3s1sxxx.github.io/0xrage404-seo/blog/2026-08-23-claude-opus-now-costs-5-per-million-tokens.html" />
+  <meta property="og:title" content="Claude Opus Now Costs $5 Per Million Tokens" />
+  <meta property="og:type" content="article" />
+  <meta property="og:url" content="https://xxxn3m3s1sxxx.github.io/0xrage404-seo/blog/2026-08-23-claude-opus-now-costs-5-per-million-tokens.html" />
+  <meta property="og:description" content="Anthropic said Claude Opus costs $5 per million tokens. What they did NOT say: the same text now generates 35% more tokens. Your bill doubled. They call it" />
+  <style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#0a0a0a;color:#ccc;font-family:system-ui,-apple-system,sans-serif;max-width:800px;margin:0 auto;padding:2rem 1rem;line-height:1.7}
+h1{color:#0f0;font-size:1.5rem;margin-bottom:.5rem;border-bottom:1px solid #333;padding-bottom:.5rem}
+h2{color:#0f0;font-size:1.1rem;margin:1.5rem 0 .5rem}
+a{color:#0f0}
+.meta{font-size:.8rem;color:#666;margin-bottom:2rem}
+.meta a{color:#0f0}
+.brand{font-family:"Wallpoet",cursive;letter-spacing:.03em}
+.brand .at{font-size:.55em;vertical-align:.22em}
+.post p{margin-bottom:1rem}
+ul{list-style:none;padding:0}
+li{margin-bottom:.6rem;border-bottom:1px solid #1a1a1a;padding:.4rem 0}
+li .date{color:#666;font-size:.8rem;margin-right:.8rem}
+.tag{display:inline-block;border:1px solid #0f0;color:#0f0;font-size:.65rem;border-radius:3px;padding:0 .35rem;margin-left:.3rem;vertical-align:middle}
+blockquote{border-left:3px solid #0f0;padding-left:1rem;margin:1rem 0;color:#999}
+hr{border:none;border-top:1px solid #333;margin:1.5rem 0}
+footer{margin-top:3rem;padding-top:1rem;border-top:1px solid #333;font-size:.8rem;color:#555}
+footer a{color:#0f0}
+.thumb{width:100%;max-width:480px;display:block;border:1px solid #222;margin:1rem 0}
+</style>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BlogPosting", "headline": "Claude Opus Now Costs $5 Per Million Tokens", "datePublished": "2026-08-23", "url": "https://xxxn3m3s1sxxx.github.io/0xrage404-seo/blog/2026-08-23-claude-opus-now-costs-5-per-million-tokens.html", "videoEmbedUrl": "https://www.youtube.com/watch?v=i88W8ymK--s"}</script>
+</head>
+<body>
+<h1>Claude Opus Now Costs $5 Per Million Tokens</h1>
+<div class="meta">2026-08-23 &middot; <a href="https://www.youtube.com/watch?v=i88W8ymK--s">video</a> &middot; 1:33 min<span class="tag">overengineering</span><span class="tag">architecture</span><span class="tag">complexity</span><span class="tag">techdebt</span><span class="tag">kiss</span></div>
+<a href="https://www.youtube.com/watch?v=i88W8ymK--s"><img class="thumb" loading="lazy" src="https://i.ytimg.com/vi/i88W8ymK--s/hqdefault.jpg" onerror="this.remove()" alt="video thumbnail"></a>
+<div class="post"><blockquote>Watch this as a 60-second video: [Claude Opus Now Costs $5 Per Million Tokens](https://www.youtube.com/watch?v=i88W8ymK--s)</blockquote>
+<p>Anthropic said Claude Opus costs $5 per million tokens. What they did NOT say: the same text now generates 35% more tokens. Your bill doubled. They call it improved performance.<br>Here is what Anthropic did. They shipped Opus 4.7 with a new tokenizer. Same $5 per million tokens on the pricing page. What they did not tell you: the same text now produces 30 to 35 percent more tokens. Sometimes 46 percent.</p>
+<p>A developer on GitHub filed Issue 51440. Title: Opus 4.7 delivers worse quality at higher token cost versus 4.6 for production coding workloads. He was paying two hundred dollars a month on Claude Max. Running eight to twelve hours daily on Odoo ERP consulting. After upgrading, his bills jumped. Same prompts. Same usage. More tokens.</p>
+<p>Simon Willison measured it. Identical system prompt. Opus 4.6: X tokens. Opus 4.7: 1.46 times X tokens. Forty-six percent more. And the pricing page? Still says $5 per million.</p>
+<p>But it gets worse. Anthropic broke the budget_tokens parameter. No deprecation warning. Just a 400 Bad Request error if you try to use the old syntax. Their replacement? A two-parameter system: adaptive thinking plus effort controls. Adaptive thinking is disabled by default. So if you just rename the model in your config, you get worse performance AND higher costs.</p>
+<p>And the thinking tokens? Hidden by default now. In Opus 4.6 they showed you a summary. Now they omit them entirely. But they still charge you for every single one.</p>
+<p>Opus 4.8 shipped in May. Same tokenizer. Same tax. The pricing page still says $5 per million. Your invoice tells a different story.</p>
+<p>This is not a price increase. A price increase you can see. This is a tokenizer change that silently inflates your token count while the per-token price stays identical. It is the accounting equivalent of selling you a gallon of milk but putting 1.35 gallons on the scale and charging you for the difference.<br>Anthropic kept the sticker price the same and changed what a token means. Thirty to forty-six percent more tokens for the same text. Thinking charges hidden. Parameters broken without warning. The pricing page is a lie of omission.</p>
+<hr>
+<p>This breakdown ships as a short-form video too. If you prefer your rage at 60 seconds: [watch it here](https://www.youtube.com/watch?v=i88W8ymK--s).<br>&lt;!-- source:script:06_opus_language_tax.txt id:i88W8ymK--s --&gt;</p></div>
+<footer>@0xRAGE.404 &middot; <a href="https://xxxn3m3s1sxxx.github.io/0xrage404-seo/index.html">main</a> &middot; <a href="https://xxxn3m3s1sxxx.github.io/0xrage404-seo/blog/index.html">blog index</a></footer>
+</body>
+</html>
