@@ -51,6 +51,7 @@ def _staged_files():
     out = subprocess.run(
         ["git", "diff", "--cached", "--name-only", "--diff-filter=ACM", "-z"],
         capture_output=True, text=True, check=True,
+        encoding="utf-8", errors="replace",
     ).stdout
     return [f for f in out.split("\0") if f]
 
@@ -58,6 +59,7 @@ def _staged_files():
 def _read_staged(path):
     out = subprocess.run(
         ["git", "show", f":{path}"], capture_output=True, text=True,
+        encoding="utf-8", errors="replace",
     )
     if out.returncode != 0:
         return None
