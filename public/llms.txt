@@ -1,0 +1,17 @@
+# ERR.SYS (0xRAGE.404)
+
+> Developer-security research desk: incident reports and field guides on
+> AI-agent attacks, software supply-chain compromise, and web-PKI trust
+> collapse. Videos: @0xRAGE.404 on YouTube. Machine-readable catalog:
+> /ai-catalog.json
+
+## Incident Reports & Field Guides
+
+- [Agent Attacks Incident Report (2026-10-20)](downloads/agent_attacks_incident_report_2026-10-20.pdf): Autonomous AI agents ran a campaign against 1,200+ websites and 100+ companies (Deere, SharkNinja, Cummins) via exposed Cairn control panels. Sources: Reuters, The Hacker News, 20.10.2026.
+- [Supply Chain Field Guide (2026-10-21)](downloads/supply_chain_field_guide_2026-10-21.pdf): Field guide built on the OVHcloud CLI supply-chain hijack - attacker replaced five release binaries for 94 minutes while source, tags, and build pipeline stayed clean. Source: The Hacker News 19.10.2026.
+- [CA Trust Collapse Brief (2026-10-22)](downloads/ca_trust_collapse_brief_2026-10-22.pdf): Unauthorized certificate for proxy.golang.org issued by eMudhra, detected via CT monitoring in 12 minutes, emergency-revoked within 8 hours. Sources: Go Security team, The Hacker News 20.10.2026.
+
+## Optional
+
+- [YouTube channel](https://www.youtube.com/@0xRAGE.404): video coverage of the same cases.
+- [Video watch pages](watch/): per-video pages with metadata and JSON-LD.

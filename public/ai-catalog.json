@@ -1,0 +1,49 @@
+{
+  "@context": "https://schema.org",
+  "@type": "DataCatalog",
+  "name": "ERR.SYS Field Guides & Incident Reports",
+  "url": "https://xxxn3m3s1sxxx.github.io/0xrage404-seo/",
+  "generated": "2026-10-20",
+  "publisher": {
+    "@type": "Organization",
+    "name": "ERR.SYS (0xRAGE.404)"
+  },
+  "dataset": [
+    {
+      "id": "agent_attacks_incident_report_2026-10-20",
+      "title": "Agent Attacks Incident Report 2026-10-20",
+      "type": "pdf",
+      "filename": "agent_attacks_incident_report_2026-10-20.pdf",
+      "url": "downloads/agent_attacks_incident_report_2026-10-20.pdf",
+      "bytes": 2358,
+      "sha256": "1b9c55d062a96fbc4be87d30aef1f5acf0342c6a9ed56f6bcd2bfb701734fc07",
+      "published": "2026-10-20",
+      "source": "Reuters 20.10.2026 + The Hacker News 20.10.2026",
+      "text_sample": "AUTONOMOUS AGENT ATTACKS Incident Report and Field Guide - 20 October 2026 - ERR.SYS Research INCIDENT SUMMARY On 20 October 2026, Reuters reported a criminal campaign that compromised more than 1,200 websites using autonomous AI agents with minimal human operation. Over 100 companies were reached, including Deere, SharkNinja and Cummins. The operation was discovered by security researcher Snorre "
+    },
+    {
+      "id": "supply_chain_field_guide_2026-10-21",
+      "title": "Supply Chain Field Guide 2026-10-21",
+      "type": "pdf",
+      "filename": "supply_chain_field_guide_2026-10-21.pdf",
+      "url": "downloads/supply_chain_field_guide_2026-10-21.pdf",
+      "bytes": 4072,
+      "sha256": "88e615dac01c2aef4c94fd0043888f8aafd781ec60069d97578278eddcfeb2f1",
+      "published": "2026-10-21",
+      "source": "OVHcloud CLI supply-chain hijack (THN 19.10.2026) + supply-chain hygiene",
+      "text_sample": "SUPPLY-CHAIN FIELD GUIDE: THE 94-MINUTE WINDOW OVHcloud CLI Hijack â 19 October 2026 EXECUTIVE SUMMARY On 19 October 2026, a threat actor hijacked a contributor account of the OVHcloud CLI (Open Virtual Host Command Line Interface), a widely used infrastructure management tool. Between 12:47 and 14:21 UTC â a 94-minute window â five existing release archives were silently swapped with malici"
+    },
+    {
+      "id": "ca_trust_collapse_brief_2026-10-22",
+      "title": "Ca Trust Collapse Brief 2026-10-22",
+      "type": "pdf",
+      "filename": "ca_trust_collapse_brief_2026-10-22.pdf",
+      "url": "downloads/ca_trust_collapse_brief_2026-10-22.pdf",
+      "bytes": 4384,
+      "sha256": "9fac546eeda462289375b92b29322cb6401a6634509475a11c7939b18245ba57",
+      "published": "2026-10-22",
+      "source": "Go Security team + The Hacker News 20.10.2026 (unauthorized eMudhra cert, proxy.golang.org)",
+      "text_sample": "CA TRUST COLLAPSE BRIEF Go Certificate Authority Block + eMudhra Revocation  20 October 2026 SITUATION On 20 October 2026, the Go programming language team moved to block a certificate authority (CA) after discovering that eMudhra, an Indian CA, had issued certificates for Go's infrastructure domains without proper authorization. The incident affects the broader Web PKI trust model and demonstrat"
+    }
+  ]
+}
